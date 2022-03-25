@@ -5,175 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "|81.78Mb", server: 149.248.18.17, port: 3626, type: vmess, uuid: 999e1b2c-aa47-11ec-8a2c-560003ead5bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /NhxEVTjO/, ws-headers: {Host: 149.248.18.17}, udp: true}
-  - {name: Relay_🇨🇳CN-🇮🇳IN_428, server: cu2.worldmuseum.buzz, port: 12100, type: vmess, uuid: ff52c519-91fb-3ca3-9b55-f96e75201532, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: cu2.worldmuseum.buzz}, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_368, server: cn3.relay.starlink.st, port: 40401, type: ss, cipher: aes-128-gcm, password: 538295ce-842c-4452-99f1-c1ef91e9e725, udp: true}
+  - {name: US_2086, server: 152.70.254.166, port: 8888, type: vmess, uuid: 27e73ad0-a440-47b6-a95a-21eec69f0df1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_374, server: juzixjp-001.ddns-oink.xyz, port: 40043, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: juzixjp-001.ddns-oink.xyz}, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_654, server: kr2.futi.online, port: 2053, type: vmess, uuid: ecbaf58d-df4b-4a24-b155-556f5c917517, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr2.futi.online}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_959, server: 120.232.215.142, port: 40194, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: 120.232.215.142}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_958, server: 120.232.82.157, port: 40319, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: 120.232.82.157}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_959 2, server: 120.232.215.142, port: 40194, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: gdyd01.ddns-oink.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_958 2, server: 120.232.82.157, port: 40319, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: juzixjp-001.ddns-oink.xyz}, udp: true}
+  - {name: Relay_🇦🇺AU-🇦🇺AU_93, server: us.x7777.xyz, port: 12205, type: vmess, uuid: cf868c0d-67be-4481-9988-326227e96f49, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3587, server: ui.x6666.xyz, port: 12205, type: vmess, uuid: df091936-cacb-4e86-f71b-ba34597e4841, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US_3581, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US_3594, server: 20.124.107.207, port: 48403, type: vmess, uuid: 7b4eee35-6995-4c89-9e26-af1763bbac4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|36.33Mb", server: 20.124.107.207, port: 48403, type: vmess, uuid: 7b4eee35-6995-4c89-9e26-af1763bbac4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_955, server: 120.232.82.157, port: 40261, type: vmess, uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jz666666, ws-headers: {Host: jzdjd-01.ddns-oink.xyz}, udp: true}
   - {name: 【426节点池】CN_4%%DC, server: 117.28.243.165, port: 8051, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: ZA_3092, server: 102.130.121.237, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 【426节点池】CN_9%%DC, server: 117.28.243.173, port: 2173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
+  - {name: US_3191, server: 167.88.63.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_3798, server: 134.195.196.51, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_3946, server: 134.195.196.51, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_2784, server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_2750, server: 167.88.63.108, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3057, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_3058, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_3056, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3057, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_4037, server: 5.44.249.43, port: 3389, type: trojan, password: 6f0a9d0fa39d65fa, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_4036, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_379, server: cstwrelay.onlineto.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_380, server: cstwrelay.onlineto.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_387, server: shcris03.proconcn.xyz, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_408, server: shonlinecu.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_407, server: cstwrelay.onlineto.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_402, server: shonlinecu.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_403, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_419, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_422, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_410, server: cncusouth.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_417, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_375, server: shcris02stand.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_412, server: 117.28.243.173, port: 2173, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_409, server: cncusouth.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_385, server: shonlinecu.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_423, server: relaypro.procncon.xyz, port: 618, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_413, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_424, server: shallaz.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_421, server: usastandard2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_400, server: usastandard2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_384, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_425, server: relaypro.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_382, server: cusouthcmhk.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_405, server: gz2.52168.xyz, port: 2101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_386, server: shonlinesandcu02.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_411, server: relaypro.procncon.xyz, port: 615, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 33526:11223344abc, obfs-param: "", udp: true}
-  - {name: CN_3%�, server: gz2.52168.xyz, port: 2110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇳🇱NL_415, server: gz1.52168.xyz, port: 1117, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_949, server: 117.28.243.165, port: 8051, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|81.78Mb"
-      - Relay_🇨🇳CN-🇮🇳IN_428
-      - Relay_🇨🇳CN-🇰🇷KR_368
+      - US_2086
+      - Relay_🇨🇳CN-🇹🇼TW_374
+      - Relay_🇯🇵JP-🇯🇵JP_654
+      - Relay_🇨🇳CN-🇹🇼TW_959
+      - Relay_🇨🇳CN-🇹🇼TW_958
+      - Relay_🇨🇳CN-🇹🇼TW_959 2
+      - Relay_🇨🇳CN-🇹🇼TW_958 2
+      - Relay_🇦🇺AU-🇦🇺AU_93
+      - Relay_🇺🇸US-🇺🇸US_3587
+      - US_3581
+      - US_3594
+      - "|36.33Mb"
+      - Relay_🇨🇳CN-🇭🇰HK_955
       - 【426节点池】CN_4%%DC
-      - ZA_3092
+      - 【426节点池】CN_9%%DC
+      - US_3191
+      - ZZ_3798
+      - ZZ_3946
+      - US_2784
+      - US_2750
+      - Relay_🇺🇸US-🇺🇸US_3057
       - Relay_🇺🇸US-🇺🇸US_3058
       - Relay_🇺🇸US-🇺🇸US_3056
-      - Relay_🇺🇸US-🇺🇸US_3057
-      - Relay_🏁ZZ-🇹🇼TW_4037
-      - Relay_🏁ZZ-🇹🇼TW_4036
-      - Relay_🇨🇳CN-🇹🇼TW_379
-      - Relay_🇨🇳CN-🇹🇼TW_380
-      - Relay_🇨🇳CN-🇭🇰HK_387
-      - Relay_🇨🇳CN-🇭🇰HK_408
-      - Relay_🇨🇳CN-🇹🇼TW_407
-      - Relay_🇨🇳CN-🇭🇰HK_402
-      - Relay_🇨🇳CN-🇺🇸US_403
-      - Relay_🇨🇳CN-🇭🇰HK_419
-      - Relay_🇨🇳CN-🇭🇰HK_422
-      - Relay_🇨🇳CN-🇭🇰HK_410
-      - Relay_🇨🇳CN-🇭🇰HK_417
-      - Relay_🇨🇳CN-🇭🇰HK_375
       - Relay_🇨🇳CN-🇺🇸US_412
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇭🇰HK_385
-      - Relay_🇨🇳CN-🇩🇪DE_423
-      - Relay_🇨🇳CN-🇯🇵JP_413
-      - Relay_🇨🇳CN-🇯🇵JP_424
-      - Relay_🇨🇳CN-🇭🇰HK_421
-      - Relay_🇨🇳CN-🇭🇰HK_400
-      - Relay_🇨🇳CN-🇭🇰HK_384
-      - Relay_🇨🇳CN-🇷🇺RU_425
-      - Relay_🇨🇳CN-🇭🇰HK_382
-      - Relay_🇨🇳CN-🇩🇪DE_405
-      - Relay_🇨🇳CN-🇭🇰HK_386
-      - Relay_🇨🇳CN-🇺🇸US_411
-      - CN_3%�
-      - Relay_🇨🇳CN-🇳🇱NL_415
+      - Relay_🇨🇳CN-🇺🇸US_949
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|81.78Mb"
-      - Relay_🇨🇳CN-🇮🇳IN_428
-      - Relay_🇨🇳CN-🇰🇷KR_368
+      - US_2086
+      - Relay_🇨🇳CN-🇹🇼TW_374
+      - Relay_🇯🇵JP-🇯🇵JP_654
+      - Relay_🇨🇳CN-🇹🇼TW_959
+      - Relay_🇨🇳CN-🇹🇼TW_958
+      - Relay_🇨🇳CN-🇹🇼TW_959 2
+      - Relay_🇨🇳CN-🇹🇼TW_958 2
+      - Relay_🇦🇺AU-🇦🇺AU_93
+      - Relay_🇺🇸US-🇺🇸US_3587
+      - US_3581
+      - US_3594
+      - "|36.33Mb"
+      - Relay_🇨🇳CN-🇭🇰HK_955
       - 【426节点池】CN_4%%DC
-      - ZA_3092
+      - 【426节点池】CN_9%%DC
+      - US_3191
+      - ZZ_3798
+      - ZZ_3946
+      - US_2784
+      - US_2750
+      - Relay_🇺🇸US-🇺🇸US_3057
       - Relay_🇺🇸US-🇺🇸US_3058
       - Relay_🇺🇸US-🇺🇸US_3056
-      - Relay_🇺🇸US-🇺🇸US_3057
-      - Relay_🏁ZZ-🇹🇼TW_4037
-      - Relay_🏁ZZ-🇹🇼TW_4036
-      - Relay_🇨🇳CN-🇹🇼TW_379
-      - Relay_🇨🇳CN-🇹🇼TW_380
-      - Relay_🇨🇳CN-🇭🇰HK_387
-      - Relay_🇨🇳CN-🇭🇰HK_408
-      - Relay_🇨🇳CN-🇹🇼TW_407
-      - Relay_🇨🇳CN-🇭🇰HK_402
-      - Relay_🇨🇳CN-🇺🇸US_403
-      - Relay_🇨🇳CN-🇭🇰HK_419
-      - Relay_🇨🇳CN-🇭🇰HK_422
-      - Relay_🇨🇳CN-🇭🇰HK_410
-      - Relay_🇨🇳CN-🇭🇰HK_417
-      - Relay_🇨🇳CN-🇭🇰HK_375
       - Relay_🇨🇳CN-🇺🇸US_412
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇭🇰HK_385
-      - Relay_🇨🇳CN-🇩🇪DE_423
-      - Relay_🇨🇳CN-🇯🇵JP_413
-      - Relay_🇨🇳CN-🇯🇵JP_424
-      - Relay_🇨🇳CN-🇭🇰HK_421
-      - Relay_🇨🇳CN-🇭🇰HK_400
-      - Relay_🇨🇳CN-🇭🇰HK_384
-      - Relay_🇨🇳CN-🇷🇺RU_425
-      - Relay_🇨🇳CN-🇭🇰HK_382
-      - Relay_🇨🇳CN-🇩🇪DE_405
-      - Relay_🇨🇳CN-🇭🇰HK_386
-      - Relay_🇨🇳CN-🇺🇸US_411
-      - CN_3%�
-      - Relay_🇨🇳CN-🇳🇱NL_415
+      - Relay_🇨🇳CN-🇺🇸US_949
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|81.78Mb"
-      - Relay_🇨🇳CN-🇮🇳IN_428
-      - Relay_🇨🇳CN-🇰🇷KR_368
+      - US_2086
+      - Relay_🇨🇳CN-🇹🇼TW_374
+      - Relay_🇯🇵JP-🇯🇵JP_654
+      - Relay_🇨🇳CN-🇹🇼TW_959
+      - Relay_🇨🇳CN-🇹🇼TW_958
+      - Relay_🇨🇳CN-🇹🇼TW_959 2
+      - Relay_🇨🇳CN-🇹🇼TW_958 2
+      - Relay_🇦🇺AU-🇦🇺AU_93
+      - Relay_🇺🇸US-🇺🇸US_3587
+      - US_3581
+      - US_3594
+      - "|36.33Mb"
+      - Relay_🇨🇳CN-🇭🇰HK_955
       - 【426节点池】CN_4%%DC
-      - ZA_3092
+      - 【426节点池】CN_9%%DC
+      - US_3191
+      - ZZ_3798
+      - ZZ_3946
+      - US_2784
+      - US_2750
+      - Relay_🇺🇸US-🇺🇸US_3057
       - Relay_🇺🇸US-🇺🇸US_3058
       - Relay_🇺🇸US-🇺🇸US_3056
-      - Relay_🇺🇸US-🇺🇸US_3057
-      - Relay_🏁ZZ-🇹🇼TW_4037
-      - Relay_🏁ZZ-🇹🇼TW_4036
-      - Relay_🇨🇳CN-🇹🇼TW_379
-      - Relay_🇨🇳CN-🇹🇼TW_380
-      - Relay_🇨🇳CN-🇭🇰HK_387
-      - Relay_🇨🇳CN-🇭🇰HK_408
-      - Relay_🇨🇳CN-🇹🇼TW_407
-      - Relay_🇨🇳CN-🇭🇰HK_402
-      - Relay_🇨🇳CN-🇺🇸US_403
-      - Relay_🇨🇳CN-🇭🇰HK_419
-      - Relay_🇨🇳CN-🇭🇰HK_422
-      - Relay_🇨🇳CN-🇭🇰HK_410
-      - Relay_🇨🇳CN-🇭🇰HK_417
-      - Relay_🇨🇳CN-🇭🇰HK_375
       - Relay_🇨🇳CN-🇺🇸US_412
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇭🇰HK_385
-      - Relay_🇨🇳CN-🇩🇪DE_423
-      - Relay_🇨🇳CN-🇯🇵JP_413
-      - Relay_🇨🇳CN-🇯🇵JP_424
-      - Relay_🇨🇳CN-🇭🇰HK_421
-      - Relay_🇨🇳CN-🇭🇰HK_400
-      - Relay_🇨🇳CN-🇭🇰HK_384
-      - Relay_🇨🇳CN-🇷🇺RU_425
-      - Relay_🇨🇳CN-🇭🇰HK_382
-      - Relay_🇨🇳CN-🇩🇪DE_405
-      - Relay_🇨🇳CN-🇭🇰HK_386
-      - Relay_🇨🇳CN-🇺🇸US_411
-      - CN_3%�
-      - Relay_🇨🇳CN-🇳🇱NL_415
+      - Relay_🇨🇳CN-🇺🇸US_949
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -192,44 +140,31 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|81.78Mb"
-      - Relay_🇨🇳CN-🇮🇳IN_428
-      - Relay_🇨🇳CN-🇰🇷KR_368
+      - US_2086
+      - Relay_🇨🇳CN-🇹🇼TW_374
+      - Relay_🇯🇵JP-🇯🇵JP_654
+      - Relay_🇨🇳CN-🇹🇼TW_959
+      - Relay_🇨🇳CN-🇹🇼TW_958
+      - Relay_🇨🇳CN-🇹🇼TW_959 2
+      - Relay_🇨🇳CN-🇹🇼TW_958 2
+      - Relay_🇦🇺AU-🇦🇺AU_93
+      - Relay_🇺🇸US-🇺🇸US_3587
+      - US_3581
+      - US_3594
+      - "|36.33Mb"
+      - Relay_🇨🇳CN-🇭🇰HK_955
       - 【426节点池】CN_4%%DC
-      - ZA_3092
+      - 【426节点池】CN_9%%DC
+      - US_3191
+      - ZZ_3798
+      - ZZ_3946
+      - US_2784
+      - US_2750
+      - Relay_🇺🇸US-🇺🇸US_3057
       - Relay_🇺🇸US-🇺🇸US_3058
       - Relay_🇺🇸US-🇺🇸US_3056
-      - Relay_🇺🇸US-🇺🇸US_3057
-      - Relay_🏁ZZ-🇹🇼TW_4037
-      - Relay_🏁ZZ-🇹🇼TW_4036
-      - Relay_🇨🇳CN-🇹🇼TW_379
-      - Relay_🇨🇳CN-🇹🇼TW_380
-      - Relay_🇨🇳CN-🇭🇰HK_387
-      - Relay_🇨🇳CN-🇭🇰HK_408
-      - Relay_🇨🇳CN-🇹🇼TW_407
-      - Relay_🇨🇳CN-🇭🇰HK_402
-      - Relay_🇨🇳CN-🇺🇸US_403
-      - Relay_🇨🇳CN-🇭🇰HK_419
-      - Relay_🇨🇳CN-🇭🇰HK_422
-      - Relay_🇨🇳CN-🇭🇰HK_410
-      - Relay_🇨🇳CN-🇭🇰HK_417
-      - Relay_🇨🇳CN-🇭🇰HK_375
       - Relay_🇨🇳CN-🇺🇸US_412
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇭🇰HK_385
-      - Relay_🇨🇳CN-🇩🇪DE_423
-      - Relay_🇨🇳CN-🇯🇵JP_413
-      - Relay_🇨🇳CN-🇯🇵JP_424
-      - Relay_🇨🇳CN-🇭🇰HK_421
-      - Relay_🇨🇳CN-🇭🇰HK_400
-      - Relay_🇨🇳CN-🇭🇰HK_384
-      - Relay_🇨🇳CN-🇷🇺RU_425
-      - Relay_🇨🇳CN-🇭🇰HK_382
-      - Relay_🇨🇳CN-🇩🇪DE_405
-      - Relay_🇨🇳CN-🇭🇰HK_386
-      - Relay_🇨🇳CN-🇺🇸US_411
-      - CN_3%�
-      - Relay_🇨🇳CN-🇳🇱NL_415
+      - Relay_🇨🇳CN-🇺🇸US_949
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -240,131 +175,92 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "|81.78Mb"
-      - Relay_🇨🇳CN-🇮🇳IN_428
-      - Relay_🇨🇳CN-🇰🇷KR_368
+      - US_2086
+      - Relay_🇨🇳CN-🇹🇼TW_374
+      - Relay_🇯🇵JP-🇯🇵JP_654
+      - Relay_🇨🇳CN-🇹🇼TW_959
+      - Relay_🇨🇳CN-🇹🇼TW_958
+      - Relay_🇨🇳CN-🇹🇼TW_959 2
+      - Relay_🇨🇳CN-🇹🇼TW_958 2
+      - Relay_🇦🇺AU-🇦🇺AU_93
+      - Relay_🇺🇸US-🇺🇸US_3587
+      - US_3581
+      - US_3594
+      - "|36.33Mb"
+      - Relay_🇨🇳CN-🇭🇰HK_955
       - 【426节点池】CN_4%%DC
-      - ZA_3092
+      - 【426节点池】CN_9%%DC
+      - US_3191
+      - ZZ_3798
+      - ZZ_3946
+      - US_2784
+      - US_2750
+      - Relay_🇺🇸US-🇺🇸US_3057
       - Relay_🇺🇸US-🇺🇸US_3058
       - Relay_🇺🇸US-🇺🇸US_3056
-      - Relay_🇺🇸US-🇺🇸US_3057
-      - Relay_🏁ZZ-🇹🇼TW_4037
-      - Relay_🏁ZZ-🇹🇼TW_4036
-      - Relay_🇨🇳CN-🇹🇼TW_379
-      - Relay_🇨🇳CN-🇹🇼TW_380
-      - Relay_🇨🇳CN-🇭🇰HK_387
-      - Relay_🇨🇳CN-🇭🇰HK_408
-      - Relay_🇨🇳CN-🇹🇼TW_407
-      - Relay_🇨🇳CN-🇭🇰HK_402
-      - Relay_🇨🇳CN-🇺🇸US_403
-      - Relay_🇨🇳CN-🇭🇰HK_419
-      - Relay_🇨🇳CN-🇭🇰HK_422
-      - Relay_🇨🇳CN-🇭🇰HK_410
-      - Relay_🇨🇳CN-🇭🇰HK_417
-      - Relay_🇨🇳CN-🇭🇰HK_375
       - Relay_🇨🇳CN-🇺🇸US_412
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇭🇰HK_385
-      - Relay_🇨🇳CN-🇩🇪DE_423
-      - Relay_🇨🇳CN-🇯🇵JP_413
-      - Relay_🇨🇳CN-🇯🇵JP_424
-      - Relay_🇨🇳CN-🇭🇰HK_421
-      - Relay_🇨🇳CN-🇭🇰HK_400
-      - Relay_🇨🇳CN-🇭🇰HK_384
-      - Relay_🇨🇳CN-🇷🇺RU_425
-      - Relay_🇨🇳CN-🇭🇰HK_382
-      - Relay_🇨🇳CN-🇩🇪DE_405
-      - Relay_🇨🇳CN-🇭🇰HK_386
-      - Relay_🇨🇳CN-🇺🇸US_411
-      - CN_3%�
-      - Relay_🇨🇳CN-🇳🇱NL_415
+      - Relay_🇨🇳CN-🇺🇸US_949
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "|81.78Mb"
-      - Relay_🇨🇳CN-🇮🇳IN_428
-      - Relay_🇨🇳CN-🇰🇷KR_368
+      - US_2086
+      - Relay_🇨🇳CN-🇹🇼TW_374
+      - Relay_🇯🇵JP-🇯🇵JP_654
+      - Relay_🇨🇳CN-🇹🇼TW_959
+      - Relay_🇨🇳CN-🇹🇼TW_958
+      - Relay_🇨🇳CN-🇹🇼TW_959 2
+      - Relay_🇨🇳CN-🇹🇼TW_958 2
+      - Relay_🇦🇺AU-🇦🇺AU_93
+      - Relay_🇺🇸US-🇺🇸US_3587
+      - US_3581
+      - US_3594
+      - "|36.33Mb"
+      - Relay_🇨🇳CN-🇭🇰HK_955
       - 【426节点池】CN_4%%DC
-      - ZA_3092
+      - 【426节点池】CN_9%%DC
+      - US_3191
+      - ZZ_3798
+      - ZZ_3946
+      - US_2784
+      - US_2750
+      - Relay_🇺🇸US-🇺🇸US_3057
       - Relay_🇺🇸US-🇺🇸US_3058
       - Relay_🇺🇸US-🇺🇸US_3056
-      - Relay_🇺🇸US-🇺🇸US_3057
-      - Relay_🏁ZZ-🇹🇼TW_4037
-      - Relay_🏁ZZ-🇹🇼TW_4036
-      - Relay_🇨🇳CN-🇹🇼TW_379
-      - Relay_🇨🇳CN-🇹🇼TW_380
-      - Relay_🇨🇳CN-🇭🇰HK_387
-      - Relay_🇨🇳CN-🇭🇰HK_408
-      - Relay_🇨🇳CN-🇹🇼TW_407
-      - Relay_🇨🇳CN-🇭🇰HK_402
-      - Relay_🇨🇳CN-🇺🇸US_403
-      - Relay_🇨🇳CN-🇭🇰HK_419
-      - Relay_🇨🇳CN-🇭🇰HK_422
-      - Relay_🇨🇳CN-🇭🇰HK_410
-      - Relay_🇨🇳CN-🇭🇰HK_417
-      - Relay_🇨🇳CN-🇭🇰HK_375
       - Relay_🇨🇳CN-🇺🇸US_412
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇭🇰HK_385
-      - Relay_🇨🇳CN-🇩🇪DE_423
-      - Relay_🇨🇳CN-🇯🇵JP_413
-      - Relay_🇨🇳CN-🇯🇵JP_424
-      - Relay_🇨🇳CN-🇭🇰HK_421
-      - Relay_🇨🇳CN-🇭🇰HK_400
-      - Relay_🇨🇳CN-🇭🇰HK_384
-      - Relay_🇨🇳CN-🇷🇺RU_425
-      - Relay_🇨🇳CN-🇭🇰HK_382
-      - Relay_🇨🇳CN-🇩🇪DE_405
-      - Relay_🇨🇳CN-🇭🇰HK_386
-      - Relay_🇨🇳CN-🇺🇸US_411
-      - CN_3%�
-      - Relay_🇨🇳CN-🇳🇱NL_415
+      - Relay_🇨🇳CN-🇺🇸US_949
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|81.78Mb"
-      - Relay_🇨🇳CN-🇮🇳IN_428
-      - Relay_🇨🇳CN-🇰🇷KR_368
+      - US_2086
+      - Relay_🇨🇳CN-🇹🇼TW_374
+      - Relay_🇯🇵JP-🇯🇵JP_654
+      - Relay_🇨🇳CN-🇹🇼TW_959
+      - Relay_🇨🇳CN-🇹🇼TW_958
+      - Relay_🇨🇳CN-🇹🇼TW_959 2
+      - Relay_🇨🇳CN-🇹🇼TW_958 2
+      - Relay_🇦🇺AU-🇦🇺AU_93
+      - Relay_🇺🇸US-🇺🇸US_3587
+      - US_3581
+      - US_3594
+      - "|36.33Mb"
+      - Relay_🇨🇳CN-🇭🇰HK_955
       - 【426节点池】CN_4%%DC
-      - ZA_3092
+      - 【426节点池】CN_9%%DC
+      - US_3191
+      - ZZ_3798
+      - ZZ_3946
+      - US_2784
+      - US_2750
+      - Relay_🇺🇸US-🇺🇸US_3057
       - Relay_🇺🇸US-🇺🇸US_3058
       - Relay_🇺🇸US-🇺🇸US_3056
-      - Relay_🇺🇸US-🇺🇸US_3057
-      - Relay_🏁ZZ-🇹🇼TW_4037
-      - Relay_🏁ZZ-🇹🇼TW_4036
-      - Relay_🇨🇳CN-🇹🇼TW_379
-      - Relay_🇨🇳CN-🇹🇼TW_380
-      - Relay_🇨🇳CN-🇭🇰HK_387
-      - Relay_🇨🇳CN-🇭🇰HK_408
-      - Relay_🇨🇳CN-🇹🇼TW_407
-      - Relay_🇨🇳CN-🇭🇰HK_402
-      - Relay_🇨🇳CN-🇺🇸US_403
-      - Relay_🇨🇳CN-🇭🇰HK_419
-      - Relay_🇨🇳CN-🇭🇰HK_422
-      - Relay_🇨🇳CN-🇭🇰HK_410
-      - Relay_🇨🇳CN-🇭🇰HK_417
-      - Relay_🇨🇳CN-🇭🇰HK_375
       - Relay_🇨🇳CN-🇺🇸US_412
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇭🇰HK_385
-      - Relay_🇨🇳CN-🇩🇪DE_423
-      - Relay_🇨🇳CN-🇯🇵JP_413
-      - Relay_🇨🇳CN-🇯🇵JP_424
-      - Relay_🇨🇳CN-🇭🇰HK_421
-      - Relay_🇨🇳CN-🇭🇰HK_400
-      - Relay_🇨🇳CN-🇭🇰HK_384
-      - Relay_🇨🇳CN-🇷🇺RU_425
-      - Relay_🇨🇳CN-🇭🇰HK_382
-      - Relay_🇨🇳CN-🇩🇪DE_405
-      - Relay_🇨🇳CN-🇭🇰HK_386
-      - Relay_🇨🇳CN-🇺🇸US_411
-      - CN_3%�
-      - Relay_🇨🇳CN-🇳🇱NL_415
+      - Relay_🇨🇳CN-🇺🇸US_949
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -380,44 +276,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|81.78Mb"
-      - Relay_🇨🇳CN-🇮🇳IN_428
-      - Relay_🇨🇳CN-🇰🇷KR_368
+      - US_2086
+      - Relay_🇨🇳CN-🇹🇼TW_374
+      - Relay_🇯🇵JP-🇯🇵JP_654
+      - Relay_🇨🇳CN-🇹🇼TW_959
+      - Relay_🇨🇳CN-🇹🇼TW_958
+      - Relay_🇨🇳CN-🇹🇼TW_959 2
+      - Relay_🇨🇳CN-🇹🇼TW_958 2
+      - Relay_🇦🇺AU-🇦🇺AU_93
+      - Relay_🇺🇸US-🇺🇸US_3587
+      - US_3581
+      - US_3594
+      - "|36.33Mb"
+      - Relay_🇨🇳CN-🇭🇰HK_955
       - 【426节点池】CN_4%%DC
-      - ZA_3092
+      - 【426节点池】CN_9%%DC
+      - US_3191
+      - ZZ_3798
+      - ZZ_3946
+      - US_2784
+      - US_2750
+      - Relay_🇺🇸US-🇺🇸US_3057
       - Relay_🇺🇸US-🇺🇸US_3058
       - Relay_🇺🇸US-🇺🇸US_3056
-      - Relay_🇺🇸US-🇺🇸US_3057
-      - Relay_🏁ZZ-🇹🇼TW_4037
-      - Relay_🏁ZZ-🇹🇼TW_4036
-      - Relay_🇨🇳CN-🇹🇼TW_379
-      - Relay_🇨🇳CN-🇹🇼TW_380
-      - Relay_🇨🇳CN-🇭🇰HK_387
-      - Relay_🇨🇳CN-🇭🇰HK_408
-      - Relay_🇨🇳CN-🇹🇼TW_407
-      - Relay_🇨🇳CN-🇭🇰HK_402
-      - Relay_🇨🇳CN-🇺🇸US_403
-      - Relay_🇨🇳CN-🇭🇰HK_419
-      - Relay_🇨🇳CN-🇭🇰HK_422
-      - Relay_🇨🇳CN-🇭🇰HK_410
-      - Relay_🇨🇳CN-🇭🇰HK_417
-      - Relay_🇨🇳CN-🇭🇰HK_375
       - Relay_🇨🇳CN-🇺🇸US_412
-      - Relay_🇨🇳CN-🇭🇰HK_409
-      - Relay_🇨🇳CN-🇭🇰HK_385
-      - Relay_🇨🇳CN-🇩🇪DE_423
-      - Relay_🇨🇳CN-🇯🇵JP_413
-      - Relay_🇨🇳CN-🇯🇵JP_424
-      - Relay_🇨🇳CN-🇭🇰HK_421
-      - Relay_🇨🇳CN-🇭🇰HK_400
-      - Relay_🇨🇳CN-🇭🇰HK_384
-      - Relay_🇨🇳CN-🇷🇺RU_425
-      - Relay_🇨🇳CN-🇭🇰HK_382
-      - Relay_🇨🇳CN-🇩🇪DE_405
-      - Relay_🇨🇳CN-🇭🇰HK_386
-      - Relay_🇨🇳CN-🇺🇸US_411
-      - CN_3%�
-      - Relay_🇨🇳CN-🇳🇱NL_415
+      - Relay_🇨🇳CN-🇺🇸US_949
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
