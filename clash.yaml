@@ -5,67 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_3057, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.32.94.166]}}, udp: true}
-  - {name: github.com/freefq - 荷兰  13, server: kr3.uuv2.co.uk, port: 2063, type: vmess, uuid: 79c269d0-f5bd-4217-93d0-a7fb475be413, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr3.uuv2.co.uk}, udp: true}
-  - {name: ZZ_3743, server: 134.195.198.211, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: NL_841, server: 213.183.51.171, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: US_2082, server: 167.88.63.108, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2685, server: 167.88.63.108, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇭🇰HK-🇺🇸US_645, server: china-az-hk-f2s.898868.xyz, port: 33652, type: trojan, password: cb588d6f-225a-4f3f-8133-cc09061cbba8, sni: china-az-hk-f2s.898868.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3089, server: hk-az-zz.licom.ga, port: 48211, type: trojan, password: f81e990e-1283-48f9-9eff-acacad6fb661, sni: hk-az-zz.licom.ga, skip-cert-verify: true, udp: true}
-  - {name: 【426节点池】CN_3%�, server: gz2.52168.xyz, port: 2110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: 【426节点池】CN_3%� 2, server: gz2.52168.xyz, port: 2104, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_405, server: gz1.52168.xyz, port: 1109, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 623:l78d6doy74s, obfs-param: 2f712623.baidu.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_409, server: china-gzyd-1.forwardserver.xyz, port: 52024, type: vmess, uuid: 9e2c37d4-ab58-4730-8869-cb7b923d55d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sakura, ws-headers: {Host: china-gzyd-1.forwardserver.xyz}, udp: true}
+  - {name: US_3038, server: 209.94.56.152, port: 443, type: vmess, uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /9apQabyg9le, ws-headers: {Host: 209.94.56.152}, udp: true}
+  - {name: Relay_🇭🇰HK-🇺🇸US_640, server: zz-az-hk.xiaocai.ga, port: 50003, type: trojan, password: 3XhbFzLXfw, sni: zz-az-hk.xiaocai.ga, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国惠普HP 7, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇬🇧GB_3088, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: 69f6d882-799e-4f08-a47a-2bfcbfb3271a, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3093, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 32cbd76d-3b0a-4f44-b7ef-98d41db730f6, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_405, server: nn2.boom.party, port: 41000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 297930:nKtI1N, obfs-param: www.baidu.com, udp: true}
+  - {name: CN_3%�, server: yy01.nfeng6.pp.ua, port: 7701, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
+  - {name: CN_3%� 2, server: yy01.nfeng6.pp.ua, port: 6705, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
+  - {name: CN_3%� 3, server: yy01.nfeng6.pp.ua, port: 3704, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 65199:xMcKnc, obfs-param: e167065199.microsoft.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_3057
-      - github.com/freefq - 荷兰  13
-      - ZZ_3743
-      - NL_841
-      - US_2082
-      - US_2685
-      - Relay_🇭🇰HK-🇺🇸US_645
-      - Relay_🇺🇸US-🇯🇵JP_3089
-      - 【426节点池】CN_3%�
-      - 【426节点池】CN_3%� 2
-      - Relay_🇨🇳CN-🇺🇸US_405
+      - Relay_🇨🇳CN-🇭🇰HK_409
+      - US_3038
+      - Relay_🇭🇰HK-🇺🇸US_640
+      - github.com/freefq - 美国惠普HP 7
+      - Relay_🇺🇸US-🇬🇧GB_3088
+      - Relay_🇺🇸US-🇺🇸US_3093
+      - Relay_🇨🇳CN-🏁ZZ_405
+      - CN_3%�
+      - CN_3%� 2
+      - CN_3%� 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_3057
-      - github.com/freefq - 荷兰  13
-      - ZZ_3743
-      - NL_841
-      - US_2082
-      - US_2685
-      - Relay_🇭🇰HK-🇺🇸US_645
-      - Relay_🇺🇸US-🇯🇵JP_3089
-      - 【426节点池】CN_3%�
-      - 【426节点池】CN_3%� 2
-      - Relay_🇨🇳CN-🇺🇸US_405
+      - Relay_🇨🇳CN-🇭🇰HK_409
+      - US_3038
+      - Relay_🇭🇰HK-🇺🇸US_640
+      - github.com/freefq - 美国惠普HP 7
+      - Relay_🇺🇸US-🇬🇧GB_3088
+      - Relay_🇺🇸US-🇺🇸US_3093
+      - Relay_🇨🇳CN-🏁ZZ_405
+      - CN_3%�
+      - CN_3%� 2
+      - CN_3%� 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_3057
-      - github.com/freefq - 荷兰  13
-      - ZZ_3743
-      - NL_841
-      - US_2082
-      - US_2685
-      - Relay_🇭🇰HK-🇺🇸US_645
-      - Relay_🇺🇸US-🇯🇵JP_3089
-      - 【426节点池】CN_3%�
-      - 【426节点池】CN_3%� 2
-      - Relay_🇨🇳CN-🇺🇸US_405
+      - Relay_🇨🇳CN-🇭🇰HK_409
+      - US_3038
+      - Relay_🇭🇰HK-🇺🇸US_640
+      - github.com/freefq - 美国惠普HP 7
+      - Relay_🇺🇸US-🇬🇧GB_3088
+      - Relay_🇺🇸US-🇺🇸US_3093
+      - Relay_🇨🇳CN-🏁ZZ_405
+      - CN_3%�
+      - CN_3%� 2
+      - CN_3%� 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,17 +80,16 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_3057
-      - github.com/freefq - 荷兰  13
-      - ZZ_3743
-      - NL_841
-      - US_2082
-      - US_2685
-      - Relay_🇭🇰HK-🇺🇸US_645
-      - Relay_🇺🇸US-🇯🇵JP_3089
-      - 【426节点池】CN_3%�
-      - 【426节点池】CN_3%� 2
-      - Relay_🇨🇳CN-🇺🇸US_405
+      - Relay_🇨🇳CN-🇭🇰HK_409
+      - US_3038
+      - Relay_🇭🇰HK-🇺🇸US_640
+      - github.com/freefq - 美国惠普HP 7
+      - Relay_🇺🇸US-🇬🇧GB_3088
+      - Relay_🇺🇸US-🇺🇸US_3093
+      - Relay_🇨🇳CN-🏁ZZ_405
+      - CN_3%�
+      - CN_3%� 2
+      - CN_3%� 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -105,50 +100,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_3057
-      - github.com/freefq - 荷兰  13
-      - ZZ_3743
-      - NL_841
-      - US_2082
-      - US_2685
-      - Relay_🇭🇰HK-🇺🇸US_645
-      - Relay_🇺🇸US-🇯🇵JP_3089
-      - 【426节点池】CN_3%�
-      - 【426节点池】CN_3%� 2
-      - Relay_🇨🇳CN-🇺🇸US_405
+      - Relay_🇨🇳CN-🇭🇰HK_409
+      - US_3038
+      - Relay_🇭🇰HK-🇺🇸US_640
+      - github.com/freefq - 美国惠普HP 7
+      - Relay_🇺🇸US-🇬🇧GB_3088
+      - Relay_🇺🇸US-🇺🇸US_3093
+      - Relay_🇨🇳CN-🏁ZZ_405
+      - CN_3%�
+      - CN_3%� 2
+      - CN_3%� 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_3057
-      - github.com/freefq - 荷兰  13
-      - ZZ_3743
-      - NL_841
-      - US_2082
-      - US_2685
-      - Relay_🇭🇰HK-🇺🇸US_645
-      - Relay_🇺🇸US-🇯🇵JP_3089
-      - 【426节点池】CN_3%�
-      - 【426节点池】CN_3%� 2
-      - Relay_🇨🇳CN-🇺🇸US_405
+      - Relay_🇨🇳CN-🇭🇰HK_409
+      - US_3038
+      - Relay_🇭🇰HK-🇺🇸US_640
+      - github.com/freefq - 美国惠普HP 7
+      - Relay_🇺🇸US-🇬🇧GB_3088
+      - Relay_🇺🇸US-🇺🇸US_3093
+      - Relay_🇨🇳CN-🏁ZZ_405
+      - CN_3%�
+      - CN_3%� 2
+      - CN_3%� 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_3057
-      - github.com/freefq - 荷兰  13
-      - ZZ_3743
-      - NL_841
-      - US_2082
-      - US_2685
-      - Relay_🇭🇰HK-🇺🇸US_645
-      - Relay_🇺🇸US-🇯🇵JP_3089
-      - 【426节点池】CN_3%�
-      - 【426节点池】CN_3%� 2
-      - Relay_🇨🇳CN-🇺🇸US_405
+      - Relay_🇨🇳CN-🇭🇰HK_409
+      - US_3038
+      - Relay_🇭🇰HK-🇺🇸US_640
+      - github.com/freefq - 美国惠普HP 7
+      - Relay_🇺🇸US-🇬🇧GB_3088
+      - Relay_🇺🇸US-🇺🇸US_3093
+      - Relay_🇨🇳CN-🏁ZZ_405
+      - CN_3%�
+      - CN_3%� 2
+      - CN_3%� 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -164,17 +156,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_3057
-      - github.com/freefq - 荷兰  13
-      - ZZ_3743
-      - NL_841
-      - US_2082
-      - US_2685
-      - Relay_🇭🇰HK-🇺🇸US_645
-      - Relay_🇺🇸US-🇯🇵JP_3089
-      - 【426节点池】CN_3%�
-      - 【426节点池】CN_3%� 2
-      - Relay_🇨🇳CN-🇺🇸US_405
+      - Relay_🇨🇳CN-🇭🇰HK_409
+      - US_3038
+      - Relay_🇭🇰HK-🇺🇸US_640
+      - github.com/freefq - 美国惠普HP 7
+      - Relay_🇺🇸US-🇬🇧GB_3088
+      - Relay_🇺🇸US-🇺🇸US_3093
+      - Relay_🇨🇳CN-🏁ZZ_405
+      - CN_3%�
+      - CN_3%� 2
+      - CN_3%� 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
