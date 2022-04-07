@@ -5,131 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇺🇸US-🇺🇸US_3541, server: 104.19.62.119, port: 443, type: vmess, uuid: e40d2888-03f6-4859-e84d-a743db763d52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: broken-snow-9bc0.nhv111202.workers.dev}, udp: true}
-  - {name: ZZ_4167, server: 134.195.196.221, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_4094, server: 134.195.196.221, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_4179, server: 134.195.196.221, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_4083, server: 134.195.196.221, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: ZZ_4285, server: 134.195.196.221, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: ZZ_3797, server: 134.195.196.221, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_4004, server: 134.195.196.221, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_4333, server: 134.195.196.221, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_3669, server: 134.195.196.221, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_4398, server: 134.195.196.221, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: LT_1187, server: 213.183.63.221, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: "", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3279, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: orange-mode-ac6a.xjp0mx2cp.workers.dev}, udp: true}
   - {name: LT_1186, server: 213.183.63.221, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: LT_1204, server: 213.183.63.221, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: LT_1143, server: 213.183.63.221, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: LT_1158, server: 213.183.63.221, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: LT_1141, server: 213.183.63.221, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: LT_1191, server: 213.183.63.221, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: ZZ_4405, server: 134.195.196.221, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: LT_1196, server: 213.183.63.221, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: LT_1194, server: 213.183.63.221, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: LT_1179, server: 213.183.63.221, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: LT_1166, server: 213.183.63.221, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: Relay_🇨🇳CN-🇷🇺RU_536, server: 180.163.62.91, port: 16507, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 1, server: hk21.holiganfan.com, port: 10088, type: trojan, password: 30ffcd4b-27e5-45d5-830b-9eaaced5d85c, sni: hk21.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_637, server: 223.166.21.33, port: 30004, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: t.me/vpnhat, udp: true}
+  - {name: github.com/freefq - 台湾省彰化县Google云计算数据中心 10, server: tw1.qingyun123.xyz, port: 10050, type: trojan, password: d34b5501-7621-4779-8fba-f18fa5a73460, sni: tw1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国DXC Technology 4, server: jp1.qingyun123.xyz, port: 10100, type: trojan, password: d34b5501-7621-4779-8fba-f18fa5a73460, sni: jp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: hk1.qingyun123.xyz, port: 10050, type: trojan, password: 61be480a-eaa6-4ec6-aa39-ddb7f765b1d4, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇭🇰HK_630, server: cncufstohkt66.ggboynextdoor.best, port: 30004, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_448, server: 223.166.21.33, port: 35000, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_453, server: cnctfstohkt66.ggboynextdoor.best, port: 35000, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_442, server: 223.166.21.33, port: 20411, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: t.me/vpnhat, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_3541
-      - ZZ_4167
-      - ZZ_4094
-      - ZZ_4179
-      - ZZ_4083
-      - ZZ_4285
-      - ZZ_3797
-      - ZZ_4004
-      - ZZ_4333
-      - ZZ_3669
-      - ZZ_4398
-      - LT_1187
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_3279
       - LT_1186
-      - LT_1204
-      - LT_1143
-      - LT_1158
-      - LT_1141
-      - LT_1191
-      - ZZ_4405
-      - LT_1196
-      - LT_1194
-      - LT_1179
-      - LT_1166
-      - Relay_🇨🇳CN-🇷🇺RU_536
-      - github.com/freefq - 香港Microsoft数据中心 1
-      - Relay_🇨🇳CN-🇭🇰HK_637
+      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
+      - github.com/freefq - 美国DXC Technology 4
+      - github.com/freefq - 美国Microsoft数据中心 2
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_448
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_442
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_3541
-      - ZZ_4167
-      - ZZ_4094
-      - ZZ_4179
-      - ZZ_4083
-      - ZZ_4285
-      - ZZ_3797
-      - ZZ_4004
-      - ZZ_4333
-      - ZZ_3669
-      - ZZ_4398
-      - LT_1187
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_3279
       - LT_1186
-      - LT_1204
-      - LT_1143
-      - LT_1158
-      - LT_1141
-      - LT_1191
-      - ZZ_4405
-      - LT_1196
-      - LT_1194
-      - LT_1179
-      - LT_1166
-      - Relay_🇨🇳CN-🇷🇺RU_536
-      - github.com/freefq - 香港Microsoft数据中心 1
-      - Relay_🇨🇳CN-🇭🇰HK_637
+      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
+      - github.com/freefq - 美国DXC Technology 4
+      - github.com/freefq - 美国Microsoft数据中心 2
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_448
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_442
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_3541
-      - ZZ_4167
-      - ZZ_4094
-      - ZZ_4179
-      - ZZ_4083
-      - ZZ_4285
-      - ZZ_3797
-      - ZZ_4004
-      - ZZ_4333
-      - ZZ_3669
-      - ZZ_4398
-      - LT_1187
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_3279
       - LT_1186
-      - LT_1204
-      - LT_1143
-      - LT_1158
-      - LT_1141
-      - LT_1191
-      - ZZ_4405
-      - LT_1196
-      - LT_1194
-      - LT_1179
-      - LT_1166
-      - Relay_🇨🇳CN-🇷🇺RU_536
-      - github.com/freefq - 香港Microsoft数据中心 1
-      - Relay_🇨🇳CN-🇭🇰HK_637
+      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
+      - github.com/freefq - 美国DXC Technology 4
+      - github.com/freefq - 美国Microsoft数据中心 2
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_448
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_442
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -148,136 +80,68 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_3541
-      - ZZ_4167
-      - ZZ_4094
-      - ZZ_4179
-      - ZZ_4083
-      - ZZ_4285
-      - ZZ_3797
-      - ZZ_4004
-      - ZZ_4333
-      - ZZ_3669
-      - ZZ_4398
-      - LT_1187
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_3279
       - LT_1186
-      - LT_1204
-      - LT_1143
-      - LT_1158
-      - LT_1141
-      - LT_1191
-      - ZZ_4405
-      - LT_1196
-      - LT_1194
-      - LT_1179
-      - LT_1166
-      - Relay_🇨🇳CN-🇷🇺RU_536
-      - github.com/freefq - 香港Microsoft数据中心 1
-      - Relay_🇨🇳CN-🇭🇰HK_637
+      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
+      - github.com/freefq - 美国DXC Technology 4
+      - github.com/freefq - 美国Microsoft数据中心 2
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_448
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_442
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 1
+      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇺🇸US-🇺🇸US_3541
-      - ZZ_4167
-      - ZZ_4094
-      - ZZ_4179
-      - ZZ_4083
-      - ZZ_4285
-      - ZZ_3797
-      - ZZ_4004
-      - ZZ_4333
-      - ZZ_3669
-      - ZZ_4398
-      - LT_1187
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_3279
       - LT_1186
-      - LT_1204
-      - LT_1143
-      - LT_1158
-      - LT_1141
-      - LT_1191
-      - ZZ_4405
-      - LT_1196
-      - LT_1194
-      - LT_1179
-      - LT_1166
-      - Relay_🇨🇳CN-🇷🇺RU_536
-      - github.com/freefq - 香港Microsoft数据中心 1
-      - Relay_🇨🇳CN-🇭🇰HK_637
+      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
+      - github.com/freefq - 美国DXC Technology 4
+      - github.com/freefq - 美国Microsoft数据中心 2
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_448
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_442
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_3541
-      - ZZ_4167
-      - ZZ_4094
-      - ZZ_4179
-      - ZZ_4083
-      - ZZ_4285
-      - ZZ_3797
-      - ZZ_4004
-      - ZZ_4333
-      - ZZ_3669
-      - ZZ_4398
-      - LT_1187
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_3279
       - LT_1186
-      - LT_1204
-      - LT_1143
-      - LT_1158
-      - LT_1141
-      - LT_1191
-      - ZZ_4405
-      - LT_1196
-      - LT_1194
-      - LT_1179
-      - LT_1166
-      - Relay_🇨🇳CN-🇷🇺RU_536
-      - github.com/freefq - 香港Microsoft数据中心 1
-      - Relay_🇨🇳CN-🇭🇰HK_637
+      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
+      - github.com/freefq - 美国DXC Technology 4
+      - github.com/freefq - 美国Microsoft数据中心 2
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_448
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_442
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_3541
-      - ZZ_4167
-      - ZZ_4094
-      - ZZ_4179
-      - ZZ_4083
-      - ZZ_4285
-      - ZZ_3797
-      - ZZ_4004
-      - ZZ_4333
-      - ZZ_3669
-      - ZZ_4398
-      - LT_1187
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_3279
       - LT_1186
-      - LT_1204
-      - LT_1143
-      - LT_1158
-      - LT_1141
-      - LT_1191
-      - ZZ_4405
-      - LT_1196
-      - LT_1194
-      - LT_1179
-      - LT_1166
-      - Relay_🇨🇳CN-🇷🇺RU_536
-      - github.com/freefq - 香港Microsoft数据中心 1
-      - Relay_🇨🇳CN-🇭🇰HK_637
+      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
+      - github.com/freefq - 美国DXC Technology 4
+      - github.com/freefq - 美国Microsoft数据中心 2
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_448
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_442
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -293,33 +157,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_3541
-      - ZZ_4167
-      - ZZ_4094
-      - ZZ_4179
-      - ZZ_4083
-      - ZZ_4285
-      - ZZ_3797
-      - ZZ_4004
-      - ZZ_4333
-      - ZZ_3669
-      - ZZ_4398
-      - LT_1187
+      - ""
+      - Relay_🇺🇸US-🇺🇸US_3279
       - LT_1186
-      - LT_1204
-      - LT_1143
-      - LT_1158
-      - LT_1141
-      - LT_1191
-      - ZZ_4405
-      - LT_1196
-      - LT_1194
-      - LT_1179
-      - LT_1166
-      - Relay_🇨🇳CN-🇷🇺RU_536
-      - github.com/freefq - 香港Microsoft数据中心 1
-      - Relay_🇨🇳CN-🇭🇰HK_637
+      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
+      - github.com/freefq - 美国DXC Technology 4
+      - github.com/freefq - 美国Microsoft数据中心 2
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_448
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_442
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
