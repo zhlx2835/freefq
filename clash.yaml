@@ -6,15 +6,25 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: "", server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3279, server: bpjzx2.cainiao.tk, port: 443, type: vmess, uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess, ws-headers: {Host: orange-mode-ac6a.xjp0mx2cp.workers.dev}, udp: true}
-  - {name: LT_1186, server: 213.183.63.221, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: github.com/freefq - 台湾省彰化县Google云计算数据中心 10, server: tw1.qingyun123.xyz, port: 10050, type: trojan, password: d34b5501-7621-4779-8fba-f18fa5a73460, sni: tw1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国DXC Technology 4, server: jp1.qingyun123.xyz, port: 10100, type: trojan, password: d34b5501-7621-4779-8fba-f18fa5a73460, sni: jp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: hk1.qingyun123.xyz, port: 10050, type: trojan, password: 61be480a-eaa6-4ec6-aa39-ddb7f765b1d4, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_3352, server: 45.32.94.166, port: 31676, type: vmess, uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [45.32.94.166]}}, udp: true}
+  - {name: US_3348, server: 140.82.21.142, port: 34762, type: vmess, uuid: b48abbe4-b603-11ec-8a20-560003efb98f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /qW4m8CJA/, ws-headers: {Host: 140.82.21.142}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3332, server: 104.19.62.119, port: 443, type: vmess, uuid: e40d2888-03f6-4859-e84d-a743db763d52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: broken-snow-9bc0.nhv111202.workers.dev}, udp: true}
+  - {name: github.com/freefq - 美国DXC Technology 13, server: fr.dadiangan.xyz, port: 24534, type: vmess, uuid: 0cf399e1-8459-4370-a8c5-89aa03e09ebc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dadiangan, ws-headers: {Host: fr.dadiangan.xyz}, udp: true}
+  - {name: CN_28 TG@peekfun, server: 49.234.158.14, port: 10909, type: vmess, uuid: c3082e6f-37b2-41b6-b40a-1063bc8e2853, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_4060, server: 103.172.116.8, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: ZZ_4050, server: 103.172.116.7, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: CN_435, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: Relay_🇨🇳CN-🇭🇰HK_630, server: cncufstohkt66.ggboynextdoor.best, port: 30004, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_451, server: 223.166.21.33, port: 30004, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: t.me/vpnhat, udp: true}
   - {name: Relay_🇨🇳CN-🇭🇰HK_448, server: 223.166.21.33, port: 35000, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_453, server: cnctfstohkt66.ggboynextdoor.best, port: 35000, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_443, server: bgphktvds.ggboynextdoor.best, port: 20411, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
   - {name: Relay_🇨🇳CN-🇭🇰HK_442, server: 223.166.21.33, port: 20411, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_437, server: 223.166.21.33, port: 30002, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_442 2, server: 223.166.21.33, port: 30003, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: t.me/vpnhat, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_453, server: cnctfstohkt66.ggboynextdoor.best, port: 35000, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: ZZ_4335, server: 103.172.116.9, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: ZZ_4340, server: 103.172.116.9, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: LT_948, server: 213.183.53.177, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -22,30 +32,50 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - ""
-      - Relay_🇺🇸US-🇺🇸US_3279
-      - LT_1186
-      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
-      - github.com/freefq - 美国DXC Technology 4
-      - github.com/freefq - 美国Microsoft数据中心 2
+      - US_3352
+      - US_3348
+      - Relay_🇺🇸US-🇺🇸US_3332
+      - github.com/freefq - 美国DXC Technology 13
+      - CN_28 TG@peekfun
+      - ZZ_4060
+      - ZZ_4050
+      - CN_435
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_451
       - Relay_🇨🇳CN-🇭🇰HK_448
-      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_443
       - Relay_🇨🇳CN-🇭🇰HK_442
+      - Relay_🇨🇳CN-🇭🇰HK_437
+      - Relay_🇨🇳CN-🇭🇰HK_442 2
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - ZZ_4335
+      - ZZ_4340
+      - LT_948
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - ""
-      - Relay_🇺🇸US-🇺🇸US_3279
-      - LT_1186
-      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
-      - github.com/freefq - 美国DXC Technology 4
-      - github.com/freefq - 美国Microsoft数据中心 2
+      - US_3352
+      - US_3348
+      - Relay_🇺🇸US-🇺🇸US_3332
+      - github.com/freefq - 美国DXC Technology 13
+      - CN_28 TG@peekfun
+      - ZZ_4060
+      - ZZ_4050
+      - CN_435
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_451
       - Relay_🇨🇳CN-🇭🇰HK_448
-      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_443
       - Relay_🇨🇳CN-🇭🇰HK_442
+      - Relay_🇨🇳CN-🇭🇰HK_437
+      - Relay_🇨🇳CN-🇭🇰HK_442 2
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - ZZ_4335
+      - ZZ_4340
+      - LT_948
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -53,15 +83,25 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - ""
-      - Relay_🇺🇸US-🇺🇸US_3279
-      - LT_1186
-      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
-      - github.com/freefq - 美国DXC Technology 4
-      - github.com/freefq - 美国Microsoft数据中心 2
+      - US_3352
+      - US_3348
+      - Relay_🇺🇸US-🇺🇸US_3332
+      - github.com/freefq - 美国DXC Technology 13
+      - CN_28 TG@peekfun
+      - ZZ_4060
+      - ZZ_4050
+      - CN_435
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_451
       - Relay_🇨🇳CN-🇭🇰HK_448
-      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_443
       - Relay_🇨🇳CN-🇭🇰HK_442
+      - Relay_🇨🇳CN-🇭🇰HK_437
+      - Relay_🇨🇳CN-🇭🇰HK_442 2
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - ZZ_4335
+      - ZZ_4340
+      - LT_948
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -81,20 +121,29 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - ""
-      - Relay_🇺🇸US-🇺🇸US_3279
-      - LT_1186
-      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
-      - github.com/freefq - 美国DXC Technology 4
-      - github.com/freefq - 美国Microsoft数据中心 2
+      - US_3352
+      - US_3348
+      - Relay_🇺🇸US-🇺🇸US_3332
+      - github.com/freefq - 美国DXC Technology 13
+      - CN_28 TG@peekfun
+      - ZZ_4060
+      - ZZ_4050
+      - CN_435
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_451
       - Relay_🇨🇳CN-🇭🇰HK_448
-      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_443
       - Relay_🇨🇳CN-🇭🇰HK_442
+      - Relay_🇨🇳CN-🇭🇰HK_437
+      - Relay_🇨🇳CN-🇭🇰HK_442 2
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - ZZ_4335
+      - ZZ_4340
+      - LT_948
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -102,30 +151,50 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - ""
-      - Relay_🇺🇸US-🇺🇸US_3279
-      - LT_1186
-      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
-      - github.com/freefq - 美国DXC Technology 4
-      - github.com/freefq - 美国Microsoft数据中心 2
+      - US_3352
+      - US_3348
+      - Relay_🇺🇸US-🇺🇸US_3332
+      - github.com/freefq - 美国DXC Technology 13
+      - CN_28 TG@peekfun
+      - ZZ_4060
+      - ZZ_4050
+      - CN_435
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_451
       - Relay_🇨🇳CN-🇭🇰HK_448
-      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_443
       - Relay_🇨🇳CN-🇭🇰HK_442
+      - Relay_🇨🇳CN-🇭🇰HK_437
+      - Relay_🇨🇳CN-🇭🇰HK_442 2
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - ZZ_4335
+      - ZZ_4340
+      - LT_948
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ""
-      - Relay_🇺🇸US-🇺🇸US_3279
-      - LT_1186
-      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
-      - github.com/freefq - 美国DXC Technology 4
-      - github.com/freefq - 美国Microsoft数据中心 2
+      - US_3352
+      - US_3348
+      - Relay_🇺🇸US-🇺🇸US_3332
+      - github.com/freefq - 美国DXC Technology 13
+      - CN_28 TG@peekfun
+      - ZZ_4060
+      - ZZ_4050
+      - CN_435
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_451
       - Relay_🇨🇳CN-🇭🇰HK_448
-      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_443
       - Relay_🇨🇳CN-🇭🇰HK_442
+      - Relay_🇨🇳CN-🇭🇰HK_437
+      - Relay_🇨🇳CN-🇭🇰HK_442 2
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - ZZ_4335
+      - ZZ_4340
+      - LT_948
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -133,15 +202,25 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - ""
-      - Relay_🇺🇸US-🇺🇸US_3279
-      - LT_1186
-      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
-      - github.com/freefq - 美国DXC Technology 4
-      - github.com/freefq - 美国Microsoft数据中心 2
+      - US_3352
+      - US_3348
+      - Relay_🇺🇸US-🇺🇸US_3332
+      - github.com/freefq - 美国DXC Technology 13
+      - CN_28 TG@peekfun
+      - ZZ_4060
+      - ZZ_4050
+      - CN_435
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_451
       - Relay_🇨🇳CN-🇭🇰HK_448
-      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_443
       - Relay_🇨🇳CN-🇭🇰HK_442
+      - Relay_🇨🇳CN-🇭🇰HK_437
+      - Relay_🇨🇳CN-🇭🇰HK_442 2
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - ZZ_4335
+      - ZZ_4340
+      - LT_948
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,15 +237,25 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - ""
-      - Relay_🇺🇸US-🇺🇸US_3279
-      - LT_1186
-      - github.com/freefq - 台湾省彰化县Google云计算数据中心 10
-      - github.com/freefq - 美国DXC Technology 4
-      - github.com/freefq - 美国Microsoft数据中心 2
+      - US_3352
+      - US_3348
+      - Relay_🇺🇸US-🇺🇸US_3332
+      - github.com/freefq - 美国DXC Technology 13
+      - CN_28 TG@peekfun
+      - ZZ_4060
+      - ZZ_4050
+      - CN_435
       - Relay_🇨🇳CN-🇭🇰HK_630
+      - Relay_🇨🇳CN-🇭🇰HK_451
       - Relay_🇨🇳CN-🇭🇰HK_448
-      - Relay_🇨🇳CN-🇭🇰HK_453
+      - Relay_🇨🇳CN-🇭🇰HK_443
       - Relay_🇨🇳CN-🇭🇰HK_442
+      - Relay_🇨🇳CN-🇭🇰HK_437
+      - Relay_🇨🇳CN-🇭🇰HK_442 2
+      - Relay_🇨🇳CN-🇭🇰HK_453
+      - ZZ_4335
+      - ZZ_4340
+      - LT_948
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
