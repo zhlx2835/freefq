@@ -5,215 +5,295 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 美国CloudFlare节点 29, server: node.zxcairport.xyz, port: 443, type: vmess, uuid: 7b198651-f526-44b5-a156-6badfe346dbf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us2.zxcairport.xyz}, udp: true}
-  - {name: ZZ_3808, server: 169.197.142.216, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2226, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Relay_-🇭🇰HK_256 |34.11Mb, server: hk05gs.v2yun.vip, port: 80, type: vmess, uuid: 279e27da-634f-3639-882c-8f909ab1ec32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk05gs.v2yun.vip}, udp: true}
+  - {name: Relay_-🇭🇰HK_259 |31.78Mb, server: hk5gb.v2yun.vip, port: 80, type: vmess, uuid: 279e27da-634f-3639-882c-8f909ab1ec32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk5gb.v2yun.vip}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: hkdx.v2yun.vip, port: 80, type: vmess, uuid: 279e27da-634f-3639-882c-8f909ab1ec32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkdx.v2yun.vip}, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 5, server: hkgs.v2yun.vip, port: 80, type: vmess, uuid: 279e27da-634f-3639-882c-8f909ab1ec32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hkgs.v2yun.vip}, udp: true}
+  - {name: github.com/freefq - 香港特别行政区 1, server: hk05gs.v2yun.vip, port: 80, type: vmess, uuid: 279e27da-634f-3639-882c-8f909ab1ec32, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk05gs.v2yun.vip}, udp: true}
+  - {name: Relay_🇨🇳CN-🇬🇧GB_65 | 8.97Mb, server: cu.fanqie.world, port: 10015, type: vmess, uuid: 892a5d33-5965-3914-8a2e-e9bec0ef5d76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cu.fanqie.world}, udp: true}
   - {name: US_2291, server: 38.75.136.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_2856, server: 38.75.136.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_2154, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_3843, server: 134.195.196.139, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2854, server: 38.68.134.190, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA_358, server: 198.57.27.218, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CA_339, server: 198.57.27.218, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA_392, server: 198.57.27.218, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_2226, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: DE_546, server: 5.183.179.140, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: DE_647, server: 5.183.179.139, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: DE_552, server: 5.183.179.145, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: US_3255, server: 38.68.134.190, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: DE_720, server: 5.183.179.146, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE_638, server: 5.183.179.145, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: DE_556, server: 5.183.179.146, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: GB_885, server: 152.89.210.105, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: DE_645, server: 5.183.179.140, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: ZZ_4616, server: 169.197.143.157, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: DE_725, server: 5.183.179.145, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 25, server: 38.68.134.190, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: DE_662, server: 5.183.179.146, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: US_3239, server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: DE_522, server: 5.183.179.141, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: DE_606, server: 5.183.179.146, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: US_3260, server: 167.88.63.11, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: DE_700, server: 5.183.179.141, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: DE_504, server: 5.183.179.145, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: DE_678, server: 5.183.179.145, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: DE_723, server: 5.183.179.146, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
   - {name: CA_331, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: ZZ_3712, server: 134.195.196.199, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA_344, server: 198.57.27.218, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: DE_506, server: 5.183.179.141, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 24, server: 38.91.100.134, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1714, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: CA_280, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA_259, server: 198.57.27.218, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: CA_335, server: 198.57.27.218, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA_387, server: 198.57.27.218, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: ZZ_4119, server: 134.195.196.199, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: ZZ_3833, server: 134.195.196.41, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA_359, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA_345, server: 198.57.27.218, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2879, server: 38.75.137.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1882, server: 38.75.136.117, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: RO_1206, server: 188.241.83.130, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: ZZ_3920, server: 134.195.196.230, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CA_338, server: 198.57.27.218, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_2746, server: 38.75.137.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: IN_837, server: 45.79.121.166, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: IN_802, server: 45.79.121.166, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA_342, server: 198.57.27.218, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: IN_850, server: 45.79.121.166, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: DE_719, server: 5.183.179.141, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: DE_553, server: 5.183.179.146, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: DE_516, server: 5.183.179.170, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: DE_644, server: 5.183.179.139, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: DE_570, server: 5.183.179.140, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: NL_1324, server: 213.183.59.218, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: DE_610, server: 5.183.179.146, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: DE_620, server: 5.183.179.145, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: NL_1313, server: 213.183.59.218, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: DE_680, server: 5.183.179.137, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: DE_696, server: 5.183.179.148, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: DE_729, server: 5.183.179.145, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: github.com/freefq - 瑞典  27, server: 167.88.63.11, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: github.com/freefq - 北美地区  23, server: 169.197.143.157, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: DE_588, server: 5.183.179.167, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: US_3135, server: 38.68.134.190, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: DE_603, server: 5.183.179.167, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: DE_633, server: 5.183.179.167, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: NL_1311, server: 85.208.108.66, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: IN_875, server: 172.105.58.152, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1959, server: 142.202.48.17, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: ZZ_3937, server: 134.195.196.169, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CA_347, server: 198.57.27.218, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: IN_808, server: 172.105.39.228, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_4000, server: 134.195.196.169, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1838, server: 38.86.135.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_3671, server: 134.195.196.165, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: CN_437, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CA_218, server: 198.57.27.218, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_220, server: 198.57.27.218, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2134, server: 172.99.190.35, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Relay_🇨🇳CN-🇯🇵JP_458, server: gy.sharecentrepro.tk, port: 17775, type: trojan, password: sharecentrepro, sni: gy.sharecentrepro.tk, skip-cert-verify: true, udp: true}
-  - {name: IR_881, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_470, server: kriplcnat.ggboynextdoor.best, port: 23401, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_447, server: fsdxtotcsgp2.ggboynextdoor.best, port: 49046, type: ssr, cipher: rc4-md5, password: lGBMNO, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 4173:OrUbgB, obfs-param: 9f7c44173.download.windowsupdate.com, udp: true}
+  - {name: DE_732, server: 5.183.179.170, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: DE_550, server: 5.183.179.146, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: IN_964, server: 172.105.39.228, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: DE_614, server: 5.183.179.139, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: DE_665, server: 5.183.179.145, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: DE_695, server: 5.183.179.145, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: IN_802, server: 45.79.121.166, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CN_426, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_418, server: 101.91.121.247, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_924, server: hkmf2.speedcncnforward3.tk, port: 80, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, sni: hkmf2.speedcncnforward3.tk, skip-cert-verify: true, udp: true}
+  - {name: GB_891, server: 152.89.210.105, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: GB_892, server: 152.89.210.105, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: GB_893, server: 152.89.210.105, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare节点 29
-      - ZZ_3808
-      - US_2226
+      - Relay_-🇭🇰HK_256 |34.11Mb
+      - Relay_-🇭🇰HK_259 |31.78Mb
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港特别行政区 1
+      - Relay_🇨🇳CN-🇬🇧GB_65 | 8.97Mb
       - US_2291
-      - US_2856
-      - US_2154
-      - ZZ_3843
-      - US_2854
-      - CA_358
-      - CA_339
-      - CA_392
+      - US_2226
+      - DE_546
+      - DE_647
+      - DE_552
+      - US_3255
+      - DE_720
+      - DE_638
+      - DE_556
+      - GB_885
+      - DE_645
+      - ZZ_4616
+      - DE_725
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - DE_662
+      - US_3239
+      - DE_522
+      - DE_606
+      - US_3260
+      - DE_700
+      - DE_504
+      - DE_678
+      - DE_723
       - CA_331
-      - ZZ_3712
-      - CA_344
+      - DE_506
+      - github.com/freefq - 美国华盛顿Cogent通信公司 24
+      - US_1714
       - CA_280
-      - CA_259
       - CA_335
-      - CA_387
-      - ZZ_4119
-      - ZZ_3833
-      - CA_359
-      - CA_345
-      - US_2879
-      - US_1882
-      - RO_1206
-      - ZZ_3920
-      - CA_338
-      - US_2746
-      - IN_837
-      - IN_802
-      - CA_342
-      - IN_850
+      - DE_719
+      - DE_553
+      - DE_516
+      - DE_644
+      - DE_570
+      - NL_1324
+      - DE_610
+      - DE_620
+      - NL_1313
+      - DE_680
+      - DE_696
+      - DE_729
+      - github.com/freefq - 瑞典  27
+      - github.com/freefq - 北美地区  23
+      - DE_588
+      - US_3135
+      - DE_603
+      - DE_633
+      - NL_1311
       - IN_875
-      - US_1959
-      - ZZ_3937
-      - CA_347
-      - IN_808
-      - ZZ_4000
-      - US_1838
-      - ZZ_3671
-      - CN_437
-      - CA_218
-      - CA_220
-      - US_2134
-      - Relay_🇨🇳CN-🇯🇵JP_458
-      - IR_881
-      - Relay_🇨🇳CN-🇺🇸US_470
-      - Relay_🇨🇳CN-🇩🇪DE_447
+      - DE_732
+      - DE_550
+      - IN_964
+      - DE_614
+      - DE_665
+      - DE_695
+      - IN_802
+      - CN_426
+      - CN_418
+      - Relay_🇭🇰HK-🇭🇰HK_924
+      - GB_891
+      - GB_892
+      - GB_893
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 美国CloudFlare节点 29
-      - ZZ_3808
-      - US_2226
+      - Relay_-🇭🇰HK_256 |34.11Mb
+      - Relay_-🇭🇰HK_259 |31.78Mb
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港特别行政区 1
+      - Relay_🇨🇳CN-🇬🇧GB_65 | 8.97Mb
       - US_2291
-      - US_2856
-      - US_2154
-      - ZZ_3843
-      - US_2854
-      - CA_358
-      - CA_339
-      - CA_392
+      - US_2226
+      - DE_546
+      - DE_647
+      - DE_552
+      - US_3255
+      - DE_720
+      - DE_638
+      - DE_556
+      - GB_885
+      - DE_645
+      - ZZ_4616
+      - DE_725
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - DE_662
+      - US_3239
+      - DE_522
+      - DE_606
+      - US_3260
+      - DE_700
+      - DE_504
+      - DE_678
+      - DE_723
       - CA_331
-      - ZZ_3712
-      - CA_344
+      - DE_506
+      - github.com/freefq - 美国华盛顿Cogent通信公司 24
+      - US_1714
       - CA_280
-      - CA_259
       - CA_335
-      - CA_387
-      - ZZ_4119
-      - ZZ_3833
-      - CA_359
-      - CA_345
-      - US_2879
-      - US_1882
-      - RO_1206
-      - ZZ_3920
-      - CA_338
-      - US_2746
-      - IN_837
-      - IN_802
-      - CA_342
-      - IN_850
+      - DE_719
+      - DE_553
+      - DE_516
+      - DE_644
+      - DE_570
+      - NL_1324
+      - DE_610
+      - DE_620
+      - NL_1313
+      - DE_680
+      - DE_696
+      - DE_729
+      - github.com/freefq - 瑞典  27
+      - github.com/freefq - 北美地区  23
+      - DE_588
+      - US_3135
+      - DE_603
+      - DE_633
+      - NL_1311
       - IN_875
-      - US_1959
-      - ZZ_3937
-      - CA_347
-      - IN_808
-      - ZZ_4000
-      - US_1838
-      - ZZ_3671
-      - CN_437
-      - CA_218
-      - CA_220
-      - US_2134
-      - Relay_🇨🇳CN-🇯🇵JP_458
-      - IR_881
-      - Relay_🇨🇳CN-🇺🇸US_470
-      - Relay_🇨🇳CN-🇩🇪DE_447
+      - DE_732
+      - DE_550
+      - IN_964
+      - DE_614
+      - DE_665
+      - DE_695
+      - IN_802
+      - CN_426
+      - CN_418
+      - Relay_🇭🇰HK-🇭🇰HK_924
+      - GB_891
+      - GB_892
+      - GB_893
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare节点 29
-      - ZZ_3808
-      - US_2226
+      - Relay_-🇭🇰HK_256 |34.11Mb
+      - Relay_-🇭🇰HK_259 |31.78Mb
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港特别行政区 1
+      - Relay_🇨🇳CN-🇬🇧GB_65 | 8.97Mb
       - US_2291
-      - US_2856
-      - US_2154
-      - ZZ_3843
-      - US_2854
-      - CA_358
-      - CA_339
-      - CA_392
+      - US_2226
+      - DE_546
+      - DE_647
+      - DE_552
+      - US_3255
+      - DE_720
+      - DE_638
+      - DE_556
+      - GB_885
+      - DE_645
+      - ZZ_4616
+      - DE_725
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - DE_662
+      - US_3239
+      - DE_522
+      - DE_606
+      - US_3260
+      - DE_700
+      - DE_504
+      - DE_678
+      - DE_723
       - CA_331
-      - ZZ_3712
-      - CA_344
+      - DE_506
+      - github.com/freefq - 美国华盛顿Cogent通信公司 24
+      - US_1714
       - CA_280
-      - CA_259
       - CA_335
-      - CA_387
-      - ZZ_4119
-      - ZZ_3833
-      - CA_359
-      - CA_345
-      - US_2879
-      - US_1882
-      - RO_1206
-      - ZZ_3920
-      - CA_338
-      - US_2746
-      - IN_837
-      - IN_802
-      - CA_342
-      - IN_850
+      - DE_719
+      - DE_553
+      - DE_516
+      - DE_644
+      - DE_570
+      - NL_1324
+      - DE_610
+      - DE_620
+      - NL_1313
+      - DE_680
+      - DE_696
+      - DE_729
+      - github.com/freefq - 瑞典  27
+      - github.com/freefq - 北美地区  23
+      - DE_588
+      - US_3135
+      - DE_603
+      - DE_633
+      - NL_1311
       - IN_875
-      - US_1959
-      - ZZ_3937
-      - CA_347
-      - IN_808
-      - ZZ_4000
-      - US_1838
-      - ZZ_3671
-      - CN_437
-      - CA_218
-      - CA_220
-      - US_2134
-      - Relay_🇨🇳CN-🇯🇵JP_458
-      - IR_881
-      - Relay_🇨🇳CN-🇺🇸US_470
-      - Relay_🇨🇳CN-🇩🇪DE_447
+      - DE_732
+      - DE_550
+      - IN_964
+      - DE_614
+      - DE_665
+      - DE_695
+      - IN_802
+      - CN_426
+      - CN_418
+      - Relay_🇭🇰HK-🇭🇰HK_924
+      - GB_891
+      - GB_892
+      - GB_893
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -232,219 +312,301 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare节点 29
-      - ZZ_3808
-      - US_2226
+      - Relay_-🇭🇰HK_256 |34.11Mb
+      - Relay_-🇭🇰HK_259 |31.78Mb
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港特别行政区 1
+      - Relay_🇨🇳CN-🇬🇧GB_65 | 8.97Mb
       - US_2291
-      - US_2856
-      - US_2154
-      - ZZ_3843
-      - US_2854
-      - CA_358
-      - CA_339
-      - CA_392
+      - US_2226
+      - DE_546
+      - DE_647
+      - DE_552
+      - US_3255
+      - DE_720
+      - DE_638
+      - DE_556
+      - GB_885
+      - DE_645
+      - ZZ_4616
+      - DE_725
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - DE_662
+      - US_3239
+      - DE_522
+      - DE_606
+      - US_3260
+      - DE_700
+      - DE_504
+      - DE_678
+      - DE_723
       - CA_331
-      - ZZ_3712
-      - CA_344
+      - DE_506
+      - github.com/freefq - 美国华盛顿Cogent通信公司 24
+      - US_1714
       - CA_280
-      - CA_259
       - CA_335
-      - CA_387
-      - ZZ_4119
-      - ZZ_3833
-      - CA_359
-      - CA_345
-      - US_2879
-      - US_1882
-      - RO_1206
-      - ZZ_3920
-      - CA_338
-      - US_2746
-      - IN_837
-      - IN_802
-      - CA_342
-      - IN_850
+      - DE_719
+      - DE_553
+      - DE_516
+      - DE_644
+      - DE_570
+      - NL_1324
+      - DE_610
+      - DE_620
+      - NL_1313
+      - DE_680
+      - DE_696
+      - DE_729
+      - github.com/freefq - 瑞典  27
+      - github.com/freefq - 北美地区  23
+      - DE_588
+      - US_3135
+      - DE_603
+      - DE_633
+      - NL_1311
       - IN_875
-      - US_1959
-      - ZZ_3937
-      - CA_347
-      - IN_808
-      - ZZ_4000
-      - US_1838
-      - ZZ_3671
-      - CN_437
-      - CA_218
-      - CA_220
-      - US_2134
-      - Relay_🇨🇳CN-🇯🇵JP_458
-      - IR_881
-      - Relay_🇨🇳CN-🇺🇸US_470
-      - Relay_🇨🇳CN-🇩🇪DE_447
+      - DE_732
+      - DE_550
+      - IN_964
+      - DE_614
+      - DE_665
+      - DE_695
+      - IN_802
+      - CN_426
+      - CN_418
+      - Relay_🇭🇰HK-🇭🇰HK_924
+      - GB_891
+      - GB_892
+      - GB_893
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港特别行政区 1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 美国CloudFlare节点 29
-      - ZZ_3808
-      - US_2226
+      - Relay_-🇭🇰HK_256 |34.11Mb
+      - Relay_-🇭🇰HK_259 |31.78Mb
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港特别行政区 1
+      - Relay_🇨🇳CN-🇬🇧GB_65 | 8.97Mb
       - US_2291
-      - US_2856
-      - US_2154
-      - ZZ_3843
-      - US_2854
-      - CA_358
-      - CA_339
-      - CA_392
+      - US_2226
+      - DE_546
+      - DE_647
+      - DE_552
+      - US_3255
+      - DE_720
+      - DE_638
+      - DE_556
+      - GB_885
+      - DE_645
+      - ZZ_4616
+      - DE_725
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - DE_662
+      - US_3239
+      - DE_522
+      - DE_606
+      - US_3260
+      - DE_700
+      - DE_504
+      - DE_678
+      - DE_723
       - CA_331
-      - ZZ_3712
-      - CA_344
+      - DE_506
+      - github.com/freefq - 美国华盛顿Cogent通信公司 24
+      - US_1714
       - CA_280
-      - CA_259
       - CA_335
-      - CA_387
-      - ZZ_4119
-      - ZZ_3833
-      - CA_359
-      - CA_345
-      - US_2879
-      - US_1882
-      - RO_1206
-      - ZZ_3920
-      - CA_338
-      - US_2746
-      - IN_837
-      - IN_802
-      - CA_342
-      - IN_850
+      - DE_719
+      - DE_553
+      - DE_516
+      - DE_644
+      - DE_570
+      - NL_1324
+      - DE_610
+      - DE_620
+      - NL_1313
+      - DE_680
+      - DE_696
+      - DE_729
+      - github.com/freefq - 瑞典  27
+      - github.com/freefq - 北美地区  23
+      - DE_588
+      - US_3135
+      - DE_603
+      - DE_633
+      - NL_1311
       - IN_875
-      - US_1959
-      - ZZ_3937
-      - CA_347
-      - IN_808
-      - ZZ_4000
-      - US_1838
-      - ZZ_3671
-      - CN_437
-      - CA_218
-      - CA_220
-      - US_2134
-      - Relay_🇨🇳CN-🇯🇵JP_458
-      - IR_881
-      - Relay_🇨🇳CN-🇺🇸US_470
-      - Relay_🇨🇳CN-🇩🇪DE_447
+      - DE_732
+      - DE_550
+      - IN_964
+      - DE_614
+      - DE_665
+      - DE_695
+      - IN_802
+      - CN_426
+      - CN_418
+      - Relay_🇭🇰HK-🇭🇰HK_924
+      - GB_891
+      - GB_892
+      - GB_893
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare节点 29
-      - ZZ_3808
-      - US_2226
+      - Relay_-🇭🇰HK_256 |34.11Mb
+      - Relay_-🇭🇰HK_259 |31.78Mb
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港特别行政区 1
+      - Relay_🇨🇳CN-🇬🇧GB_65 | 8.97Mb
       - US_2291
-      - US_2856
-      - US_2154
-      - ZZ_3843
-      - US_2854
-      - CA_358
-      - CA_339
-      - CA_392
+      - US_2226
+      - DE_546
+      - DE_647
+      - DE_552
+      - US_3255
+      - DE_720
+      - DE_638
+      - DE_556
+      - GB_885
+      - DE_645
+      - ZZ_4616
+      - DE_725
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - DE_662
+      - US_3239
+      - DE_522
+      - DE_606
+      - US_3260
+      - DE_700
+      - DE_504
+      - DE_678
+      - DE_723
       - CA_331
-      - ZZ_3712
-      - CA_344
+      - DE_506
+      - github.com/freefq - 美国华盛顿Cogent通信公司 24
+      - US_1714
       - CA_280
-      - CA_259
       - CA_335
-      - CA_387
-      - ZZ_4119
-      - ZZ_3833
-      - CA_359
-      - CA_345
-      - US_2879
-      - US_1882
-      - RO_1206
-      - ZZ_3920
-      - CA_338
-      - US_2746
-      - IN_837
-      - IN_802
-      - CA_342
-      - IN_850
+      - DE_719
+      - DE_553
+      - DE_516
+      - DE_644
+      - DE_570
+      - NL_1324
+      - DE_610
+      - DE_620
+      - NL_1313
+      - DE_680
+      - DE_696
+      - DE_729
+      - github.com/freefq - 瑞典  27
+      - github.com/freefq - 北美地区  23
+      - DE_588
+      - US_3135
+      - DE_603
+      - DE_633
+      - NL_1311
       - IN_875
-      - US_1959
-      - ZZ_3937
-      - CA_347
-      - IN_808
-      - ZZ_4000
-      - US_1838
-      - ZZ_3671
-      - CN_437
-      - CA_218
-      - CA_220
-      - US_2134
-      - Relay_🇨🇳CN-🇯🇵JP_458
-      - IR_881
-      - Relay_🇨🇳CN-🇺🇸US_470
-      - Relay_🇨🇳CN-🇩🇪DE_447
+      - DE_732
+      - DE_550
+      - IN_964
+      - DE_614
+      - DE_665
+      - DE_695
+      - IN_802
+      - CN_426
+      - CN_418
+      - Relay_🇭🇰HK-🇭🇰HK_924
+      - GB_891
+      - GB_892
+      - GB_893
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国CloudFlare节点 29
-      - ZZ_3808
-      - US_2226
+      - Relay_-🇭🇰HK_256 |34.11Mb
+      - Relay_-🇭🇰HK_259 |31.78Mb
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港特别行政区 1
+      - Relay_🇨🇳CN-🇬🇧GB_65 | 8.97Mb
       - US_2291
-      - US_2856
-      - US_2154
-      - ZZ_3843
-      - US_2854
-      - CA_358
-      - CA_339
-      - CA_392
+      - US_2226
+      - DE_546
+      - DE_647
+      - DE_552
+      - US_3255
+      - DE_720
+      - DE_638
+      - DE_556
+      - GB_885
+      - DE_645
+      - ZZ_4616
+      - DE_725
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - DE_662
+      - US_3239
+      - DE_522
+      - DE_606
+      - US_3260
+      - DE_700
+      - DE_504
+      - DE_678
+      - DE_723
       - CA_331
-      - ZZ_3712
-      - CA_344
+      - DE_506
+      - github.com/freefq - 美国华盛顿Cogent通信公司 24
+      - US_1714
       - CA_280
-      - CA_259
       - CA_335
-      - CA_387
-      - ZZ_4119
-      - ZZ_3833
-      - CA_359
-      - CA_345
-      - US_2879
-      - US_1882
-      - RO_1206
-      - ZZ_3920
-      - CA_338
-      - US_2746
-      - IN_837
-      - IN_802
-      - CA_342
-      - IN_850
+      - DE_719
+      - DE_553
+      - DE_516
+      - DE_644
+      - DE_570
+      - NL_1324
+      - DE_610
+      - DE_620
+      - NL_1313
+      - DE_680
+      - DE_696
+      - DE_729
+      - github.com/freefq - 瑞典  27
+      - github.com/freefq - 北美地区  23
+      - DE_588
+      - US_3135
+      - DE_603
+      - DE_633
+      - NL_1311
       - IN_875
-      - US_1959
-      - ZZ_3937
-      - CA_347
-      - IN_808
-      - ZZ_4000
-      - US_1838
-      - ZZ_3671
-      - CN_437
-      - CA_218
-      - CA_220
-      - US_2134
-      - Relay_🇨🇳CN-🇯🇵JP_458
-      - IR_881
-      - Relay_🇨🇳CN-🇺🇸US_470
-      - Relay_🇨🇳CN-🇩🇪DE_447
+      - DE_732
+      - DE_550
+      - IN_964
+      - DE_614
+      - DE_665
+      - DE_695
+      - IN_802
+      - CN_426
+      - CN_418
+      - Relay_🇭🇰HK-🇭🇰HK_924
+      - GB_891
+      - GB_892
+      - GB_893
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -460,54 +622,74 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国CloudFlare节点 29
-      - ZZ_3808
-      - US_2226
+      - Relay_-🇭🇰HK_256 |34.11Mb
+      - Relay_-🇭🇰HK_259 |31.78Mb
+      - github.com/freefq - 美国Microsoft数据中心 2
+      - github.com/freefq - 香港特别行政区 5
+      - github.com/freefq - 香港特别行政区 1
+      - Relay_🇨🇳CN-🇬🇧GB_65 | 8.97Mb
       - US_2291
-      - US_2856
-      - US_2154
-      - ZZ_3843
-      - US_2854
-      - CA_358
-      - CA_339
-      - CA_392
+      - US_2226
+      - DE_546
+      - DE_647
+      - DE_552
+      - US_3255
+      - DE_720
+      - DE_638
+      - DE_556
+      - GB_885
+      - DE_645
+      - ZZ_4616
+      - DE_725
+      - github.com/freefq - 美国华盛顿Cogent通信公司 25
+      - DE_662
+      - US_3239
+      - DE_522
+      - DE_606
+      - US_3260
+      - DE_700
+      - DE_504
+      - DE_678
+      - DE_723
       - CA_331
-      - ZZ_3712
-      - CA_344
+      - DE_506
+      - github.com/freefq - 美国华盛顿Cogent通信公司 24
+      - US_1714
       - CA_280
-      - CA_259
       - CA_335
-      - CA_387
-      - ZZ_4119
-      - ZZ_3833
-      - CA_359
-      - CA_345
-      - US_2879
-      - US_1882
-      - RO_1206
-      - ZZ_3920
-      - CA_338
-      - US_2746
-      - IN_837
-      - IN_802
-      - CA_342
-      - IN_850
+      - DE_719
+      - DE_553
+      - DE_516
+      - DE_644
+      - DE_570
+      - NL_1324
+      - DE_610
+      - DE_620
+      - NL_1313
+      - DE_680
+      - DE_696
+      - DE_729
+      - github.com/freefq - 瑞典  27
+      - github.com/freefq - 北美地区  23
+      - DE_588
+      - US_3135
+      - DE_603
+      - DE_633
+      - NL_1311
       - IN_875
-      - US_1959
-      - ZZ_3937
-      - CA_347
-      - IN_808
-      - ZZ_4000
-      - US_1838
-      - ZZ_3671
-      - CN_437
-      - CA_218
-      - CA_220
-      - US_2134
-      - Relay_🇨🇳CN-🇯🇵JP_458
-      - IR_881
-      - Relay_🇨🇳CN-🇺🇸US_470
-      - Relay_🇨🇳CN-🇩🇪DE_447
+      - DE_732
+      - DE_550
+      - IN_964
+      - DE_614
+      - DE_665
+      - DE_695
+      - IN_802
+      - CN_426
+      - CN_418
+      - Relay_🇭🇰HK-🇭🇰HK_924
+      - GB_891
+      - GB_892
+      - GB_893
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
