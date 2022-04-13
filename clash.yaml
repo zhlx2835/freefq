@@ -5,99 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 香港Microsoft数据中心 3, server: ppy-unicom.0098dns02in.work, port: 26006, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_462, server: trojan.linkdns.xyz, port: 40217, type: trojan, password: 9e92cf38-9f6b-3bae-8061-271f9d0e4ae2, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_392, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_404, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信 20, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_402, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信 42, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_408, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_412, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_414, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_426, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_411, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_398, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_396, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_388, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_397, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: DE_548, server: 5.183.179.140, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: DE_589, server: 5.183.179.141, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: DE_616, server: 5.183.179.141, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: DE_555, server: 5.183.179.141, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: AU_54, server: 185.167.116.38, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: DE_691, server: 5.183.179.170, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: DE_690, server: 5.183.179.148, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: LT_1166, server: 213.183.63.218, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: LT_1171, server: 213.183.63.218, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: LT_1192, server: 213.183.63.218, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: LT_1103, server: 213.183.63.218, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: DE_510, server: 5.183.179.148, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: LT_1190, server: 213.183.63.218, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
   - {name: CN_405, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_413, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_393, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: LT_1197, server: 213.183.63.218, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - CN_392
-      - CN_404
-      - github.com/freefq - 广东省广州市电信 20
-      - CN_402
-      - github.com/freefq - 广东省广州市电信 42
-      - CN_408
-      - CN_412
-      - CN_414
-      - CN_426
-      - CN_411
-      - CN_398
-      - CN_396
-      - CN_388
-      - CN_397
+      - DE_548
+      - DE_589
+      - DE_616
+      - DE_555
+      - AU_54
+      - DE_691
+      - DE_690
+      - LT_1166
+      - LT_1171
+      - LT_1192
+      - LT_1103
+      - DE_510
+      - LT_1190
       - CN_405
-      - CN_413
-      - CN_393
+      - LT_1197
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - CN_392
-      - CN_404
-      - github.com/freefq - 广东省广州市电信 20
-      - CN_402
-      - github.com/freefq - 广东省广州市电信 42
-      - CN_408
-      - CN_412
-      - CN_414
-      - CN_426
-      - CN_411
-      - CN_398
-      - CN_396
-      - CN_388
-      - CN_397
+      - DE_548
+      - DE_589
+      - DE_616
+      - DE_555
+      - AU_54
+      - DE_691
+      - DE_690
+      - LT_1166
+      - LT_1171
+      - LT_1192
+      - LT_1103
+      - DE_510
+      - LT_1190
       - CN_405
-      - CN_413
-      - CN_393
+      - LT_1197
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - CN_392
-      - CN_404
-      - github.com/freefq - 广东省广州市电信 20
-      - CN_402
-      - github.com/freefq - 广东省广州市电信 42
-      - CN_408
-      - CN_412
-      - CN_414
-      - CN_426
-      - CN_411
-      - CN_398
-      - CN_396
-      - CN_388
-      - CN_397
+      - DE_548
+      - DE_589
+      - DE_616
+      - DE_555
+      - AU_54
+      - DE_691
+      - DE_690
+      - LT_1166
+      - LT_1171
+      - LT_1192
+      - LT_1103
+      - DE_510
+      - LT_1190
       - CN_405
-      - CN_413
-      - CN_393
+      - LT_1197
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,104 +100,87 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - CN_392
-      - CN_404
-      - github.com/freefq - 广东省广州市电信 20
-      - CN_402
-      - github.com/freefq - 广东省广州市电信 42
-      - CN_408
-      - CN_412
-      - CN_414
-      - CN_426
-      - CN_411
-      - CN_398
-      - CN_396
-      - CN_388
-      - CN_397
+      - DE_548
+      - DE_589
+      - DE_616
+      - DE_555
+      - AU_54
+      - DE_691
+      - DE_690
+      - LT_1166
+      - LT_1171
+      - LT_1192
+      - LT_1103
+      - DE_510
+      - LT_1190
       - CN_405
-      - CN_413
-      - CN_393
+      - LT_1197
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - CN_392
-      - CN_404
-      - github.com/freefq - 广东省广州市电信 20
-      - CN_402
-      - github.com/freefq - 广东省广州市电信 42
-      - CN_408
-      - CN_412
-      - CN_414
-      - CN_426
-      - CN_411
-      - CN_398
-      - CN_396
-      - CN_388
-      - CN_397
+      - DE_548
+      - DE_589
+      - DE_616
+      - DE_555
+      - AU_54
+      - DE_691
+      - DE_690
+      - LT_1166
+      - LT_1171
+      - LT_1192
+      - LT_1103
+      - DE_510
+      - LT_1190
       - CN_405
-      - CN_413
-      - CN_393
+      - LT_1197
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - CN_392
-      - CN_404
-      - github.com/freefq - 广东省广州市电信 20
-      - CN_402
-      - github.com/freefq - 广东省广州市电信 42
-      - CN_408
-      - CN_412
-      - CN_414
-      - CN_426
-      - CN_411
-      - CN_398
-      - CN_396
-      - CN_388
-      - CN_397
+      - DE_548
+      - DE_589
+      - DE_616
+      - DE_555
+      - AU_54
+      - DE_691
+      - DE_690
+      - LT_1166
+      - LT_1171
+      - LT_1192
+      - LT_1103
+      - DE_510
+      - LT_1190
       - CN_405
-      - CN_413
-      - CN_393
+      - LT_1197
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - CN_392
-      - CN_404
-      - github.com/freefq - 广东省广州市电信 20
-      - CN_402
-      - github.com/freefq - 广东省广州市电信 42
-      - CN_408
-      - CN_412
-      - CN_414
-      - CN_426
-      - CN_411
-      - CN_398
-      - CN_396
-      - CN_388
-      - CN_397
+      - DE_548
+      - DE_589
+      - DE_616
+      - DE_555
+      - AU_54
+      - DE_691
+      - DE_690
+      - LT_1166
+      - LT_1171
+      - LT_1192
+      - LT_1103
+      - DE_510
+      - LT_1190
       - CN_405
-      - CN_413
-      - CN_393
+      - LT_1197
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -229,25 +196,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 香港Microsoft数据中心 3
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - CN_392
-      - CN_404
-      - github.com/freefq - 广东省广州市电信 20
-      - CN_402
-      - github.com/freefq - 广东省广州市电信 42
-      - CN_408
-      - CN_412
-      - CN_414
-      - CN_426
-      - CN_411
-      - CN_398
-      - CN_396
-      - CN_388
-      - CN_397
+      - DE_548
+      - DE_589
+      - DE_616
+      - DE_555
+      - AU_54
+      - DE_691
+      - DE_690
+      - LT_1166
+      - LT_1171
+      - LT_1192
+      - LT_1103
+      - DE_510
+      - LT_1190
       - CN_405
-      - CN_413
-      - CN_393
+      - LT_1197
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
