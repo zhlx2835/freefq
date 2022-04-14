@@ -5,83 +5,143 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: DE_548, server: 5.183.179.140, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: DE_589, server: 5.183.179.141, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: DE_616, server: 5.183.179.141, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: DE_555, server: 5.183.179.141, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: AU_54, server: 185.167.116.38, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: DE_691, server: 5.183.179.170, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: DE_690, server: 5.183.179.148, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: LT_1166, server: 213.183.63.218, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: LT_1171, server: 213.183.63.218, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: LT_1192, server: 213.183.63.218, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: LT_1103, server: 213.183.63.218, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: DE_510, server: 5.183.179.148, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: LT_1190, server: 213.183.63.218, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: CN_405, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: LT_1197, server: 213.183.63.218, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: "|17.11Mb", server: azure-hk-1.forwardserver.xyz, port: 45870, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: azure-hk-1.forwardserver.xyz}, udp: true}
+  - {name: "| 6.32Mb", server: azure-hk-1.forwardserver.xyz, port: 37675, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: azure-hk-1.forwardserver.xyz}, udp: true}
+  - {name: "| 9.31Mb", server: azure-jp-1.forwardserver.xyz, port: 22687, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: azure-jp-1.forwardserver.xyz}, udp: true}
+  - {name: "|25.16Mb", server: azure-jp-1.forwardserver.xyz, port: 38748, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: azure-jp-1.forwardserver.xyz}, udp: true}
+  - {name: "|22.65Mb", server: azjp.9218561.xyz, port: 27613, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: azjp.9218561.xyz}, udp: true}
+  - {name: "| 9.93Mb", server: azure-hk-1.forwardserver.xyz, port: 22214, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: azure-hk-1.forwardserver.xyz}, udp: true}
+  - {name: CN_424, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_406, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_407, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇳🇱NL_507, server: lt.yhy520.xyz, port: 58830, type: trojan, password: abc15210-aebc-3be1-918c-d904472e82f2, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_506, server: lt.yhy520.xyz, port: 58808, type: trojan, password: abc15210-aebc-3be1-918c-d904472e82f2, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇻🇳VN_519, server: lt.yhy520.xyz, port: 58831, type: trojan, password: d2898729-b621-373e-91cd-2be7cece83ba, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇴RO_500, server: dx.yhy520.xyz, port: 58805, type: trojan, password: abc15210-aebc-3be1-918c-d904472e82f2, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇴RO_513, server: lt.yhy520.xyz, port: 58806, type: trojan, password: abc15210-aebc-3be1-918c-d904472e82f2, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇫🇷FR_533, server: trojan.linkdns.xyz, port: 40206, type: trojan, password: bef6a326-5913-394b-ab80-3b7adcf4e847, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_3786, server: 20.212.197.126, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_493, server: trojan.linkdns.xyz, port: 40229, type: trojan, password: bef6a326-5913-394b-ab80-3b7adcf4e847, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_527, server: dx.yhy520.xyz, port: 58811, type: trojan, password: e78a265d-47d6-39a5-9bdb-e873f35a30fd, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇰🇷KR_508, server: dx.yhy520.xyz, port: 58809, type: trojan, password: d2898729-b621-373e-91cd-2be7cece83ba, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇳IN_505, server: lt.yhy520.xyz, port: 58812, type: trojan, password: e78a265d-47d6-39a5-9bdb-e873f35a30fd, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_518, server: dx.yhy520.xyz, port: 58817, type: trojan, password: d2898729-b621-373e-91cd-2be7cece83ba, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_522, server: lt.yhy520.xyz, port: 58813, type: trojan, password: e78a265d-47d6-39a5-9bdb-e873f35a30fd, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇩🇪DE_509, server: dx.yhy520.xyz, port: 58816, type: trojan, password: d2898729-b621-373e-91cd-2be7cece83ba, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇩🇪DE_501, server: lt.yhy520.xyz, port: 58832, type: trojan, password: d2898729-b621-373e-91cd-2be7cece83ba, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_497, server: trojan.linkdns.xyz, port: 40202, type: trojan, password: bef6a326-5913-394b-ab80-3b7adcf4e847, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_524, server: dx.yhy520.xyz, port: 58828, type: trojan, password: e78a265d-47d6-39a5-9bdb-e873f35a30fd, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇫🇷FR_536, server: trojan.linkdns.xyz, port: 40208, type: trojan, password: bef6a326-5913-394b-ab80-3b7adcf4e847, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_532, server: lt.yhy520.xyz, port: 58818, type: trojan, password: d2898729-b621-373e-91cd-2be7cece83ba, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇯🇵JP_529, server: trojan.linkdns.xyz, port: 40220, type: trojan, password: bef6a326-5913-394b-ab80-3b7adcf4e847, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_510, server: trojan.linkdns.xyz, port: 40216, type: trojan, password: bef6a326-5913-394b-ab80-3b7adcf4e847, sni: trojan.linkdns.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_548
-      - DE_589
-      - DE_616
-      - DE_555
-      - AU_54
-      - DE_691
-      - DE_690
-      - LT_1166
-      - LT_1171
-      - LT_1192
-      - LT_1103
-      - DE_510
-      - LT_1190
-      - CN_405
-      - LT_1197
+      - "|17.11Mb"
+      - "| 6.32Mb"
+      - "| 9.31Mb"
+      - "|25.16Mb"
+      - "|22.65Mb"
+      - "| 9.93Mb"
+      - CN_424
+      - CN_406
+      - CN_407
+      - Relay_🇨🇳CN-🇳🇱NL_507
+      - Relay_🇨🇳CN-🇸🇬SG_506
+      - Relay_🇨🇳CN-🇻🇳VN_519
+      - Relay_🇨🇳CN-🇷🇴RO_500
+      - Relay_🇨🇳CN-🇷🇴RO_513
+      - Relay_🇨🇳CN-🇫🇷FR_533
+      - US_3786
+      - Relay_🇨🇳CN-🇺🇸US_493
+      - Relay_🇨🇳CN-🇺🇸US_527
+      - Relay_🇨🇳CN-🇰🇷KR_508
+      - Relay_🇨🇳CN-🇮🇳IN_505
+      - Relay_🇨🇳CN-🇺🇸US_518
+      - Relay_🇨🇳CN-🇷🇺RU_522
+      - Relay_🇨🇳CN-🇩🇪DE_509
+      - Relay_🇨🇳CN-🇩🇪DE_501
+      - Relay_🇨🇳CN-🇺🇸US_497
+      - Relay_🇨🇳CN-🇷🇺RU_524
+      - Relay_🇨🇳CN-🇫🇷FR_536
+      - Relay_🇨🇳CN-🇺🇸US_532
+      - Relay_🇨🇳CN-🇯🇵JP_529
+      - Relay_🇨🇳CN-🇺🇸US_510
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - DE_548
-      - DE_589
-      - DE_616
-      - DE_555
-      - AU_54
-      - DE_691
-      - DE_690
-      - LT_1166
-      - LT_1171
-      - LT_1192
-      - LT_1103
-      - DE_510
-      - LT_1190
-      - CN_405
-      - LT_1197
+      - "|17.11Mb"
+      - "| 6.32Mb"
+      - "| 9.31Mb"
+      - "|25.16Mb"
+      - "|22.65Mb"
+      - "| 9.93Mb"
+      - CN_424
+      - CN_406
+      - CN_407
+      - Relay_🇨🇳CN-🇳🇱NL_507
+      - Relay_🇨🇳CN-🇸🇬SG_506
+      - Relay_🇨🇳CN-🇻🇳VN_519
+      - Relay_🇨🇳CN-🇷🇴RO_500
+      - Relay_🇨🇳CN-🇷🇴RO_513
+      - Relay_🇨🇳CN-🇫🇷FR_533
+      - US_3786
+      - Relay_🇨🇳CN-🇺🇸US_493
+      - Relay_🇨🇳CN-🇺🇸US_527
+      - Relay_🇨🇳CN-🇰🇷KR_508
+      - Relay_🇨🇳CN-🇮🇳IN_505
+      - Relay_🇨🇳CN-🇺🇸US_518
+      - Relay_🇨🇳CN-🇷🇺RU_522
+      - Relay_🇨🇳CN-🇩🇪DE_509
+      - Relay_🇨🇳CN-🇩🇪DE_501
+      - Relay_🇨🇳CN-🇺🇸US_497
+      - Relay_🇨🇳CN-🇷🇺RU_524
+      - Relay_🇨🇳CN-🇫🇷FR_536
+      - Relay_🇨🇳CN-🇺🇸US_532
+      - Relay_🇨🇳CN-🇯🇵JP_529
+      - Relay_🇨🇳CN-🇺🇸US_510
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_548
-      - DE_589
-      - DE_616
-      - DE_555
-      - AU_54
-      - DE_691
-      - DE_690
-      - LT_1166
-      - LT_1171
-      - LT_1192
-      - LT_1103
-      - DE_510
-      - LT_1190
-      - CN_405
-      - LT_1197
+      - "|17.11Mb"
+      - "| 6.32Mb"
+      - "| 9.31Mb"
+      - "|25.16Mb"
+      - "|22.65Mb"
+      - "| 9.93Mb"
+      - CN_424
+      - CN_406
+      - CN_407
+      - Relay_🇨🇳CN-🇳🇱NL_507
+      - Relay_🇨🇳CN-🇸🇬SG_506
+      - Relay_🇨🇳CN-🇻🇳VN_519
+      - Relay_🇨🇳CN-🇷🇴RO_500
+      - Relay_🇨🇳CN-🇷🇴RO_513
+      - Relay_🇨🇳CN-🇫🇷FR_533
+      - US_3786
+      - Relay_🇨🇳CN-🇺🇸US_493
+      - Relay_🇨🇳CN-🇺🇸US_527
+      - Relay_🇨🇳CN-🇰🇷KR_508
+      - Relay_🇨🇳CN-🇮🇳IN_505
+      - Relay_🇨🇳CN-🇺🇸US_518
+      - Relay_🇨🇳CN-🇷🇺RU_522
+      - Relay_🇨🇳CN-🇩🇪DE_509
+      - Relay_🇨🇳CN-🇩🇪DE_501
+      - Relay_🇨🇳CN-🇺🇸US_497
+      - Relay_🇨🇳CN-🇷🇺RU_524
+      - Relay_🇨🇳CN-🇫🇷FR_536
+      - Relay_🇨🇳CN-🇺🇸US_532
+      - Relay_🇨🇳CN-🇯🇵JP_529
+      - Relay_🇨🇳CN-🇺🇸US_510
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,21 +160,36 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - DE_548
-      - DE_589
-      - DE_616
-      - DE_555
-      - AU_54
-      - DE_691
-      - DE_690
-      - LT_1166
-      - LT_1171
-      - LT_1192
-      - LT_1103
-      - DE_510
-      - LT_1190
-      - CN_405
-      - LT_1197
+      - "|17.11Mb"
+      - "| 6.32Mb"
+      - "| 9.31Mb"
+      - "|25.16Mb"
+      - "|22.65Mb"
+      - "| 9.93Mb"
+      - CN_424
+      - CN_406
+      - CN_407
+      - Relay_🇨🇳CN-🇳🇱NL_507
+      - Relay_🇨🇳CN-🇸🇬SG_506
+      - Relay_🇨🇳CN-🇻🇳VN_519
+      - Relay_🇨🇳CN-🇷🇴RO_500
+      - Relay_🇨🇳CN-🇷🇴RO_513
+      - Relay_🇨🇳CN-🇫🇷FR_533
+      - US_3786
+      - Relay_🇨🇳CN-🇺🇸US_493
+      - Relay_🇨🇳CN-🇺🇸US_527
+      - Relay_🇨🇳CN-🇰🇷KR_508
+      - Relay_🇨🇳CN-🇮🇳IN_505
+      - Relay_🇨🇳CN-🇺🇸US_518
+      - Relay_🇨🇳CN-🇷🇺RU_522
+      - Relay_🇨🇳CN-🇩🇪DE_509
+      - Relay_🇨🇳CN-🇩🇪DE_501
+      - Relay_🇨🇳CN-🇺🇸US_497
+      - Relay_🇨🇳CN-🇷🇺RU_524
+      - Relay_🇨🇳CN-🇫🇷FR_536
+      - Relay_🇨🇳CN-🇺🇸US_532
+      - Relay_🇨🇳CN-🇯🇵JP_529
+      - Relay_🇨🇳CN-🇺🇸US_510
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -125,62 +200,107 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - DE_548
-      - DE_589
-      - DE_616
-      - DE_555
-      - AU_54
-      - DE_691
-      - DE_690
-      - LT_1166
-      - LT_1171
-      - LT_1192
-      - LT_1103
-      - DE_510
-      - LT_1190
-      - CN_405
-      - LT_1197
+      - "|17.11Mb"
+      - "| 6.32Mb"
+      - "| 9.31Mb"
+      - "|25.16Mb"
+      - "|22.65Mb"
+      - "| 9.93Mb"
+      - CN_424
+      - CN_406
+      - CN_407
+      - Relay_🇨🇳CN-🇳🇱NL_507
+      - Relay_🇨🇳CN-🇸🇬SG_506
+      - Relay_🇨🇳CN-🇻🇳VN_519
+      - Relay_🇨🇳CN-🇷🇴RO_500
+      - Relay_🇨🇳CN-🇷🇴RO_513
+      - Relay_🇨🇳CN-🇫🇷FR_533
+      - US_3786
+      - Relay_🇨🇳CN-🇺🇸US_493
+      - Relay_🇨🇳CN-🇺🇸US_527
+      - Relay_🇨🇳CN-🇰🇷KR_508
+      - Relay_🇨🇳CN-🇮🇳IN_505
+      - Relay_🇨🇳CN-🇺🇸US_518
+      - Relay_🇨🇳CN-🇷🇺RU_522
+      - Relay_🇨🇳CN-🇩🇪DE_509
+      - Relay_🇨🇳CN-🇩🇪DE_501
+      - Relay_🇨🇳CN-🇺🇸US_497
+      - Relay_🇨🇳CN-🇷🇺RU_524
+      - Relay_🇨🇳CN-🇫🇷FR_536
+      - Relay_🇨🇳CN-🇺🇸US_532
+      - Relay_🇨🇳CN-🇯🇵JP_529
+      - Relay_🇨🇳CN-🇺🇸US_510
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - DE_548
-      - DE_589
-      - DE_616
-      - DE_555
-      - AU_54
-      - DE_691
-      - DE_690
-      - LT_1166
-      - LT_1171
-      - LT_1192
-      - LT_1103
-      - DE_510
-      - LT_1190
-      - CN_405
-      - LT_1197
+      - "|17.11Mb"
+      - "| 6.32Mb"
+      - "| 9.31Mb"
+      - "|25.16Mb"
+      - "|22.65Mb"
+      - "| 9.93Mb"
+      - CN_424
+      - CN_406
+      - CN_407
+      - Relay_🇨🇳CN-🇳🇱NL_507
+      - Relay_🇨🇳CN-🇸🇬SG_506
+      - Relay_🇨🇳CN-🇻🇳VN_519
+      - Relay_🇨🇳CN-🇷🇴RO_500
+      - Relay_🇨🇳CN-🇷🇴RO_513
+      - Relay_🇨🇳CN-🇫🇷FR_533
+      - US_3786
+      - Relay_🇨🇳CN-🇺🇸US_493
+      - Relay_🇨🇳CN-🇺🇸US_527
+      - Relay_🇨🇳CN-🇰🇷KR_508
+      - Relay_🇨🇳CN-🇮🇳IN_505
+      - Relay_🇨🇳CN-🇺🇸US_518
+      - Relay_🇨🇳CN-🇷🇺RU_522
+      - Relay_🇨🇳CN-🇩🇪DE_509
+      - Relay_🇨🇳CN-🇩🇪DE_501
+      - Relay_🇨🇳CN-🇺🇸US_497
+      - Relay_🇨🇳CN-🇷🇺RU_524
+      - Relay_🇨🇳CN-🇫🇷FR_536
+      - Relay_🇨🇳CN-🇺🇸US_532
+      - Relay_🇨🇳CN-🇯🇵JP_529
+      - Relay_🇨🇳CN-🇺🇸US_510
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_548
-      - DE_589
-      - DE_616
-      - DE_555
-      - AU_54
-      - DE_691
-      - DE_690
-      - LT_1166
-      - LT_1171
-      - LT_1192
-      - LT_1103
-      - DE_510
-      - LT_1190
-      - CN_405
-      - LT_1197
+      - "|17.11Mb"
+      - "| 6.32Mb"
+      - "| 9.31Mb"
+      - "|25.16Mb"
+      - "|22.65Mb"
+      - "| 9.93Mb"
+      - CN_424
+      - CN_406
+      - CN_407
+      - Relay_🇨🇳CN-🇳🇱NL_507
+      - Relay_🇨🇳CN-🇸🇬SG_506
+      - Relay_🇨🇳CN-🇻🇳VN_519
+      - Relay_🇨🇳CN-🇷🇴RO_500
+      - Relay_🇨🇳CN-🇷🇴RO_513
+      - Relay_🇨🇳CN-🇫🇷FR_533
+      - US_3786
+      - Relay_🇨🇳CN-🇺🇸US_493
+      - Relay_🇨🇳CN-🇺🇸US_527
+      - Relay_🇨🇳CN-🇰🇷KR_508
+      - Relay_🇨🇳CN-🇮🇳IN_505
+      - Relay_🇨🇳CN-🇺🇸US_518
+      - Relay_🇨🇳CN-🇷🇺RU_522
+      - Relay_🇨🇳CN-🇩🇪DE_509
+      - Relay_🇨🇳CN-🇩🇪DE_501
+      - Relay_🇨🇳CN-🇺🇸US_497
+      - Relay_🇨🇳CN-🇷🇺RU_524
+      - Relay_🇨🇳CN-🇫🇷FR_536
+      - Relay_🇨🇳CN-🇺🇸US_532
+      - Relay_🇨🇳CN-🇯🇵JP_529
+      - Relay_🇨🇳CN-🇺🇸US_510
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,21 +316,36 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - DE_548
-      - DE_589
-      - DE_616
-      - DE_555
-      - AU_54
-      - DE_691
-      - DE_690
-      - LT_1166
-      - LT_1171
-      - LT_1192
-      - LT_1103
-      - DE_510
-      - LT_1190
-      - CN_405
-      - LT_1197
+      - "|17.11Mb"
+      - "| 6.32Mb"
+      - "| 9.31Mb"
+      - "|25.16Mb"
+      - "|22.65Mb"
+      - "| 9.93Mb"
+      - CN_424
+      - CN_406
+      - CN_407
+      - Relay_🇨🇳CN-🇳🇱NL_507
+      - Relay_🇨🇳CN-🇸🇬SG_506
+      - Relay_🇨🇳CN-🇻🇳VN_519
+      - Relay_🇨🇳CN-🇷🇴RO_500
+      - Relay_🇨🇳CN-🇷🇴RO_513
+      - Relay_🇨🇳CN-🇫🇷FR_533
+      - US_3786
+      - Relay_🇨🇳CN-🇺🇸US_493
+      - Relay_🇨🇳CN-🇺🇸US_527
+      - Relay_🇨🇳CN-🇰🇷KR_508
+      - Relay_🇨🇳CN-🇮🇳IN_505
+      - Relay_🇨🇳CN-🇺🇸US_518
+      - Relay_🇨🇳CN-🇷🇺RU_522
+      - Relay_🇨🇳CN-🇩🇪DE_509
+      - Relay_🇨🇳CN-🇩🇪DE_501
+      - Relay_🇨🇳CN-🇺🇸US_497
+      - Relay_🇨🇳CN-🇷🇺RU_524
+      - Relay_🇨🇳CN-🇫🇷FR_536
+      - Relay_🇨🇳CN-🇺🇸US_532
+      - Relay_🇨🇳CN-🇯🇵JP_529
+      - Relay_🇨🇳CN-🇺🇸US_510
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
