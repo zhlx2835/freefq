@@ -5,20 +5,25 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_3701, server: 149.28.66.87, port: 22135, type: vmess, uuid: 92cf0366-bcca-11ec-8cef-560003f2ffbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /i7qcJo6E/, ws-headers: {Host: 149.28.66.87}, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇦UA_11 | 9.37Mb, server: in05.dns2333.xyz, port: 63062, type: vmess, uuid: 982227b6-fb48-3c17-b44f-b41daa88afab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: nl01-cdn.tencent.best}, udp: true}
-  - {name: CN_419, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_422, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_401, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_404, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_423, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_431, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: Relay_🇺🇸US-🇳🇱NL_3647, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: 6c175d1a-a57f-4881-a471-173eb139694b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xrenblog/, ws-headers: {Host: ipv6.xrenblog.com}, udp: true}
+  - {name: CN_392, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_395, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_420, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_392, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_415, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_394, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_392 2, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_416, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_421, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_397, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_405, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_410, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_418, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_402, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_415, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_398, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_394, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_399, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_415 2, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_423, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_414, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_412, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -26,40 +31,50 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_3701
-      - Relay_🇨🇳CN-🇺🇦UA_11 | 9.37Mb
-      - CN_419
-      - CN_422
-      - CN_401
-      - CN_404
-      - CN_423
-      - CN_395
-      - CN_420
+      - Relay_🇨🇳CN-🇺🇸US_431
+      - Relay_🇺🇸US-🇳🇱NL_3647
       - CN_392
-      - CN_415
-      - CN_394
+      - CN_395
+      - CN_392 2
       - CN_416
       - CN_421
+      - CN_397
+      - CN_405
+      - CN_410
+      - CN_418
+      - CN_402
+      - CN_415
+      - CN_398
+      - CN_394
+      - CN_399
+      - CN_415 2
+      - CN_423
+      - CN_414
       - CN_412
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_3701
-      - Relay_🇨🇳CN-🇺🇦UA_11 | 9.37Mb
-      - CN_419
-      - CN_422
-      - CN_401
-      - CN_404
-      - CN_423
-      - CN_395
-      - CN_420
+      - Relay_🇨🇳CN-🇺🇸US_431
+      - Relay_🇺🇸US-🇳🇱NL_3647
       - CN_392
-      - CN_415
-      - CN_394
+      - CN_395
+      - CN_392 2
       - CN_416
       - CN_421
+      - CN_397
+      - CN_405
+      - CN_410
+      - CN_418
+      - CN_402
+      - CN_415
+      - CN_398
+      - CN_394
+      - CN_399
+      - CN_415 2
+      - CN_423
+      - CN_414
       - CN_412
   - name: 🎥 NETFLIX
     type: select
@@ -67,20 +82,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_3701
-      - Relay_🇨🇳CN-🇺🇦UA_11 | 9.37Mb
-      - CN_419
-      - CN_422
-      - CN_401
-      - CN_404
-      - CN_423
-      - CN_395
-      - CN_420
+      - Relay_🇨🇳CN-🇺🇸US_431
+      - Relay_🇺🇸US-🇳🇱NL_3647
       - CN_392
-      - CN_415
-      - CN_394
+      - CN_395
+      - CN_392 2
       - CN_416
       - CN_421
+      - CN_397
+      - CN_405
+      - CN_410
+      - CN_418
+      - CN_402
+      - CN_415
+      - CN_398
+      - CN_394
+      - CN_399
+      - CN_415 2
+      - CN_423
+      - CN_414
       - CN_412
   - name: ⛔️ 广告拦截
     type: select
@@ -100,20 +120,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_3701
-      - Relay_🇨🇳CN-🇺🇦UA_11 | 9.37Mb
-      - CN_419
-      - CN_422
-      - CN_401
-      - CN_404
-      - CN_423
-      - CN_395
-      - CN_420
+      - Relay_🇨🇳CN-🇺🇸US_431
+      - Relay_🇺🇸US-🇳🇱NL_3647
       - CN_392
-      - CN_415
-      - CN_394
+      - CN_395
+      - CN_392 2
       - CN_416
       - CN_421
+      - CN_397
+      - CN_405
+      - CN_410
+      - CN_418
+      - CN_402
+      - CN_415
+      - CN_398
+      - CN_394
+      - CN_399
+      - CN_415 2
+      - CN_423
+      - CN_414
       - CN_412
   - name: 🌏 国内媒体
     type: select
@@ -125,40 +150,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_3701
-      - Relay_🇨🇳CN-🇺🇦UA_11 | 9.37Mb
-      - CN_419
-      - CN_422
-      - CN_401
-      - CN_404
-      - CN_423
-      - CN_395
-      - CN_420
+      - Relay_🇨🇳CN-🇺🇸US_431
+      - Relay_🇺🇸US-🇳🇱NL_3647
       - CN_392
-      - CN_415
-      - CN_394
+      - CN_395
+      - CN_392 2
       - CN_416
       - CN_421
+      - CN_397
+      - CN_405
+      - CN_410
+      - CN_418
+      - CN_402
+      - CN_415
+      - CN_398
+      - CN_394
+      - CN_399
+      - CN_415 2
+      - CN_423
+      - CN_414
       - CN_412
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_3701
-      - Relay_🇨🇳CN-🇺🇦UA_11 | 9.37Mb
-      - CN_419
-      - CN_422
-      - CN_401
-      - CN_404
-      - CN_423
-      - CN_395
-      - CN_420
+      - Relay_🇨🇳CN-🇺🇸US_431
+      - Relay_🇺🇸US-🇳🇱NL_3647
       - CN_392
-      - CN_415
-      - CN_394
+      - CN_395
+      - CN_392 2
       - CN_416
       - CN_421
+      - CN_397
+      - CN_405
+      - CN_410
+      - CN_418
+      - CN_402
+      - CN_415
+      - CN_398
+      - CN_394
+      - CN_399
+      - CN_415 2
+      - CN_423
+      - CN_414
       - CN_412
   - name: 🍎 苹果服务
     type: select
@@ -166,20 +201,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_3701
-      - Relay_🇨🇳CN-🇺🇦UA_11 | 9.37Mb
-      - CN_419
-      - CN_422
-      - CN_401
-      - CN_404
-      - CN_423
-      - CN_395
-      - CN_420
+      - Relay_🇨🇳CN-🇺🇸US_431
+      - Relay_🇺🇸US-🇳🇱NL_3647
       - CN_392
-      - CN_415
-      - CN_394
+      - CN_395
+      - CN_392 2
       - CN_416
       - CN_421
+      - CN_397
+      - CN_405
+      - CN_410
+      - CN_418
+      - CN_402
+      - CN_415
+      - CN_398
+      - CN_394
+      - CN_399
+      - CN_415 2
+      - CN_423
+      - CN_414
       - CN_412
   - name: 🎯 全球直连
     type: select
@@ -196,20 +236,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_3701
-      - Relay_🇨🇳CN-🇺🇦UA_11 | 9.37Mb
-      - CN_419
-      - CN_422
-      - CN_401
-      - CN_404
-      - CN_423
-      - CN_395
-      - CN_420
+      - Relay_🇨🇳CN-🇺🇸US_431
+      - Relay_🇺🇸US-🇳🇱NL_3647
       - CN_392
-      - CN_415
-      - CN_394
+      - CN_395
+      - CN_392 2
       - CN_416
       - CN_421
+      - CN_397
+      - CN_405
+      - CN_410
+      - CN_418
+      - CN_402
+      - CN_415
+      - CN_398
+      - CN_394
+      - CN_399
+      - CN_415 2
+      - CN_423
+      - CN_414
       - CN_412
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
