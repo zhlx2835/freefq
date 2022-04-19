@@ -5,87 +5,115 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_3608, server: 152.70.49.174, port: 55988, type: vmess, uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2056, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
-  - {name: github.com/freefq - 广东省移动 28, server: in02.dns2333.xyz, port: 63041, type: vmess, uuid: e701a942-fba5-3381-b15e-2838689b9c23, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: in02.dns2333.xyz}, udp: true}
   - {name: github.com/freefq - 美国CloudFlare公司CDN节点 25, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_3639, server: oz.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: oz.moonfree.top}, udp: true}
-  - {name: CN_392, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_395, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_392 2, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_403, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_407, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_397, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_405, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2056, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
+  - {name: US_40, server: 45.76.168.79, port: 62969, type: vmess, uuid: 14c7249a-bda0-11ec-9317-560003f3536b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /W40anfFp/, ws-headers: {Host: 45.76.168.79}, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_39, server: v2.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v2.ssrsub.com}, udp: true}
+  - {name: US_41, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: CN_411, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 广东省广州市电信 39, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_416, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_402, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_420, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_392, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_397, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_408, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_392 2, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_398, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_402 2, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_400, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_403, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_406, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_432, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft公司 2, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 599d9e75-08dc-4e9c-b93a-5e455fb5ec42, sni: nfjp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_438, server: 117.50.106.86, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_431, server: cm-jm.okvpn.xyz, port: 20000, type: trojan, password: 912ebb9f-7c7a-4ee2-b9c9-5c2a87280c2e, sni: cm-jm.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国DXC Technology 18, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: 599d9e75-08dc-4e9c-b93a-5e455fb5ec42, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_433, server: 117.50.106.86, port: 3389, type: trojan, password: edf497f40f71aeeb, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_3608
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - github.com/freefq - 广东省移动 28
       - github.com/freefq - 美国CloudFlare公司CDN节点 25
-      - Relay_🇺🇸US-🇷🇺RU_3639
-      - CN_392
-      - CN_395
-      - CN_392 2
-      - CN_403
-      - CN_407
-      - CN_397
-      - CN_405
+      - Relay_🇺🇸US-🇺🇸US_2056
+      - US_40
+      - Relay_🇺🇸US-🇷🇺RU_39
+      - US_41
       - CN_411
-      - github.com/freefq - 广东省广州市电信 39
-      - CN_416
       - CN_402
+      - CN_420
+      - CN_392
+      - CN_397
+      - CN_408
+      - CN_392 2
+      - CN_398
+      - CN_402 2
+      - CN_400
+      - CN_403
+      - CN_406
+      - Relay_🇨🇳CN-🇹🇼TW_432
+      - github.com/freefq - 美国Microsoft公司 2
+      - Relay_🇨🇳CN-🇹🇼TW_438
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - github.com/freefq - 美国DXC Technology 18
+      - Relay_🇨🇳CN-🇹🇼TW_433
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_3608
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - github.com/freefq - 广东省移动 28
       - github.com/freefq - 美国CloudFlare公司CDN节点 25
-      - Relay_🇺🇸US-🇷🇺RU_3639
-      - CN_392
-      - CN_395
-      - CN_392 2
-      - CN_403
-      - CN_407
-      - CN_397
-      - CN_405
+      - Relay_🇺🇸US-🇺🇸US_2056
+      - US_40
+      - Relay_🇺🇸US-🇷🇺RU_39
+      - US_41
       - CN_411
-      - github.com/freefq - 广东省广州市电信 39
-      - CN_416
       - CN_402
+      - CN_420
+      - CN_392
+      - CN_397
+      - CN_408
+      - CN_392 2
+      - CN_398
+      - CN_402 2
+      - CN_400
+      - CN_403
+      - CN_406
+      - Relay_🇨🇳CN-🇹🇼TW_432
+      - github.com/freefq - 美国Microsoft公司 2
+      - Relay_🇨🇳CN-🇹🇼TW_438
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - github.com/freefq - 美国DXC Technology 18
+      - Relay_🇨🇳CN-🇹🇼TW_433
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_3608
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - github.com/freefq - 广东省移动 28
       - github.com/freefq - 美国CloudFlare公司CDN节点 25
-      - Relay_🇺🇸US-🇷🇺RU_3639
-      - CN_392
-      - CN_395
-      - CN_392 2
-      - CN_403
-      - CN_407
-      - CN_397
-      - CN_405
+      - Relay_🇺🇸US-🇺🇸US_2056
+      - US_40
+      - Relay_🇺🇸US-🇷🇺RU_39
+      - US_41
       - CN_411
-      - github.com/freefq - 广东省广州市电信 39
-      - CN_416
       - CN_402
+      - CN_420
+      - CN_392
+      - CN_397
+      - CN_408
+      - CN_392 2
+      - CN_398
+      - CN_402 2
+      - CN_400
+      - CN_403
+      - CN_406
+      - Relay_🇨🇳CN-🇹🇼TW_432
+      - github.com/freefq - 美国Microsoft公司 2
+      - Relay_🇨🇳CN-🇹🇼TW_438
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - github.com/freefq - 美国DXC Technology 18
+      - Relay_🇨🇳CN-🇹🇼TW_433
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,22 +132,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_3608
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - github.com/freefq - 广东省移动 28
       - github.com/freefq - 美国CloudFlare公司CDN节点 25
-      - Relay_🇺🇸US-🇷🇺RU_3639
-      - CN_392
-      - CN_395
-      - CN_392 2
-      - CN_403
-      - CN_407
-      - CN_397
-      - CN_405
+      - Relay_🇺🇸US-🇺🇸US_2056
+      - US_40
+      - Relay_🇺🇸US-🇷🇺RU_39
+      - US_41
       - CN_411
-      - github.com/freefq - 广东省广州市电信 39
-      - CN_416
       - CN_402
+      - CN_420
+      - CN_392
+      - CN_397
+      - CN_408
+      - CN_392 2
+      - CN_398
+      - CN_402 2
+      - CN_400
+      - CN_403
+      - CN_406
+      - Relay_🇨🇳CN-🇹🇼TW_432
+      - github.com/freefq - 美国Microsoft公司 2
+      - Relay_🇨🇳CN-🇹🇼TW_438
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - github.com/freefq - 美国DXC Technology 18
+      - Relay_🇨🇳CN-🇹🇼TW_433
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -130,65 +165,86 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_3608
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - github.com/freefq - 广东省移动 28
       - github.com/freefq - 美国CloudFlare公司CDN节点 25
-      - Relay_🇺🇸US-🇷🇺RU_3639
-      - CN_392
-      - CN_395
-      - CN_392 2
-      - CN_403
-      - CN_407
-      - CN_397
-      - CN_405
+      - Relay_🇺🇸US-🇺🇸US_2056
+      - US_40
+      - Relay_🇺🇸US-🇷🇺RU_39
+      - US_41
       - CN_411
-      - github.com/freefq - 广东省广州市电信 39
-      - CN_416
       - CN_402
+      - CN_420
+      - CN_392
+      - CN_397
+      - CN_408
+      - CN_392 2
+      - CN_398
+      - CN_402 2
+      - CN_400
+      - CN_403
+      - CN_406
+      - Relay_🇨🇳CN-🇹🇼TW_432
+      - github.com/freefq - 美国Microsoft公司 2
+      - Relay_🇨🇳CN-🇹🇼TW_438
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - github.com/freefq - 美国DXC Technology 18
+      - Relay_🇨🇳CN-🇹🇼TW_433
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_3608
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - github.com/freefq - 广东省移动 28
       - github.com/freefq - 美国CloudFlare公司CDN节点 25
-      - Relay_🇺🇸US-🇷🇺RU_3639
-      - CN_392
-      - CN_395
-      - CN_392 2
-      - CN_403
-      - CN_407
-      - CN_397
-      - CN_405
+      - Relay_🇺🇸US-🇺🇸US_2056
+      - US_40
+      - Relay_🇺🇸US-🇷🇺RU_39
+      - US_41
       - CN_411
-      - github.com/freefq - 广东省广州市电信 39
-      - CN_416
       - CN_402
+      - CN_420
+      - CN_392
+      - CN_397
+      - CN_408
+      - CN_392 2
+      - CN_398
+      - CN_402 2
+      - CN_400
+      - CN_403
+      - CN_406
+      - Relay_🇨🇳CN-🇹🇼TW_432
+      - github.com/freefq - 美国Microsoft公司 2
+      - Relay_🇨🇳CN-🇹🇼TW_438
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - github.com/freefq - 美国DXC Technology 18
+      - Relay_🇨🇳CN-🇹🇼TW_433
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_3608
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - github.com/freefq - 广东省移动 28
       - github.com/freefq - 美国CloudFlare公司CDN节点 25
-      - Relay_🇺🇸US-🇷🇺RU_3639
-      - CN_392
-      - CN_395
-      - CN_392 2
-      - CN_403
-      - CN_407
-      - CN_397
-      - CN_405
+      - Relay_🇺🇸US-🇺🇸US_2056
+      - US_40
+      - Relay_🇺🇸US-🇷🇺RU_39
+      - US_41
       - CN_411
-      - github.com/freefq - 广东省广州市电信 39
-      - CN_416
       - CN_402
+      - CN_420
+      - CN_392
+      - CN_397
+      - CN_408
+      - CN_392 2
+      - CN_398
+      - CN_402 2
+      - CN_400
+      - CN_403
+      - CN_406
+      - Relay_🇨🇳CN-🇹🇼TW_432
+      - github.com/freefq - 美国Microsoft公司 2
+      - Relay_🇨🇳CN-🇹🇼TW_438
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - github.com/freefq - 美国DXC Technology 18
+      - Relay_🇨🇳CN-🇹🇼TW_433
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -204,22 +260,29 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_3608
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - github.com/freefq - 广东省移动 28
       - github.com/freefq - 美国CloudFlare公司CDN节点 25
-      - Relay_🇺🇸US-🇷🇺RU_3639
-      - CN_392
-      - CN_395
-      - CN_392 2
-      - CN_403
-      - CN_407
-      - CN_397
-      - CN_405
+      - Relay_🇺🇸US-🇺🇸US_2056
+      - US_40
+      - Relay_🇺🇸US-🇷🇺RU_39
+      - US_41
       - CN_411
-      - github.com/freefq - 广东省广州市电信 39
-      - CN_416
       - CN_402
+      - CN_420
+      - CN_392
+      - CN_397
+      - CN_408
+      - CN_392 2
+      - CN_398
+      - CN_402 2
+      - CN_400
+      - CN_403
+      - CN_406
+      - Relay_🇨🇳CN-🇹🇼TW_432
+      - github.com/freefq - 美国Microsoft公司 2
+      - Relay_🇨🇳CN-🇹🇼TW_438
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - github.com/freefq - 美国DXC Technology 18
+      - Relay_🇨🇳CN-🇹🇼TW_433
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
