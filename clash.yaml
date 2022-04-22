@@ -5,107 +5,119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇹🇼TW_440, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_439, server: 116.129.253.187, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_438, server: 116.129.253.134, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_445, server: 116.129.253.134, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_457, server: 116.129.253.130, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_461, server: 116.129.253.177, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 香港电讯盈科有限公司 1, server: hkt.node.qchwnd.moe, port: 44609, type: trojan, password: 57e797a5-9a1d-4a26-b658-91fbf97f7741, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_448, server: 116.129.253.177, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_447, server: 116.129.253.177, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_457 2, server: 116.129.253.187, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_451, server: 120.232.192.250, port: 3385, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本  38, server: jgw2.gaox.ml, port: 443, type: trojan, password: f2117e99-9b6e-47fd-b0a9-634a0b15b998, sni: jgw2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_447 2, server: 120.232.192.250, port: 3385, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_432, server: 116.129.253.130, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🇹🇼TW_4751, server: 5.44.249.43, port: 3389, type: trojan, password: cd39f62aed7b90f6, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2056, server: 138.197.236.77, port: 443, type: vmess, uuid: 3579436c-b37e-11eb-8529-0242ac130003, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 138.197.236.77}, udp: true}
-  - {name: NL_1296, server: 213.183.51.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: CN_412, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3608, server: v2-2.godlight.xyz, port: 30523, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
+  - {name: RS_1450, server: 194.71.126.31, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_420, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_404, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_405, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_407, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_399, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_412, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_416, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_419, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_407 2, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_411, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_402, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_409, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_408, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_412 2, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_417, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: github.com/freefq - 广东省广州市电信 34, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_401, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_418, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_404 2, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: RU_1515, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: github.com/freefq - 希腊  11, server: 2.hmykr1.tk, port: 58739, type: trojan, password: 7b567rw1Bp, sni: 2.hmykr1.tk, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 5, server: kr2.qingyun123.xyz, port: 10050, type: trojan, password: 869d7217-8ad4-4265-be69-5a848afadebf, sni: kr2.qingyun123.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_440
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇹🇼TW_438
-      - Relay_🇨🇳CN-🇹🇼TW_445
-      - Relay_🇨🇳CN-🇹🇼TW_457
-      - Relay_🇨🇳CN-🇹🇼TW_461
-      - github.com/freefq - 香港电讯盈科有限公司 1
-      - Relay_🇨🇳CN-🇹🇼TW_448
-      - Relay_🇨🇳CN-🇹🇼TW_447
-      - Relay_🇨🇳CN-🇹🇼TW_457 2
-      - Relay_🇨🇳CN-🇹🇼TW_451
-      - github.com/freefq - 日本  38
-      - Relay_🇨🇳CN-🇹🇼TW_447 2
-      - Relay_🇨🇳CN-🇹🇼TW_432
-      - Relay_🏁ZZ-🇹🇼TW_4751
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - NL_1296
-      - CN_412
+      - Relay_🇺🇸US-🇺🇸US_3608
+      - RS_1450
+      - CN_420
       - CN_404
       - CN_405
       - CN_407
+      - CN_399
+      - CN_412
+      - CN_416
+      - CN_419
+      - CN_407 2
+      - CN_411
+      - CN_402
+      - CN_409
+      - CN_408
+      - CN_412 2
+      - CN_417
+      - github.com/freefq - 广东省广州市电信 34
+      - CN_401
+      - CN_418
+      - CN_404 2
+      - RU_1515
+      - github.com/freefq - 希腊  11
+      - github.com/freefq - 美国Microsoft数据中心 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇹🇼TW_440
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇹🇼TW_438
-      - Relay_🇨🇳CN-🇹🇼TW_445
-      - Relay_🇨🇳CN-🇹🇼TW_457
-      - Relay_🇨🇳CN-🇹🇼TW_461
-      - github.com/freefq - 香港电讯盈科有限公司 1
-      - Relay_🇨🇳CN-🇹🇼TW_448
-      - Relay_🇨🇳CN-🇹🇼TW_447
-      - Relay_🇨🇳CN-🇹🇼TW_457 2
-      - Relay_🇨🇳CN-🇹🇼TW_451
-      - github.com/freefq - 日本  38
-      - Relay_🇨🇳CN-🇹🇼TW_447 2
-      - Relay_🇨🇳CN-🇹🇼TW_432
-      - Relay_🏁ZZ-🇹🇼TW_4751
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - NL_1296
-      - CN_412
+      - Relay_🇺🇸US-🇺🇸US_3608
+      - RS_1450
+      - CN_420
       - CN_404
       - CN_405
       - CN_407
+      - CN_399
+      - CN_412
+      - CN_416
+      - CN_419
+      - CN_407 2
+      - CN_411
+      - CN_402
+      - CN_409
+      - CN_408
+      - CN_412 2
+      - CN_417
+      - github.com/freefq - 广东省广州市电信 34
+      - CN_401
+      - CN_418
+      - CN_404 2
+      - RU_1515
+      - github.com/freefq - 希腊  11
+      - github.com/freefq - 美国Microsoft数据中心 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_440
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇹🇼TW_438
-      - Relay_🇨🇳CN-🇹🇼TW_445
-      - Relay_🇨🇳CN-🇹🇼TW_457
-      - Relay_🇨🇳CN-🇹🇼TW_461
-      - github.com/freefq - 香港电讯盈科有限公司 1
-      - Relay_🇨🇳CN-🇹🇼TW_448
-      - Relay_🇨🇳CN-🇹🇼TW_447
-      - Relay_🇨🇳CN-🇹🇼TW_457 2
-      - Relay_🇨🇳CN-🇹🇼TW_451
-      - github.com/freefq - 日本  38
-      - Relay_🇨🇳CN-🇹🇼TW_447 2
-      - Relay_🇨🇳CN-🇹🇼TW_432
-      - Relay_🏁ZZ-🇹🇼TW_4751
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - NL_1296
-      - CN_412
+      - Relay_🇺🇸US-🇺🇸US_3608
+      - RS_1450
+      - CN_420
       - CN_404
       - CN_405
       - CN_407
+      - CN_399
+      - CN_412
+      - CN_416
+      - CN_419
+      - CN_407 2
+      - CN_411
+      - CN_402
+      - CN_409
+      - CN_408
+      - CN_412 2
+      - CN_417
+      - github.com/freefq - 广东省广州市电信 34
+      - CN_401
+      - CN_418
+      - CN_404 2
+      - RU_1515
+      - github.com/freefq - 希腊  11
+      - github.com/freefq - 美国Microsoft数据中心 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,112 +136,123 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_440
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇹🇼TW_438
-      - Relay_🇨🇳CN-🇹🇼TW_445
-      - Relay_🇨🇳CN-🇹🇼TW_457
-      - Relay_🇨🇳CN-🇹🇼TW_461
-      - github.com/freefq - 香港电讯盈科有限公司 1
-      - Relay_🇨🇳CN-🇹🇼TW_448
-      - Relay_🇨🇳CN-🇹🇼TW_447
-      - Relay_🇨🇳CN-🇹🇼TW_457 2
-      - Relay_🇨🇳CN-🇹🇼TW_451
-      - github.com/freefq - 日本  38
-      - Relay_🇨🇳CN-🇹🇼TW_447 2
-      - Relay_🇨🇳CN-🇹🇼TW_432
-      - Relay_🏁ZZ-🇹🇼TW_4751
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - NL_1296
-      - CN_412
+      - Relay_🇺🇸US-🇺🇸US_3608
+      - RS_1450
+      - CN_420
       - CN_404
       - CN_405
       - CN_407
+      - CN_399
+      - CN_412
+      - CN_416
+      - CN_419
+      - CN_407 2
+      - CN_411
+      - CN_402
+      - CN_409
+      - CN_408
+      - CN_412 2
+      - CN_417
+      - github.com/freefq - 广东省广州市电信 34
+      - CN_401
+      - CN_418
+      - CN_404 2
+      - RU_1515
+      - github.com/freefq - 希腊  11
+      - github.com/freefq - 美国Microsoft数据中心 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 香港电讯盈科有限公司 1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇹🇼TW_440
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇹🇼TW_438
-      - Relay_🇨🇳CN-🇹🇼TW_445
-      - Relay_🇨🇳CN-🇹🇼TW_457
-      - Relay_🇨🇳CN-🇹🇼TW_461
-      - github.com/freefq - 香港电讯盈科有限公司 1
-      - Relay_🇨🇳CN-🇹🇼TW_448
-      - Relay_🇨🇳CN-🇹🇼TW_447
-      - Relay_🇨🇳CN-🇹🇼TW_457 2
-      - Relay_🇨🇳CN-🇹🇼TW_451
-      - github.com/freefq - 日本  38
-      - Relay_🇨🇳CN-🇹🇼TW_447 2
-      - Relay_🇨🇳CN-🇹🇼TW_432
-      - Relay_🏁ZZ-🇹🇼TW_4751
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - NL_1296
-      - CN_412
+      - Relay_🇺🇸US-🇺🇸US_3608
+      - RS_1450
+      - CN_420
       - CN_404
       - CN_405
       - CN_407
+      - CN_399
+      - CN_412
+      - CN_416
+      - CN_419
+      - CN_407 2
+      - CN_411
+      - CN_402
+      - CN_409
+      - CN_408
+      - CN_412 2
+      - CN_417
+      - github.com/freefq - 广东省广州市电信 34
+      - CN_401
+      - CN_418
+      - CN_404 2
+      - RU_1515
+      - github.com/freefq - 希腊  11
+      - github.com/freefq - 美国Microsoft数据中心 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_440
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇹🇼TW_438
-      - Relay_🇨🇳CN-🇹🇼TW_445
-      - Relay_🇨🇳CN-🇹🇼TW_457
-      - Relay_🇨🇳CN-🇹🇼TW_461
-      - github.com/freefq - 香港电讯盈科有限公司 1
-      - Relay_🇨🇳CN-🇹🇼TW_448
-      - Relay_🇨🇳CN-🇹🇼TW_447
-      - Relay_🇨🇳CN-🇹🇼TW_457 2
-      - Relay_🇨🇳CN-🇹🇼TW_451
-      - github.com/freefq - 日本  38
-      - Relay_🇨🇳CN-🇹🇼TW_447 2
-      - Relay_🇨🇳CN-🇹🇼TW_432
-      - Relay_🏁ZZ-🇹🇼TW_4751
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - NL_1296
-      - CN_412
+      - Relay_🇺🇸US-🇺🇸US_3608
+      - RS_1450
+      - CN_420
       - CN_404
       - CN_405
       - CN_407
+      - CN_399
+      - CN_412
+      - CN_416
+      - CN_419
+      - CN_407 2
+      - CN_411
+      - CN_402
+      - CN_409
+      - CN_408
+      - CN_412 2
+      - CN_417
+      - github.com/freefq - 广东省广州市电信 34
+      - CN_401
+      - CN_418
+      - CN_404 2
+      - RU_1515
+      - github.com/freefq - 希腊  11
+      - github.com/freefq - 美国Microsoft数据中心 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_440
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇹🇼TW_438
-      - Relay_🇨🇳CN-🇹🇼TW_445
-      - Relay_🇨🇳CN-🇹🇼TW_457
-      - Relay_🇨🇳CN-🇹🇼TW_461
-      - github.com/freefq - 香港电讯盈科有限公司 1
-      - Relay_🇨🇳CN-🇹🇼TW_448
-      - Relay_🇨🇳CN-🇹🇼TW_447
-      - Relay_🇨🇳CN-🇹🇼TW_457 2
-      - Relay_🇨🇳CN-🇹🇼TW_451
-      - github.com/freefq - 日本  38
-      - Relay_🇨🇳CN-🇹🇼TW_447 2
-      - Relay_🇨🇳CN-🇹🇼TW_432
-      - Relay_🏁ZZ-🇹🇼TW_4751
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - NL_1296
-      - CN_412
+      - Relay_🇺🇸US-🇺🇸US_3608
+      - RS_1450
+      - CN_420
       - CN_404
       - CN_405
       - CN_407
+      - CN_399
+      - CN_412
+      - CN_416
+      - CN_419
+      - CN_407 2
+      - CN_411
+      - CN_402
+      - CN_409
+      - CN_408
+      - CN_412 2
+      - CN_417
+      - github.com/freefq - 广东省广州市电信 34
+      - CN_401
+      - CN_418
+      - CN_404 2
+      - RU_1515
+      - github.com/freefq - 希腊  11
+      - github.com/freefq - 美国Microsoft数据中心 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -245,27 +268,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_440
-      - Relay_🇨🇳CN-🇹🇼TW_439
-      - Relay_🇨🇳CN-🇹🇼TW_438
-      - Relay_🇨🇳CN-🇹🇼TW_445
-      - Relay_🇨🇳CN-🇹🇼TW_457
-      - Relay_🇨🇳CN-🇹🇼TW_461
-      - github.com/freefq - 香港电讯盈科有限公司 1
-      - Relay_🇨🇳CN-🇹🇼TW_448
-      - Relay_🇨🇳CN-🇹🇼TW_447
-      - Relay_🇨🇳CN-🇹🇼TW_457 2
-      - Relay_🇨🇳CN-🇹🇼TW_451
-      - github.com/freefq - 日本  38
-      - Relay_🇨🇳CN-🇹🇼TW_447 2
-      - Relay_🇨🇳CN-🇹🇼TW_432
-      - Relay_🏁ZZ-🇹🇼TW_4751
-      - Relay_🇺🇸US-🇺🇸US_2056
-      - NL_1296
-      - CN_412
+      - Relay_🇺🇸US-🇺🇸US_3608
+      - RS_1450
+      - CN_420
       - CN_404
       - CN_405
       - CN_407
+      - CN_399
+      - CN_412
+      - CN_416
+      - CN_419
+      - CN_407 2
+      - CN_411
+      - CN_402
+      - CN_409
+      - CN_408
+      - CN_412 2
+      - CN_417
+      - github.com/freefq - 广东省广州市电信 34
+      - CN_401
+      - CN_418
+      - CN_404 2
+      - RU_1515
+      - github.com/freefq - 希腊  11
+      - github.com/freefq - 美国Microsoft数据中心 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
