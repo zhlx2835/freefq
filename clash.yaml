@@ -5,107 +5,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇭🇰HK-🇹🇼TW_909, server: ppy-moble.0098dns02in.work, port: 26013, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇹🇼TW_913, server: ppy-moble.0098dns02in.work, port: 26011, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇹🇼TW_916, server: ppy-moble.0098dns02in.work, port: 26063, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇹🇼TW_913 2, server: ppy-moble.0098dns02in.work, port: 26011, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇹🇼TW_916 2, server: ppy-moble.0098dns02in.work, port: 26063, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  35, server: kr.mayiyun.vip, port: 80, type: vmess, uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr.mayiyun.vip}, udp: true}
-  - {name: Relay_🇭🇰HK-🇹🇼TW_910, server: ppy-moble.0098dns02in.work, port: 26012, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_430, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CA_342, server: 72.140.224.195, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA_288, server: 72.140.224.195, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA_327, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN_438, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_448, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CA_278, server: 72.140.224.195, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CN_444, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_417, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_445, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_418, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_437, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 3, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 80cbe86c-99cc-416a-87ce-74006d863e3a, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 8, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 09982e0d-8fc0-4a6a-ac58-473610881121, sni: hknf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_16, server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_199 | 4.95Mb, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: www.msn.cn}, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_375, server: fs.keaiyun.top, port: 55154, type: vmess, uuid: 048da825-d468-3a29-b015-2d60886f830d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_482, server: gz-1.jiasugou.one, port: 15003, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_476, server: gz-1.jiasugou.one, port: 15002, type: vmess, uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /zh-cn/news, ws-headers: {Host: gz-1.jiasugou.one}, udp: true}
+  - {name: AU_141, server: 43.135.70.192, port: 24740, type: vmess, uuid: 3749de34-a1a9-44db-b72a-510712a52d11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.135.70.192]}}, udp: true}
+  - {name: CN_419, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3776, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 85f1f2fc-42e7-48a0-a6a2-a8bccb0d64cd, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶DMIT数据中心 8, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, sni: us-01.pickaxe.sh, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3778, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 85f1f2fc-42e7-48a0-a6a2-a8bccb0d64cd, sni: hknf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  10, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  18, server: shop-two.defun.us, port: 8080, type: trojan, password: OzKXGbFNHwAurRQ0, sni: shop-two.defun.us, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3774, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, sni: miner-two.pickaxe.sh, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3765, server: us003.laxiyun.com, port: 10086, type: trojan, password: 5efe3c05-b123-4688-92b9-f6dc5099811f, sni: us003.laxiyun.com, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  6, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, sni: shop-one.defun.us, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇬SG_459, server: 14.152.92.81, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_471, server: 42.157.195.233, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 600777:154T8b, obfs-param: 0f099600777.v23f7nM0, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇹🇼TW_909
-      - Relay_🇭🇰HK-🇹🇼TW_913
-      - Relay_🇭🇰HK-🇹🇼TW_916
-      - Relay_🇭🇰HK-🇹🇼TW_913 2
-      - Relay_🇭🇰HK-🇹🇼TW_916 2
-      - github.com/freefq - 美国  35
-      - Relay_🇭🇰HK-🇹🇼TW_910
-      - Relay_🇨🇳CN-🇰🇷KR_430
-      - CA_342
-      - CA_288
-      - CA_327
-      - CN_438
-      - CN_448
-      - CA_278
-      - CN_444
-      - CN_417
-      - CN_445
-      - CN_418
-      - CN_437
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 8
+      - Relay_🇨🇳CN-🇸🇬SG_16
+      - Relay_🇨🇳CN-🇸🇬SG_199 | 4.95Mb
+      - Relay_🇨🇳CN-🇹🇼TW_375
+      - Relay_🇨🇳CN-🇸🇬SG_482
+      - Relay_🇨🇳CN-🇸🇬SG_476
+      - AU_141
+      - CN_419
+      - Relay_🇺🇸US-🇺🇸US_3776
+      - github.com/freefq - 美国加利福尼亚州洛杉矶DMIT数据中心 8
+      - Relay_🇺🇸US-🇺🇸US_3778
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国  18
+      - Relay_🇺🇸US-🇺🇸US_3774
+      - Relay_🇺🇸US-🇺🇸US_3765
+      - github.com/freefq - 美国  6
+      - Relay_🇨🇳CN-🇸🇬SG_459
+      - Relay_🇨🇳CN-🇺🇸US_471
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇭🇰HK-🇹🇼TW_909
-      - Relay_🇭🇰HK-🇹🇼TW_913
-      - Relay_🇭🇰HK-🇹🇼TW_916
-      - Relay_🇭🇰HK-🇹🇼TW_913 2
-      - Relay_🇭🇰HK-🇹🇼TW_916 2
-      - github.com/freefq - 美国  35
-      - Relay_🇭🇰HK-🇹🇼TW_910
-      - Relay_🇨🇳CN-🇰🇷KR_430
-      - CA_342
-      - CA_288
-      - CA_327
-      - CN_438
-      - CN_448
-      - CA_278
-      - CN_444
-      - CN_417
-      - CN_445
-      - CN_418
-      - CN_437
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 8
+      - Relay_🇨🇳CN-🇸🇬SG_16
+      - Relay_🇨🇳CN-🇸🇬SG_199 | 4.95Mb
+      - Relay_🇨🇳CN-🇹🇼TW_375
+      - Relay_🇨🇳CN-🇸🇬SG_482
+      - Relay_🇨🇳CN-🇸🇬SG_476
+      - AU_141
+      - CN_419
+      - Relay_🇺🇸US-🇺🇸US_3776
+      - github.com/freefq - 美国加利福尼亚州洛杉矶DMIT数据中心 8
+      - Relay_🇺🇸US-🇺🇸US_3778
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国  18
+      - Relay_🇺🇸US-🇺🇸US_3774
+      - Relay_🇺🇸US-🇺🇸US_3765
+      - github.com/freefq - 美国  6
+      - Relay_🇨🇳CN-🇸🇬SG_459
+      - Relay_🇨🇳CN-🇺🇸US_471
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇹🇼TW_909
-      - Relay_🇭🇰HK-🇹🇼TW_913
-      - Relay_🇭🇰HK-🇹🇼TW_916
-      - Relay_🇭🇰HK-🇹🇼TW_913 2
-      - Relay_🇭🇰HK-🇹🇼TW_916 2
-      - github.com/freefq - 美国  35
-      - Relay_🇭🇰HK-🇹🇼TW_910
-      - Relay_🇨🇳CN-🇰🇷KR_430
-      - CA_342
-      - CA_288
-      - CA_327
-      - CN_438
-      - CN_448
-      - CA_278
-      - CN_444
-      - CN_417
-      - CN_445
-      - CN_418
-      - CN_437
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 8
+      - Relay_🇨🇳CN-🇸🇬SG_16
+      - Relay_🇨🇳CN-🇸🇬SG_199 | 4.95Mb
+      - Relay_🇨🇳CN-🇹🇼TW_375
+      - Relay_🇨🇳CN-🇸🇬SG_482
+      - Relay_🇨🇳CN-🇸🇬SG_476
+      - AU_141
+      - CN_419
+      - Relay_🇺🇸US-🇺🇸US_3776
+      - github.com/freefq - 美国加利福尼亚州洛杉矶DMIT数据中心 8
+      - Relay_🇺🇸US-🇺🇸US_3778
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国  18
+      - Relay_🇺🇸US-🇺🇸US_3774
+      - Relay_🇺🇸US-🇺🇸US_3765
+      - github.com/freefq - 美国  6
+      - Relay_🇨🇳CN-🇸🇬SG_459
+      - Relay_🇨🇳CN-🇺🇸US_471
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -124,27 +108,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇹🇼TW_909
-      - Relay_🇭🇰HK-🇹🇼TW_913
-      - Relay_🇭🇰HK-🇹🇼TW_916
-      - Relay_🇭🇰HK-🇹🇼TW_913 2
-      - Relay_🇭🇰HK-🇹🇼TW_916 2
-      - github.com/freefq - 美国  35
-      - Relay_🇭🇰HK-🇹🇼TW_910
-      - Relay_🇨🇳CN-🇰🇷KR_430
-      - CA_342
-      - CA_288
-      - CA_327
-      - CN_438
-      - CN_448
-      - CA_278
-      - CN_444
-      - CN_417
-      - CN_445
-      - CN_418
-      - CN_437
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 8
+      - Relay_🇨🇳CN-🇸🇬SG_16
+      - Relay_🇨🇳CN-🇸🇬SG_199 | 4.95Mb
+      - Relay_🇨🇳CN-🇹🇼TW_375
+      - Relay_🇨🇳CN-🇸🇬SG_482
+      - Relay_🇨🇳CN-🇸🇬SG_476
+      - AU_141
+      - CN_419
+      - Relay_🇺🇸US-🇺🇸US_3776
+      - github.com/freefq - 美国加利福尼亚州洛杉矶DMIT数据中心 8
+      - Relay_🇺🇸US-🇺🇸US_3778
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国  18
+      - Relay_🇺🇸US-🇺🇸US_3774
+      - Relay_🇺🇸US-🇺🇸US_3765
+      - github.com/freefq - 美国  6
+      - Relay_🇨🇳CN-🇸🇬SG_459
+      - Relay_🇨🇳CN-🇺🇸US_471
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -155,80 +135,68 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇭🇰HK-🇹🇼TW_909
-      - Relay_🇭🇰HK-🇹🇼TW_913
-      - Relay_🇭🇰HK-🇹🇼TW_916
-      - Relay_🇭🇰HK-🇹🇼TW_913 2
-      - Relay_🇭🇰HK-🇹🇼TW_916 2
-      - github.com/freefq - 美国  35
-      - Relay_🇭🇰HK-🇹🇼TW_910
-      - Relay_🇨🇳CN-🇰🇷KR_430
-      - CA_342
-      - CA_288
-      - CA_327
-      - CN_438
-      - CN_448
-      - CA_278
-      - CN_444
-      - CN_417
-      - CN_445
-      - CN_418
-      - CN_437
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 8
+      - Relay_🇨🇳CN-🇸🇬SG_16
+      - Relay_🇨🇳CN-🇸🇬SG_199 | 4.95Mb
+      - Relay_🇨🇳CN-🇹🇼TW_375
+      - Relay_🇨🇳CN-🇸🇬SG_482
+      - Relay_🇨🇳CN-🇸🇬SG_476
+      - AU_141
+      - CN_419
+      - Relay_🇺🇸US-🇺🇸US_3776
+      - github.com/freefq - 美国加利福尼亚州洛杉矶DMIT数据中心 8
+      - Relay_🇺🇸US-🇺🇸US_3778
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国  18
+      - Relay_🇺🇸US-🇺🇸US_3774
+      - Relay_🇺🇸US-🇺🇸US_3765
+      - github.com/freefq - 美国  6
+      - Relay_🇨🇳CN-🇸🇬SG_459
+      - Relay_🇨🇳CN-🇺🇸US_471
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🇹🇼TW_909
-      - Relay_🇭🇰HK-🇹🇼TW_913
-      - Relay_🇭🇰HK-🇹🇼TW_916
-      - Relay_🇭🇰HK-🇹🇼TW_913 2
-      - Relay_🇭🇰HK-🇹🇼TW_916 2
-      - github.com/freefq - 美国  35
-      - Relay_🇭🇰HK-🇹🇼TW_910
-      - Relay_🇨🇳CN-🇰🇷KR_430
-      - CA_342
-      - CA_288
-      - CA_327
-      - CN_438
-      - CN_448
-      - CA_278
-      - CN_444
-      - CN_417
-      - CN_445
-      - CN_418
-      - CN_437
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 8
+      - Relay_🇨🇳CN-🇸🇬SG_16
+      - Relay_🇨🇳CN-🇸🇬SG_199 | 4.95Mb
+      - Relay_🇨🇳CN-🇹🇼TW_375
+      - Relay_🇨🇳CN-🇸🇬SG_482
+      - Relay_🇨🇳CN-🇸🇬SG_476
+      - AU_141
+      - CN_419
+      - Relay_🇺🇸US-🇺🇸US_3776
+      - github.com/freefq - 美国加利福尼亚州洛杉矶DMIT数据中心 8
+      - Relay_🇺🇸US-🇺🇸US_3778
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国  18
+      - Relay_🇺🇸US-🇺🇸US_3774
+      - Relay_🇺🇸US-🇺🇸US_3765
+      - github.com/freefq - 美国  6
+      - Relay_🇨🇳CN-🇸🇬SG_459
+      - Relay_🇨🇳CN-🇺🇸US_471
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇭🇰HK-🇹🇼TW_909
-      - Relay_🇭🇰HK-🇹🇼TW_913
-      - Relay_🇭🇰HK-🇹🇼TW_916
-      - Relay_🇭🇰HK-🇹🇼TW_913 2
-      - Relay_🇭🇰HK-🇹🇼TW_916 2
-      - github.com/freefq - 美国  35
-      - Relay_🇭🇰HK-🇹🇼TW_910
-      - Relay_🇨🇳CN-🇰🇷KR_430
-      - CA_342
-      - CA_288
-      - CA_327
-      - CN_438
-      - CN_448
-      - CA_278
-      - CN_444
-      - CN_417
-      - CN_445
-      - CN_418
-      - CN_437
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 8
+      - Relay_🇨🇳CN-🇸🇬SG_16
+      - Relay_🇨🇳CN-🇸🇬SG_199 | 4.95Mb
+      - Relay_🇨🇳CN-🇹🇼TW_375
+      - Relay_🇨🇳CN-🇸🇬SG_482
+      - Relay_🇨🇳CN-🇸🇬SG_476
+      - AU_141
+      - CN_419
+      - Relay_🇺🇸US-🇺🇸US_3776
+      - github.com/freefq - 美国加利福尼亚州洛杉矶DMIT数据中心 8
+      - Relay_🇺🇸US-🇺🇸US_3778
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国  18
+      - Relay_🇺🇸US-🇺🇸US_3774
+      - Relay_🇺🇸US-🇺🇸US_3765
+      - github.com/freefq - 美国  6
+      - Relay_🇨🇳CN-🇸🇬SG_459
+      - Relay_🇨🇳CN-🇺🇸US_471
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -244,27 +212,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇭🇰HK-🇹🇼TW_909
-      - Relay_🇭🇰HK-🇹🇼TW_913
-      - Relay_🇭🇰HK-🇹🇼TW_916
-      - Relay_🇭🇰HK-🇹🇼TW_913 2
-      - Relay_🇭🇰HK-🇹🇼TW_916 2
-      - github.com/freefq - 美国  35
-      - Relay_🇭🇰HK-🇹🇼TW_910
-      - Relay_🇨🇳CN-🇰🇷KR_430
-      - CA_342
-      - CA_288
-      - CA_327
-      - CN_438
-      - CN_448
-      - CA_278
-      - CN_444
-      - CN_417
-      - CN_445
-      - CN_418
-      - CN_437
-      - github.com/freefq - 美国Microsoft数据中心 3
-      - github.com/freefq - 美国Microsoft数据中心 8
+      - Relay_🇨🇳CN-🇸🇬SG_16
+      - Relay_🇨🇳CN-🇸🇬SG_199 | 4.95Mb
+      - Relay_🇨🇳CN-🇹🇼TW_375
+      - Relay_🇨🇳CN-🇸🇬SG_482
+      - Relay_🇨🇳CN-🇸🇬SG_476
+      - AU_141
+      - CN_419
+      - Relay_🇺🇸US-🇺🇸US_3776
+      - github.com/freefq - 美国加利福尼亚州洛杉矶DMIT数据中心 8
+      - Relay_🇺🇸US-🇺🇸US_3778
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 美国  18
+      - Relay_🇺🇸US-🇺🇸US_3774
+      - Relay_🇺🇸US-🇺🇸US_3765
+      - github.com/freefq - 美国  6
+      - Relay_🇨🇳CN-🇸🇬SG_459
+      - Relay_🇨🇳CN-🇺🇸US_471
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
