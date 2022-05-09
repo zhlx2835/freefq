@@ -5,151 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇭🇰HK-🏁ZZ_877, server: vesta.hkg.ns.eevpn.info, port: 443, type: vmess, uuid: 771576fd-33be-4e02-869d-ceb9d28ce5f3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇳🇱NL_398, server: xjcnyd02.2288.org, port: 63018, type: ss, cipher: chacha20-ietf-poly1305, password: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, udp: true}
-  - {name: Relay_🇨🇳CN-🇩🇪DE_407, server: relay.gzbgp.entrance1-fp.icu, port: 64008, type: ss, cipher: aes-256-gcm, password: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, udp: true}
-  - {name: US_1817, server: 172.99.190.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1704, server: 172.99.188.71, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_2385, server: 172.99.188.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_2145, server: 172.99.188.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1908, server: 172.99.188.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: GB_793, server: 185.167.117.171, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: GB_833, server: 185.167.117.171, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: GB_784, server: 185.167.117.171, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_397, server: xjcnyd02.2288.org, port: 63015, type: ss, cipher: aes-256-gcm, password: 2e8f2af3-4bec-4adb-b0bf-bb6e503e7003, udp: true}
-  - {name: LT_1062, server: 213.183.63.219, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: GB_827, server: 152.89.210.84, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: US_1804, server: 172.99.188.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_445, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RU_1441, server: 217.30.10.67, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: RU_1513, server: 217.30.10.67, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: RU_1446, server: 217.30.10.65, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: RU_1503, server: 217.30.10.65, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: GB_845, server: 185.167.117.171, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: GB_791, server: 185.167.117.171, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: US_3108, server: 172.99.188.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: GB_807, server: 152.89.210.84, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: RU_1405, server: 217.30.10.65, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: RO_1336, server: 62.216.91.232, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: LT_1109, server: 213.183.63.218, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: US_2233, server: 172.99.188.71, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CN_411, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: GB_841, server: 152.89.210.84, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: GB_836, server: 152.89.210.84, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: GB_820, server: 185.167.117.171, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇪SE_13, server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇲🇾MY_12, server: 3.game.speed.zz.001.oooooooooo.icu, port: 25841, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 40, server: 1.v2tk.tk, port: 443, type: vmess, uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: 1.v2tk.tk}, udp: true}
+  - {name: Relay_🇯🇵JP-🇯🇵JP_31, server: v2.godlight.xyz, port: 26940, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dajdklw231f, ws-headers: {Host: v2.godlight.xyz}, udp: true}
+  - {name: Relay_🇰🇷KR-🇰🇷KR_35, server: 2.v2tk.tk, port: 443, type: vmess, uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /upload, ws-headers: {Host: 2.v2tk.tk}, udp: true}
+  - {name: github.com/freefq - 美国  10, server: 185.183.84.60, port: 3306, type: vmess, uuid: 9b309fbe-4a98-4b15-d853-878d89b18a13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 37, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}, udp: true}
+  - {name: US_58, server: 173.82.251.240, port: 2233, type: vmess, uuid: 1e3847e6-755a-4964-9845-4ac53e39b23c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 173.82.251.240}, udp: true}
+  - {name: Relay_🇺🇸US-🇫🇷FR_49, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
+  - {name: Relay_🇺🇸US-🇯🇵JP_67, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_51, server: tls2.xxac.cc, port: 443, type: vmess, uuid: d4955e7f-ad04-4d80-b469-a7c77f1ad5bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /tls, ws-headers: {Host: tls2.xxac.cc}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 48, server: fr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: /t.me/mengge88888888}, udp: true}
+  - {name: JP_30, server: 146.56.112.141, port: 17776, type: vmess, uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 保加利亚  50, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 台湾省新北市中华电信 4, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🏁ZZ_877
-      - Relay_🇨🇳CN-🇳🇱NL_398
-      - Relay_🇨🇳CN-🇩🇪DE_407
-      - US_1817
-      - US_1704
-      - US_2385
-      - US_2145
-      - US_1908
-      - GB_793
-      - GB_833
-      - GB_784
-      - Relay_🇨🇳CN-🇺🇸US_397
-      - LT_1062
-      - GB_827
-      - US_1804
-      - Relay_🇨🇳CN-🇬🇧GB_445
-      - RU_1441
-      - RU_1513
-      - RU_1446
-      - RU_1503
-      - GB_845
-      - GB_791
-      - US_3108
-      - GB_807
-      - RU_1405
-      - RO_1336
-      - LT_1109
-      - US_2233
-      - CN_411
-      - GB_841
-      - GB_836
-      - GB_820
+      - Relay_🇨🇳CN-🇸🇪SE_13
+      - Relay_🇨🇳CN-🇲🇾MY_12
+      - github.com/freefq - 美国Microsoft数据中心 40
+      - Relay_🇯🇵JP-🇯🇵JP_31
+      - Relay_🇰🇷KR-🇰🇷KR_35
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 37
+      - US_58
+      - Relay_🇺🇸US-🇫🇷FR_49
+      - Relay_🇺🇸US-🇯🇵JP_67
+      - Relay_🇺🇸US-🇺🇸US_51
+      - github.com/freefq - 美国CloudFlare节点 48
+      - JP_30
+      - github.com/freefq - 保加利亚  50
+      - github.com/freefq - 台湾省新北市中华电信 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇭🇰HK-🏁ZZ_877
-      - Relay_🇨🇳CN-🇳🇱NL_398
-      - Relay_🇨🇳CN-🇩🇪DE_407
-      - US_1817
-      - US_1704
-      - US_2385
-      - US_2145
-      - US_1908
-      - GB_793
-      - GB_833
-      - GB_784
-      - Relay_🇨🇳CN-🇺🇸US_397
-      - LT_1062
-      - GB_827
-      - US_1804
-      - Relay_🇨🇳CN-🇬🇧GB_445
-      - RU_1441
-      - RU_1513
-      - RU_1446
-      - RU_1503
-      - GB_845
-      - GB_791
-      - US_3108
-      - GB_807
-      - RU_1405
-      - RO_1336
-      - LT_1109
-      - US_2233
-      - CN_411
-      - GB_841
-      - GB_836
-      - GB_820
+      - Relay_🇨🇳CN-🇸🇪SE_13
+      - Relay_🇨🇳CN-🇲🇾MY_12
+      - github.com/freefq - 美国Microsoft数据中心 40
+      - Relay_🇯🇵JP-🇯🇵JP_31
+      - Relay_🇰🇷KR-🇰🇷KR_35
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 37
+      - US_58
+      - Relay_🇺🇸US-🇫🇷FR_49
+      - Relay_🇺🇸US-🇯🇵JP_67
+      - Relay_🇺🇸US-🇺🇸US_51
+      - github.com/freefq - 美国CloudFlare节点 48
+      - JP_30
+      - github.com/freefq - 保加利亚  50
+      - github.com/freefq - 台湾省新北市中华电信 4
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🏁ZZ_877
-      - Relay_🇨🇳CN-🇳🇱NL_398
-      - Relay_🇨🇳CN-🇩🇪DE_407
-      - US_1817
-      - US_1704
-      - US_2385
-      - US_2145
-      - US_1908
-      - GB_793
-      - GB_833
-      - GB_784
-      - Relay_🇨🇳CN-🇺🇸US_397
-      - LT_1062
-      - GB_827
-      - US_1804
-      - Relay_🇨🇳CN-🇬🇧GB_445
-      - RU_1441
-      - RU_1513
-      - RU_1446
-      - RU_1503
-      - GB_845
-      - GB_791
-      - US_3108
-      - GB_807
-      - RU_1405
-      - RO_1336
-      - LT_1109
-      - US_2233
-      - CN_411
-      - GB_841
-      - GB_836
-      - GB_820
+      - Relay_🇨🇳CN-🇸🇪SE_13
+      - Relay_🇨🇳CN-🇲🇾MY_12
+      - github.com/freefq - 美国Microsoft数据中心 40
+      - Relay_🇯🇵JP-🇯🇵JP_31
+      - Relay_🇰🇷KR-🇰🇷KR_35
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 37
+      - US_58
+      - Relay_🇺🇸US-🇫🇷FR_49
+      - Relay_🇺🇸US-🇯🇵JP_67
+      - Relay_🇺🇸US-🇺🇸US_51
+      - github.com/freefq - 美国CloudFlare节点 48
+      - JP_30
+      - github.com/freefq - 保加利亚  50
+      - github.com/freefq - 台湾省新北市中华电信 4
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,155 +100,88 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🏁ZZ_877
-      - Relay_🇨🇳CN-🇳🇱NL_398
-      - Relay_🇨🇳CN-🇩🇪DE_407
-      - US_1817
-      - US_1704
-      - US_2385
-      - US_2145
-      - US_1908
-      - GB_793
-      - GB_833
-      - GB_784
-      - Relay_🇨🇳CN-🇺🇸US_397
-      - LT_1062
-      - GB_827
-      - US_1804
-      - Relay_🇨🇳CN-🇬🇧GB_445
-      - RU_1441
-      - RU_1513
-      - RU_1446
-      - RU_1503
-      - GB_845
-      - GB_791
-      - US_3108
-      - GB_807
-      - RU_1405
-      - RO_1336
-      - LT_1109
-      - US_2233
-      - CN_411
-      - GB_841
-      - GB_836
-      - GB_820
+      - Relay_🇨🇳CN-🇸🇪SE_13
+      - Relay_🇨🇳CN-🇲🇾MY_12
+      - github.com/freefq - 美国Microsoft数据中心 40
+      - Relay_🇯🇵JP-🇯🇵JP_31
+      - Relay_🇰🇷KR-🇰🇷KR_35
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 37
+      - US_58
+      - Relay_🇺🇸US-🇫🇷FR_49
+      - Relay_🇺🇸US-🇯🇵JP_67
+      - Relay_🇺🇸US-🇺🇸US_51
+      - github.com/freefq - 美国CloudFlare节点 48
+      - JP_30
+      - github.com/freefq - 保加利亚  50
+      - github.com/freefq - 台湾省新北市中华电信 4
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - github.com/freefq - 台湾省新北市中华电信 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇭🇰HK-🏁ZZ_877
-      - Relay_🇨🇳CN-🇳🇱NL_398
-      - Relay_🇨🇳CN-🇩🇪DE_407
-      - US_1817
-      - US_1704
-      - US_2385
-      - US_2145
-      - US_1908
-      - GB_793
-      - GB_833
-      - GB_784
-      - Relay_🇨🇳CN-🇺🇸US_397
-      - LT_1062
-      - GB_827
-      - US_1804
-      - Relay_🇨🇳CN-🇬🇧GB_445
-      - RU_1441
-      - RU_1513
-      - RU_1446
-      - RU_1503
-      - GB_845
-      - GB_791
-      - US_3108
-      - GB_807
-      - RU_1405
-      - RO_1336
-      - LT_1109
-      - US_2233
-      - CN_411
-      - GB_841
-      - GB_836
-      - GB_820
+      - Relay_🇨🇳CN-🇸🇪SE_13
+      - Relay_🇨🇳CN-🇲🇾MY_12
+      - github.com/freefq - 美国Microsoft数据中心 40
+      - Relay_🇯🇵JP-🇯🇵JP_31
+      - Relay_🇰🇷KR-🇰🇷KR_35
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 37
+      - US_58
+      - Relay_🇺🇸US-🇫🇷FR_49
+      - Relay_🇺🇸US-🇯🇵JP_67
+      - Relay_🇺🇸US-🇺🇸US_51
+      - github.com/freefq - 美国CloudFlare节点 48
+      - JP_30
+      - github.com/freefq - 保加利亚  50
+      - github.com/freefq - 台湾省新北市中华电信 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇭🇰HK-🏁ZZ_877
-      - Relay_🇨🇳CN-🇳🇱NL_398
-      - Relay_🇨🇳CN-🇩🇪DE_407
-      - US_1817
-      - US_1704
-      - US_2385
-      - US_2145
-      - US_1908
-      - GB_793
-      - GB_833
-      - GB_784
-      - Relay_🇨🇳CN-🇺🇸US_397
-      - LT_1062
-      - GB_827
-      - US_1804
-      - Relay_🇨🇳CN-🇬🇧GB_445
-      - RU_1441
-      - RU_1513
-      - RU_1446
-      - RU_1503
-      - GB_845
-      - GB_791
-      - US_3108
-      - GB_807
-      - RU_1405
-      - RO_1336
-      - LT_1109
-      - US_2233
-      - CN_411
-      - GB_841
-      - GB_836
-      - GB_820
+      - Relay_🇨🇳CN-🇸🇪SE_13
+      - Relay_🇨🇳CN-🇲🇾MY_12
+      - github.com/freefq - 美国Microsoft数据中心 40
+      - Relay_🇯🇵JP-🇯🇵JP_31
+      - Relay_🇰🇷KR-🇰🇷KR_35
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 37
+      - US_58
+      - Relay_🇺🇸US-🇫🇷FR_49
+      - Relay_🇺🇸US-🇯🇵JP_67
+      - Relay_🇺🇸US-🇺🇸US_51
+      - github.com/freefq - 美国CloudFlare节点 48
+      - JP_30
+      - github.com/freefq - 保加利亚  50
+      - github.com/freefq - 台湾省新北市中华电信 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇭🇰HK-🏁ZZ_877
-      - Relay_🇨🇳CN-🇳🇱NL_398
-      - Relay_🇨🇳CN-🇩🇪DE_407
-      - US_1817
-      - US_1704
-      - US_2385
-      - US_2145
-      - US_1908
-      - GB_793
-      - GB_833
-      - GB_784
-      - Relay_🇨🇳CN-🇺🇸US_397
-      - LT_1062
-      - GB_827
-      - US_1804
-      - Relay_🇨🇳CN-🇬🇧GB_445
-      - RU_1441
-      - RU_1513
-      - RU_1446
-      - RU_1503
-      - GB_845
-      - GB_791
-      - US_3108
-      - GB_807
-      - RU_1405
-      - RO_1336
-      - LT_1109
-      - US_2233
-      - CN_411
-      - GB_841
-      - GB_836
-      - GB_820
+      - Relay_🇨🇳CN-🇸🇪SE_13
+      - Relay_🇨🇳CN-🇲🇾MY_12
+      - github.com/freefq - 美国Microsoft数据中心 40
+      - Relay_🇯🇵JP-🇯🇵JP_31
+      - Relay_🇰🇷KR-🇰🇷KR_35
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 37
+      - US_58
+      - Relay_🇺🇸US-🇫🇷FR_49
+      - Relay_🇺🇸US-🇯🇵JP_67
+      - Relay_🇺🇸US-🇺🇸US_51
+      - github.com/freefq - 美国CloudFlare节点 48
+      - JP_30
+      - github.com/freefq - 保加利亚  50
+      - github.com/freefq - 台湾省新北市中华电信 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,38 +197,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇭🇰HK-🏁ZZ_877
-      - Relay_🇨🇳CN-🇳🇱NL_398
-      - Relay_🇨🇳CN-🇩🇪DE_407
-      - US_1817
-      - US_1704
-      - US_2385
-      - US_2145
-      - US_1908
-      - GB_793
-      - GB_833
-      - GB_784
-      - Relay_🇨🇳CN-🇺🇸US_397
-      - LT_1062
-      - GB_827
-      - US_1804
-      - Relay_🇨🇳CN-🇬🇧GB_445
-      - RU_1441
-      - RU_1513
-      - RU_1446
-      - RU_1503
-      - GB_845
-      - GB_791
-      - US_3108
-      - GB_807
-      - RU_1405
-      - RO_1336
-      - LT_1109
-      - US_2233
-      - CN_411
-      - GB_841
-      - GB_836
-      - GB_820
+      - Relay_🇨🇳CN-🇸🇪SE_13
+      - Relay_🇨🇳CN-🇲🇾MY_12
+      - github.com/freefq - 美国Microsoft数据中心 40
+      - Relay_🇯🇵JP-🇯🇵JP_31
+      - Relay_🇰🇷KR-🇰🇷KR_35
+      - github.com/freefq - 美国  10
+      - github.com/freefq - 南非豪登省约翰内斯堡Cloudinnovation数据中心 37
+      - US_58
+      - Relay_🇺🇸US-🇫🇷FR_49
+      - Relay_🇺🇸US-🇯🇵JP_67
+      - Relay_🇺🇸US-🇺🇸US_51
+      - github.com/freefq - 美国CloudFlare节点 48
+      - JP_30
+      - github.com/freefq - 保加利亚  50
+      - github.com/freefq - 台湾省新北市中华电信 4
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
