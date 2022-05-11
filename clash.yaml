@@ -5,151 +5,183 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_1849, server: 172.99.190.35, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1730, server: 172.99.190.35, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_2068, server: 172.99.190.35, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_3348, server: 172.99.190.35, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: RO_1358, server: 185.225.19.64, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
-  - {name: US_1654, server: 172.99.190.35, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_3062, server: 172.99.190.35, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_2838, server: 167.172.135.97, port: 25453, type: ss, cipher: aes-256-cfb, password: a40ff797db5c4b948cfe5a5234a0e74c, udp: true}
-  - {name: ZZ_3592, server: 169.197.141.109, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CN_426, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_433, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_440, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_419, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_420, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_415, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_418, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_427, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_436, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_435, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_438, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_421, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_428, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_437, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_456, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇬🇧GB_457, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇧🇬BG_458, server: hncu.relay.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇹🇼TW_1620, server: 60.249.3.125, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_462, server: hncu.relay.qchwnd.moe, port: 44611, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 保加利亚  50, server: fr.node.qchwnd.moe, port: 44612, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3508, server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: cfaa1d87-16c9-45f2-8ca1-833badb6b790, sni: ocikr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇹🇼TW-🇹🇼TW_1623, server: 211.72.35.153, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
-  - {name: Pool_🇹🇼TW_1622, server: 60.249.3.125, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: ZZ_4260, server: 134.195.196.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_3932, server: 134.195.196.16, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: LT_1029, server: 213.183.53.202, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_1019, server: 213.183.53.202, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: LT_1072, server: 213.183.53.202, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: LT_1098, server: 213.183.53.202, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: LT_1095, server: 213.183.53.202, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: RU_1416, server: 217.30.10.63, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: LT_1115, server: 213.183.53.202, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: RO_1396, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: RU_1411, server: 217.30.10.63, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
+  - {name: LT_1127, server: 213.183.53.202, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: LT_1023, server: 213.183.53.202, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: LT_1006, server: 213.183.63.217, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: RU_1402, server: 217.30.10.63, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: RU_1526, server: 217.30.10.63, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: DE_674, server: 5.183.179.139, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: ZZ_4004, server: 134.195.196.187, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: LT_1069, server: 213.183.63.217, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: LT_1065, server: 213.183.53.202, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: RU_1419, server: 217.30.10.63, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: RU_1441, server: 217.30.10.64, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: RU_1437, server: 217.30.10.63, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: DE_559, server: 5.183.179.139, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: LT_1028, server: 213.183.63.217, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: US_2106, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: LT_1089, server: 213.183.53.202, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: RU_1551, server: 217.30.10.64, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: RU_1430, server: 217.30.10.63, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: LT_1096, server: 213.183.53.202, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: LT_1057, server: 213.183.53.202, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: LT_1107, server: 213.183.53.202, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: LT_1061, server: 213.183.53.202, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: LT_1021, server: 213.183.53.202, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: github.com/freefq - 香港HKCABLE 5, server: hkbn.okvpn.xyz, port: 12000, type: trojan, password: 0ce2ee7d-4889-4c64-8a75-4a86e6bbb1c4, sni: hkbn.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: LT_1002, server: 213.183.53.202, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: RU_1469, server: 217.30.10.63, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: LT_1094, server: 213.183.53.202, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: RU_1479, server: 217.30.10.63, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: LT_1016, server: 213.183.53.202, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1849
-      - US_1730
-      - US_2068
-      - US_3348
-      - RO_1358
-      - US_1654
-      - US_3062
-      - US_2838
-      - ZZ_3592
-      - CN_426
-      - CN_433
-      - CN_440
-      - CN_419
-      - CN_420
-      - CN_415
-      - CN_418
-      - CN_427
-      - CN_436
-      - CN_435
-      - CN_438
-      - CN_421
-      - CN_428
-      - Relay_🇨🇳CN-🇰🇷KR_437
-      - Relay_🇨🇳CN-🇬🇧GB_456
-      - Relay_🇨🇳CN-🇬🇧GB_457
-      - Relay_🇨🇳CN-🇧🇬BG_458
-      - Pool_🇹🇼TW_1620
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - github.com/freefq - 保加利亚  50
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - Relay_🇹🇼TW-🇹🇼TW_1623
-      - Pool_🇹🇼TW_1622
+      - ZZ_4260
+      - ZZ_3932
+      - LT_1029
+      - LT_1019
+      - LT_1072
+      - LT_1098
+      - LT_1095
+      - RU_1416
+      - LT_1115
+      - RO_1396
+      - RU_1411
+      - LT_1127
+      - LT_1023
+      - LT_1006
+      - RU_1402
+      - RU_1526
+      - DE_674
+      - ZZ_4004
+      - LT_1069
+      - LT_1065
+      - RU_1419
+      - RU_1441
+      - RU_1437
+      - DE_559
+      - LT_1028
+      - US_2106
+      - LT_1089
+      - RU_1551
+      - RU_1430
+      - LT_1096
+      - LT_1057
+      - LT_1107
+      - LT_1061
+      - LT_1021
+      - github.com/freefq - 香港HKCABLE 5
+      - LT_1002
+      - RU_1469
+      - LT_1094
+      - RU_1479
+      - LT_1016
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_1849
-      - US_1730
-      - US_2068
-      - US_3348
-      - RO_1358
-      - US_1654
-      - US_3062
-      - US_2838
-      - ZZ_3592
-      - CN_426
-      - CN_433
-      - CN_440
-      - CN_419
-      - CN_420
-      - CN_415
-      - CN_418
-      - CN_427
-      - CN_436
-      - CN_435
-      - CN_438
-      - CN_421
-      - CN_428
-      - Relay_🇨🇳CN-🇰🇷KR_437
-      - Relay_🇨🇳CN-🇬🇧GB_456
-      - Relay_🇨🇳CN-🇬🇧GB_457
-      - Relay_🇨🇳CN-🇧🇬BG_458
-      - Pool_🇹🇼TW_1620
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - github.com/freefq - 保加利亚  50
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - Relay_🇹🇼TW-🇹🇼TW_1623
-      - Pool_🇹🇼TW_1622
+      - ZZ_4260
+      - ZZ_3932
+      - LT_1029
+      - LT_1019
+      - LT_1072
+      - LT_1098
+      - LT_1095
+      - RU_1416
+      - LT_1115
+      - RO_1396
+      - RU_1411
+      - LT_1127
+      - LT_1023
+      - LT_1006
+      - RU_1402
+      - RU_1526
+      - DE_674
+      - ZZ_4004
+      - LT_1069
+      - LT_1065
+      - RU_1419
+      - RU_1441
+      - RU_1437
+      - DE_559
+      - LT_1028
+      - US_2106
+      - LT_1089
+      - RU_1551
+      - RU_1430
+      - LT_1096
+      - LT_1057
+      - LT_1107
+      - LT_1061
+      - LT_1021
+      - github.com/freefq - 香港HKCABLE 5
+      - LT_1002
+      - RU_1469
+      - LT_1094
+      - RU_1479
+      - LT_1016
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1849
-      - US_1730
-      - US_2068
-      - US_3348
-      - RO_1358
-      - US_1654
-      - US_3062
-      - US_2838
-      - ZZ_3592
-      - CN_426
-      - CN_433
-      - CN_440
-      - CN_419
-      - CN_420
-      - CN_415
-      - CN_418
-      - CN_427
-      - CN_436
-      - CN_435
-      - CN_438
-      - CN_421
-      - CN_428
-      - Relay_🇨🇳CN-🇰🇷KR_437
-      - Relay_🇨🇳CN-🇬🇧GB_456
-      - Relay_🇨🇳CN-🇬🇧GB_457
-      - Relay_🇨🇳CN-🇧🇬BG_458
-      - Pool_🇹🇼TW_1620
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - github.com/freefq - 保加利亚  50
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - Relay_🇹🇼TW-🇹🇼TW_1623
-      - Pool_🇹🇼TW_1622
+      - ZZ_4260
+      - ZZ_3932
+      - LT_1029
+      - LT_1019
+      - LT_1072
+      - LT_1098
+      - LT_1095
+      - RU_1416
+      - LT_1115
+      - RO_1396
+      - RU_1411
+      - LT_1127
+      - LT_1023
+      - LT_1006
+      - RU_1402
+      - RU_1526
+      - DE_674
+      - ZZ_4004
+      - LT_1069
+      - LT_1065
+      - RU_1419
+      - RU_1441
+      - RU_1437
+      - DE_559
+      - LT_1028
+      - US_2106
+      - LT_1089
+      - RU_1551
+      - RU_1430
+      - LT_1096
+      - LT_1057
+      - LT_1107
+      - LT_1061
+      - LT_1021
+      - github.com/freefq - 香港HKCABLE 5
+      - LT_1002
+      - RU_1469
+      - LT_1094
+      - RU_1479
+      - LT_1016
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,155 +200,188 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1849
-      - US_1730
-      - US_2068
-      - US_3348
-      - RO_1358
-      - US_1654
-      - US_3062
-      - US_2838
-      - ZZ_3592
-      - CN_426
-      - CN_433
-      - CN_440
-      - CN_419
-      - CN_420
-      - CN_415
-      - CN_418
-      - CN_427
-      - CN_436
-      - CN_435
-      - CN_438
-      - CN_421
-      - CN_428
-      - Relay_🇨🇳CN-🇰🇷KR_437
-      - Relay_🇨🇳CN-🇬🇧GB_456
-      - Relay_🇨🇳CN-🇬🇧GB_457
-      - Relay_🇨🇳CN-🇧🇬BG_458
-      - Pool_🇹🇼TW_1620
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - github.com/freefq - 保加利亚  50
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - Relay_🇹🇼TW-🇹🇼TW_1623
-      - Pool_🇹🇼TW_1622
+      - ZZ_4260
+      - ZZ_3932
+      - LT_1029
+      - LT_1019
+      - LT_1072
+      - LT_1098
+      - LT_1095
+      - RU_1416
+      - LT_1115
+      - RO_1396
+      - RU_1411
+      - LT_1127
+      - LT_1023
+      - LT_1006
+      - RU_1402
+      - RU_1526
+      - DE_674
+      - ZZ_4004
+      - LT_1069
+      - LT_1065
+      - RU_1419
+      - RU_1441
+      - RU_1437
+      - DE_559
+      - LT_1028
+      - US_2106
+      - LT_1089
+      - RU_1551
+      - RU_1430
+      - LT_1096
+      - LT_1057
+      - LT_1107
+      - LT_1061
+      - LT_1021
+      - github.com/freefq - 香港HKCABLE 5
+      - LT_1002
+      - RU_1469
+      - LT_1094
+      - RU_1479
+      - LT_1016
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - github.com/freefq - 香港HKCABLE 5
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_1849
-      - US_1730
-      - US_2068
-      - US_3348
-      - RO_1358
-      - US_1654
-      - US_3062
-      - US_2838
-      - ZZ_3592
-      - CN_426
-      - CN_433
-      - CN_440
-      - CN_419
-      - CN_420
-      - CN_415
-      - CN_418
-      - CN_427
-      - CN_436
-      - CN_435
-      - CN_438
-      - CN_421
-      - CN_428
-      - Relay_🇨🇳CN-🇰🇷KR_437
-      - Relay_🇨🇳CN-🇬🇧GB_456
-      - Relay_🇨🇳CN-🇬🇧GB_457
-      - Relay_🇨🇳CN-🇧🇬BG_458
-      - Pool_🇹🇼TW_1620
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - github.com/freefq - 保加利亚  50
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - Relay_🇹🇼TW-🇹🇼TW_1623
-      - Pool_🇹🇼TW_1622
+      - ZZ_4260
+      - ZZ_3932
+      - LT_1029
+      - LT_1019
+      - LT_1072
+      - LT_1098
+      - LT_1095
+      - RU_1416
+      - LT_1115
+      - RO_1396
+      - RU_1411
+      - LT_1127
+      - LT_1023
+      - LT_1006
+      - RU_1402
+      - RU_1526
+      - DE_674
+      - ZZ_4004
+      - LT_1069
+      - LT_1065
+      - RU_1419
+      - RU_1441
+      - RU_1437
+      - DE_559
+      - LT_1028
+      - US_2106
+      - LT_1089
+      - RU_1551
+      - RU_1430
+      - LT_1096
+      - LT_1057
+      - LT_1107
+      - LT_1061
+      - LT_1021
+      - github.com/freefq - 香港HKCABLE 5
+      - LT_1002
+      - RU_1469
+      - LT_1094
+      - RU_1479
+      - LT_1016
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_1849
-      - US_1730
-      - US_2068
-      - US_3348
-      - RO_1358
-      - US_1654
-      - US_3062
-      - US_2838
-      - ZZ_3592
-      - CN_426
-      - CN_433
-      - CN_440
-      - CN_419
-      - CN_420
-      - CN_415
-      - CN_418
-      - CN_427
-      - CN_436
-      - CN_435
-      - CN_438
-      - CN_421
-      - CN_428
-      - Relay_🇨🇳CN-🇰🇷KR_437
-      - Relay_🇨🇳CN-🇬🇧GB_456
-      - Relay_🇨🇳CN-🇬🇧GB_457
-      - Relay_🇨🇳CN-🇧🇬BG_458
-      - Pool_🇹🇼TW_1620
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - github.com/freefq - 保加利亚  50
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - Relay_🇹🇼TW-🇹🇼TW_1623
-      - Pool_🇹🇼TW_1622
+      - ZZ_4260
+      - ZZ_3932
+      - LT_1029
+      - LT_1019
+      - LT_1072
+      - LT_1098
+      - LT_1095
+      - RU_1416
+      - LT_1115
+      - RO_1396
+      - RU_1411
+      - LT_1127
+      - LT_1023
+      - LT_1006
+      - RU_1402
+      - RU_1526
+      - DE_674
+      - ZZ_4004
+      - LT_1069
+      - LT_1065
+      - RU_1419
+      - RU_1441
+      - RU_1437
+      - DE_559
+      - LT_1028
+      - US_2106
+      - LT_1089
+      - RU_1551
+      - RU_1430
+      - LT_1096
+      - LT_1057
+      - LT_1107
+      - LT_1061
+      - LT_1021
+      - github.com/freefq - 香港HKCABLE 5
+      - LT_1002
+      - RU_1469
+      - LT_1094
+      - RU_1479
+      - LT_1016
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1849
-      - US_1730
-      - US_2068
-      - US_3348
-      - RO_1358
-      - US_1654
-      - US_3062
-      - US_2838
-      - ZZ_3592
-      - CN_426
-      - CN_433
-      - CN_440
-      - CN_419
-      - CN_420
-      - CN_415
-      - CN_418
-      - CN_427
-      - CN_436
-      - CN_435
-      - CN_438
-      - CN_421
-      - CN_428
-      - Relay_🇨🇳CN-🇰🇷KR_437
-      - Relay_🇨🇳CN-🇬🇧GB_456
-      - Relay_🇨🇳CN-🇬🇧GB_457
-      - Relay_🇨🇳CN-🇧🇬BG_458
-      - Pool_🇹🇼TW_1620
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - github.com/freefq - 保加利亚  50
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - Relay_🇹🇼TW-🇹🇼TW_1623
-      - Pool_🇹🇼TW_1622
+      - ZZ_4260
+      - ZZ_3932
+      - LT_1029
+      - LT_1019
+      - LT_1072
+      - LT_1098
+      - LT_1095
+      - RU_1416
+      - LT_1115
+      - RO_1396
+      - RU_1411
+      - LT_1127
+      - LT_1023
+      - LT_1006
+      - RU_1402
+      - RU_1526
+      - DE_674
+      - ZZ_4004
+      - LT_1069
+      - LT_1065
+      - RU_1419
+      - RU_1441
+      - RU_1437
+      - DE_559
+      - LT_1028
+      - US_2106
+      - LT_1089
+      - RU_1551
+      - RU_1430
+      - LT_1096
+      - LT_1057
+      - LT_1107
+      - LT_1061
+      - LT_1021
+      - github.com/freefq - 香港HKCABLE 5
+      - LT_1002
+      - RU_1469
+      - LT_1094
+      - RU_1479
+      - LT_1016
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,38 +397,46 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1849
-      - US_1730
-      - US_2068
-      - US_3348
-      - RO_1358
-      - US_1654
-      - US_3062
-      - US_2838
-      - ZZ_3592
-      - CN_426
-      - CN_433
-      - CN_440
-      - CN_419
-      - CN_420
-      - CN_415
-      - CN_418
-      - CN_427
-      - CN_436
-      - CN_435
-      - CN_438
-      - CN_421
-      - CN_428
-      - Relay_🇨🇳CN-🇰🇷KR_437
-      - Relay_🇨🇳CN-🇬🇧GB_456
-      - Relay_🇨🇳CN-🇬🇧GB_457
-      - Relay_🇨🇳CN-🇧🇬BG_458
-      - Pool_🇹🇼TW_1620
-      - Relay_🇨🇳CN-🇺🇸US_462
-      - github.com/freefq - 保加利亚  50
-      - Relay_🇺🇸US-🇺🇸US_3508
-      - Relay_🇹🇼TW-🇹🇼TW_1623
-      - Pool_🇹🇼TW_1622
+      - ZZ_4260
+      - ZZ_3932
+      - LT_1029
+      - LT_1019
+      - LT_1072
+      - LT_1098
+      - LT_1095
+      - RU_1416
+      - LT_1115
+      - RO_1396
+      - RU_1411
+      - LT_1127
+      - LT_1023
+      - LT_1006
+      - RU_1402
+      - RU_1526
+      - DE_674
+      - ZZ_4004
+      - LT_1069
+      - LT_1065
+      - RU_1419
+      - RU_1441
+      - RU_1437
+      - DE_559
+      - LT_1028
+      - US_2106
+      - LT_1089
+      - RU_1551
+      - RU_1430
+      - LT_1096
+      - LT_1057
+      - LT_1107
+      - LT_1061
+      - LT_1021
+      - github.com/freefq - 香港HKCABLE 5
+      - LT_1002
+      - RU_1469
+      - LT_1094
+      - RU_1479
+      - LT_1016
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
