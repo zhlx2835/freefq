@@ -5,139 +5,159 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "", server: native.youzi.win, port: 28883, type: vmess, uuid: 62fc7a9f-6fc6-4e25-bef8-a24141a1321a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: native.youzi.win}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 1, server: 20.205.113.88, port: 80, type: vmess, uuid: 46935c0a-5bb7-4828-9a7d-7fb3f7c2e0a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: 20.205.113.88}, udp: true}
-  - {name: github.com/freefq - 香港特别行政区 2, server: an011.oioav.com, port: 11011, type: vmess, uuid: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /oioav, ws-headers: {Host: an011.oioav.com}, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_398, server: 223.166.129.29, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 223.166.129.29}, udp: true}
-  - {name: " 2", server: 120.240.168.118, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: " 3", server: 120.240.168.118, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
-  - {name: " 4", server: native.youzi.win, port: 28885, type: vmess, uuid: 62fc7a9f-6fc6-4e25-bef8-a24141a1321a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: native.youzi.win}, udp: true}
-  - {name: " 5", server: 223.166.129.29, port: 63087, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_387, server: 120.240.168.118, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: 120.240.168.118}, udp: true}
-  - {name: Relay_🇨🇳 CN-🇷🇺RU_348, server: gz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: f2fa64af-619b-4b09-9e6c-3f9ff6de077c, udp: true}
-  - {name: Relay_🇨🇳CN-🇭🇰HK_366, server: gz.bgp.rx.naiun.pw, port: 45251, type: ss, cipher: chacha20-ietf-poly1305, password: f2fa64af-619b-4b09-9e6c-3f9ff6de077c, udp: true}
-  - {name: US_2030, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1480, server: 38.121.43.91, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_2106, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_2018, server: 38.121.43.91, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: RO_1183, server: 185.225.19.64, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
-  - {name: CA_307, server: 72.140.224.197, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: ZZ_3297, server: 134.195.196.206, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "", server: 120.240.168.118, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_391, server: 120.240.168.118, port: 63078, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_397, server: 183.232.56.108, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.232.56.108}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3151, server: kr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: kr-direct-cdn.node001.xyz}, udp: true}
+  - {name: " 2", server: 112.64.53.217, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: " 3", server: fr-direct-cdn.node001.xyz, port: 2086, type: vmess, uuid: a1f3e867-8f8d-3763-bb80-21da561e6714, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: fr-direct-cdn.node001.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇳IN_398, server: 183.232.56.108, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: 183.232.56.108}, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_3188, server: v4.ssrsub.com, port: 8443, type: vmess, uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v4.ssrsub.com}, udp: true}
+  - {name: Relay_🇨🇳CN-🇷🇺RU_379, server: hz.bgp.rx.naiun.pw, port: 45240, type: ss, cipher: chacha20-ietf-poly1305, password: 4a050446-8653-4c92-8f76-cda609c4a257, udp: true}
+  - {name: LT_902, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_365, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_352, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_357, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_365, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_367, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_351, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_359, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_360, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_421, server: szdx.sub-nthu.com, port: 35005, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: szdx.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_413, server: lt.yhy520.xyz, port: 58802, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_401, server: dx.yhy520.xyz, port: 58804, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_429, server: lt.yhy520.xyz, port: 58819, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: lt.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_420, server: 123.59.72.193, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_417, server: 106.75.154.24, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_430, server: ygzyd.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: ygzyd.sub-nthu.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_421, server: 106.75.154.24, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_431, server: dx.yhy520.xyz, port: 58803, type: trojan, password: 981528f8-0dc8-3276-860f-74b6d31d6aef, sni: dx.yhy520.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_424, server: 106.75.154.24, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_422, server: 106.75.154.24, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_1381, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: f422be13-9143-4266-b355-ff004658853e, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_425, server: 106.75.154.24, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_426, server: 123.59.72.193, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_415, server: 123.59.72.193, port: 3389, type: trojan, password: a170b44c2dfac9e6, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_411, server: 123.59.72.193, port: 3389, type: trojan, password: 032532644f4fd784, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_408, server: shlt.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: shlt.sub-nthu.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_422, server: hnlt.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: hnlt.sub-nthu.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇺🇸US_423, server: cn2hn.sub-nthu.com, port: 35002, type: trojan, password: 87d5ee80-9dfa-4cb5-b644-062803bd0c19, sni: cn2hn.sub-nthu.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_802, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: RO_1230, server: 185.126.116.125, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_387
       - ""
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇭🇰HK_391
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - Relay_🇺🇸US-🇺🇸US_3151
       - " 2"
       - " 3"
-      - " 4"
-      - " 5"
-      - Relay_🇨🇳CN-🇺🇸US_387
-      - Relay_🇨🇳 CN-🇷🇺RU_348
-      - Relay_🇨🇳CN-🇭🇰HK_366
-      - US_2030
-      - US_1480
-      - US_2106
-      - US_2018
-      - RO_1183
-      - CA_307
-      - ZZ_3297
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇺🇸US-🇷🇺RU_3188
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - LT_902
+      - CN_365
       - CN_352
       - CN_357
-      - CN_365
-      - CN_367
-      - CN_351
       - CN_359
-      - CN_360
+      - Relay_🇨🇳CN-🇭🇰HK_413
+      - Relay_🇨🇳CN-🇭🇰HK_401
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_417
+      - Relay_🇨🇳CN-🇺🇸US_430
       - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - Relay_🇨🇳CN-🇹🇼TW_424
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇹🇼TW-🇹🇼TW_1381
+      - Relay_🇨🇳CN-🇹🇼TW_425
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_415
+      - Relay_🇨🇳CN-🇹🇼TW_411
+      - Relay_🇨🇳CN-🇺🇸US_408
       - Relay_🇨🇳CN-🇺🇸US_422
       - Relay_🇨🇳CN-🇺🇸US_423
-      - Relay_🇬🇧GB-🇬🇧GB_802
+      - RO_1230
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Relay_🇨🇳CN-🇺🇸US_387
       - ""
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇭🇰HK_391
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - Relay_🇺🇸US-🇺🇸US_3151
       - " 2"
       - " 3"
-      - " 4"
-      - " 5"
-      - Relay_🇨🇳CN-🇺🇸US_387
-      - Relay_🇨🇳 CN-🇷🇺RU_348
-      - Relay_🇨🇳CN-🇭🇰HK_366
-      - US_2030
-      - US_1480
-      - US_2106
-      - US_2018
-      - RO_1183
-      - CA_307
-      - ZZ_3297
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇺🇸US-🇷🇺RU_3188
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - LT_902
+      - CN_365
       - CN_352
       - CN_357
-      - CN_365
-      - CN_367
-      - CN_351
       - CN_359
-      - CN_360
+      - Relay_🇨🇳CN-🇭🇰HK_413
+      - Relay_🇨🇳CN-🇭🇰HK_401
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_417
+      - Relay_🇨🇳CN-🇺🇸US_430
       - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - Relay_🇨🇳CN-🇹🇼TW_424
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇹🇼TW-🇹🇼TW_1381
+      - Relay_🇨🇳CN-🇹🇼TW_425
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_415
+      - Relay_🇨🇳CN-🇹🇼TW_411
+      - Relay_🇨🇳CN-🇺🇸US_408
       - Relay_🇨🇳CN-🇺🇸US_422
       - Relay_🇨🇳CN-🇺🇸US_423
-      - Relay_🇬🇧GB-🇬🇧GB_802
+      - RO_1230
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_387
       - ""
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇭🇰HK_391
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - Relay_🇺🇸US-🇺🇸US_3151
       - " 2"
       - " 3"
-      - " 4"
-      - " 5"
-      - Relay_🇨🇳CN-🇺🇸US_387
-      - Relay_🇨🇳 CN-🇷🇺RU_348
-      - Relay_🇨🇳CN-🇭🇰HK_366
-      - US_2030
-      - US_1480
-      - US_2106
-      - US_2018
-      - RO_1183
-      - CA_307
-      - ZZ_3297
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇺🇸US-🇷🇺RU_3188
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - LT_902
+      - CN_365
       - CN_352
       - CN_357
-      - CN_365
-      - CN_367
-      - CN_351
       - CN_359
-      - CN_360
+      - Relay_🇨🇳CN-🇭🇰HK_413
+      - Relay_🇨🇳CN-🇭🇰HK_401
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_417
+      - Relay_🇨🇳CN-🇺🇸US_430
       - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - Relay_🇨🇳CN-🇹🇼TW_424
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇹🇼TW-🇹🇼TW_1381
+      - Relay_🇨🇳CN-🇹🇼TW_425
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_415
+      - Relay_🇨🇳CN-🇹🇼TW_411
+      - Relay_🇨🇳CN-🇺🇸US_408
       - Relay_🇨🇳CN-🇺🇸US_422
       - Relay_🇨🇳CN-🇺🇸US_423
-      - Relay_🇬🇧GB-🇬🇧GB_802
+      - RO_1230
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,144 +176,163 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_387
       - ""
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇭🇰HK_391
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - Relay_🇺🇸US-🇺🇸US_3151
       - " 2"
       - " 3"
-      - " 4"
-      - " 5"
-      - Relay_🇨🇳CN-🇺🇸US_387
-      - Relay_🇨🇳 CN-🇷🇺RU_348
-      - Relay_🇨🇳CN-🇭🇰HK_366
-      - US_2030
-      - US_1480
-      - US_2106
-      - US_2018
-      - RO_1183
-      - CA_307
-      - ZZ_3297
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇺🇸US-🇷🇺RU_3188
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - LT_902
+      - CN_365
       - CN_352
       - CN_357
-      - CN_365
-      - CN_367
-      - CN_351
       - CN_359
-      - CN_360
+      - Relay_🇨🇳CN-🇭🇰HK_413
+      - Relay_🇨🇳CN-🇭🇰HK_401
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_417
+      - Relay_🇨🇳CN-🇺🇸US_430
       - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - Relay_🇨🇳CN-🇹🇼TW_424
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇹🇼TW-🇹🇼TW_1381
+      - Relay_🇨🇳CN-🇹🇼TW_425
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_415
+      - Relay_🇨🇳CN-🇹🇼TW_411
+      - Relay_🇨🇳CN-🇺🇸US_408
       - Relay_🇨🇳CN-🇺🇸US_422
       - Relay_🇨🇳CN-🇺🇸US_423
-      - Relay_🇬🇧GB-🇬🇧GB_802
+      - RO_1230
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 香港特别行政区 2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Relay_🇨🇳CN-🇺🇸US_387
       - ""
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇭🇰HK_391
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - Relay_🇺🇸US-🇺🇸US_3151
       - " 2"
       - " 3"
-      - " 4"
-      - " 5"
-      - Relay_🇨🇳CN-🇺🇸US_387
-      - Relay_🇨🇳 CN-🇷🇺RU_348
-      - Relay_🇨🇳CN-🇭🇰HK_366
-      - US_2030
-      - US_1480
-      - US_2106
-      - US_2018
-      - RO_1183
-      - CA_307
-      - ZZ_3297
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇺🇸US-🇷🇺RU_3188
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - LT_902
+      - CN_365
       - CN_352
       - CN_357
-      - CN_365
-      - CN_367
-      - CN_351
       - CN_359
-      - CN_360
+      - Relay_🇨🇳CN-🇭🇰HK_413
+      - Relay_🇨🇳CN-🇭🇰HK_401
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_417
+      - Relay_🇨🇳CN-🇺🇸US_430
       - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - Relay_🇨🇳CN-🇹🇼TW_424
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇹🇼TW-🇹🇼TW_1381
+      - Relay_🇨🇳CN-🇹🇼TW_425
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_415
+      - Relay_🇨🇳CN-🇹🇼TW_411
+      - Relay_🇨🇳CN-🇺🇸US_408
       - Relay_🇨🇳CN-🇺🇸US_422
       - Relay_🇨🇳CN-🇺🇸US_423
-      - Relay_🇬🇧GB-🇬🇧GB_802
+      - RO_1230
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_387
       - ""
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇭🇰HK_391
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - Relay_🇺🇸US-🇺🇸US_3151
       - " 2"
       - " 3"
-      - " 4"
-      - " 5"
-      - Relay_🇨🇳CN-🇺🇸US_387
-      - Relay_🇨🇳 CN-🇷🇺RU_348
-      - Relay_🇨🇳CN-🇭🇰HK_366
-      - US_2030
-      - US_1480
-      - US_2106
-      - US_2018
-      - RO_1183
-      - CA_307
-      - ZZ_3297
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇺🇸US-🇷🇺RU_3188
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - LT_902
+      - CN_365
       - CN_352
       - CN_357
-      - CN_365
-      - CN_367
-      - CN_351
       - CN_359
-      - CN_360
+      - Relay_🇨🇳CN-🇭🇰HK_413
+      - Relay_🇨🇳CN-🇭🇰HK_401
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_417
+      - Relay_🇨🇳CN-🇺🇸US_430
       - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - Relay_🇨🇳CN-🇹🇼TW_424
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇹🇼TW-🇹🇼TW_1381
+      - Relay_🇨🇳CN-🇹🇼TW_425
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_415
+      - Relay_🇨🇳CN-🇹🇼TW_411
+      - Relay_🇨🇳CN-🇺🇸US_408
       - Relay_🇨🇳CN-🇺🇸US_422
       - Relay_🇨🇳CN-🇺🇸US_423
-      - Relay_🇬🇧GB-🇬🇧GB_802
+      - RO_1230
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇨🇳CN-🇺🇸US_387
       - ""
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇭🇰HK_391
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - Relay_🇺🇸US-🇺🇸US_3151
       - " 2"
       - " 3"
-      - " 4"
-      - " 5"
-      - Relay_🇨🇳CN-🇺🇸US_387
-      - Relay_🇨🇳 CN-🇷🇺RU_348
-      - Relay_🇨🇳CN-🇭🇰HK_366
-      - US_2030
-      - US_1480
-      - US_2106
-      - US_2018
-      - RO_1183
-      - CA_307
-      - ZZ_3297
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇺🇸US-🇷🇺RU_3188
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - LT_902
+      - CN_365
       - CN_352
       - CN_357
-      - CN_365
-      - CN_367
-      - CN_351
       - CN_359
-      - CN_360
+      - Relay_🇨🇳CN-🇭🇰HK_413
+      - Relay_🇨🇳CN-🇭🇰HK_401
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_417
+      - Relay_🇨🇳CN-🇺🇸US_430
       - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - Relay_🇨🇳CN-🇹🇼TW_424
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇹🇼TW-🇹🇼TW_1381
+      - Relay_🇨🇳CN-🇹🇼TW_425
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_415
+      - Relay_🇨🇳CN-🇹🇼TW_411
+      - Relay_🇨🇳CN-🇺🇸US_408
       - Relay_🇨🇳CN-🇺🇸US_422
       - Relay_🇨🇳CN-🇺🇸US_423
-      - Relay_🇬🇧GB-🇬🇧GB_802
+      - RO_1230
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -309,35 +348,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇨🇳CN-🇺🇸US_387
       - ""
-      - github.com/freefq - 美国Microsoft数据中心 1
-      - github.com/freefq - 香港特别行政区 2
-      - Relay_🇨🇳CN-🇸🇬SG_398
+      - Relay_🇨🇳CN-🇭🇰HK_391
+      - Relay_🇨🇳CN-🇺🇸US_397
+      - Relay_🇺🇸US-🇺🇸US_3151
       - " 2"
       - " 3"
-      - " 4"
-      - " 5"
-      - Relay_🇨🇳CN-🇺🇸US_387
-      - Relay_🇨🇳 CN-🇷🇺RU_348
-      - Relay_🇨🇳CN-🇭🇰HK_366
-      - US_2030
-      - US_1480
-      - US_2106
-      - US_2018
-      - RO_1183
-      - CA_307
-      - ZZ_3297
+      - Relay_🇨🇳CN-🇮🇳IN_398
+      - Relay_🇺🇸US-🇷🇺RU_3188
+      - Relay_🇨🇳CN-🇷🇺RU_379
+      - LT_902
+      - CN_365
       - CN_352
       - CN_357
-      - CN_365
-      - CN_367
-      - CN_351
       - CN_359
-      - CN_360
+      - Relay_🇨🇳CN-🇭🇰HK_413
+      - Relay_🇨🇳CN-🇭🇰HK_401
+      - Relay_🇨🇳CN-🇭🇰HK_429
+      - Relay_🇨🇳CN-🇹🇼TW_420
+      - Relay_🇨🇳CN-🇹🇼TW_417
+      - Relay_🇨🇳CN-🇺🇸US_430
       - Relay_🇨🇳CN-🇹🇼TW_421
+      - Relay_🇨🇳CN-🇭🇰HK_431
+      - Relay_🇨🇳CN-🇹🇼TW_424
+      - Relay_🇨🇳CN-🇹🇼TW_422
+      - Relay_🇹🇼TW-🇹🇼TW_1381
+      - Relay_🇨🇳CN-🇹🇼TW_425
+      - Relay_🇨🇳CN-🇹🇼TW_426
+      - Relay_🇨🇳CN-🇹🇼TW_415
+      - Relay_🇨🇳CN-🇹🇼TW_411
+      - Relay_🇨🇳CN-🇺🇸US_408
       - Relay_🇨🇳CN-🇺🇸US_422
       - Relay_🇨🇳CN-🇺🇸US_423
-      - Relay_🇬🇧GB-🇬🇧GB_802
+      - RO_1230
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
