@@ -5,187 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: KR_851, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2997, server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: d4fd37ae-893c-4486-b59a-da43ce2ae0f9, sni: ocikr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2962, server: ppy-cmcc.0098dns02in.work, port: 26014, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_2970, server: ppy-giacn2.0098dns02in.work, port: 26023, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2962 2, server: ppy-cmcc.0098dns02in.work, port: 26014, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_2971, server: ppy-giacn2.0098dns02in.work, port: 26021, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2982, server: ppy-cmcc.0098dns02in.work, port: 26010, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2983, server: ppy-cmcc.0098dns02in.work, port: 26011, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2972, server: ppy-cmcc.0098dns02in.work, port: 26013, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2983 2, server: ppy-cmcc.0098dns02in.work, port: 26011, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2982 2, server: ppy-cmcc.0098dns02in.work, port: 26010, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_388, server: umhn5r.zhs.company, port: 60009, type: vmess, uuid: 67caeeac-e80d-3188-8822-8339eebca085, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zhs, ws-headers: {Host: sglyc6.zhs.company}, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2984, server: ppy-cmcc.0098dns02in.work, port: 26012, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2984 2, server: ppy-cmcc.0098dns02in.work, port: 26012, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_2971 2, server: ppy-giacn2.0098dns02in.work, port: 26021, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2977, server: ppy-giacn2.0098dns02in.work, port: 26003, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2972 2, server: ppy-cmcc.0098dns02in.work, port: 26013, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2980, server: ppy-giacn2.0098dns02in.work, port: 26002, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🏁ZZ_2978, server: ppy-giacn2.0098dns02in.work, port: 26001, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_2969, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2980 2, server: ppy-giacn2.0098dns02in.work, port: 26002, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_2969 2, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🏁ZZ_2978 2, server: ppy-giacn2.0098dns02in.work, port: 26001, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_392, server: guangzhou.kuli888.xyz, port: 52004, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: guangzhou.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1380, server: sglyc6.zhs.company, port: 2087, type: vmess, uuid: 67caeeac-e80d-3188-8822-8339eebca085, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zhs, ws-headers: {Host: sglyc6.zhs.company}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2992, server: uk.node.qchwnd.moe, port: 44613, type: trojan, password: d4fd37ae-893c-4486-b59a-da43ce2ae0f9, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_2970 2, server: ppy-giacn2.0098dns02in.work, port: 26023, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_388 2, server: umhn5r.zhs.company, port: 60009, type: vmess, uuid: 67caeeac-e80d-3188-8822-8339eebca085, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zhs, ws-headers: {Host: umhn5r.zhs.company}, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_2968, server: ppy-giacn2.0098dns02in.work, port: 26020, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_2967, server: ppy-cmcc.0098dns02in.work, port: 26009, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2963, server: ppy-cmcc.0098dns02in.work, port: 26015, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_1349, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: d4fd37ae-893c-4486-b59a-da43ce2ae0f9, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2963 2, server: ppy-cmcc.0098dns02in.work, port: 26015, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_2965, server: ppy-cmcc.0098dns02in.work, port: 26007, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇦CA_2968 2, server: ppy-giacn2.0098dns02in.work, port: 26020, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_2966, server: ppy-cmcc.0098dns02in.work, port: 26008, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_2964, server: ppy-cmcc.0098dns02in.work, port: 26006, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_2964 2, server: ppy-cmcc.0098dns02in.work, port: 26006, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_2967 2, server: ppy-cmcc.0098dns02in.work, port: 26009, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_2965 2, server: ppy-cmcc.0098dns02in.work, port: 26007, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_2966 2, server: ppy-cmcc.0098dns02in.work, port: 26008, type: vmess, uuid: 708310bf-b4b2-3826-8071-956a85b1fe4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇭🇰HK_3060, server: jupiter.hk.v4.e1dns.com, port: 443, type: vmess, uuid: 4a9e6b6e-ec2c-4b89-9df6-5118fa07f1d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇭🇰HK_3060 2, server: jupiter.hk.v4.e1dns.com, port: 443, type: vmess, uuid: 4a9e6b6e-ec2c-4b89-9df6-5118fa07f1d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 37, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v3.ssrsub.com}, udp: true}
+  - {name: US_1929, server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9, udp: true}
+  - {name: RU_1597, server: 217.30.10.64, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: RU_1540, server: 217.30.10.64, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_3084, server: living.starspace.link, port: 443, type: trojan, password: NNhSlVRhte1Vzw5D, sni: living.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_718, server: de-02.fireplay.io, port: 443, type: trojan, password: YrnU2nhCTrx7aPLU, sni: de-02.fireplay.io, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR_851
-      - Relay_🇺🇸US-🇺🇸US_2997
-      - Relay_🇺🇸US-🇺🇸US_2962
-      - Relay_🇺🇸US-🇨🇦CA_2970
-      - Relay_🇺🇸US-🇺🇸US_2962 2
-      - Relay_🇺🇸US-🇨🇦CA_2971
-      - Relay_🇺🇸US-🇹🇼TW_2982
-      - Relay_🇺🇸US-🇹🇼TW_2983
-      - Relay_🇺🇸US-🇹🇼TW_2972
-      - Relay_🇺🇸US-🇹🇼TW_2983 2
-      - Relay_🇺🇸US-🇹🇼TW_2982 2
-      - Relay_🇨🇳CN-🇸🇬SG_388
-      - Relay_🇺🇸US-🇹🇼TW_2984
-      - Relay_🇺🇸US-🇹🇼TW_2984 2
-      - Relay_🇺🇸US-🇨🇦CA_2971 2
-      - Relay_🇺🇸US-🇺🇸US_2977
-      - Relay_🇺🇸US-🇹🇼TW_2972 2
-      - Relay_🇺🇸US-🇺🇸US_2980
-      - Relay_🇺🇸US-🏁ZZ_2978
-      - Relay_🇺🇸US-🇨🇦CA_2969
-      - Relay_🇺🇸US-🇺🇸US_2980 2
-      - Relay_🇺🇸US-🇨🇦CA_2969 2
-      - Relay_🇺🇸US-🏁ZZ_2978 2
-      - Relay_🇨🇳CN-🇹🇼TW_392
-      - Relay_🇸🇬SG-🇸🇬SG_1380
-      - Relay_🇺🇸US-🇺🇸US_2992
-      - Relay_🇺🇸US-🇨🇦CA_2970 2
-      - Relay_🇨🇳CN-🇸🇬SG_388 2
-      - Relay_🇺🇸US-🇨🇦CA_2968
-      - Relay_🇺🇸US-🇯🇵JP_2967
-      - Relay_🇺🇸US-🇺🇸US_2963
-      - Relay_🇷🇺RU-🇷🇺RU_1349
-      - Relay_🇺🇸US-🇺🇸US_2963 2
-      - Relay_🇺🇸US-🇯🇵JP_2965
-      - Relay_🇺🇸US-🇨🇦CA_2968 2
-      - Relay_🇺🇸US-🇯🇵JP_2966
-      - Relay_🇺🇸US-🇯🇵JP_2964
-      - Relay_🇺🇸US-🇯🇵JP_2964 2
-      - Relay_🇺🇸US-🇯🇵JP_2967 2
-      - Relay_🇺🇸US-🇯🇵JP_2965 2
-      - Relay_🇺🇸US-🇯🇵JP_2966 2
+      - Relay_🇺🇸US-🇭🇰HK_3060
+      - Relay_🇺🇸US-🇭🇰HK_3060 2
+      - github.com/freefq - 美国CloudFlare节点 37
+      - US_1929
+      - RU_1597
+      - RU_1540
+      - Relay_🇺🇸US-🇺🇸US_3084
+      - Relay_🇬🇧GB-🇬🇧GB_718
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - KR_851
-      - Relay_🇺🇸US-🇺🇸US_2997
-      - Relay_🇺🇸US-🇺🇸US_2962
-      - Relay_🇺🇸US-🇨🇦CA_2970
-      - Relay_🇺🇸US-🇺🇸US_2962 2
-      - Relay_🇺🇸US-🇨🇦CA_2971
-      - Relay_🇺🇸US-🇹🇼TW_2982
-      - Relay_🇺🇸US-🇹🇼TW_2983
-      - Relay_🇺🇸US-🇹🇼TW_2972
-      - Relay_🇺🇸US-🇹🇼TW_2983 2
-      - Relay_🇺🇸US-🇹🇼TW_2982 2
-      - Relay_🇨🇳CN-🇸🇬SG_388
-      - Relay_🇺🇸US-🇹🇼TW_2984
-      - Relay_🇺🇸US-🇹🇼TW_2984 2
-      - Relay_🇺🇸US-🇨🇦CA_2971 2
-      - Relay_🇺🇸US-🇺🇸US_2977
-      - Relay_🇺🇸US-🇹🇼TW_2972 2
-      - Relay_🇺🇸US-🇺🇸US_2980
-      - Relay_🇺🇸US-🏁ZZ_2978
-      - Relay_🇺🇸US-🇨🇦CA_2969
-      - Relay_🇺🇸US-🇺🇸US_2980 2
-      - Relay_🇺🇸US-🇨🇦CA_2969 2
-      - Relay_🇺🇸US-🏁ZZ_2978 2
-      - Relay_🇨🇳CN-🇹🇼TW_392
-      - Relay_🇸🇬SG-🇸🇬SG_1380
-      - Relay_🇺🇸US-🇺🇸US_2992
-      - Relay_🇺🇸US-🇨🇦CA_2970 2
-      - Relay_🇨🇳CN-🇸🇬SG_388 2
-      - Relay_🇺🇸US-🇨🇦CA_2968
-      - Relay_🇺🇸US-🇯🇵JP_2967
-      - Relay_🇺🇸US-🇺🇸US_2963
-      - Relay_🇷🇺RU-🇷🇺RU_1349
-      - Relay_🇺🇸US-🇺🇸US_2963 2
-      - Relay_🇺🇸US-🇯🇵JP_2965
-      - Relay_🇺🇸US-🇨🇦CA_2968 2
-      - Relay_🇺🇸US-🇯🇵JP_2966
-      - Relay_🇺🇸US-🇯🇵JP_2964
-      - Relay_🇺🇸US-🇯🇵JP_2964 2
-      - Relay_🇺🇸US-🇯🇵JP_2967 2
-      - Relay_🇺🇸US-🇯🇵JP_2965 2
-      - Relay_🇺🇸US-🇯🇵JP_2966 2
+      - Relay_🇺🇸US-🇭🇰HK_3060
+      - Relay_🇺🇸US-🇭🇰HK_3060 2
+      - github.com/freefq - 美国CloudFlare节点 37
+      - US_1929
+      - RU_1597
+      - RU_1540
+      - Relay_🇺🇸US-🇺🇸US_3084
+      - Relay_🇬🇧GB-🇬🇧GB_718
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR_851
-      - Relay_🇺🇸US-🇺🇸US_2997
-      - Relay_🇺🇸US-🇺🇸US_2962
-      - Relay_🇺🇸US-🇨🇦CA_2970
-      - Relay_🇺🇸US-🇺🇸US_2962 2
-      - Relay_🇺🇸US-🇨🇦CA_2971
-      - Relay_🇺🇸US-🇹🇼TW_2982
-      - Relay_🇺🇸US-🇹🇼TW_2983
-      - Relay_🇺🇸US-🇹🇼TW_2972
-      - Relay_🇺🇸US-🇹🇼TW_2983 2
-      - Relay_🇺🇸US-🇹🇼TW_2982 2
-      - Relay_🇨🇳CN-🇸🇬SG_388
-      - Relay_🇺🇸US-🇹🇼TW_2984
-      - Relay_🇺🇸US-🇹🇼TW_2984 2
-      - Relay_🇺🇸US-🇨🇦CA_2971 2
-      - Relay_🇺🇸US-🇺🇸US_2977
-      - Relay_🇺🇸US-🇹🇼TW_2972 2
-      - Relay_🇺🇸US-🇺🇸US_2980
-      - Relay_🇺🇸US-🏁ZZ_2978
-      - Relay_🇺🇸US-🇨🇦CA_2969
-      - Relay_🇺🇸US-🇺🇸US_2980 2
-      - Relay_🇺🇸US-🇨🇦CA_2969 2
-      - Relay_🇺🇸US-🏁ZZ_2978 2
-      - Relay_🇨🇳CN-🇹🇼TW_392
-      - Relay_🇸🇬SG-🇸🇬SG_1380
-      - Relay_🇺🇸US-🇺🇸US_2992
-      - Relay_🇺🇸US-🇨🇦CA_2970 2
-      - Relay_🇨🇳CN-🇸🇬SG_388 2
-      - Relay_🇺🇸US-🇨🇦CA_2968
-      - Relay_🇺🇸US-🇯🇵JP_2967
-      - Relay_🇺🇸US-🇺🇸US_2963
-      - Relay_🇷🇺RU-🇷🇺RU_1349
-      - Relay_🇺🇸US-🇺🇸US_2963 2
-      - Relay_🇺🇸US-🇯🇵JP_2965
-      - Relay_🇺🇸US-🇨🇦CA_2968 2
-      - Relay_🇺🇸US-🇯🇵JP_2966
-      - Relay_🇺🇸US-🇯🇵JP_2964
-      - Relay_🇺🇸US-🇯🇵JP_2964 2
-      - Relay_🇺🇸US-🇯🇵JP_2967 2
-      - Relay_🇺🇸US-🇯🇵JP_2965 2
-      - Relay_🇺🇸US-🇯🇵JP_2966 2
+      - Relay_🇺🇸US-🇭🇰HK_3060
+      - Relay_🇺🇸US-🇭🇰HK_3060 2
+      - github.com/freefq - 美国CloudFlare节点 37
+      - US_1929
+      - RU_1597
+      - RU_1540
+      - Relay_🇺🇸US-🇺🇸US_3084
+      - Relay_🇬🇧GB-🇬🇧GB_718
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -204,47 +72,14 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR_851
-      - Relay_🇺🇸US-🇺🇸US_2997
-      - Relay_🇺🇸US-🇺🇸US_2962
-      - Relay_🇺🇸US-🇨🇦CA_2970
-      - Relay_🇺🇸US-🇺🇸US_2962 2
-      - Relay_🇺🇸US-🇨🇦CA_2971
-      - Relay_🇺🇸US-🇹🇼TW_2982
-      - Relay_🇺🇸US-🇹🇼TW_2983
-      - Relay_🇺🇸US-🇹🇼TW_2972
-      - Relay_🇺🇸US-🇹🇼TW_2983 2
-      - Relay_🇺🇸US-🇹🇼TW_2982 2
-      - Relay_🇨🇳CN-🇸🇬SG_388
-      - Relay_🇺🇸US-🇹🇼TW_2984
-      - Relay_🇺🇸US-🇹🇼TW_2984 2
-      - Relay_🇺🇸US-🇨🇦CA_2971 2
-      - Relay_🇺🇸US-🇺🇸US_2977
-      - Relay_🇺🇸US-🇹🇼TW_2972 2
-      - Relay_🇺🇸US-🇺🇸US_2980
-      - Relay_🇺🇸US-🏁ZZ_2978
-      - Relay_🇺🇸US-🇨🇦CA_2969
-      - Relay_🇺🇸US-🇺🇸US_2980 2
-      - Relay_🇺🇸US-🇨🇦CA_2969 2
-      - Relay_🇺🇸US-🏁ZZ_2978 2
-      - Relay_🇨🇳CN-🇹🇼TW_392
-      - Relay_🇸🇬SG-🇸🇬SG_1380
-      - Relay_🇺🇸US-🇺🇸US_2992
-      - Relay_🇺🇸US-🇨🇦CA_2970 2
-      - Relay_🇨🇳CN-🇸🇬SG_388 2
-      - Relay_🇺🇸US-🇨🇦CA_2968
-      - Relay_🇺🇸US-🇯🇵JP_2967
-      - Relay_🇺🇸US-🇺🇸US_2963
-      - Relay_🇷🇺RU-🇷🇺RU_1349
-      - Relay_🇺🇸US-🇺🇸US_2963 2
-      - Relay_🇺🇸US-🇯🇵JP_2965
-      - Relay_🇺🇸US-🇨🇦CA_2968 2
-      - Relay_🇺🇸US-🇯🇵JP_2966
-      - Relay_🇺🇸US-🇯🇵JP_2964
-      - Relay_🇺🇸US-🇯🇵JP_2964 2
-      - Relay_🇺🇸US-🇯🇵JP_2967 2
-      - Relay_🇺🇸US-🇯🇵JP_2965 2
-      - Relay_🇺🇸US-🇯🇵JP_2966 2
+      - Relay_🇺🇸US-🇭🇰HK_3060
+      - Relay_🇺🇸US-🇭🇰HK_3060 2
+      - github.com/freefq - 美国CloudFlare节点 37
+      - US_1929
+      - RU_1597
+      - RU_1540
+      - Relay_🇺🇸US-🇺🇸US_3084
+      - Relay_🇬🇧GB-🇬🇧GB_718
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -255,140 +90,41 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - KR_851
-      - Relay_🇺🇸US-🇺🇸US_2997
-      - Relay_🇺🇸US-🇺🇸US_2962
-      - Relay_🇺🇸US-🇨🇦CA_2970
-      - Relay_🇺🇸US-🇺🇸US_2962 2
-      - Relay_🇺🇸US-🇨🇦CA_2971
-      - Relay_🇺🇸US-🇹🇼TW_2982
-      - Relay_🇺🇸US-🇹🇼TW_2983
-      - Relay_🇺🇸US-🇹🇼TW_2972
-      - Relay_🇺🇸US-🇹🇼TW_2983 2
-      - Relay_🇺🇸US-🇹🇼TW_2982 2
-      - Relay_🇨🇳CN-🇸🇬SG_388
-      - Relay_🇺🇸US-🇹🇼TW_2984
-      - Relay_🇺🇸US-🇹🇼TW_2984 2
-      - Relay_🇺🇸US-🇨🇦CA_2971 2
-      - Relay_🇺🇸US-🇺🇸US_2977
-      - Relay_🇺🇸US-🇹🇼TW_2972 2
-      - Relay_🇺🇸US-🇺🇸US_2980
-      - Relay_🇺🇸US-🏁ZZ_2978
-      - Relay_🇺🇸US-🇨🇦CA_2969
-      - Relay_🇺🇸US-🇺🇸US_2980 2
-      - Relay_🇺🇸US-🇨🇦CA_2969 2
-      - Relay_🇺🇸US-🏁ZZ_2978 2
-      - Relay_🇨🇳CN-🇹🇼TW_392
-      - Relay_🇸🇬SG-🇸🇬SG_1380
-      - Relay_🇺🇸US-🇺🇸US_2992
-      - Relay_🇺🇸US-🇨🇦CA_2970 2
-      - Relay_🇨🇳CN-🇸🇬SG_388 2
-      - Relay_🇺🇸US-🇨🇦CA_2968
-      - Relay_🇺🇸US-🇯🇵JP_2967
-      - Relay_🇺🇸US-🇺🇸US_2963
-      - Relay_🇷🇺RU-🇷🇺RU_1349
-      - Relay_🇺🇸US-🇺🇸US_2963 2
-      - Relay_🇺🇸US-🇯🇵JP_2965
-      - Relay_🇺🇸US-🇨🇦CA_2968 2
-      - Relay_🇺🇸US-🇯🇵JP_2966
-      - Relay_🇺🇸US-🇯🇵JP_2964
-      - Relay_🇺🇸US-🇯🇵JP_2964 2
-      - Relay_🇺🇸US-🇯🇵JP_2967 2
-      - Relay_🇺🇸US-🇯🇵JP_2965 2
-      - Relay_🇺🇸US-🇯🇵JP_2966 2
+      - Relay_🇺🇸US-🇭🇰HK_3060
+      - Relay_🇺🇸US-🇭🇰HK_3060 2
+      - github.com/freefq - 美国CloudFlare节点 37
+      - US_1929
+      - RU_1597
+      - RU_1540
+      - Relay_🇺🇸US-🇺🇸US_3084
+      - Relay_🇬🇧GB-🇬🇧GB_718
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - KR_851
-      - Relay_🇺🇸US-🇺🇸US_2997
-      - Relay_🇺🇸US-🇺🇸US_2962
-      - Relay_🇺🇸US-🇨🇦CA_2970
-      - Relay_🇺🇸US-🇺🇸US_2962 2
-      - Relay_🇺🇸US-🇨🇦CA_2971
-      - Relay_🇺🇸US-🇹🇼TW_2982
-      - Relay_🇺🇸US-🇹🇼TW_2983
-      - Relay_🇺🇸US-🇹🇼TW_2972
-      - Relay_🇺🇸US-🇹🇼TW_2983 2
-      - Relay_🇺🇸US-🇹🇼TW_2982 2
-      - Relay_🇨🇳CN-🇸🇬SG_388
-      - Relay_🇺🇸US-🇹🇼TW_2984
-      - Relay_🇺🇸US-🇹🇼TW_2984 2
-      - Relay_🇺🇸US-🇨🇦CA_2971 2
-      - Relay_🇺🇸US-🇺🇸US_2977
-      - Relay_🇺🇸US-🇹🇼TW_2972 2
-      - Relay_🇺🇸US-🇺🇸US_2980
-      - Relay_🇺🇸US-🏁ZZ_2978
-      - Relay_🇺🇸US-🇨🇦CA_2969
-      - Relay_🇺🇸US-🇺🇸US_2980 2
-      - Relay_🇺🇸US-🇨🇦CA_2969 2
-      - Relay_🇺🇸US-🏁ZZ_2978 2
-      - Relay_🇨🇳CN-🇹🇼TW_392
-      - Relay_🇸🇬SG-🇸🇬SG_1380
-      - Relay_🇺🇸US-🇺🇸US_2992
-      - Relay_🇺🇸US-🇨🇦CA_2970 2
-      - Relay_🇨🇳CN-🇸🇬SG_388 2
-      - Relay_🇺🇸US-🇨🇦CA_2968
-      - Relay_🇺🇸US-🇯🇵JP_2967
-      - Relay_🇺🇸US-🇺🇸US_2963
-      - Relay_🇷🇺RU-🇷🇺RU_1349
-      - Relay_🇺🇸US-🇺🇸US_2963 2
-      - Relay_🇺🇸US-🇯🇵JP_2965
-      - Relay_🇺🇸US-🇨🇦CA_2968 2
-      - Relay_🇺🇸US-🇯🇵JP_2966
-      - Relay_🇺🇸US-🇯🇵JP_2964
-      - Relay_🇺🇸US-🇯🇵JP_2964 2
-      - Relay_🇺🇸US-🇯🇵JP_2967 2
-      - Relay_🇺🇸US-🇯🇵JP_2965 2
-      - Relay_🇺🇸US-🇯🇵JP_2966 2
+      - Relay_🇺🇸US-🇭🇰HK_3060
+      - Relay_🇺🇸US-🇭🇰HK_3060 2
+      - github.com/freefq - 美国CloudFlare节点 37
+      - US_1929
+      - RU_1597
+      - RU_1540
+      - Relay_🇺🇸US-🇺🇸US_3084
+      - Relay_🇬🇧GB-🇬🇧GB_718
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - KR_851
-      - Relay_🇺🇸US-🇺🇸US_2997
-      - Relay_🇺🇸US-🇺🇸US_2962
-      - Relay_🇺🇸US-🇨🇦CA_2970
-      - Relay_🇺🇸US-🇺🇸US_2962 2
-      - Relay_🇺🇸US-🇨🇦CA_2971
-      - Relay_🇺🇸US-🇹🇼TW_2982
-      - Relay_🇺🇸US-🇹🇼TW_2983
-      - Relay_🇺🇸US-🇹🇼TW_2972
-      - Relay_🇺🇸US-🇹🇼TW_2983 2
-      - Relay_🇺🇸US-🇹🇼TW_2982 2
-      - Relay_🇨🇳CN-🇸🇬SG_388
-      - Relay_🇺🇸US-🇹🇼TW_2984
-      - Relay_🇺🇸US-🇹🇼TW_2984 2
-      - Relay_🇺🇸US-🇨🇦CA_2971 2
-      - Relay_🇺🇸US-🇺🇸US_2977
-      - Relay_🇺🇸US-🇹🇼TW_2972 2
-      - Relay_🇺🇸US-🇺🇸US_2980
-      - Relay_🇺🇸US-🏁ZZ_2978
-      - Relay_🇺🇸US-🇨🇦CA_2969
-      - Relay_🇺🇸US-🇺🇸US_2980 2
-      - Relay_🇺🇸US-🇨🇦CA_2969 2
-      - Relay_🇺🇸US-🏁ZZ_2978 2
-      - Relay_🇨🇳CN-🇹🇼TW_392
-      - Relay_🇸🇬SG-🇸🇬SG_1380
-      - Relay_🇺🇸US-🇺🇸US_2992
-      - Relay_🇺🇸US-🇨🇦CA_2970 2
-      - Relay_🇨🇳CN-🇸🇬SG_388 2
-      - Relay_🇺🇸US-🇨🇦CA_2968
-      - Relay_🇺🇸US-🇯🇵JP_2967
-      - Relay_🇺🇸US-🇺🇸US_2963
-      - Relay_🇷🇺RU-🇷🇺RU_1349
-      - Relay_🇺🇸US-🇺🇸US_2963 2
-      - Relay_🇺🇸US-🇯🇵JP_2965
-      - Relay_🇺🇸US-🇨🇦CA_2968 2
-      - Relay_🇺🇸US-🇯🇵JP_2966
-      - Relay_🇺🇸US-🇯🇵JP_2964
-      - Relay_🇺🇸US-🇯🇵JP_2964 2
-      - Relay_🇺🇸US-🇯🇵JP_2967 2
-      - Relay_🇺🇸US-🇯🇵JP_2965 2
-      - Relay_🇺🇸US-🇯🇵JP_2966 2
+      - Relay_🇺🇸US-🇭🇰HK_3060
+      - Relay_🇺🇸US-🇭🇰HK_3060 2
+      - github.com/freefq - 美国CloudFlare节点 37
+      - US_1929
+      - RU_1597
+      - RU_1540
+      - Relay_🇺🇸US-🇺🇸US_3084
+      - Relay_🇬🇧GB-🇬🇧GB_718
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -404,47 +140,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - KR_851
-      - Relay_🇺🇸US-🇺🇸US_2997
-      - Relay_🇺🇸US-🇺🇸US_2962
-      - Relay_🇺🇸US-🇨🇦CA_2970
-      - Relay_🇺🇸US-🇺🇸US_2962 2
-      - Relay_🇺🇸US-🇨🇦CA_2971
-      - Relay_🇺🇸US-🇹🇼TW_2982
-      - Relay_🇺🇸US-🇹🇼TW_2983
-      - Relay_🇺🇸US-🇹🇼TW_2972
-      - Relay_🇺🇸US-🇹🇼TW_2983 2
-      - Relay_🇺🇸US-🇹🇼TW_2982 2
-      - Relay_🇨🇳CN-🇸🇬SG_388
-      - Relay_🇺🇸US-🇹🇼TW_2984
-      - Relay_🇺🇸US-🇹🇼TW_2984 2
-      - Relay_🇺🇸US-🇨🇦CA_2971 2
-      - Relay_🇺🇸US-🇺🇸US_2977
-      - Relay_🇺🇸US-🇹🇼TW_2972 2
-      - Relay_🇺🇸US-🇺🇸US_2980
-      - Relay_🇺🇸US-🏁ZZ_2978
-      - Relay_🇺🇸US-🇨🇦CA_2969
-      - Relay_🇺🇸US-🇺🇸US_2980 2
-      - Relay_🇺🇸US-🇨🇦CA_2969 2
-      - Relay_🇺🇸US-🏁ZZ_2978 2
-      - Relay_🇨🇳CN-🇹🇼TW_392
-      - Relay_🇸🇬SG-🇸🇬SG_1380
-      - Relay_🇺🇸US-🇺🇸US_2992
-      - Relay_🇺🇸US-🇨🇦CA_2970 2
-      - Relay_🇨🇳CN-🇸🇬SG_388 2
-      - Relay_🇺🇸US-🇨🇦CA_2968
-      - Relay_🇺🇸US-🇯🇵JP_2967
-      - Relay_🇺🇸US-🇺🇸US_2963
-      - Relay_🇷🇺RU-🇷🇺RU_1349
-      - Relay_🇺🇸US-🇺🇸US_2963 2
-      - Relay_🇺🇸US-🇯🇵JP_2965
-      - Relay_🇺🇸US-🇨🇦CA_2968 2
-      - Relay_🇺🇸US-🇯🇵JP_2966
-      - Relay_🇺🇸US-🇯🇵JP_2964
-      - Relay_🇺🇸US-🇯🇵JP_2964 2
-      - Relay_🇺🇸US-🇯🇵JP_2967 2
-      - Relay_🇺🇸US-🇯🇵JP_2965 2
-      - Relay_🇺🇸US-🇯🇵JP_2966 2
+      - Relay_🇺🇸US-🇭🇰HK_3060
+      - Relay_🇺🇸US-🇭🇰HK_3060 2
+      - github.com/freefq - 美国CloudFlare节点 37
+      - US_1929
+      - RU_1597
+      - RU_1540
+      - Relay_🇺🇸US-🇺🇸US_3084
+      - Relay_🇬🇧GB-🇬🇧GB_718
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
