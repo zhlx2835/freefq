@@ -5,67 +5,79 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇯🇵JP-🇺🇸US_732, server: ppy-cmcc.0098dns02in.work, port: 26015, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_249, server: iepl.rookiecloud.info, port: 50497, type: ss, cipher: aes-128-gcm, password: 674f2f62-cb5d-4e25-8aa8-839e1a15c15c, udp: true}
-  - {name: Relay_🇯🇵JP-🇨🇦CA_731, server: ppy-giacn2.0098dns02in.work, port: 26020, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇨🇦CA_728, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_745, server: ppy-cmcc.0098dns02in.work, port: 26007, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇺🇸US_732 2, server: ppy-cmcc.0098dns02in.work, port: 26015, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_747, server: ppy-cmcc.0098dns02in.work, port: 26006, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_726, server: ppy-cmcc.0098dns02in.work, port: 26008, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇯🇵JP_744, server: ppy-cmcc.0098dns02in.work, port: 26009, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇨🇦CA_728 2, server: ppy-giacn2.0098dns02in.work, port: 26022, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇯🇵JP-🇨🇦CA_730, server: ppy-giacn2.0098dns02in.work, port: 26023, type: vmess, uuid: 1c7824b3-1aa0-3e5a-88e8-d3f0426ab21e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_2897, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "", server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国DXC Technology 50, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 新加坡  75, server: 117.120.7.92, port: 20207, type: vmess, uuid: af39a32f-270c-4a9d-bb5f-e77e3c653d65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /general/sg/UWpWR05qZENRek0wTWpKQ1FVVTJSRGxDUVVFMU16WXhOa0l3TWpFNE9EQkdOamxDUXpORU1qb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TkRNeE56azVOenBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09, ws-headers: {Host: 117.120.7.92}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 12, server: 20.205.102.56, port: 20207, type: vmess, uuid: 5a26cc45-3e1a-4d33-8d1a-e19a5e6058b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: general/hk/T0VJeVF6WXpORVkxTkRRME1EY3dRekEzT0VNeE9EQTJOVVk1TXprMk5qUkJRMFpDT0RRMVFqb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TXpnNE5EVTJNVHBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09, ws-headers: {Host: 20.205.102.56}, udp: true}
+  - {name: CN_231, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_266, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CY_293, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CN_279, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_222, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_249, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: github.com/freefq - 加拿大  80, server: 0319tw05.fans8.xyz, port: 443, type: trojan, password: cd3d48cb-6641-4183-aff1-f8f6789fecce, sni: 0319tw05.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2915, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, sni: jp04.vproxy.us, skip-cert-verify: true, udp: true}
+  - {name: LT_1161, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇯🇵JP-🇺🇸US_732
-      - Relay_🇨🇳CN-🏁ZZ_249
-      - Relay_🇯🇵JP-🇨🇦CA_731
-      - Relay_🇯🇵JP-🇨🇦CA_728
-      - Relay_🇯🇵JP-🇯🇵JP_745
-      - Relay_🇯🇵JP-🇺🇸US_732 2
-      - Relay_🇯🇵JP-🇯🇵JP_747
-      - Relay_🇯🇵JP-🇯🇵JP_726
-      - Relay_🇯🇵JP-🇯🇵JP_744
-      - Relay_🇯🇵JP-🇨🇦CA_728 2
-      - Relay_🇯🇵JP-🇨🇦CA_730
+      - US_2897
+      - ""
+      - github.com/freefq - 美国DXC Technology 50
+      - github.com/freefq - 新加坡  75
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - CN_231
+      - CN_266
+      - CY_293
+      - CN_279
+      - CN_222
+      - CN_249
+      - github.com/freefq - 加拿大  80
+      - Relay_🇺🇸US-🇺🇸US_2915
+      - LT_1161
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇯🇵JP-🇺🇸US_732
-      - Relay_🇨🇳CN-🏁ZZ_249
-      - Relay_🇯🇵JP-🇨🇦CA_731
-      - Relay_🇯🇵JP-🇨🇦CA_728
-      - Relay_🇯🇵JP-🇯🇵JP_745
-      - Relay_🇯🇵JP-🇺🇸US_732 2
-      - Relay_🇯🇵JP-🇯🇵JP_747
-      - Relay_🇯🇵JP-🇯🇵JP_726
-      - Relay_🇯🇵JP-🇯🇵JP_744
-      - Relay_🇯🇵JP-🇨🇦CA_728 2
-      - Relay_🇯🇵JP-🇨🇦CA_730
+      - US_2897
+      - ""
+      - github.com/freefq - 美国DXC Technology 50
+      - github.com/freefq - 新加坡  75
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - CN_231
+      - CN_266
+      - CY_293
+      - CN_279
+      - CN_222
+      - CN_249
+      - github.com/freefq - 加拿大  80
+      - Relay_🇺🇸US-🇺🇸US_2915
+      - LT_1161
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇯🇵JP-🇺🇸US_732
-      - Relay_🇨🇳CN-🏁ZZ_249
-      - Relay_🇯🇵JP-🇨🇦CA_731
-      - Relay_🇯🇵JP-🇨🇦CA_728
-      - Relay_🇯🇵JP-🇯🇵JP_745
-      - Relay_🇯🇵JP-🇺🇸US_732 2
-      - Relay_🇯🇵JP-🇯🇵JP_747
-      - Relay_🇯🇵JP-🇯🇵JP_726
-      - Relay_🇯🇵JP-🇯🇵JP_744
-      - Relay_🇯🇵JP-🇨🇦CA_728 2
-      - Relay_🇯🇵JP-🇨🇦CA_730
+      - US_2897
+      - ""
+      - github.com/freefq - 美国DXC Technology 50
+      - github.com/freefq - 新加坡  75
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - CN_231
+      - CN_266
+      - CY_293
+      - CN_279
+      - CN_222
+      - CN_249
+      - github.com/freefq - 加拿大  80
+      - Relay_🇺🇸US-🇺🇸US_2915
+      - LT_1161
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -84,17 +96,20 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇯🇵JP-🇺🇸US_732
-      - Relay_🇨🇳CN-🏁ZZ_249
-      - Relay_🇯🇵JP-🇨🇦CA_731
-      - Relay_🇯🇵JP-🇨🇦CA_728
-      - Relay_🇯🇵JP-🇯🇵JP_745
-      - Relay_🇯🇵JP-🇺🇸US_732 2
-      - Relay_🇯🇵JP-🇯🇵JP_747
-      - Relay_🇯🇵JP-🇯🇵JP_726
-      - Relay_🇯🇵JP-🇯🇵JP_744
-      - Relay_🇯🇵JP-🇨🇦CA_728 2
-      - Relay_🇯🇵JP-🇨🇦CA_730
+      - US_2897
+      - ""
+      - github.com/freefq - 美国DXC Technology 50
+      - github.com/freefq - 新加坡  75
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - CN_231
+      - CN_266
+      - CY_293
+      - CN_279
+      - CN_222
+      - CN_249
+      - github.com/freefq - 加拿大  80
+      - Relay_🇺🇸US-🇺🇸US_2915
+      - LT_1161
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -105,50 +120,59 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇯🇵JP-🇺🇸US_732
-      - Relay_🇨🇳CN-🏁ZZ_249
-      - Relay_🇯🇵JP-🇨🇦CA_731
-      - Relay_🇯🇵JP-🇨🇦CA_728
-      - Relay_🇯🇵JP-🇯🇵JP_745
-      - Relay_🇯🇵JP-🇺🇸US_732 2
-      - Relay_🇯🇵JP-🇯🇵JP_747
-      - Relay_🇯🇵JP-🇯🇵JP_726
-      - Relay_🇯🇵JP-🇯🇵JP_744
-      - Relay_🇯🇵JP-🇨🇦CA_728 2
-      - Relay_🇯🇵JP-🇨🇦CA_730
+      - US_2897
+      - ""
+      - github.com/freefq - 美国DXC Technology 50
+      - github.com/freefq - 新加坡  75
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - CN_231
+      - CN_266
+      - CY_293
+      - CN_279
+      - CN_222
+      - CN_249
+      - github.com/freefq - 加拿大  80
+      - Relay_🇺🇸US-🇺🇸US_2915
+      - LT_1161
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇯🇵JP-🇺🇸US_732
-      - Relay_🇨🇳CN-🏁ZZ_249
-      - Relay_🇯🇵JP-🇨🇦CA_731
-      - Relay_🇯🇵JP-🇨🇦CA_728
-      - Relay_🇯🇵JP-🇯🇵JP_745
-      - Relay_🇯🇵JP-🇺🇸US_732 2
-      - Relay_🇯🇵JP-🇯🇵JP_747
-      - Relay_🇯🇵JP-🇯🇵JP_726
-      - Relay_🇯🇵JP-🇯🇵JP_744
-      - Relay_🇯🇵JP-🇨🇦CA_728 2
-      - Relay_🇯🇵JP-🇨🇦CA_730
+      - US_2897
+      - ""
+      - github.com/freefq - 美国DXC Technology 50
+      - github.com/freefq - 新加坡  75
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - CN_231
+      - CN_266
+      - CY_293
+      - CN_279
+      - CN_222
+      - CN_249
+      - github.com/freefq - 加拿大  80
+      - Relay_🇺🇸US-🇺🇸US_2915
+      - LT_1161
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇯🇵JP-🇺🇸US_732
-      - Relay_🇨🇳CN-🏁ZZ_249
-      - Relay_🇯🇵JP-🇨🇦CA_731
-      - Relay_🇯🇵JP-🇨🇦CA_728
-      - Relay_🇯🇵JP-🇯🇵JP_745
-      - Relay_🇯🇵JP-🇺🇸US_732 2
-      - Relay_🇯🇵JP-🇯🇵JP_747
-      - Relay_🇯🇵JP-🇯🇵JP_726
-      - Relay_🇯🇵JP-🇯🇵JP_744
-      - Relay_🇯🇵JP-🇨🇦CA_728 2
-      - Relay_🇯🇵JP-🇨🇦CA_730
+      - US_2897
+      - ""
+      - github.com/freefq - 美国DXC Technology 50
+      - github.com/freefq - 新加坡  75
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - CN_231
+      - CN_266
+      - CY_293
+      - CN_279
+      - CN_222
+      - CN_249
+      - github.com/freefq - 加拿大  80
+      - Relay_🇺🇸US-🇺🇸US_2915
+      - LT_1161
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -164,17 +188,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇯🇵JP-🇺🇸US_732
-      - Relay_🇨🇳CN-🏁ZZ_249
-      - Relay_🇯🇵JP-🇨🇦CA_731
-      - Relay_🇯🇵JP-🇨🇦CA_728
-      - Relay_🇯🇵JP-🇯🇵JP_745
-      - Relay_🇯🇵JP-🇺🇸US_732 2
-      - Relay_🇯🇵JP-🇯🇵JP_747
-      - Relay_🇯🇵JP-🇯🇵JP_726
-      - Relay_🇯🇵JP-🇯🇵JP_744
-      - Relay_🇯🇵JP-🇨🇦CA_728 2
-      - Relay_🇯🇵JP-🇨🇦CA_730
+      - US_2897
+      - ""
+      - github.com/freefq - 美国DXC Technology 50
+      - github.com/freefq - 新加坡  75
+      - github.com/freefq - 美国Microsoft数据中心 12
+      - CN_231
+      - CN_266
+      - CY_293
+      - CN_279
+      - CN_222
+      - CN_249
+      - github.com/freefq - 加拿大  80
+      - Relay_🇺🇸US-🇺🇸US_2915
+      - LT_1161
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
