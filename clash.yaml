@@ -5,79 +5,299 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_2897, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "", server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国DXC Technology 50, server: 20.123.187.212, port: 27931, type: vmess, uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 新加坡  75, server: 117.120.7.92, port: 20207, type: vmess, uuid: af39a32f-270c-4a9d-bb5f-e77e3c653d65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /general/sg/UWpWR05qZENRek0wTWpKQ1FVVTJSRGxDUVVFMU16WXhOa0l3TWpFNE9EQkdOamxDUXpORU1qb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TkRNeE56azVOenBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09, ws-headers: {Host: 117.120.7.92}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 12, server: 20.205.102.56, port: 20207, type: vmess, uuid: 5a26cc45-3e1a-4d33-8d1a-e19a5e6058b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: general/hk/T0VJeVF6WXpORVkxTkRRME1EY3dRekEzT0VNeE9EQTJOVVk1TXprMk5qUkJRMFpDT0RRMVFqb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TXpnNE5EVTJNVHBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09, ws-headers: {Host: 20.205.102.56}, udp: true}
-  - {name: CN_231, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_266, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CY_293, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: CN_279, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_222, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_249, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 加拿大  80, server: 0319tw05.fans8.xyz, port: 443, type: trojan, password: cd3d48cb-6641-4183-aff1-f8f6789fecce, sni: 0319tw05.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2915, server: jp04.vproxy.us, port: 56565, type: trojan, password: acf34fb3-6fed-40c6-b6ab-b5bedf5827a2, sni: jp04.vproxy.us, skip-cert-verify: true, udp: true}
-  - {name: LT_1161, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: LT_934, server: 213.183.53.221, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: LT_913, server: 213.183.53.179, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_800, server: 213.183.53.202, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: US_1820, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: LT_937, server: 213.183.53.221, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: LT_914, server: 213.183.53.221, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: US_2434, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: LT_909, server: 213.183.53.214, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: LT_950, server: 213.183.53.221, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: US_2425, server: 38.114.114.67, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: LT_1103, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: US_2502, server: 167.88.61.175, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: LT_917, server: 213.183.53.207, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: US_2413, server: 167.88.61.175, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2478, server: 38.114.114.69, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_2028, server: 38.114.114.67, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: LT_999, server: 213.183.53.208, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: LT_1099, server: 213.183.53.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: US_2017, server: 38.114.114.69, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: LT_918, server: 213.183.53.202, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: US_2408, server: 38.114.114.67, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: LT_1105, server: 213.183.53.200, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: US_2562, server: 38.114.114.69, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2554, server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: LT_1022, server: 213.183.53.202, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: LT_993, server: 213.183.53.208, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
+  - {name: LT_912, server: 213.183.53.208, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: LT_1104, server: 213.183.53.200, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: LT_895, server: 213.183.53.208, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: US_1858, server: 172.99.188.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_2548, server: 172.99.188.71, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1751, server: 172.99.188.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_2409, server: 172.99.188.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_2018, server: 172.99.188.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_2258, server: 172.99.188.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2631, server: 172.99.188.71, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_2088, server: 172.99.188.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: LT_926, server: 213.183.53.208, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: LT_902, server: 213.183.53.208, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: LT_980, server: 213.183.53.179, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: LT_891, server: 213.183.53.207, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
+  - {name: LT_892, server: 213.183.63.221, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: LT_938, server: 213.183.53.207, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: US_2547, server: 38.68.134.71, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2695, server: 38.68.134.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_2507, server: 38.114.114.69, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: github.com/freefq - 瑞典  131, server: 167.88.63.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: LT_901, server: 213.183.53.208, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: RU_1600, server: 217.30.10.65, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: US_2481, server: 38.64.138.145, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2633, server: 38.68.134.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: NL_1184, server: 213.183.59.218, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: LT_904, server: 213.183.63.221, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: LT_922, server: 213.183.53.208, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: LT_1002, server: 213.183.63.218, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: US_2624, server: 38.68.134.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: LT_933, server: 213.183.53.208, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: LT_967, server: 213.183.53.208, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: US_2663, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2585, server: 38.68.134.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: LT_953, server: 213.183.53.221, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: US_2607, server: 38.68.134.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_2526, server: 38.64.138.145, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: NL_1300, server: 213.183.59.206, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: LT_1107, server: 213.183.53.200, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: LT_996, server: 213.183.63.221, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: US_2531, server: 38.64.138.145, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 113, server: 213.183.59.206, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_117, server: v3.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v3.ssrsub.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_2897
-      - ""
-      - github.com/freefq - 美国DXC Technology 50
-      - github.com/freefq - 新加坡  75
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - CN_231
-      - CN_266
-      - CY_293
-      - CN_279
-      - CN_222
-      - CN_249
-      - github.com/freefq - 加拿大  80
-      - Relay_🇺🇸US-🇺🇸US_2915
-      - LT_1161
+      - LT_934
+      - LT_913
+      - LT_800
+      - US_1820
+      - LT_937
+      - LT_914
+      - US_2434
+      - LT_909
+      - LT_950
+      - US_2425
+      - LT_1103
+      - US_2502
+      - LT_917
+      - US_2413
+      - US_2478
+      - US_2028
+      - LT_999
+      - LT_1099
+      - US_2017
+      - LT_918
+      - US_2408
+      - LT_1105
+      - US_2562
+      - US_2554
+      - LT_1022
+      - LT_993
+      - LT_912
+      - LT_1104
+      - LT_895
+      - US_1858
+      - US_2548
+      - US_1751
+      - US_2409
+      - US_2018
+      - US_2258
+      - US_2631
+      - US_2088
+      - LT_926
+      - LT_902
+      - LT_980
+      - LT_891
+      - LT_892
+      - LT_938
+      - US_2547
+      - US_2695
+      - US_2507
+      - github.com/freefq - 瑞典  131
+      - LT_901
+      - RU_1600
+      - US_2481
+      - US_2633
+      - NL_1184
+      - LT_904
+      - LT_922
+      - LT_1002
+      - US_2624
+      - LT_933
+      - LT_967
+      - US_2663
+      - US_2585
+      - LT_953
+      - US_2607
+      - US_2526
+      - NL_1300
+      - LT_1107
+      - LT_996
+      - US_2531
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 113
+      - Relay_🇺🇸US-🇷🇺RU_117
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_2897
-      - ""
-      - github.com/freefq - 美国DXC Technology 50
-      - github.com/freefq - 新加坡  75
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - CN_231
-      - CN_266
-      - CY_293
-      - CN_279
-      - CN_222
-      - CN_249
-      - github.com/freefq - 加拿大  80
-      - Relay_🇺🇸US-🇺🇸US_2915
-      - LT_1161
+      - LT_934
+      - LT_913
+      - LT_800
+      - US_1820
+      - LT_937
+      - LT_914
+      - US_2434
+      - LT_909
+      - LT_950
+      - US_2425
+      - LT_1103
+      - US_2502
+      - LT_917
+      - US_2413
+      - US_2478
+      - US_2028
+      - LT_999
+      - LT_1099
+      - US_2017
+      - LT_918
+      - US_2408
+      - LT_1105
+      - US_2562
+      - US_2554
+      - LT_1022
+      - LT_993
+      - LT_912
+      - LT_1104
+      - LT_895
+      - US_1858
+      - US_2548
+      - US_1751
+      - US_2409
+      - US_2018
+      - US_2258
+      - US_2631
+      - US_2088
+      - LT_926
+      - LT_902
+      - LT_980
+      - LT_891
+      - LT_892
+      - LT_938
+      - US_2547
+      - US_2695
+      - US_2507
+      - github.com/freefq - 瑞典  131
+      - LT_901
+      - RU_1600
+      - US_2481
+      - US_2633
+      - NL_1184
+      - LT_904
+      - LT_922
+      - LT_1002
+      - US_2624
+      - LT_933
+      - LT_967
+      - US_2663
+      - US_2585
+      - LT_953
+      - US_2607
+      - US_2526
+      - NL_1300
+      - LT_1107
+      - LT_996
+      - US_2531
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 113
+      - Relay_🇺🇸US-🇷🇺RU_117
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_2897
-      - ""
-      - github.com/freefq - 美国DXC Technology 50
-      - github.com/freefq - 新加坡  75
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - CN_231
-      - CN_266
-      - CY_293
-      - CN_279
-      - CN_222
-      - CN_249
-      - github.com/freefq - 加拿大  80
-      - Relay_🇺🇸US-🇺🇸US_2915
-      - LT_1161
+      - LT_934
+      - LT_913
+      - LT_800
+      - US_1820
+      - LT_937
+      - LT_914
+      - US_2434
+      - LT_909
+      - LT_950
+      - US_2425
+      - LT_1103
+      - US_2502
+      - LT_917
+      - US_2413
+      - US_2478
+      - US_2028
+      - LT_999
+      - LT_1099
+      - US_2017
+      - LT_918
+      - US_2408
+      - LT_1105
+      - US_2562
+      - US_2554
+      - LT_1022
+      - LT_993
+      - LT_912
+      - LT_1104
+      - LT_895
+      - US_1858
+      - US_2548
+      - US_1751
+      - US_2409
+      - US_2018
+      - US_2258
+      - US_2631
+      - US_2088
+      - LT_926
+      - LT_902
+      - LT_980
+      - LT_891
+      - LT_892
+      - LT_938
+      - US_2547
+      - US_2695
+      - US_2507
+      - github.com/freefq - 瑞典  131
+      - LT_901
+      - RU_1600
+      - US_2481
+      - US_2633
+      - NL_1184
+      - LT_904
+      - LT_922
+      - LT_1002
+      - US_2624
+      - LT_933
+      - LT_967
+      - US_2663
+      - US_2585
+      - LT_953
+      - US_2607
+      - US_2526
+      - NL_1300
+      - LT_1107
+      - LT_996
+      - US_2531
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 113
+      - Relay_🇺🇸US-🇷🇺RU_117
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,20 +316,75 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_2897
-      - ""
-      - github.com/freefq - 美国DXC Technology 50
-      - github.com/freefq - 新加坡  75
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - CN_231
-      - CN_266
-      - CY_293
-      - CN_279
-      - CN_222
-      - CN_249
-      - github.com/freefq - 加拿大  80
-      - Relay_🇺🇸US-🇺🇸US_2915
-      - LT_1161
+      - LT_934
+      - LT_913
+      - LT_800
+      - US_1820
+      - LT_937
+      - LT_914
+      - US_2434
+      - LT_909
+      - LT_950
+      - US_2425
+      - LT_1103
+      - US_2502
+      - LT_917
+      - US_2413
+      - US_2478
+      - US_2028
+      - LT_999
+      - LT_1099
+      - US_2017
+      - LT_918
+      - US_2408
+      - LT_1105
+      - US_2562
+      - US_2554
+      - LT_1022
+      - LT_993
+      - LT_912
+      - LT_1104
+      - LT_895
+      - US_1858
+      - US_2548
+      - US_1751
+      - US_2409
+      - US_2018
+      - US_2258
+      - US_2631
+      - US_2088
+      - LT_926
+      - LT_902
+      - LT_980
+      - LT_891
+      - LT_892
+      - LT_938
+      - US_2547
+      - US_2695
+      - US_2507
+      - github.com/freefq - 瑞典  131
+      - LT_901
+      - RU_1600
+      - US_2481
+      - US_2633
+      - NL_1184
+      - LT_904
+      - LT_922
+      - LT_1002
+      - US_2624
+      - LT_933
+      - LT_967
+      - US_2663
+      - US_2585
+      - LT_953
+      - US_2607
+      - US_2526
+      - NL_1300
+      - LT_1107
+      - LT_996
+      - US_2531
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 113
+      - Relay_🇺🇸US-🇷🇺RU_117
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -120,59 +395,224 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_2897
-      - ""
-      - github.com/freefq - 美国DXC Technology 50
-      - github.com/freefq - 新加坡  75
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - CN_231
-      - CN_266
-      - CY_293
-      - CN_279
-      - CN_222
-      - CN_249
-      - github.com/freefq - 加拿大  80
-      - Relay_🇺🇸US-🇺🇸US_2915
-      - LT_1161
+      - LT_934
+      - LT_913
+      - LT_800
+      - US_1820
+      - LT_937
+      - LT_914
+      - US_2434
+      - LT_909
+      - LT_950
+      - US_2425
+      - LT_1103
+      - US_2502
+      - LT_917
+      - US_2413
+      - US_2478
+      - US_2028
+      - LT_999
+      - LT_1099
+      - US_2017
+      - LT_918
+      - US_2408
+      - LT_1105
+      - US_2562
+      - US_2554
+      - LT_1022
+      - LT_993
+      - LT_912
+      - LT_1104
+      - LT_895
+      - US_1858
+      - US_2548
+      - US_1751
+      - US_2409
+      - US_2018
+      - US_2258
+      - US_2631
+      - US_2088
+      - LT_926
+      - LT_902
+      - LT_980
+      - LT_891
+      - LT_892
+      - LT_938
+      - US_2547
+      - US_2695
+      - US_2507
+      - github.com/freefq - 瑞典  131
+      - LT_901
+      - RU_1600
+      - US_2481
+      - US_2633
+      - NL_1184
+      - LT_904
+      - LT_922
+      - LT_1002
+      - US_2624
+      - LT_933
+      - LT_967
+      - US_2663
+      - US_2585
+      - LT_953
+      - US_2607
+      - US_2526
+      - NL_1300
+      - LT_1107
+      - LT_996
+      - US_2531
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 113
+      - Relay_🇺🇸US-🇷🇺RU_117
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_2897
-      - ""
-      - github.com/freefq - 美国DXC Technology 50
-      - github.com/freefq - 新加坡  75
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - CN_231
-      - CN_266
-      - CY_293
-      - CN_279
-      - CN_222
-      - CN_249
-      - github.com/freefq - 加拿大  80
-      - Relay_🇺🇸US-🇺🇸US_2915
-      - LT_1161
+      - LT_934
+      - LT_913
+      - LT_800
+      - US_1820
+      - LT_937
+      - LT_914
+      - US_2434
+      - LT_909
+      - LT_950
+      - US_2425
+      - LT_1103
+      - US_2502
+      - LT_917
+      - US_2413
+      - US_2478
+      - US_2028
+      - LT_999
+      - LT_1099
+      - US_2017
+      - LT_918
+      - US_2408
+      - LT_1105
+      - US_2562
+      - US_2554
+      - LT_1022
+      - LT_993
+      - LT_912
+      - LT_1104
+      - LT_895
+      - US_1858
+      - US_2548
+      - US_1751
+      - US_2409
+      - US_2018
+      - US_2258
+      - US_2631
+      - US_2088
+      - LT_926
+      - LT_902
+      - LT_980
+      - LT_891
+      - LT_892
+      - LT_938
+      - US_2547
+      - US_2695
+      - US_2507
+      - github.com/freefq - 瑞典  131
+      - LT_901
+      - RU_1600
+      - US_2481
+      - US_2633
+      - NL_1184
+      - LT_904
+      - LT_922
+      - LT_1002
+      - US_2624
+      - LT_933
+      - LT_967
+      - US_2663
+      - US_2585
+      - LT_953
+      - US_2607
+      - US_2526
+      - NL_1300
+      - LT_1107
+      - LT_996
+      - US_2531
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 113
+      - Relay_🇺🇸US-🇷🇺RU_117
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_2897
-      - ""
-      - github.com/freefq - 美国DXC Technology 50
-      - github.com/freefq - 新加坡  75
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - CN_231
-      - CN_266
-      - CY_293
-      - CN_279
-      - CN_222
-      - CN_249
-      - github.com/freefq - 加拿大  80
-      - Relay_🇺🇸US-🇺🇸US_2915
-      - LT_1161
+      - LT_934
+      - LT_913
+      - LT_800
+      - US_1820
+      - LT_937
+      - LT_914
+      - US_2434
+      - LT_909
+      - LT_950
+      - US_2425
+      - LT_1103
+      - US_2502
+      - LT_917
+      - US_2413
+      - US_2478
+      - US_2028
+      - LT_999
+      - LT_1099
+      - US_2017
+      - LT_918
+      - US_2408
+      - LT_1105
+      - US_2562
+      - US_2554
+      - LT_1022
+      - LT_993
+      - LT_912
+      - LT_1104
+      - LT_895
+      - US_1858
+      - US_2548
+      - US_1751
+      - US_2409
+      - US_2018
+      - US_2258
+      - US_2631
+      - US_2088
+      - LT_926
+      - LT_902
+      - LT_980
+      - LT_891
+      - LT_892
+      - LT_938
+      - US_2547
+      - US_2695
+      - US_2507
+      - github.com/freefq - 瑞典  131
+      - LT_901
+      - RU_1600
+      - US_2481
+      - US_2633
+      - NL_1184
+      - LT_904
+      - LT_922
+      - LT_1002
+      - US_2624
+      - LT_933
+      - LT_967
+      - US_2663
+      - US_2585
+      - LT_953
+      - US_2607
+      - US_2526
+      - NL_1300
+      - LT_1107
+      - LT_996
+      - US_2531
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 113
+      - Relay_🇺🇸US-🇷🇺RU_117
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,20 +628,75 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_2897
-      - ""
-      - github.com/freefq - 美国DXC Technology 50
-      - github.com/freefq - 新加坡  75
-      - github.com/freefq - 美国Microsoft数据中心 12
-      - CN_231
-      - CN_266
-      - CY_293
-      - CN_279
-      - CN_222
-      - CN_249
-      - github.com/freefq - 加拿大  80
-      - Relay_🇺🇸US-🇺🇸US_2915
-      - LT_1161
+      - LT_934
+      - LT_913
+      - LT_800
+      - US_1820
+      - LT_937
+      - LT_914
+      - US_2434
+      - LT_909
+      - LT_950
+      - US_2425
+      - LT_1103
+      - US_2502
+      - LT_917
+      - US_2413
+      - US_2478
+      - US_2028
+      - LT_999
+      - LT_1099
+      - US_2017
+      - LT_918
+      - US_2408
+      - LT_1105
+      - US_2562
+      - US_2554
+      - LT_1022
+      - LT_993
+      - LT_912
+      - LT_1104
+      - LT_895
+      - US_1858
+      - US_2548
+      - US_1751
+      - US_2409
+      - US_2018
+      - US_2258
+      - US_2631
+      - US_2088
+      - LT_926
+      - LT_902
+      - LT_980
+      - LT_891
+      - LT_892
+      - LT_938
+      - US_2547
+      - US_2695
+      - US_2507
+      - github.com/freefq - 瑞典  131
+      - LT_901
+      - RU_1600
+      - US_2481
+      - US_2633
+      - NL_1184
+      - LT_904
+      - LT_922
+      - LT_1002
+      - US_2624
+      - LT_933
+      - LT_967
+      - US_2663
+      - US_2585
+      - LT_953
+      - US_2607
+      - US_2526
+      - NL_1300
+      - LT_1107
+      - LT_996
+      - US_2531
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 113
+      - Relay_🇺🇸US-🇷🇺RU_117
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
