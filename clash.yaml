@@ -5,183 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: LT_770, server: 213.183.53.214, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
+  - {name: "", server: 2.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: 2.vip341.xyz}, udp: true}
+  - {name: " 2", server: 10.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: 10.vip341.xyz}, udp: true}
+  - {name: " 3", server: zz.vip341.xyz, port: 48003, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: zz.vip341.xyz}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 31, server: 1chuan.top, port: 443, type: vmess, uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /evo, ws-headers: {Host: 1chuan.top}, udp: true}
+  - {name: github.com/freefq - 美国DXC Technology 32, server: au.project4gyuna.pw, port: 80, type: vmess, uuid: 0613c82b-1f56-432f-b94b-691e294d2314, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /project4gyuna.pw, ws-headers: {Host: yuna4g.akamaized.net}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_76, server: au.project4gyuna.pw, port: 80, type: vmess, uuid: 0613c82b-1f56-432f-b94b-691e294d2314, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /project4gyuna.pw, ws-headers: {Host: yuna4g.akamaized.net}, udp: true}
+  - {name: GB_122 TG@peekf%%DC, server: 152.89.210.105, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: GB_468, server: 185.167.117.171, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
+  - {name: GB_477, server: 152.89.210.84, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: GB_483, server: 152.89.210.84, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: GB_484, server: 185.167.117.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: GB_485, server: 185.167.117.171, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: GB_488, server: 185.167.117.171, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: GB_492, server: 185.167.117.171, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
+  - {name: GB_493, server: 152.89.210.84, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: GB_494, server: 185.167.117.171, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: GB_507, server: 185.167.117.171, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: GB_519, server: 152.89.210.84, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: GB_523, server: 185.167.117.171, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: GB_524, server: 185.167.117.171, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: GB_525, server: 185.167.117.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: GB_526, server: 152.89.210.84, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: github.com/freefq - 北美地区  27, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 北美地区  27 2, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 美国  11, server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9, udp: true}
+  - {name: github.com/freefq - 美国  11 2, server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9, udp: true}
+  - {name: HU_577, server: 194.71.130.194, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
+  - {name: LT_707, server: 213.183.53.207, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: LT_721, server: 213.183.53.207, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: LT_768, server: 213.183.53.207, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: LT_789, server: 213.183.53.208, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: LT_792, server: 213.183.53.207, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
   - {name: LT_797, server: 213.183.53.208, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: LT_732, server: 213.183.53.221, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: LT_999, server: 213.183.53.208, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: LT_719, server: 213.183.53.214, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: LT_775, server: 213.183.53.214, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: LT_792, server: 213.183.53.208, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: LT_818, server: 213.183.53.214, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: DE_294, server: 5.183.179.139, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: LT_845, server: 213.183.53.208, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: LT_794, server: 213.183.53.221, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: LT_993, server: 213.183.53.202, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: LT_784, server: 213.183.53.208, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: RU_1452, server: 217.30.10.63, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: RU_1503, server: 217.30.10.63, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: Relay_🇨🇳CN-🇰🇷KR_157, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: LT_791, server: 213.183.53.179, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: RU_1444, server: 217.30.10.68, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: RU_1445, server: 217.30.10.63, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: LT_761, server: 213.183.53.179, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: RU_1451, server: 217.30.10.63, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: LT_756, server: 213.183.63.221, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: DE_309, server: 5.183.179.166, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: GB_548, server: 152.89.210.84, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: RU_1446, server: 217.30.10.64, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: LT_763, server: 213.183.53.179, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: LT_909, server: 213.183.53.214, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: LT_799, server: 213.183.53.179, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: LT_937, server: 213.183.53.221, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: LT_737, server: 213.183.53.202, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: US_2150, server: 167.172.135.97, port: 25453, type: ss, cipher: aes-256-cfb, password: a40ff797db5c4b948cfe5a5234a0e74c, udp: true}
-  - {name: LT_758, server: 213.183.53.202, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: LT_746, server: 213.183.53.207, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: LT_751, server: 213.183.63.221, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: LT_798, server: 213.183.53.179, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: LT_750, server: 213.183.53.202, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: LT_783, server: 213.183.53.207, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: LT_755, server: 213.183.63.218, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: LT_739, server: 213.183.63.221, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: LT_789, server: 213.183.53.198, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: US_1723, server: 147.182.151.24, port: 20110, type: ss, cipher: aes-256-cfb, password: f5e0ecc4e6b84a668ee9ed98e0a30ca9, udp: true}
+  - {name: Relay_🇨🇦CA-🇨🇦CA_142, server: 331tw9.fans8.xyz, port: 443, type: trojan, password: dfa2821d-0418-4427-8f17-cef26d02370f, sni: 331tw9.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2642, server: o19.trojan.tel, port: 38443, type: trojan, password: 3c22e6eb-32fa-43be-a744-1a7ebd4691f2, sni: o19.trojan.tel, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - LT_770
-      - LT_797
-      - LT_732
-      - LT_999
-      - LT_719
-      - LT_775
-      - LT_792
-      - LT_818
-      - DE_294
-      - LT_845
-      - LT_794
-      - LT_993
-      - LT_784
-      - RU_1452
-      - RU_1503
-      - Relay_🇨🇳CN-🇰🇷KR_157
-      - LT_791
-      - RU_1444
-      - RU_1445
-      - LT_761
-      - RU_1451
-      - LT_756
-      - DE_309
-      - GB_548
-      - RU_1446
-      - LT_763
-      - LT_909
-      - LT_799
-      - LT_937
-      - LT_737
-      - US_2150
-      - LT_758
-      - LT_746
-      - LT_751
-      - LT_798
-      - LT_750
-      - LT_783
-      - LT_755
-      - LT_739
+      - ""
+      - " 2"
+      - " 3"
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国DXC Technology 32
+      - Relay_🇺🇸US-🇺🇸US_76
+      - GB_122 TG@peekf%%DC
+      - GB_468
+      - GB_477
+      - GB_483
+      - GB_484
+      - GB_485
+      - GB_488
+      - GB_492
+      - GB_493
+      - GB_494
+      - GB_507
+      - GB_519
+      - GB_523
+      - GB_524
+      - GB_525
+      - GB_526
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 北美地区  27 2
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国  11 2
+      - HU_577
+      - LT_707
+      - LT_721
+      - LT_768
       - LT_789
+      - LT_792
+      - LT_797
+      - US_1723
+      - Relay_🇨🇦CA-🇨🇦CA_142
+      - Relay_🇺🇸US-🇺🇸US_2642
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - LT_770
-      - LT_797
-      - LT_732
-      - LT_999
-      - LT_719
-      - LT_775
-      - LT_792
-      - LT_818
-      - DE_294
-      - LT_845
-      - LT_794
-      - LT_993
-      - LT_784
-      - RU_1452
-      - RU_1503
-      - Relay_🇨🇳CN-🇰🇷KR_157
-      - LT_791
-      - RU_1444
-      - RU_1445
-      - LT_761
-      - RU_1451
-      - LT_756
-      - DE_309
-      - GB_548
-      - RU_1446
-      - LT_763
-      - LT_909
-      - LT_799
-      - LT_937
-      - LT_737
-      - US_2150
-      - LT_758
-      - LT_746
-      - LT_751
-      - LT_798
-      - LT_750
-      - LT_783
-      - LT_755
-      - LT_739
+      - ""
+      - " 2"
+      - " 3"
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国DXC Technology 32
+      - Relay_🇺🇸US-🇺🇸US_76
+      - GB_122 TG@peekf%%DC
+      - GB_468
+      - GB_477
+      - GB_483
+      - GB_484
+      - GB_485
+      - GB_488
+      - GB_492
+      - GB_493
+      - GB_494
+      - GB_507
+      - GB_519
+      - GB_523
+      - GB_524
+      - GB_525
+      - GB_526
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 北美地区  27 2
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国  11 2
+      - HU_577
+      - LT_707
+      - LT_721
+      - LT_768
       - LT_789
+      - LT_792
+      - LT_797
+      - US_1723
+      - Relay_🇨🇦CA-🇨🇦CA_142
+      - Relay_🇺🇸US-🇺🇸US_2642
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - LT_770
-      - LT_797
-      - LT_732
-      - LT_999
-      - LT_719
-      - LT_775
-      - LT_792
-      - LT_818
-      - DE_294
-      - LT_845
-      - LT_794
-      - LT_993
-      - LT_784
-      - RU_1452
-      - RU_1503
-      - Relay_🇨🇳CN-🇰🇷KR_157
-      - LT_791
-      - RU_1444
-      - RU_1445
-      - LT_761
-      - RU_1451
-      - LT_756
-      - DE_309
-      - GB_548
-      - RU_1446
-      - LT_763
-      - LT_909
-      - LT_799
-      - LT_937
-      - LT_737
-      - US_2150
-      - LT_758
-      - LT_746
-      - LT_751
-      - LT_798
-      - LT_750
-      - LT_783
-      - LT_755
-      - LT_739
+      - ""
+      - " 2"
+      - " 3"
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国DXC Technology 32
+      - Relay_🇺🇸US-🇺🇸US_76
+      - GB_122 TG@peekf%%DC
+      - GB_468
+      - GB_477
+      - GB_483
+      - GB_484
+      - GB_485
+      - GB_488
+      - GB_492
+      - GB_493
+      - GB_494
+      - GB_507
+      - GB_519
+      - GB_523
+      - GB_524
+      - GB_525
+      - GB_526
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 北美地区  27 2
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国  11 2
+      - HU_577
+      - LT_707
+      - LT_721
+      - LT_768
       - LT_789
+      - LT_792
+      - LT_797
+      - US_1723
+      - Relay_🇨🇦CA-🇨🇦CA_142
+      - Relay_🇺🇸US-🇺🇸US_2642
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -200,46 +184,42 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - LT_770
-      - LT_797
-      - LT_732
-      - LT_999
-      - LT_719
-      - LT_775
-      - LT_792
-      - LT_818
-      - DE_294
-      - LT_845
-      - LT_794
-      - LT_993
-      - LT_784
-      - RU_1452
-      - RU_1503
-      - Relay_🇨🇳CN-🇰🇷KR_157
-      - LT_791
-      - RU_1444
-      - RU_1445
-      - LT_761
-      - RU_1451
-      - LT_756
-      - DE_309
-      - GB_548
-      - RU_1446
-      - LT_763
-      - LT_909
-      - LT_799
-      - LT_937
-      - LT_737
-      - US_2150
-      - LT_758
-      - LT_746
-      - LT_751
-      - LT_798
-      - LT_750
-      - LT_783
-      - LT_755
-      - LT_739
+      - ""
+      - " 2"
+      - " 3"
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国DXC Technology 32
+      - Relay_🇺🇸US-🇺🇸US_76
+      - GB_122 TG@peekf%%DC
+      - GB_468
+      - GB_477
+      - GB_483
+      - GB_484
+      - GB_485
+      - GB_488
+      - GB_492
+      - GB_493
+      - GB_494
+      - GB_507
+      - GB_519
+      - GB_523
+      - GB_524
+      - GB_525
+      - GB_526
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 北美地区  27 2
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国  11 2
+      - HU_577
+      - LT_707
+      - LT_721
+      - LT_768
       - LT_789
+      - LT_792
+      - LT_797
+      - US_1723
+      - Relay_🇨🇦CA-🇨🇦CA_142
+      - Relay_🇺🇸US-🇺🇸US_2642
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -250,137 +230,125 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - LT_770
-      - LT_797
-      - LT_732
-      - LT_999
-      - LT_719
-      - LT_775
-      - LT_792
-      - LT_818
-      - DE_294
-      - LT_845
-      - LT_794
-      - LT_993
-      - LT_784
-      - RU_1452
-      - RU_1503
-      - Relay_🇨🇳CN-🇰🇷KR_157
-      - LT_791
-      - RU_1444
-      - RU_1445
-      - LT_761
-      - RU_1451
-      - LT_756
-      - DE_309
-      - GB_548
-      - RU_1446
-      - LT_763
-      - LT_909
-      - LT_799
-      - LT_937
-      - LT_737
-      - US_2150
-      - LT_758
-      - LT_746
-      - LT_751
-      - LT_798
-      - LT_750
-      - LT_783
-      - LT_755
-      - LT_739
+      - ""
+      - " 2"
+      - " 3"
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国DXC Technology 32
+      - Relay_🇺🇸US-🇺🇸US_76
+      - GB_122 TG@peekf%%DC
+      - GB_468
+      - GB_477
+      - GB_483
+      - GB_484
+      - GB_485
+      - GB_488
+      - GB_492
+      - GB_493
+      - GB_494
+      - GB_507
+      - GB_519
+      - GB_523
+      - GB_524
+      - GB_525
+      - GB_526
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 北美地区  27 2
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国  11 2
+      - HU_577
+      - LT_707
+      - LT_721
+      - LT_768
       - LT_789
+      - LT_792
+      - LT_797
+      - US_1723
+      - Relay_🇨🇦CA-🇨🇦CA_142
+      - Relay_🇺🇸US-🇺🇸US_2642
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - LT_770
-      - LT_797
-      - LT_732
-      - LT_999
-      - LT_719
-      - LT_775
-      - LT_792
-      - LT_818
-      - DE_294
-      - LT_845
-      - LT_794
-      - LT_993
-      - LT_784
-      - RU_1452
-      - RU_1503
-      - Relay_🇨🇳CN-🇰🇷KR_157
-      - LT_791
-      - RU_1444
-      - RU_1445
-      - LT_761
-      - RU_1451
-      - LT_756
-      - DE_309
-      - GB_548
-      - RU_1446
-      - LT_763
-      - LT_909
-      - LT_799
-      - LT_937
-      - LT_737
-      - US_2150
-      - LT_758
-      - LT_746
-      - LT_751
-      - LT_798
-      - LT_750
-      - LT_783
-      - LT_755
-      - LT_739
+      - ""
+      - " 2"
+      - " 3"
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国DXC Technology 32
+      - Relay_🇺🇸US-🇺🇸US_76
+      - GB_122 TG@peekf%%DC
+      - GB_468
+      - GB_477
+      - GB_483
+      - GB_484
+      - GB_485
+      - GB_488
+      - GB_492
+      - GB_493
+      - GB_494
+      - GB_507
+      - GB_519
+      - GB_523
+      - GB_524
+      - GB_525
+      - GB_526
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 北美地区  27 2
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国  11 2
+      - HU_577
+      - LT_707
+      - LT_721
+      - LT_768
       - LT_789
+      - LT_792
+      - LT_797
+      - US_1723
+      - Relay_🇨🇦CA-🇨🇦CA_142
+      - Relay_🇺🇸US-🇺🇸US_2642
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - LT_770
-      - LT_797
-      - LT_732
-      - LT_999
-      - LT_719
-      - LT_775
-      - LT_792
-      - LT_818
-      - DE_294
-      - LT_845
-      - LT_794
-      - LT_993
-      - LT_784
-      - RU_1452
-      - RU_1503
-      - Relay_🇨🇳CN-🇰🇷KR_157
-      - LT_791
-      - RU_1444
-      - RU_1445
-      - LT_761
-      - RU_1451
-      - LT_756
-      - DE_309
-      - GB_548
-      - RU_1446
-      - LT_763
-      - LT_909
-      - LT_799
-      - LT_937
-      - LT_737
-      - US_2150
-      - LT_758
-      - LT_746
-      - LT_751
-      - LT_798
-      - LT_750
-      - LT_783
-      - LT_755
-      - LT_739
+      - ""
+      - " 2"
+      - " 3"
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国DXC Technology 32
+      - Relay_🇺🇸US-🇺🇸US_76
+      - GB_122 TG@peekf%%DC
+      - GB_468
+      - GB_477
+      - GB_483
+      - GB_484
+      - GB_485
+      - GB_488
+      - GB_492
+      - GB_493
+      - GB_494
+      - GB_507
+      - GB_519
+      - GB_523
+      - GB_524
+      - GB_525
+      - GB_526
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 北美地区  27 2
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国  11 2
+      - HU_577
+      - LT_707
+      - LT_721
+      - LT_768
       - LT_789
+      - LT_792
+      - LT_797
+      - US_1723
+      - Relay_🇨🇦CA-🇨🇦CA_142
+      - Relay_🇺🇸US-🇺🇸US_2642
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -396,46 +364,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - LT_770
-      - LT_797
-      - LT_732
-      - LT_999
-      - LT_719
-      - LT_775
-      - LT_792
-      - LT_818
-      - DE_294
-      - LT_845
-      - LT_794
-      - LT_993
-      - LT_784
-      - RU_1452
-      - RU_1503
-      - Relay_🇨🇳CN-🇰🇷KR_157
-      - LT_791
-      - RU_1444
-      - RU_1445
-      - LT_761
-      - RU_1451
-      - LT_756
-      - DE_309
-      - GB_548
-      - RU_1446
-      - LT_763
-      - LT_909
-      - LT_799
-      - LT_937
-      - LT_737
-      - US_2150
-      - LT_758
-      - LT_746
-      - LT_751
-      - LT_798
-      - LT_750
-      - LT_783
-      - LT_755
-      - LT_739
+      - ""
+      - " 2"
+      - " 3"
+      - github.com/freefq - 美国CloudFlare节点 31
+      - github.com/freefq - 美国DXC Technology 32
+      - Relay_🇺🇸US-🇺🇸US_76
+      - GB_122 TG@peekf%%DC
+      - GB_468
+      - GB_477
+      - GB_483
+      - GB_484
+      - GB_485
+      - GB_488
+      - GB_492
+      - GB_493
+      - GB_494
+      - GB_507
+      - GB_519
+      - GB_523
+      - GB_524
+      - GB_525
+      - GB_526
+      - github.com/freefq - 北美地区  27
+      - github.com/freefq - 北美地区  27 2
+      - github.com/freefq - 美国  11
+      - github.com/freefq - 美国  11 2
+      - HU_577
+      - LT_707
+      - LT_721
+      - LT_768
       - LT_789
+      - LT_792
+      - LT_797
+      - US_1723
+      - Relay_🇨🇦CA-🇨🇦CA_142
+      - Relay_🇺🇸US-🇺🇸US_2642
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
