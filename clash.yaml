@@ -5,239 +5,211 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇺🇸US-🇺🇸US_2777, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 26, server: fr1t.moonfree.top, port: 8443, type: vmess, uuid: 6e9eeae6c3d1439e9f7a213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fr1t.moonfree.top}, udp: true}
-  - {name: CN_280, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_268, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_227, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_274, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_275, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_281, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_223, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_226, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_279, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_285, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_234, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_259, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_264, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_280, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_273, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_234, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_235, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_264, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_285, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_226, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_255, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_227, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_243, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_263, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_279, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_275, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_291, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_233, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_269, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_254, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_290, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_241, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_283, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_171, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_284, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_216, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_277, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_219, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_258, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_278, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_240, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_241, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_284, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_253, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_283, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_269, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_289, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_291, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_251, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_245, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_290, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_263, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_244, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_254, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_261, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_215, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2535, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: CN_253, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_221, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_233, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_216, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_273, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_255, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_240, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_215, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_245, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_258, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_251, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_213, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 美国惠普HP 3, server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_648, server: hkt.node.qchwnd.moe, port: 44609, type: trojan, password: 2971161c-46af-4ac3-b9c3-409b2750a751, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2814, server: 20.210.229.72, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2816, server: 20.210.229.72, port: 3389, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇹🇼TW_2823, server: 20.210.229.72, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: CN_261, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_281, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: Pool_🇺🇸US_2789, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
-  - {name: BG_133, server: 83.150.217.62, port: 44612, type: trojan, password: 1529baee-f263-48a4-b95b-ac0a49814268, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇱🇹LT-🇱🇹LT_1179, server: usgt.node.qchwnd.moe, port: 44610, type: trojan, password: 2971161c-46af-4ac3-b9c3-409b2750a751, sni: usgt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_1805, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: 2971161c-46af-4ac3-b9c3-409b2750a751, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2829, server: uk.node.qchwnd.moe, port: 44613, type: trojan, password: 2971161c-46af-4ac3-b9c3-409b2750a751, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇧🇬BG-🇧🇬BG_134, server: fr.n.optage.moe, port: 44612, type: trojan, password: 673c8e50-d1c4-4e1f-ae6f-3c694e769006, sni: fr.n.optage.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_303, server: au2-1.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_295, server: 212.81.47.18, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2530, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇨🇳CN_235, server: cu-cs.okvpn.xyz, port: 20004, type: trojan, password: f7e7b38f-79d5-4860-8687-f8c083e13da4, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇬🇧GB_301, server: 212.81.47.12, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: CN_289, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_278, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_268, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_2777
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
-      - CN_280
-      - CN_268
-      - CN_227
-      - CN_274
-      - CN_275
-      - CN_281
-      - CN_223
-      - CN_226
-      - CN_279
-      - CN_285
-      - CN_234
       - CN_259
-      - CN_264
+      - CN_280
+      - CN_273
+      - CN_234
       - CN_235
+      - CN_264
+      - CN_285
+      - CN_226
+      - CN_255
+      - CN_227
       - CN_243
-      - CN_263
+      - CN_279
+      - CN_275
+      - CN_291
+      - CN_233
+      - CN_269
+      - CN_254
+      - CN_290
+      - CN_241
+      - CN_283
+      - CN_171
+      - CN_284
+      - CN_216
       - CN_277
       - CN_219
-      - CN_258
-      - CN_278
-      - CN_240
-      - CN_241
-      - CN_284
-      - CN_253
-      - CN_283
-      - CN_269
-      - CN_289
-      - CN_291
-      - CN_251
-      - CN_245
-      - CN_290
+      - CN_263
       - CN_244
-      - CN_254
-      - CN_261
-      - CN_215
+      - Relay_🇺🇸US-🇺🇸US_2535
+      - CN_253
       - CN_221
-      - CN_233
-      - CN_216
-      - CN_273
-      - CN_255
+      - CN_240
+      - CN_215
+      - CN_245
+      - CN_258
+      - CN_251
       - CN_213
-      - github.com/freefq - 美国惠普HP 3
-      - Relay_🇭🇰HK-🇭🇰HK_648
-      - Relay_🇺🇸US-🇹🇼TW_2814
-      - Relay_🇺🇸US-🇹🇼TW_2816
-      - Relay_🇺🇸US-🇹🇼TW_2823
+      - CN_261
+      - CN_281
       - Pool_🇺🇸US_2789
-      - BG_133
-      - Relay_🇱🇹LT-🇱🇹LT_1179
-      - Relay_🇷🇺RU-🇷🇺RU_1805
-      - Relay_🇺🇸US-🇺🇸US_2829
-      - Relay_🇧🇬BG-🇧🇬BG_134
+      - Relay_🇩🇪DE-🇬🇧GB_303
+      - Relay_🇩🇪DE-🇬🇧GB_295
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - Relay_🇨🇳CN-🇨🇳CN_235
+      - Relay_🇩🇪DE-🇬🇧GB_301
+      - CN_289
+      - CN_278
+      - CN_268
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_2777
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
-      - CN_280
-      - CN_268
-      - CN_227
-      - CN_274
-      - CN_275
-      - CN_281
-      - CN_223
-      - CN_226
-      - CN_279
-      - CN_285
-      - CN_234
       - CN_259
-      - CN_264
+      - CN_280
+      - CN_273
+      - CN_234
       - CN_235
+      - CN_264
+      - CN_285
+      - CN_226
+      - CN_255
+      - CN_227
       - CN_243
-      - CN_263
+      - CN_279
+      - CN_275
+      - CN_291
+      - CN_233
+      - CN_269
+      - CN_254
+      - CN_290
+      - CN_241
+      - CN_283
+      - CN_171
+      - CN_284
+      - CN_216
       - CN_277
       - CN_219
-      - CN_258
-      - CN_278
-      - CN_240
-      - CN_241
-      - CN_284
-      - CN_253
-      - CN_283
-      - CN_269
-      - CN_289
-      - CN_291
-      - CN_251
-      - CN_245
-      - CN_290
+      - CN_263
       - CN_244
-      - CN_254
-      - CN_261
-      - CN_215
+      - Relay_🇺🇸US-🇺🇸US_2535
+      - CN_253
       - CN_221
-      - CN_233
-      - CN_216
-      - CN_273
-      - CN_255
+      - CN_240
+      - CN_215
+      - CN_245
+      - CN_258
+      - CN_251
       - CN_213
-      - github.com/freefq - 美国惠普HP 3
-      - Relay_🇭🇰HK-🇭🇰HK_648
-      - Relay_🇺🇸US-🇹🇼TW_2814
-      - Relay_🇺🇸US-🇹🇼TW_2816
-      - Relay_🇺🇸US-🇹🇼TW_2823
+      - CN_261
+      - CN_281
       - Pool_🇺🇸US_2789
-      - BG_133
-      - Relay_🇱🇹LT-🇱🇹LT_1179
-      - Relay_🇷🇺RU-🇷🇺RU_1805
-      - Relay_🇺🇸US-🇺🇸US_2829
-      - Relay_🇧🇬BG-🇧🇬BG_134
+      - Relay_🇩🇪DE-🇬🇧GB_303
+      - Relay_🇩🇪DE-🇬🇧GB_295
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - Relay_🇨🇳CN-🇨🇳CN_235
+      - Relay_🇩🇪DE-🇬🇧GB_301
+      - CN_289
+      - CN_278
+      - CN_268
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_2777
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
-      - CN_280
-      - CN_268
-      - CN_227
-      - CN_274
-      - CN_275
-      - CN_281
-      - CN_223
-      - CN_226
-      - CN_279
-      - CN_285
-      - CN_234
       - CN_259
-      - CN_264
+      - CN_280
+      - CN_273
+      - CN_234
       - CN_235
+      - CN_264
+      - CN_285
+      - CN_226
+      - CN_255
+      - CN_227
       - CN_243
-      - CN_263
+      - CN_279
+      - CN_275
+      - CN_291
+      - CN_233
+      - CN_269
+      - CN_254
+      - CN_290
+      - CN_241
+      - CN_283
+      - CN_171
+      - CN_284
+      - CN_216
       - CN_277
       - CN_219
-      - CN_258
-      - CN_278
-      - CN_240
-      - CN_241
-      - CN_284
-      - CN_253
-      - CN_283
-      - CN_269
-      - CN_289
-      - CN_291
-      - CN_251
-      - CN_245
-      - CN_290
+      - CN_263
       - CN_244
-      - CN_254
-      - CN_261
-      - CN_215
+      - Relay_🇺🇸US-🇺🇸US_2535
+      - CN_253
       - CN_221
-      - CN_233
-      - CN_216
-      - CN_273
-      - CN_255
+      - CN_240
+      - CN_215
+      - CN_245
+      - CN_258
+      - CN_251
       - CN_213
-      - github.com/freefq - 美国惠普HP 3
-      - Relay_🇭🇰HK-🇭🇰HK_648
-      - Relay_🇺🇸US-🇹🇼TW_2814
-      - Relay_🇺🇸US-🇹🇼TW_2816
-      - Relay_🇺🇸US-🇹🇼TW_2823
+      - CN_261
+      - CN_281
       - Pool_🇺🇸US_2789
-      - BG_133
-      - Relay_🇱🇹LT-🇱🇹LT_1179
-      - Relay_🇷🇺RU-🇷🇺RU_1805
-      - Relay_🇺🇸US-🇺🇸US_2829
-      - Relay_🇧🇬BG-🇧🇬BG_134
+      - Relay_🇩🇪DE-🇬🇧GB_303
+      - Relay_🇩🇪DE-🇬🇧GB_295
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - Relay_🇨🇳CN-🇨🇳CN_235
+      - Relay_🇩🇪DE-🇬🇧GB_301
+      - CN_289
+      - CN_278
+      - CN_268
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -256,60 +228,53 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_2777
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
-      - CN_280
-      - CN_268
-      - CN_227
-      - CN_274
-      - CN_275
-      - CN_281
-      - CN_223
-      - CN_226
-      - CN_279
-      - CN_285
-      - CN_234
       - CN_259
-      - CN_264
+      - CN_280
+      - CN_273
+      - CN_234
       - CN_235
+      - CN_264
+      - CN_285
+      - CN_226
+      - CN_255
+      - CN_227
       - CN_243
-      - CN_263
+      - CN_279
+      - CN_275
+      - CN_291
+      - CN_233
+      - CN_269
+      - CN_254
+      - CN_290
+      - CN_241
+      - CN_283
+      - CN_171
+      - CN_284
+      - CN_216
       - CN_277
       - CN_219
-      - CN_258
-      - CN_278
-      - CN_240
-      - CN_241
-      - CN_284
-      - CN_253
-      - CN_283
-      - CN_269
-      - CN_289
-      - CN_291
-      - CN_251
-      - CN_245
-      - CN_290
+      - CN_263
       - CN_244
-      - CN_254
-      - CN_261
-      - CN_215
+      - Relay_🇺🇸US-🇺🇸US_2535
+      - CN_253
       - CN_221
-      - CN_233
-      - CN_216
-      - CN_273
-      - CN_255
+      - CN_240
+      - CN_215
+      - CN_245
+      - CN_258
+      - CN_251
       - CN_213
-      - github.com/freefq - 美国惠普HP 3
-      - Relay_🇭🇰HK-🇭🇰HK_648
-      - Relay_🇺🇸US-🇹🇼TW_2814
-      - Relay_🇺🇸US-🇹🇼TW_2816
-      - Relay_🇺🇸US-🇹🇼TW_2823
+      - CN_261
+      - CN_281
       - Pool_🇺🇸US_2789
-      - BG_133
-      - Relay_🇱🇹LT-🇱🇹LT_1179
-      - Relay_🇷🇺RU-🇷🇺RU_1805
-      - Relay_🇺🇸US-🇺🇸US_2829
-      - Relay_🇧🇬BG-🇧🇬BG_134
+      - Relay_🇩🇪DE-🇬🇧GB_303
+      - Relay_🇩🇪DE-🇬🇧GB_295
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - Relay_🇨🇳CN-🇨🇳CN_235
+      - Relay_🇩🇪DE-🇬🇧GB_301
+      - CN_289
+      - CN_278
+      - CN_268
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -320,179 +285,158 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇺🇸US-🇺🇸US_2777
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
-      - CN_280
-      - CN_268
-      - CN_227
-      - CN_274
-      - CN_275
-      - CN_281
-      - CN_223
-      - CN_226
-      - CN_279
-      - CN_285
-      - CN_234
       - CN_259
-      - CN_264
+      - CN_280
+      - CN_273
+      - CN_234
       - CN_235
+      - CN_264
+      - CN_285
+      - CN_226
+      - CN_255
+      - CN_227
       - CN_243
-      - CN_263
+      - CN_279
+      - CN_275
+      - CN_291
+      - CN_233
+      - CN_269
+      - CN_254
+      - CN_290
+      - CN_241
+      - CN_283
+      - CN_171
+      - CN_284
+      - CN_216
       - CN_277
       - CN_219
-      - CN_258
-      - CN_278
-      - CN_240
-      - CN_241
-      - CN_284
-      - CN_253
-      - CN_283
-      - CN_269
-      - CN_289
-      - CN_291
-      - CN_251
-      - CN_245
-      - CN_290
+      - CN_263
       - CN_244
-      - CN_254
-      - CN_261
-      - CN_215
+      - Relay_🇺🇸US-🇺🇸US_2535
+      - CN_253
       - CN_221
-      - CN_233
-      - CN_216
-      - CN_273
-      - CN_255
+      - CN_240
+      - CN_215
+      - CN_245
+      - CN_258
+      - CN_251
       - CN_213
-      - github.com/freefq - 美国惠普HP 3
-      - Relay_🇭🇰HK-🇭🇰HK_648
-      - Relay_🇺🇸US-🇹🇼TW_2814
-      - Relay_🇺🇸US-🇹🇼TW_2816
-      - Relay_🇺🇸US-🇹🇼TW_2823
+      - CN_261
+      - CN_281
       - Pool_🇺🇸US_2789
-      - BG_133
-      - Relay_🇱🇹LT-🇱🇹LT_1179
-      - Relay_🇷🇺RU-🇷🇺RU_1805
-      - Relay_🇺🇸US-🇺🇸US_2829
-      - Relay_🇧🇬BG-🇧🇬BG_134
+      - Relay_🇩🇪DE-🇬🇧GB_303
+      - Relay_🇩🇪DE-🇬🇧GB_295
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - Relay_🇨🇳CN-🇨🇳CN_235
+      - Relay_🇩🇪DE-🇬🇧GB_301
+      - CN_289
+      - CN_278
+      - CN_268
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_2777
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
-      - CN_280
-      - CN_268
-      - CN_227
-      - CN_274
-      - CN_275
-      - CN_281
-      - CN_223
-      - CN_226
-      - CN_279
-      - CN_285
-      - CN_234
       - CN_259
-      - CN_264
+      - CN_280
+      - CN_273
+      - CN_234
       - CN_235
+      - CN_264
+      - CN_285
+      - CN_226
+      - CN_255
+      - CN_227
       - CN_243
-      - CN_263
+      - CN_279
+      - CN_275
+      - CN_291
+      - CN_233
+      - CN_269
+      - CN_254
+      - CN_290
+      - CN_241
+      - CN_283
+      - CN_171
+      - CN_284
+      - CN_216
       - CN_277
       - CN_219
-      - CN_258
-      - CN_278
-      - CN_240
-      - CN_241
-      - CN_284
-      - CN_253
-      - CN_283
-      - CN_269
-      - CN_289
-      - CN_291
-      - CN_251
-      - CN_245
-      - CN_290
+      - CN_263
       - CN_244
-      - CN_254
-      - CN_261
-      - CN_215
+      - Relay_🇺🇸US-🇺🇸US_2535
+      - CN_253
       - CN_221
-      - CN_233
-      - CN_216
-      - CN_273
-      - CN_255
+      - CN_240
+      - CN_215
+      - CN_245
+      - CN_258
+      - CN_251
       - CN_213
-      - github.com/freefq - 美国惠普HP 3
-      - Relay_🇭🇰HK-🇭🇰HK_648
-      - Relay_🇺🇸US-🇹🇼TW_2814
-      - Relay_🇺🇸US-🇹🇼TW_2816
-      - Relay_🇺🇸US-🇹🇼TW_2823
+      - CN_261
+      - CN_281
       - Pool_🇺🇸US_2789
-      - BG_133
-      - Relay_🇱🇹LT-🇱🇹LT_1179
-      - Relay_🇷🇺RU-🇷🇺RU_1805
-      - Relay_🇺🇸US-🇺🇸US_2829
-      - Relay_🇧🇬BG-🇧🇬BG_134
+      - Relay_🇩🇪DE-🇬🇧GB_303
+      - Relay_🇩🇪DE-🇬🇧GB_295
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - Relay_🇨🇳CN-🇨🇳CN_235
+      - Relay_🇩🇪DE-🇬🇧GB_301
+      - CN_289
+      - CN_278
+      - CN_268
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_2777
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
-      - CN_280
-      - CN_268
-      - CN_227
-      - CN_274
-      - CN_275
-      - CN_281
-      - CN_223
-      - CN_226
-      - CN_279
-      - CN_285
-      - CN_234
       - CN_259
-      - CN_264
+      - CN_280
+      - CN_273
+      - CN_234
       - CN_235
+      - CN_264
+      - CN_285
+      - CN_226
+      - CN_255
+      - CN_227
       - CN_243
-      - CN_263
+      - CN_279
+      - CN_275
+      - CN_291
+      - CN_233
+      - CN_269
+      - CN_254
+      - CN_290
+      - CN_241
+      - CN_283
+      - CN_171
+      - CN_284
+      - CN_216
       - CN_277
       - CN_219
-      - CN_258
-      - CN_278
-      - CN_240
-      - CN_241
-      - CN_284
-      - CN_253
-      - CN_283
-      - CN_269
-      - CN_289
-      - CN_291
-      - CN_251
-      - CN_245
-      - CN_290
+      - CN_263
       - CN_244
-      - CN_254
-      - CN_261
-      - CN_215
+      - Relay_🇺🇸US-🇺🇸US_2535
+      - CN_253
       - CN_221
-      - CN_233
-      - CN_216
-      - CN_273
-      - CN_255
+      - CN_240
+      - CN_215
+      - CN_245
+      - CN_258
+      - CN_251
       - CN_213
-      - github.com/freefq - 美国惠普HP 3
-      - Relay_🇭🇰HK-🇭🇰HK_648
-      - Relay_🇺🇸US-🇹🇼TW_2814
-      - Relay_🇺🇸US-🇹🇼TW_2816
-      - Relay_🇺🇸US-🇹🇼TW_2823
+      - CN_261
+      - CN_281
       - Pool_🇺🇸US_2789
-      - BG_133
-      - Relay_🇱🇹LT-🇱🇹LT_1179
-      - Relay_🇷🇺RU-🇷🇺RU_1805
-      - Relay_🇺🇸US-🇺🇸US_2829
-      - Relay_🇧🇬BG-🇧🇬BG_134
+      - Relay_🇩🇪DE-🇬🇧GB_303
+      - Relay_🇩🇪DE-🇬🇧GB_295
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - Relay_🇨🇳CN-🇨🇳CN_235
+      - Relay_🇩🇪DE-🇬🇧GB_301
+      - CN_289
+      - CN_278
+      - CN_268
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -508,60 +452,53 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_2777
-      - github.com/freefq - 美国CloudFlare公司CDN节点 26
-      - CN_280
-      - CN_268
-      - CN_227
-      - CN_274
-      - CN_275
-      - CN_281
-      - CN_223
-      - CN_226
-      - CN_279
-      - CN_285
-      - CN_234
       - CN_259
-      - CN_264
+      - CN_280
+      - CN_273
+      - CN_234
       - CN_235
+      - CN_264
+      - CN_285
+      - CN_226
+      - CN_255
+      - CN_227
       - CN_243
-      - CN_263
+      - CN_279
+      - CN_275
+      - CN_291
+      - CN_233
+      - CN_269
+      - CN_254
+      - CN_290
+      - CN_241
+      - CN_283
+      - CN_171
+      - CN_284
+      - CN_216
       - CN_277
       - CN_219
-      - CN_258
-      - CN_278
-      - CN_240
-      - CN_241
-      - CN_284
-      - CN_253
-      - CN_283
-      - CN_269
-      - CN_289
-      - CN_291
-      - CN_251
-      - CN_245
-      - CN_290
+      - CN_263
       - CN_244
-      - CN_254
-      - CN_261
-      - CN_215
+      - Relay_🇺🇸US-🇺🇸US_2535
+      - CN_253
       - CN_221
-      - CN_233
-      - CN_216
-      - CN_273
-      - CN_255
+      - CN_240
+      - CN_215
+      - CN_245
+      - CN_258
+      - CN_251
       - CN_213
-      - github.com/freefq - 美国惠普HP 3
-      - Relay_🇭🇰HK-🇭🇰HK_648
-      - Relay_🇺🇸US-🇹🇼TW_2814
-      - Relay_🇺🇸US-🇹🇼TW_2816
-      - Relay_🇺🇸US-🇹🇼TW_2823
+      - CN_261
+      - CN_281
       - Pool_🇺🇸US_2789
-      - BG_133
-      - Relay_🇱🇹LT-🇱🇹LT_1179
-      - Relay_🇷🇺RU-🇷🇺RU_1805
-      - Relay_🇺🇸US-🇺🇸US_2829
-      - Relay_🇧🇬BG-🇧🇬BG_134
+      - Relay_🇩🇪DE-🇬🇧GB_303
+      - Relay_🇩🇪DE-🇬🇧GB_295
+      - Relay_🇺🇸US-🇺🇸US_2530
+      - Relay_🇨🇳CN-🇨🇳CN_235
+      - Relay_🇩🇪DE-🇬🇧GB_301
+      - CN_289
+      - CN_278
+      - CN_268
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
