@@ -6,47 +6,23 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: LT_162 TG@peekf%%DC, server: 213.183.53.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: github.com/freefq - 俄罗斯  24, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: Relay_🇩🇪DE-🇸🇬SG_354, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2161, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: CN_209, server: cu-cs.okvpn.xyz, port: 20009, type: trojan, password: 604c3e18-a40a-434e-bcc1-d810845bf034, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2295, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2284, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 加拿大  6, server: 67us01.fans8.xyz, port: 443, type: trojan, password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93, sni: 67us01.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: LT_815, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_1232, server: us1.nodegz.top, port: 443, type: trojan, password: cf9be019-1f76-3ceb-a67a-247d45b4725a, sni: us1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: LT_124 TG@peekf%%DC, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: LT_730, server: 213.183.53.177, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: NL_1012, server: 213.183.59.214, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: LT_750, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: LT_125 TG@peekf%%DC, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
   - {name: LT_863, server: 213.183.53.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: LT_809, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: LT_776, server: 213.183.53.177, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
+  - {name: NL_936, server: 213.183.59.214, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
   - {name: LT_792, server: 213.183.53.177, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: LT_816, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: NL_968, server: 213.183.59.206, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: LT_795, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: NL_1062, server: 213.183.59.206, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: LT_786, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: LT_793, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: NL_1001, server: 213.183.59.214, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: NL_995, server: 213.183.59.214, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: NL_959, server: 213.183.59.206, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
   - {name: NL_1061, server: 213.183.59.206, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: NL_1024, server: 213.183.59.214, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: NL_973, server: 213.183.59.214, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: NL_970, server: 213.183.59.214, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: NL_993, server: 213.183.59.214, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: NL_1003, server: 213.183.59.214, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: NL_1007, server: 213.183.59.214, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: NL_969, server: 213.183.59.214, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: NL_977, server: 213.183.59.214, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: NL_978, server: 213.183.59.214, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: NL_1006, server: 213.183.59.206, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: NL_961, server: 213.183.59.206, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: NL_1045, server: 213.183.59.214, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: NL_1047, server: 213.183.59.214, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: NL_998, server: 213.183.59.214, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
-  - {name: NL_985, server: 213.183.59.206, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: NL_1059, server: 213.183.59.214, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
   - {name: NL_1054, server: 213.183.59.214, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: NL_1028, server: 213.183.59.214, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: NL_1048, server: 213.183.59.206, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: US_1777, server: 161.35.69.20, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: NL_1014, server: 213.183.59.214, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: NL_1024, server: 213.183.59.214, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: NL_1023, server: 213.183.59.214, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: NL_970, server: 213.183.59.214, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: NL_935, server: 213.183.59.214, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -54,94 +30,46 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - LT_162 TG@peekf%%DC
-      - github.com/freefq - 俄罗斯  24
-      - Relay_🇩🇪DE-🇸🇬SG_354
-      - Relay_🇺🇸US-🇺🇸US_2161
-      - CN_209
-      - Relay_🇺🇸US-🇺🇸US_2295
-      - Relay_🇺🇸US-🇺🇸US_2284
-      - github.com/freefq - 加拿大  6
-      - LT_815
+      - Relay_🇷🇺RU-🇷🇺RU_1232
+      - LT_124 TG@peekf%%DC
+      - LT_730
+      - NL_1012
+      - LT_750
+      - LT_125 TG@peekf%%DC
       - LT_863
-      - LT_809
-      - LT_776
+      - NL_936
       - LT_792
-      - LT_816
-      - NL_968
-      - LT_795
-      - NL_1062
-      - LT_786
-      - LT_793
-      - NL_1001
-      - NL_995
-      - NL_959
       - NL_1061
-      - NL_1024
-      - NL_973
-      - NL_970
-      - NL_993
-      - NL_1003
-      - NL_1007
-      - NL_969
-      - NL_977
-      - NL_978
-      - NL_1006
-      - NL_961
-      - NL_1045
-      - NL_1047
-      - NL_998
-      - NL_985
-      - NL_1059
       - NL_1054
-      - NL_1028
-      - NL_1048
+      - US_1777
+      - NL_1014
+      - NL_1024
+      - NL_1023
+      - NL_970
+      - NL_935
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - LT_162 TG@peekf%%DC
-      - github.com/freefq - 俄罗斯  24
-      - Relay_🇩🇪DE-🇸🇬SG_354
-      - Relay_🇺🇸US-🇺🇸US_2161
-      - CN_209
-      - Relay_🇺🇸US-🇺🇸US_2295
-      - Relay_🇺🇸US-🇺🇸US_2284
-      - github.com/freefq - 加拿大  6
-      - LT_815
+      - Relay_🇷🇺RU-🇷🇺RU_1232
+      - LT_124 TG@peekf%%DC
+      - LT_730
+      - NL_1012
+      - LT_750
+      - LT_125 TG@peekf%%DC
       - LT_863
-      - LT_809
-      - LT_776
+      - NL_936
       - LT_792
-      - LT_816
-      - NL_968
-      - LT_795
-      - NL_1062
-      - LT_786
-      - LT_793
-      - NL_1001
-      - NL_995
-      - NL_959
       - NL_1061
-      - NL_1024
-      - NL_973
-      - NL_970
-      - NL_993
-      - NL_1003
-      - NL_1007
-      - NL_969
-      - NL_977
-      - NL_978
-      - NL_1006
-      - NL_961
-      - NL_1045
-      - NL_1047
-      - NL_998
-      - NL_985
-      - NL_1059
       - NL_1054
-      - NL_1028
-      - NL_1048
+      - US_1777
+      - NL_1014
+      - NL_1024
+      - NL_1023
+      - NL_970
+      - NL_935
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -149,47 +77,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - LT_162 TG@peekf%%DC
-      - github.com/freefq - 俄罗斯  24
-      - Relay_🇩🇪DE-🇸🇬SG_354
-      - Relay_🇺🇸US-🇺🇸US_2161
-      - CN_209
-      - Relay_🇺🇸US-🇺🇸US_2295
-      - Relay_🇺🇸US-🇺🇸US_2284
-      - github.com/freefq - 加拿大  6
-      - LT_815
+      - Relay_🇷🇺RU-🇷🇺RU_1232
+      - LT_124 TG@peekf%%DC
+      - LT_730
+      - NL_1012
+      - LT_750
+      - LT_125 TG@peekf%%DC
       - LT_863
-      - LT_809
-      - LT_776
+      - NL_936
       - LT_792
-      - LT_816
-      - NL_968
-      - LT_795
-      - NL_1062
-      - LT_786
-      - LT_793
-      - NL_1001
-      - NL_995
-      - NL_959
       - NL_1061
-      - NL_1024
-      - NL_973
-      - NL_970
-      - NL_993
-      - NL_1003
-      - NL_1007
-      - NL_969
-      - NL_977
-      - NL_978
-      - NL_1006
-      - NL_961
-      - NL_1045
-      - NL_1047
-      - NL_998
-      - NL_985
-      - NL_1059
       - NL_1054
-      - NL_1028
-      - NL_1048
+      - US_1777
+      - NL_1014
+      - NL_1024
+      - NL_1023
+      - NL_970
+      - NL_935
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -209,47 +113,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - LT_162 TG@peekf%%DC
-      - github.com/freefq - 俄罗斯  24
-      - Relay_🇩🇪DE-🇸🇬SG_354
-      - Relay_🇺🇸US-🇺🇸US_2161
-      - CN_209
-      - Relay_🇺🇸US-🇺🇸US_2295
-      - Relay_🇺🇸US-🇺🇸US_2284
-      - github.com/freefq - 加拿大  6
-      - LT_815
+      - Relay_🇷🇺RU-🇷🇺RU_1232
+      - LT_124 TG@peekf%%DC
+      - LT_730
+      - NL_1012
+      - LT_750
+      - LT_125 TG@peekf%%DC
       - LT_863
-      - LT_809
-      - LT_776
+      - NL_936
       - LT_792
-      - LT_816
-      - NL_968
-      - LT_795
-      - NL_1062
-      - LT_786
-      - LT_793
-      - NL_1001
-      - NL_995
-      - NL_959
       - NL_1061
-      - NL_1024
-      - NL_973
-      - NL_970
-      - NL_993
-      - NL_1003
-      - NL_1007
-      - NL_969
-      - NL_977
-      - NL_978
-      - NL_1006
-      - NL_961
-      - NL_1045
-      - NL_1047
-      - NL_998
-      - NL_985
-      - NL_1059
       - NL_1054
-      - NL_1028
-      - NL_1048
+      - US_1777
+      - NL_1014
+      - NL_1024
+      - NL_1023
+      - NL_970
+      - NL_935
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -261,94 +141,46 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - LT_162 TG@peekf%%DC
-      - github.com/freefq - 俄罗斯  24
-      - Relay_🇩🇪DE-🇸🇬SG_354
-      - Relay_🇺🇸US-🇺🇸US_2161
-      - CN_209
-      - Relay_🇺🇸US-🇺🇸US_2295
-      - Relay_🇺🇸US-🇺🇸US_2284
-      - github.com/freefq - 加拿大  6
-      - LT_815
+      - Relay_🇷🇺RU-🇷🇺RU_1232
+      - LT_124 TG@peekf%%DC
+      - LT_730
+      - NL_1012
+      - LT_750
+      - LT_125 TG@peekf%%DC
       - LT_863
-      - LT_809
-      - LT_776
+      - NL_936
       - LT_792
-      - LT_816
-      - NL_968
-      - LT_795
-      - NL_1062
-      - LT_786
-      - LT_793
-      - NL_1001
-      - NL_995
-      - NL_959
       - NL_1061
-      - NL_1024
-      - NL_973
-      - NL_970
-      - NL_993
-      - NL_1003
-      - NL_1007
-      - NL_969
-      - NL_977
-      - NL_978
-      - NL_1006
-      - NL_961
-      - NL_1045
-      - NL_1047
-      - NL_998
-      - NL_985
-      - NL_1059
       - NL_1054
-      - NL_1028
-      - NL_1048
+      - US_1777
+      - NL_1014
+      - NL_1024
+      - NL_1023
+      - NL_970
+      - NL_935
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - LT_162 TG@peekf%%DC
-      - github.com/freefq - 俄罗斯  24
-      - Relay_🇩🇪DE-🇸🇬SG_354
-      - Relay_🇺🇸US-🇺🇸US_2161
-      - CN_209
-      - Relay_🇺🇸US-🇺🇸US_2295
-      - Relay_🇺🇸US-🇺🇸US_2284
-      - github.com/freefq - 加拿大  6
-      - LT_815
+      - Relay_🇷🇺RU-🇷🇺RU_1232
+      - LT_124 TG@peekf%%DC
+      - LT_730
+      - NL_1012
+      - LT_750
+      - LT_125 TG@peekf%%DC
       - LT_863
-      - LT_809
-      - LT_776
+      - NL_936
       - LT_792
-      - LT_816
-      - NL_968
-      - LT_795
-      - NL_1062
-      - LT_786
-      - LT_793
-      - NL_1001
-      - NL_995
-      - NL_959
       - NL_1061
-      - NL_1024
-      - NL_973
-      - NL_970
-      - NL_993
-      - NL_1003
-      - NL_1007
-      - NL_969
-      - NL_977
-      - NL_978
-      - NL_1006
-      - NL_961
-      - NL_1045
-      - NL_1047
-      - NL_998
-      - NL_985
-      - NL_1059
       - NL_1054
-      - NL_1028
-      - NL_1048
+      - US_1777
+      - NL_1014
+      - NL_1024
+      - NL_1023
+      - NL_970
+      - NL_935
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -356,47 +188,23 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - LT_162 TG@peekf%%DC
-      - github.com/freefq - 俄罗斯  24
-      - Relay_🇩🇪DE-🇸🇬SG_354
-      - Relay_🇺🇸US-🇺🇸US_2161
-      - CN_209
-      - Relay_🇺🇸US-🇺🇸US_2295
-      - Relay_🇺🇸US-🇺🇸US_2284
-      - github.com/freefq - 加拿大  6
-      - LT_815
+      - Relay_🇷🇺RU-🇷🇺RU_1232
+      - LT_124 TG@peekf%%DC
+      - LT_730
+      - NL_1012
+      - LT_750
+      - LT_125 TG@peekf%%DC
       - LT_863
-      - LT_809
-      - LT_776
+      - NL_936
       - LT_792
-      - LT_816
-      - NL_968
-      - LT_795
-      - NL_1062
-      - LT_786
-      - LT_793
-      - NL_1001
-      - NL_995
-      - NL_959
       - NL_1061
-      - NL_1024
-      - NL_973
-      - NL_970
-      - NL_993
-      - NL_1003
-      - NL_1007
-      - NL_969
-      - NL_977
-      - NL_978
-      - NL_1006
-      - NL_961
-      - NL_1045
-      - NL_1047
-      - NL_998
-      - NL_985
-      - NL_1059
       - NL_1054
-      - NL_1028
-      - NL_1048
+      - US_1777
+      - NL_1014
+      - NL_1024
+      - NL_1023
+      - NL_970
+      - NL_935
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -413,47 +221,23 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - LT_162 TG@peekf%%DC
-      - github.com/freefq - 俄罗斯  24
-      - Relay_🇩🇪DE-🇸🇬SG_354
-      - Relay_🇺🇸US-🇺🇸US_2161
-      - CN_209
-      - Relay_🇺🇸US-🇺🇸US_2295
-      - Relay_🇺🇸US-🇺🇸US_2284
-      - github.com/freefq - 加拿大  6
-      - LT_815
+      - Relay_🇷🇺RU-🇷🇺RU_1232
+      - LT_124 TG@peekf%%DC
+      - LT_730
+      - NL_1012
+      - LT_750
+      - LT_125 TG@peekf%%DC
       - LT_863
-      - LT_809
-      - LT_776
+      - NL_936
       - LT_792
-      - LT_816
-      - NL_968
-      - LT_795
-      - NL_1062
-      - LT_786
-      - LT_793
-      - NL_1001
-      - NL_995
-      - NL_959
       - NL_1061
-      - NL_1024
-      - NL_973
-      - NL_970
-      - NL_993
-      - NL_1003
-      - NL_1007
-      - NL_969
-      - NL_977
-      - NL_978
-      - NL_1006
-      - NL_961
-      - NL_1045
-      - NL_1047
-      - NL_998
-      - NL_985
-      - NL_1059
       - NL_1054
-      - NL_1028
-      - NL_1048
+      - US_1777
+      - NL_1014
+      - NL_1024
+      - NL_1023
+      - NL_970
+      - NL_935
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
