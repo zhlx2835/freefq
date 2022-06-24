@@ -5,143 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Relay_🇨🇳CN-🇺🇸US_185, server: gz-cm-kl.hinetwork.tw, port: 11136, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_187, server: gz-cm1-kl.hinetwork.tw, port: 11112, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm1-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇸🇪SE_213, server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 11, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47.v2dns.bar}, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇪SE_213 2, server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2209, server: us03.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us03.gogogoo.cyou}, udp: true}
-  - {name: FR_286, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2222, server: ss2.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, sni: ss2.2046.gq, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_193, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_105, server: us.v2yyds.cc, port: 32912, type: trojan, password: 90a0dcfe-f7bc-49ba-a72d-762959a03c9f, sni: us.v2yyds.cc, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_108, server: cnus.v2yyds.cc, port: 32913, type: trojan, password: 90a0dcfe-f7bc-49ba-a72d-762959a03c9f, sni: cnus.v2yyds.cc, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  6, server: 67us01.fans8.xyz, port: 443, type: trojan, password: f5362b9a-812f-4d77-89a3-09f7d0851bfb, sni: 67us01.fans8.xyz, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🏁ZZ_219, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2254, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇦CA-🇨🇦CA_156, server: 67us01.fans8.xyz, port: 443, type: trojan, password: 6f5e02bd-9b8f-44bc-b681-55150c102911, sni: 67us01.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: NL_987, server: 213.183.59.211, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: LT_786, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: NL_1002, server: 213.183.59.211, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: NL_960, server: 213.183.59.211, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: NL_959, server: 213.183.59.211, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: NL_995, server: 213.183.59.211, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: NL_1031, server: 213.183.59.211, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: NL_978, server: 213.183.59.211, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: NL_974, server: 213.183.59.211, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: NL_1029, server: 213.183.59.211, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: NL_969, server: 213.183.59.211, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: NL_1038, server: 213.183.59.214, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: NL_1000, server: 213.183.59.214, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: NL_1001, server: 213.183.59.211, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: NL_1004, server: 213.183.59.211, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
-  - {name: NL_972, server: 213.183.59.211, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: LT_763, server: 213.183.53.177, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: NL_952, server: 213.183.59.211, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: NL_1009, server: 213.183.59.211, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_184, server: gz-cm-kl.hinetwork.tw, port: 11199, type: trojan, password: d46abf38-3a4c-3dfc-91e0-d8d3f1616c73, sni: gz-cm-kl.hinetwork.tw, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇸🇪SE_213 2, server: 2.game.speed.zz.001.oooooooooo.icu, port: 53945, type: vmess, uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_185
+      - Relay_🇨🇳CN-🇺🇸US_187
       - Relay_🇨🇳CN-🇸🇪SE_213
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Relay_🇨🇳CN-🇸🇪SE_213 2
-      - Relay_🇺🇸US-🇺🇸US_2209
-      - FR_286
+      - Relay_🇺🇸US-🇺🇸US_2222
       - Relay_🇨🇳CN-🇹🇼TW_193
-      - Relay_🇦🇺AU-🇦🇺AU_105
-      - Relay_🇦🇺AU-🇦🇺AU_108
+      - github.com/freefq - 加拿大  6
       - Relay_🇨🇳CN-🏁ZZ_219
-      - Relay_🇺🇸US-🇺🇸US_2254
-      - Relay_🇨🇦CA-🇨🇦CA_156
-      - NL_987
-      - LT_786
-      - NL_1002
-      - NL_960
-      - NL_959
-      - NL_995
-      - NL_1031
-      - NL_978
-      - NL_974
-      - NL_1029
-      - NL_969
-      - NL_1038
-      - NL_1000
-      - NL_1001
-      - NL_1004
-      - NL_972
-      - LT_763
-      - NL_952
-      - NL_1009
+      - Relay_🇨🇳CN-🇺🇸US_184
+      - Relay_🇨🇳CN-🇸🇪SE_213 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Relay_🇨🇳CN-🇺🇸US_185
+      - Relay_🇨🇳CN-🇺🇸US_187
       - Relay_🇨🇳CN-🇸🇪SE_213
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Relay_🇨🇳CN-🇸🇪SE_213 2
-      - Relay_🇺🇸US-🇺🇸US_2209
-      - FR_286
+      - Relay_🇺🇸US-🇺🇸US_2222
       - Relay_🇨🇳CN-🇹🇼TW_193
-      - Relay_🇦🇺AU-🇦🇺AU_105
-      - Relay_🇦🇺AU-🇦🇺AU_108
+      - github.com/freefq - 加拿大  6
       - Relay_🇨🇳CN-🏁ZZ_219
-      - Relay_🇺🇸US-🇺🇸US_2254
-      - Relay_🇨🇦CA-🇨🇦CA_156
-      - NL_987
-      - LT_786
-      - NL_1002
-      - NL_960
-      - NL_959
-      - NL_995
-      - NL_1031
-      - NL_978
-      - NL_974
-      - NL_1029
-      - NL_969
-      - NL_1038
-      - NL_1000
-      - NL_1001
-      - NL_1004
-      - NL_972
-      - LT_763
-      - NL_952
-      - NL_1009
+      - Relay_🇨🇳CN-🇺🇸US_184
+      - Relay_🇨🇳CN-🇸🇪SE_213 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_185
+      - Relay_🇨🇳CN-🇺🇸US_187
       - Relay_🇨🇳CN-🇸🇪SE_213
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Relay_🇨🇳CN-🇸🇪SE_213 2
-      - Relay_🇺🇸US-🇺🇸US_2209
-      - FR_286
+      - Relay_🇺🇸US-🇺🇸US_2222
       - Relay_🇨🇳CN-🇹🇼TW_193
-      - Relay_🇦🇺AU-🇦🇺AU_105
-      - Relay_🇦🇺AU-🇦🇺AU_108
+      - github.com/freefq - 加拿大  6
       - Relay_🇨🇳CN-🏁ZZ_219
-      - Relay_🇺🇸US-🇺🇸US_2254
-      - Relay_🇨🇦CA-🇨🇦CA_156
-      - NL_987
-      - LT_786
-      - NL_1002
-      - NL_960
-      - NL_959
-      - NL_995
-      - NL_1031
-      - NL_978
-      - NL_974
-      - NL_1029
-      - NL_969
-      - NL_1038
-      - NL_1000
-      - NL_1001
-      - NL_1004
-      - NL_972
-      - LT_763
-      - NL_952
-      - NL_1009
+      - Relay_🇨🇳CN-🇺🇸US_184
+      - Relay_🇨🇳CN-🇸🇪SE_213 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,36 +76,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_185
+      - Relay_🇨🇳CN-🇺🇸US_187
       - Relay_🇨🇳CN-🇸🇪SE_213
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Relay_🇨🇳CN-🇸🇪SE_213 2
-      - Relay_🇺🇸US-🇺🇸US_2209
-      - FR_286
+      - Relay_🇺🇸US-🇺🇸US_2222
       - Relay_🇨🇳CN-🇹🇼TW_193
-      - Relay_🇦🇺AU-🇦🇺AU_105
-      - Relay_🇦🇺AU-🇦🇺AU_108
+      - github.com/freefq - 加拿大  6
       - Relay_🇨🇳CN-🏁ZZ_219
-      - Relay_🇺🇸US-🇺🇸US_2254
-      - Relay_🇨🇦CA-🇨🇦CA_156
-      - NL_987
-      - LT_786
-      - NL_1002
-      - NL_960
-      - NL_959
-      - NL_995
-      - NL_1031
-      - NL_978
-      - NL_974
-      - NL_1029
-      - NL_969
-      - NL_1038
-      - NL_1000
-      - NL_1001
-      - NL_1004
-      - NL_972
-      - LT_763
-      - NL_952
-      - NL_1009
+      - Relay_🇨🇳CN-🇺🇸US_184
+      - Relay_🇨🇳CN-🇸🇪SE_213 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -200,107 +95,44 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Relay_🇨🇳CN-🇺🇸US_185
+      - Relay_🇨🇳CN-🇺🇸US_187
       - Relay_🇨🇳CN-🇸🇪SE_213
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Relay_🇨🇳CN-🇸🇪SE_213 2
-      - Relay_🇺🇸US-🇺🇸US_2209
-      - FR_286
+      - Relay_🇺🇸US-🇺🇸US_2222
       - Relay_🇨🇳CN-🇹🇼TW_193
-      - Relay_🇦🇺AU-🇦🇺AU_105
-      - Relay_🇦🇺AU-🇦🇺AU_108
+      - github.com/freefq - 加拿大  6
       - Relay_🇨🇳CN-🏁ZZ_219
-      - Relay_🇺🇸US-🇺🇸US_2254
-      - Relay_🇨🇦CA-🇨🇦CA_156
-      - NL_987
-      - LT_786
-      - NL_1002
-      - NL_960
-      - NL_959
-      - NL_995
-      - NL_1031
-      - NL_978
-      - NL_974
-      - NL_1029
-      - NL_969
-      - NL_1038
-      - NL_1000
-      - NL_1001
-      - NL_1004
-      - NL_972
-      - LT_763
-      - NL_952
-      - NL_1009
+      - Relay_🇨🇳CN-🇺🇸US_184
+      - Relay_🇨🇳CN-🇸🇪SE_213 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Relay_🇨🇳CN-🇺🇸US_185
+      - Relay_🇨🇳CN-🇺🇸US_187
       - Relay_🇨🇳CN-🇸🇪SE_213
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Relay_🇨🇳CN-🇸🇪SE_213 2
-      - Relay_🇺🇸US-🇺🇸US_2209
-      - FR_286
+      - Relay_🇺🇸US-🇺🇸US_2222
       - Relay_🇨🇳CN-🇹🇼TW_193
-      - Relay_🇦🇺AU-🇦🇺AU_105
-      - Relay_🇦🇺AU-🇦🇺AU_108
+      - github.com/freefq - 加拿大  6
       - Relay_🇨🇳CN-🏁ZZ_219
-      - Relay_🇺🇸US-🇺🇸US_2254
-      - Relay_🇨🇦CA-🇨🇦CA_156
-      - NL_987
-      - LT_786
-      - NL_1002
-      - NL_960
-      - NL_959
-      - NL_995
-      - NL_1031
-      - NL_978
-      - NL_974
-      - NL_1029
-      - NL_969
-      - NL_1038
-      - NL_1000
-      - NL_1001
-      - NL_1004
-      - NL_972
-      - LT_763
-      - NL_952
-      - NL_1009
+      - Relay_🇨🇳CN-🇺🇸US_184
+      - Relay_🇨🇳CN-🇸🇪SE_213 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇨🇳CN-🇺🇸US_185
+      - Relay_🇨🇳CN-🇺🇸US_187
       - Relay_🇨🇳CN-🇸🇪SE_213
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Relay_🇨🇳CN-🇸🇪SE_213 2
-      - Relay_🇺🇸US-🇺🇸US_2209
-      - FR_286
+      - Relay_🇺🇸US-🇺🇸US_2222
       - Relay_🇨🇳CN-🇹🇼TW_193
-      - Relay_🇦🇺AU-🇦🇺AU_105
-      - Relay_🇦🇺AU-🇦🇺AU_108
+      - github.com/freefq - 加拿大  6
       - Relay_🇨🇳CN-🏁ZZ_219
-      - Relay_🇺🇸US-🇺🇸US_2254
-      - Relay_🇨🇦CA-🇨🇦CA_156
-      - NL_987
-      - LT_786
-      - NL_1002
-      - NL_960
-      - NL_959
-      - NL_995
-      - NL_1031
-      - NL_978
-      - NL_974
-      - NL_1029
-      - NL_969
-      - NL_1038
-      - NL_1000
-      - NL_1001
-      - NL_1004
-      - NL_972
-      - LT_763
-      - NL_952
-      - NL_1009
+      - Relay_🇨🇳CN-🇺🇸US_184
+      - Relay_🇨🇳CN-🇸🇪SE_213 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -316,36 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Relay_🇨🇳CN-🇺🇸US_185
+      - Relay_🇨🇳CN-🇺🇸US_187
       - Relay_🇨🇳CN-🇸🇪SE_213
-      - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Relay_🇨🇳CN-🇸🇪SE_213 2
-      - Relay_🇺🇸US-🇺🇸US_2209
-      - FR_286
+      - Relay_🇺🇸US-🇺🇸US_2222
       - Relay_🇨🇳CN-🇹🇼TW_193
-      - Relay_🇦🇺AU-🇦🇺AU_105
-      - Relay_🇦🇺AU-🇦🇺AU_108
+      - github.com/freefq - 加拿大  6
       - Relay_🇨🇳CN-🏁ZZ_219
-      - Relay_🇺🇸US-🇺🇸US_2254
-      - Relay_🇨🇦CA-🇨🇦CA_156
-      - NL_987
-      - LT_786
-      - NL_1002
-      - NL_960
-      - NL_959
-      - NL_995
-      - NL_1031
-      - NL_978
-      - NL_974
-      - NL_1029
-      - NL_969
-      - NL_1038
-      - NL_1000
-      - NL_1001
-      - NL_1004
-      - NL_972
-      - LT_763
-      - NL_952
-      - NL_1009
+      - Relay_🇨🇳CN-🇺🇸US_184
+      - Relay_🇨🇳CN-🇸🇪SE_213 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
