@@ -5,79 +5,215 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇺🇸US-🇺🇸US_43, server: v04.ssrsub.com, port: 153, type: vmess, uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
-  - {name: Relay_🇺🇸US-🏁ZZ_41, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws-makae, ws-headers: {Host: bn-id01.ipv2ray.xyz}, udp: true}
-  - {name: github.com/freefq - 越南  17, server: 103.90.220.27, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: NL_676, server: 213.183.59.177, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: CN_136, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: FR_282, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: FR_248, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: RU_1062, server: 45.144.176.135, port: 3005, type: ss, cipher: aes-256-cfb, password: 987.085wrcgrwqs36.985, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_166, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_165, server: 106.75.233.91, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_162, server: 106.75.233.91, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_1996, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2049, server: ss2.2046.gq, port: 4443, type: trojan, password: 554ba845-2610-4aee-86fc-d2080ff1c4a6, sni: ss2.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇷🇺RU-🇷🇺RU_1124, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: 2971161c-46af-4ac3-b9c3-409b2750a751, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🏁ZZ-🏁ZZ_2353, server: id.node.qchwnd.moe, port: 44607, type: trojan, password: 2971161c-46af-4ac3-b9c3-409b2750a751, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2048, server: uk.node.qchwnd.moe, port: 44613, type: trojan, password: 2971161c-46af-4ac3-b9c3-409b2750a751, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_155, server: 103.56.62.145, port: 3381, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true, udp: true}
+  - {name: Relay_🏁ZZ-🇹🇼TW_2358, server: 134.195.101.32, port: 3389, type: trojan, password: 711aabc21e45ae31, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_169, server: 103.56.62.145, port: 3381, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_166 2, server: 106.75.233.91, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Relay_🏁ZZ-🇹🇼TW_2354, server: 134.195.101.32, port: 3389, type: trojan, password: ca4596fb9bc63cf2, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_158, server: 103.56.62.145, port: 3381, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: Relay_🏁ZZ-🇹🇼TW_2356, server: 134.195.101.32, port: 3389, type: trojan, password: 9a27800ca7b52ee0, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_170, server: 103.56.62.145, port: 3381, type: trojan, password: d66013c645b93c5c, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🏁ZZ_168, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: Relay_🏁ZZ-🇹🇼TW_2355, server: 134.195.101.32, port: 3389, type: trojan, password: ffec9f6ea19e1dd1, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2251, server: 134.195.196.150, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2307, server: 134.195.196.150, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2312, server: 134.195.196.150, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2146, server: 134.195.196.150, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_2199, server: 134.195.196.150, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_2180, server: 134.195.196.150, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_2232, server: 134.195.196.150, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2075, server: 134.195.196.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: ZZ_2159, server: 134.195.196.150, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: ZZ_2148, server: 134.195.196.150, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_2120, server: 134.195.196.150, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: ZZ_2104, server: 134.195.196.150, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_2296, server: 134.195.196.150, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_2314, server: 134.195.196.150, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: ZZ_2163, server: 134.195.196.150, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_2086, server: 134.195.196.150, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_2112, server: 134.195.196.150, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_2152, server: 134.195.196.150, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: ZZ_2272, server: 134.195.196.150, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_2166, server: 134.195.196.150, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2310, server: 134.195.196.150, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: ZZ_2068, server: 134.195.196.150, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: ZZ_2279, server: 134.195.196.150, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_2292, server: 134.195.196.150, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: ZZ_2087, server: 134.195.196.150, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: ZZ_2256, server: 134.195.196.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: ZZ_2266, server: 134.195.196.150, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: ZZ_2262, server: 134.195.196.150, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_2067, server: 134.195.196.150, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: ZZ_2157, server: 134.195.196.150, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CY_172, server: 213.169.137.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: CA_101, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: Relay_🇺🇸US-🏁ZZ_1990, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: exa.nextvpn.cc}, udp: true}
+  - {name: Relay_🇺🇸US-🏁ZZ_41, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws-makae, ws-headers: {Host: bn-id01.ipv2ray.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_43
-      - Relay_🇺🇸US-🏁ZZ_41
-      - github.com/freefq - 越南  17
-      - NL_676
-      - CN_136
-      - FR_282
-      - FR_248
-      - RU_1062
       - Relay_🇨🇳CN-🇹🇼TW_166
+      - Relay_🇨🇳CN-🇹🇼TW_165
+      - Relay_🇨🇳CN-🇹🇼TW_162
       - Relay_🇺🇸US-🇺🇸US_1996
-      - Relay_🇺🇸US-🇺🇸US_2049
-      - Relay_🇷🇺RU-🇷🇺RU_1124
-      - Relay_🏁ZZ-🏁ZZ_2353
-      - Relay_🇺🇸US-🇺🇸US_2048
+      - Relay_🇨🇳CN-🏁ZZ_155
+      - Relay_🏁ZZ-🇹🇼TW_2358
+      - Relay_🇨🇳CN-🏁ZZ_169
+      - Relay_🇨🇳CN-🇹🇼TW_166 2
+      - Relay_🏁ZZ-🇹🇼TW_2354
+      - Relay_🇨🇳CN-🏁ZZ_158
+      - Relay_🏁ZZ-🇹🇼TW_2356
+      - Relay_🇨🇳CN-🏁ZZ_170
+      - Relay_🇨🇳CN-🏁ZZ_168
+      - Relay_🏁ZZ-🇹🇼TW_2355
+      - ZZ_2251
+      - ZZ_2307
+      - ZZ_2312
+      - ZZ_2146
+      - ZZ_2199
+      - ZZ_2180
+      - ZZ_2232
+      - ZZ_2075
+      - ZZ_2159
+      - ZZ_2148
+      - ZZ_2120
+      - ZZ_2104
+      - ZZ_2296
+      - ZZ_2314
+      - ZZ_2163
+      - ZZ_2086
+      - ZZ_2112
+      - ZZ_2152
+      - ZZ_2272
+      - ZZ_2166
+      - ZZ_2310
+      - ZZ_2068
+      - ZZ_2279
+      - ZZ_2292
+      - ZZ_2087
+      - ZZ_2256
+      - ZZ_2266
+      - ZZ_2262
+      - ZZ_2067
+      - ZZ_2157
+      - CY_172
+      - CA_101
+      - Relay_🇺🇸US-🏁ZZ_1990
+      - Relay_🇺🇸US-🏁ZZ_41
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_43
-      - Relay_🇺🇸US-🏁ZZ_41
-      - github.com/freefq - 越南  17
-      - NL_676
-      - CN_136
-      - FR_282
-      - FR_248
-      - RU_1062
       - Relay_🇨🇳CN-🇹🇼TW_166
+      - Relay_🇨🇳CN-🇹🇼TW_165
+      - Relay_🇨🇳CN-🇹🇼TW_162
       - Relay_🇺🇸US-🇺🇸US_1996
-      - Relay_🇺🇸US-🇺🇸US_2049
-      - Relay_🇷🇺RU-🇷🇺RU_1124
-      - Relay_🏁ZZ-🏁ZZ_2353
-      - Relay_🇺🇸US-🇺🇸US_2048
+      - Relay_🇨🇳CN-🏁ZZ_155
+      - Relay_🏁ZZ-🇹🇼TW_2358
+      - Relay_🇨🇳CN-🏁ZZ_169
+      - Relay_🇨🇳CN-🇹🇼TW_166 2
+      - Relay_🏁ZZ-🇹🇼TW_2354
+      - Relay_🇨🇳CN-🏁ZZ_158
+      - Relay_🏁ZZ-🇹🇼TW_2356
+      - Relay_🇨🇳CN-🏁ZZ_170
+      - Relay_🇨🇳CN-🏁ZZ_168
+      - Relay_🏁ZZ-🇹🇼TW_2355
+      - ZZ_2251
+      - ZZ_2307
+      - ZZ_2312
+      - ZZ_2146
+      - ZZ_2199
+      - ZZ_2180
+      - ZZ_2232
+      - ZZ_2075
+      - ZZ_2159
+      - ZZ_2148
+      - ZZ_2120
+      - ZZ_2104
+      - ZZ_2296
+      - ZZ_2314
+      - ZZ_2163
+      - ZZ_2086
+      - ZZ_2112
+      - ZZ_2152
+      - ZZ_2272
+      - ZZ_2166
+      - ZZ_2310
+      - ZZ_2068
+      - ZZ_2279
+      - ZZ_2292
+      - ZZ_2087
+      - ZZ_2256
+      - ZZ_2266
+      - ZZ_2262
+      - ZZ_2067
+      - ZZ_2157
+      - CY_172
+      - CA_101
+      - Relay_🇺🇸US-🏁ZZ_1990
+      - Relay_🇺🇸US-🏁ZZ_41
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_43
-      - Relay_🇺🇸US-🏁ZZ_41
-      - github.com/freefq - 越南  17
-      - NL_676
-      - CN_136
-      - FR_282
-      - FR_248
-      - RU_1062
       - Relay_🇨🇳CN-🇹🇼TW_166
+      - Relay_🇨🇳CN-🇹🇼TW_165
+      - Relay_🇨🇳CN-🇹🇼TW_162
       - Relay_🇺🇸US-🇺🇸US_1996
-      - Relay_🇺🇸US-🇺🇸US_2049
-      - Relay_🇷🇺RU-🇷🇺RU_1124
-      - Relay_🏁ZZ-🏁ZZ_2353
-      - Relay_🇺🇸US-🇺🇸US_2048
+      - Relay_🇨🇳CN-🏁ZZ_155
+      - Relay_🏁ZZ-🇹🇼TW_2358
+      - Relay_🇨🇳CN-🏁ZZ_169
+      - Relay_🇨🇳CN-🇹🇼TW_166 2
+      - Relay_🏁ZZ-🇹🇼TW_2354
+      - Relay_🇨🇳CN-🏁ZZ_158
+      - Relay_🏁ZZ-🇹🇼TW_2356
+      - Relay_🇨🇳CN-🏁ZZ_170
+      - Relay_🇨🇳CN-🏁ZZ_168
+      - Relay_🏁ZZ-🇹🇼TW_2355
+      - ZZ_2251
+      - ZZ_2307
+      - ZZ_2312
+      - ZZ_2146
+      - ZZ_2199
+      - ZZ_2180
+      - ZZ_2232
+      - ZZ_2075
+      - ZZ_2159
+      - ZZ_2148
+      - ZZ_2120
+      - ZZ_2104
+      - ZZ_2296
+      - ZZ_2314
+      - ZZ_2163
+      - ZZ_2086
+      - ZZ_2112
+      - ZZ_2152
+      - ZZ_2272
+      - ZZ_2166
+      - ZZ_2310
+      - ZZ_2068
+      - ZZ_2279
+      - ZZ_2292
+      - ZZ_2087
+      - ZZ_2256
+      - ZZ_2266
+      - ZZ_2262
+      - ZZ_2067
+      - ZZ_2157
+      - CY_172
+      - CA_101
+      - Relay_🇺🇸US-🏁ZZ_1990
+      - Relay_🇺🇸US-🏁ZZ_41
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -96,20 +232,54 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_43
-      - Relay_🇺🇸US-🏁ZZ_41
-      - github.com/freefq - 越南  17
-      - NL_676
-      - CN_136
-      - FR_282
-      - FR_248
-      - RU_1062
       - Relay_🇨🇳CN-🇹🇼TW_166
+      - Relay_🇨🇳CN-🇹🇼TW_165
+      - Relay_🇨🇳CN-🇹🇼TW_162
       - Relay_🇺🇸US-🇺🇸US_1996
-      - Relay_🇺🇸US-🇺🇸US_2049
-      - Relay_🇷🇺RU-🇷🇺RU_1124
-      - Relay_🏁ZZ-🏁ZZ_2353
-      - Relay_🇺🇸US-🇺🇸US_2048
+      - Relay_🇨🇳CN-🏁ZZ_155
+      - Relay_🏁ZZ-🇹🇼TW_2358
+      - Relay_🇨🇳CN-🏁ZZ_169
+      - Relay_🇨🇳CN-🇹🇼TW_166 2
+      - Relay_🏁ZZ-🇹🇼TW_2354
+      - Relay_🇨🇳CN-🏁ZZ_158
+      - Relay_🏁ZZ-🇹🇼TW_2356
+      - Relay_🇨🇳CN-🏁ZZ_170
+      - Relay_🇨🇳CN-🏁ZZ_168
+      - Relay_🏁ZZ-🇹🇼TW_2355
+      - ZZ_2251
+      - ZZ_2307
+      - ZZ_2312
+      - ZZ_2146
+      - ZZ_2199
+      - ZZ_2180
+      - ZZ_2232
+      - ZZ_2075
+      - ZZ_2159
+      - ZZ_2148
+      - ZZ_2120
+      - ZZ_2104
+      - ZZ_2296
+      - ZZ_2314
+      - ZZ_2163
+      - ZZ_2086
+      - ZZ_2112
+      - ZZ_2152
+      - ZZ_2272
+      - ZZ_2166
+      - ZZ_2310
+      - ZZ_2068
+      - ZZ_2279
+      - ZZ_2292
+      - ZZ_2087
+      - ZZ_2256
+      - ZZ_2266
+      - ZZ_2262
+      - ZZ_2067
+      - ZZ_2157
+      - CY_172
+      - CA_101
+      - Relay_🇺🇸US-🏁ZZ_1990
+      - Relay_🇺🇸US-🏁ZZ_41
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -120,59 +290,161 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇺🇸US-🇺🇸US_43
-      - Relay_🇺🇸US-🏁ZZ_41
-      - github.com/freefq - 越南  17
-      - NL_676
-      - CN_136
-      - FR_282
-      - FR_248
-      - RU_1062
       - Relay_🇨🇳CN-🇹🇼TW_166
+      - Relay_🇨🇳CN-🇹🇼TW_165
+      - Relay_🇨🇳CN-🇹🇼TW_162
       - Relay_🇺🇸US-🇺🇸US_1996
-      - Relay_🇺🇸US-🇺🇸US_2049
-      - Relay_🇷🇺RU-🇷🇺RU_1124
-      - Relay_🏁ZZ-🏁ZZ_2353
-      - Relay_🇺🇸US-🇺🇸US_2048
+      - Relay_🇨🇳CN-🏁ZZ_155
+      - Relay_🏁ZZ-🇹🇼TW_2358
+      - Relay_🇨🇳CN-🏁ZZ_169
+      - Relay_🇨🇳CN-🇹🇼TW_166 2
+      - Relay_🏁ZZ-🇹🇼TW_2354
+      - Relay_🇨🇳CN-🏁ZZ_158
+      - Relay_🏁ZZ-🇹🇼TW_2356
+      - Relay_🇨🇳CN-🏁ZZ_170
+      - Relay_🇨🇳CN-🏁ZZ_168
+      - Relay_🏁ZZ-🇹🇼TW_2355
+      - ZZ_2251
+      - ZZ_2307
+      - ZZ_2312
+      - ZZ_2146
+      - ZZ_2199
+      - ZZ_2180
+      - ZZ_2232
+      - ZZ_2075
+      - ZZ_2159
+      - ZZ_2148
+      - ZZ_2120
+      - ZZ_2104
+      - ZZ_2296
+      - ZZ_2314
+      - ZZ_2163
+      - ZZ_2086
+      - ZZ_2112
+      - ZZ_2152
+      - ZZ_2272
+      - ZZ_2166
+      - ZZ_2310
+      - ZZ_2068
+      - ZZ_2279
+      - ZZ_2292
+      - ZZ_2087
+      - ZZ_2256
+      - ZZ_2266
+      - ZZ_2262
+      - ZZ_2067
+      - ZZ_2157
+      - CY_172
+      - CA_101
+      - Relay_🇺🇸US-🏁ZZ_1990
+      - Relay_🇺🇸US-🏁ZZ_41
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_43
-      - Relay_🇺🇸US-🏁ZZ_41
-      - github.com/freefq - 越南  17
-      - NL_676
-      - CN_136
-      - FR_282
-      - FR_248
-      - RU_1062
       - Relay_🇨🇳CN-🇹🇼TW_166
+      - Relay_🇨🇳CN-🇹🇼TW_165
+      - Relay_🇨🇳CN-🇹🇼TW_162
       - Relay_🇺🇸US-🇺🇸US_1996
-      - Relay_🇺🇸US-🇺🇸US_2049
-      - Relay_🇷🇺RU-🇷🇺RU_1124
-      - Relay_🏁ZZ-🏁ZZ_2353
-      - Relay_🇺🇸US-🇺🇸US_2048
+      - Relay_🇨🇳CN-🏁ZZ_155
+      - Relay_🏁ZZ-🇹🇼TW_2358
+      - Relay_🇨🇳CN-🏁ZZ_169
+      - Relay_🇨🇳CN-🇹🇼TW_166 2
+      - Relay_🏁ZZ-🇹🇼TW_2354
+      - Relay_🇨🇳CN-🏁ZZ_158
+      - Relay_🏁ZZ-🇹🇼TW_2356
+      - Relay_🇨🇳CN-🏁ZZ_170
+      - Relay_🇨🇳CN-🏁ZZ_168
+      - Relay_🏁ZZ-🇹🇼TW_2355
+      - ZZ_2251
+      - ZZ_2307
+      - ZZ_2312
+      - ZZ_2146
+      - ZZ_2199
+      - ZZ_2180
+      - ZZ_2232
+      - ZZ_2075
+      - ZZ_2159
+      - ZZ_2148
+      - ZZ_2120
+      - ZZ_2104
+      - ZZ_2296
+      - ZZ_2314
+      - ZZ_2163
+      - ZZ_2086
+      - ZZ_2112
+      - ZZ_2152
+      - ZZ_2272
+      - ZZ_2166
+      - ZZ_2310
+      - ZZ_2068
+      - ZZ_2279
+      - ZZ_2292
+      - ZZ_2087
+      - ZZ_2256
+      - ZZ_2266
+      - ZZ_2262
+      - ZZ_2067
+      - ZZ_2157
+      - CY_172
+      - CA_101
+      - Relay_🇺🇸US-🏁ZZ_1990
+      - Relay_🇺🇸US-🏁ZZ_41
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_43
-      - Relay_🇺🇸US-🏁ZZ_41
-      - github.com/freefq - 越南  17
-      - NL_676
-      - CN_136
-      - FR_282
-      - FR_248
-      - RU_1062
       - Relay_🇨🇳CN-🇹🇼TW_166
+      - Relay_🇨🇳CN-🇹🇼TW_165
+      - Relay_🇨🇳CN-🇹🇼TW_162
       - Relay_🇺🇸US-🇺🇸US_1996
-      - Relay_🇺🇸US-🇺🇸US_2049
-      - Relay_🇷🇺RU-🇷🇺RU_1124
-      - Relay_🏁ZZ-🏁ZZ_2353
-      - Relay_🇺🇸US-🇺🇸US_2048
+      - Relay_🇨🇳CN-🏁ZZ_155
+      - Relay_🏁ZZ-🇹🇼TW_2358
+      - Relay_🇨🇳CN-🏁ZZ_169
+      - Relay_🇨🇳CN-🇹🇼TW_166 2
+      - Relay_🏁ZZ-🇹🇼TW_2354
+      - Relay_🇨🇳CN-🏁ZZ_158
+      - Relay_🏁ZZ-🇹🇼TW_2356
+      - Relay_🇨🇳CN-🏁ZZ_170
+      - Relay_🇨🇳CN-🏁ZZ_168
+      - Relay_🏁ZZ-🇹🇼TW_2355
+      - ZZ_2251
+      - ZZ_2307
+      - ZZ_2312
+      - ZZ_2146
+      - ZZ_2199
+      - ZZ_2180
+      - ZZ_2232
+      - ZZ_2075
+      - ZZ_2159
+      - ZZ_2148
+      - ZZ_2120
+      - ZZ_2104
+      - ZZ_2296
+      - ZZ_2314
+      - ZZ_2163
+      - ZZ_2086
+      - ZZ_2112
+      - ZZ_2152
+      - ZZ_2272
+      - ZZ_2166
+      - ZZ_2310
+      - ZZ_2068
+      - ZZ_2279
+      - ZZ_2292
+      - ZZ_2087
+      - ZZ_2256
+      - ZZ_2266
+      - ZZ_2262
+      - ZZ_2067
+      - ZZ_2157
+      - CY_172
+      - CA_101
+      - Relay_🇺🇸US-🏁ZZ_1990
+      - Relay_🇺🇸US-🏁ZZ_41
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,20 +460,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_43
-      - Relay_🇺🇸US-🏁ZZ_41
-      - github.com/freefq - 越南  17
-      - NL_676
-      - CN_136
-      - FR_282
-      - FR_248
-      - RU_1062
       - Relay_🇨🇳CN-🇹🇼TW_166
+      - Relay_🇨🇳CN-🇹🇼TW_165
+      - Relay_🇨🇳CN-🇹🇼TW_162
       - Relay_🇺🇸US-🇺🇸US_1996
-      - Relay_🇺🇸US-🇺🇸US_2049
-      - Relay_🇷🇺RU-🇷🇺RU_1124
-      - Relay_🏁ZZ-🏁ZZ_2353
-      - Relay_🇺🇸US-🇺🇸US_2048
+      - Relay_🇨🇳CN-🏁ZZ_155
+      - Relay_🏁ZZ-🇹🇼TW_2358
+      - Relay_🇨🇳CN-🏁ZZ_169
+      - Relay_🇨🇳CN-🇹🇼TW_166 2
+      - Relay_🏁ZZ-🇹🇼TW_2354
+      - Relay_🇨🇳CN-🏁ZZ_158
+      - Relay_🏁ZZ-🇹🇼TW_2356
+      - Relay_🇨🇳CN-🏁ZZ_170
+      - Relay_🇨🇳CN-🏁ZZ_168
+      - Relay_🏁ZZ-🇹🇼TW_2355
+      - ZZ_2251
+      - ZZ_2307
+      - ZZ_2312
+      - ZZ_2146
+      - ZZ_2199
+      - ZZ_2180
+      - ZZ_2232
+      - ZZ_2075
+      - ZZ_2159
+      - ZZ_2148
+      - ZZ_2120
+      - ZZ_2104
+      - ZZ_2296
+      - ZZ_2314
+      - ZZ_2163
+      - ZZ_2086
+      - ZZ_2112
+      - ZZ_2152
+      - ZZ_2272
+      - ZZ_2166
+      - ZZ_2310
+      - ZZ_2068
+      - ZZ_2279
+      - ZZ_2292
+      - ZZ_2087
+      - ZZ_2256
+      - ZZ_2266
+      - ZZ_2262
+      - ZZ_2067
+      - ZZ_2157
+      - CY_172
+      - CA_101
+      - Relay_🇺🇸US-🏁ZZ_1990
+      - Relay_🇺🇸US-🏁ZZ_41
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
