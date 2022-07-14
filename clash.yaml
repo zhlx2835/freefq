@@ -5,83 +5,259 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇹🇼TW_166, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: ZZ_2085, server: 134.195.196.128, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: ZZ_2113, server: 134.195.196.128, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_2255, server: 134.195.196.128, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: ZZ_2320, server: 134.195.196.128, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 北美地区  5, server: 134.195.196.128, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_2087, server: 134.195.196.128, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: ZZ_2180, server: 134.195.196.128, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1998, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: ZZ_2210, server: 134.195.196.128, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 广东省移动 12, server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2012, server: us03.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us03.gogogoo.cyou}, udp: true}
+  - {name: Relay_🇺🇸US-🇯🇵JP_148, server: jp.azzhuangaping.tw, port: 80, type: vmess, uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /adobe, ws-headers: {Host: jp.azzhuangaping.tw}, udp: true}
+  - {name: Pool_🇳🇱NL_896, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2036, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: Pool_🇳🇱NL_893, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Pool_🇳🇱NL_913, server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_146, server: ifffffffuuuuuuus.qiqicdn2.cf, port: 443, type: vmess, uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess, ws-headers: {Host: ifffffffuuuuuuus.qiqicdn2.cf}, udp: true}
+  - {name: Pool_🇳🇱NL_878, server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_1561, server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1769, server: 167.88.61.2, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Relay_🇰🇷KR-🇰🇷KR_413, server: 0001.kr.genzpn.com, port: 443, type: trojan, password: 4f4418cd-385c-4203-a323-1b4d2be8e495, sni: 0001.kr.genzpn.com, skip-cert-verify: true, udp: true}
+  - {name: US_1546, server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: FR_248, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1934, server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1675, server: 167.88.63.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1736, server: 167.88.61.2, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1756, server: 167.88.63.79, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1907, server: 167.88.63.79, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_1530, server: 167.88.63.79, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1378, server: 167.88.63.79, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1920, server: 167.88.61.2, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Relay_🇺🇸US-🇫🇷FR_127, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}, udp: true}
+  - {name: Pool_🇳🇱NL_912, server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Relay_🇺🇸US-🏁ZZ_151, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws-makae, ws-headers: {Host: bn-id01.ipv2ray.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇳🇱NL_139, server: free-godlikeanyone.koyeb.app, port: 443, type: vmess, uuid: b7b1f689-f82e-4ce4-97e7-8a8997370e44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess, ws-headers: {Host: free-godlikeanyone.koyeb.app}, udp: true}
+  - {name: CA_84, server: 196.247.59.154, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1715, server: 167.88.63.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1455, server: 167.88.63.79, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1971, server: 104.19.3.12, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: US_1433, server: 167.88.63.79, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1503, server: 167.88.63.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_1997, server: 104.19.3.32, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: Relay_🏁ZZ-🇺🇸US_2328, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: ZZ_2169, server: 134.195.196.128, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: CA_97, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1517, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1340, server: 92.38.176.81, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: US_1505, server: 167.88.63.79, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1387, server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1998, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: FR_269, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: github.com/freefq - 广东省移动 12, server: ftp.cn.debian.cdnet.in, port: 8070, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
   - {name: Relay_🏁ZZ-🇺🇸US_2329, server: 188.114.97.110, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2028, server: gb.v2yyds.com, port: 32913, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1983, server: vpnu.loungers.cc, port: 56830, type: vmess, uuid: d2e92a19-f50c-426e-cd15-03ece7f4f3b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws/x-ui, ws-headers: {Host: vpnu.loungers.cc}, udp: true}
+  - {name: US_1866, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CN_135, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_110, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_147, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_136, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_132, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_133, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_138, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_150, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_168, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_114, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_127, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_119, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_166, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: github.com/freefq - 广东省移动 18, server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: 18269676-71ae-476d-b6d3-26ca391424b9, udp: true}
+  - {name: CN_126, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_166
-      - ZZ_2085
-      - ZZ_2113
-      - ZZ_2255
-      - ZZ_2320
-      - github.com/freefq - 北美地区  5
-      - ZZ_2087
-      - ZZ_2180
-      - Relay_🇺🇸US-🇺🇸US_1998
-      - ZZ_2210
-      - github.com/freefq - 广东省移动 12
+      - Relay_🇺🇸US-🇺🇸US_2012
+      - Relay_🇺🇸US-🇯🇵JP_148
+      - Pool_🇳🇱NL_896
+      - Relay_🇺🇸US-🇺🇸US_2036
+      - Pool_🇳🇱NL_893
+      - Pool_🇳🇱NL_913
+      - Relay_🇺🇸US-🇺🇸US_146
+      - Pool_🇳🇱NL_878
+      - US_1561
+      - US_1769
+      - Relay_🇰🇷KR-🇰🇷KR_413
+      - US_1546
+      - FR_248
+      - US_1934
+      - US_1675
+      - US_1736
+      - US_1756
+      - US_1907
+      - US_1530
+      - US_1378
+      - US_1920
+      - Relay_🇺🇸US-🇫🇷FR_127
+      - Pool_🇳🇱NL_912
+      - Relay_🇺🇸US-🏁ZZ_151
+      - Relay_🇺🇸US-🇳🇱NL_139
+      - CA_84
+      - US_1715
+      - US_1455
+      - Relay_🇺🇸US-🇺🇸US_1971
+      - US_1433
+      - US_1503
       - Relay_🇺🇸US-🇺🇸US_1997
-      - Relay_🏁ZZ-🇺🇸US_2328
-      - ZZ_2169
+      - CA_97
+      - US_1517
+      - US_1340
+      - US_1505
+      - US_1387
+      - Relay_🇺🇸US-🇺🇸US_1998
+      - FR_269
+      - github.com/freefq - 广东省移动 12
       - Relay_🏁ZZ-🇺🇸US_2329
+      - Relay_🇺🇸US-🇺🇸US_2028
+      - Relay_🇺🇸US-🇺🇸US_1983
+      - US_1866
+      - CN_135
+      - CN_110
+      - CN_147
+      - CN_136
+      - CN_132
+      - CN_133
+      - CN_138
+      - CN_150
+      - CN_168
+      - CN_114
+      - CN_127
+      - CN_119
+      - CN_166
+      - github.com/freefq - 广东省移动 18
+      - CN_126
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇹🇼TW_166
-      - ZZ_2085
-      - ZZ_2113
-      - ZZ_2255
-      - ZZ_2320
-      - github.com/freefq - 北美地区  5
-      - ZZ_2087
-      - ZZ_2180
-      - Relay_🇺🇸US-🇺🇸US_1998
-      - ZZ_2210
-      - github.com/freefq - 广东省移动 12
+      - Relay_🇺🇸US-🇺🇸US_2012
+      - Relay_🇺🇸US-🇯🇵JP_148
+      - Pool_🇳🇱NL_896
+      - Relay_🇺🇸US-🇺🇸US_2036
+      - Pool_🇳🇱NL_893
+      - Pool_🇳🇱NL_913
+      - Relay_🇺🇸US-🇺🇸US_146
+      - Pool_🇳🇱NL_878
+      - US_1561
+      - US_1769
+      - Relay_🇰🇷KR-🇰🇷KR_413
+      - US_1546
+      - FR_248
+      - US_1934
+      - US_1675
+      - US_1736
+      - US_1756
+      - US_1907
+      - US_1530
+      - US_1378
+      - US_1920
+      - Relay_🇺🇸US-🇫🇷FR_127
+      - Pool_🇳🇱NL_912
+      - Relay_🇺🇸US-🏁ZZ_151
+      - Relay_🇺🇸US-🇳🇱NL_139
+      - CA_84
+      - US_1715
+      - US_1455
+      - Relay_🇺🇸US-🇺🇸US_1971
+      - US_1433
+      - US_1503
       - Relay_🇺🇸US-🇺🇸US_1997
-      - Relay_🏁ZZ-🇺🇸US_2328
-      - ZZ_2169
+      - CA_97
+      - US_1517
+      - US_1340
+      - US_1505
+      - US_1387
+      - Relay_🇺🇸US-🇺🇸US_1998
+      - FR_269
+      - github.com/freefq - 广东省移动 12
       - Relay_🏁ZZ-🇺🇸US_2329
+      - Relay_🇺🇸US-🇺🇸US_2028
+      - Relay_🇺🇸US-🇺🇸US_1983
+      - US_1866
+      - CN_135
+      - CN_110
+      - CN_147
+      - CN_136
+      - CN_132
+      - CN_133
+      - CN_138
+      - CN_150
+      - CN_168
+      - CN_114
+      - CN_127
+      - CN_119
+      - CN_166
+      - github.com/freefq - 广东省移动 18
+      - CN_126
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_166
-      - ZZ_2085
-      - ZZ_2113
-      - ZZ_2255
-      - ZZ_2320
-      - github.com/freefq - 北美地区  5
-      - ZZ_2087
-      - ZZ_2180
-      - Relay_🇺🇸US-🇺🇸US_1998
-      - ZZ_2210
-      - github.com/freefq - 广东省移动 12
+      - Relay_🇺🇸US-🇺🇸US_2012
+      - Relay_🇺🇸US-🇯🇵JP_148
+      - Pool_🇳🇱NL_896
+      - Relay_🇺🇸US-🇺🇸US_2036
+      - Pool_🇳🇱NL_893
+      - Pool_🇳🇱NL_913
+      - Relay_🇺🇸US-🇺🇸US_146
+      - Pool_🇳🇱NL_878
+      - US_1561
+      - US_1769
+      - Relay_🇰🇷KR-🇰🇷KR_413
+      - US_1546
+      - FR_248
+      - US_1934
+      - US_1675
+      - US_1736
+      - US_1756
+      - US_1907
+      - US_1530
+      - US_1378
+      - US_1920
+      - Relay_🇺🇸US-🇫🇷FR_127
+      - Pool_🇳🇱NL_912
+      - Relay_🇺🇸US-🏁ZZ_151
+      - Relay_🇺🇸US-🇳🇱NL_139
+      - CA_84
+      - US_1715
+      - US_1455
+      - Relay_🇺🇸US-🇺🇸US_1971
+      - US_1433
+      - US_1503
       - Relay_🇺🇸US-🇺🇸US_1997
-      - Relay_🏁ZZ-🇺🇸US_2328
-      - ZZ_2169
+      - CA_97
+      - US_1517
+      - US_1340
+      - US_1505
+      - US_1387
+      - Relay_🇺🇸US-🇺🇸US_1998
+      - FR_269
+      - github.com/freefq - 广东省移动 12
       - Relay_🏁ZZ-🇺🇸US_2329
+      - Relay_🇺🇸US-🇺🇸US_2028
+      - Relay_🇺🇸US-🇺🇸US_1983
+      - US_1866
+      - CN_135
+      - CN_110
+      - CN_147
+      - CN_136
+      - CN_132
+      - CN_133
+      - CN_138
+      - CN_150
+      - CN_168
+      - CN_114
+      - CN_127
+      - CN_119
+      - CN_166
+      - github.com/freefq - 广东省移动 18
+      - CN_126
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,21 +276,65 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_166
-      - ZZ_2085
-      - ZZ_2113
-      - ZZ_2255
-      - ZZ_2320
-      - github.com/freefq - 北美地区  5
-      - ZZ_2087
-      - ZZ_2180
-      - Relay_🇺🇸US-🇺🇸US_1998
-      - ZZ_2210
-      - github.com/freefq - 广东省移动 12
+      - Relay_🇺🇸US-🇺🇸US_2012
+      - Relay_🇺🇸US-🇯🇵JP_148
+      - Pool_🇳🇱NL_896
+      - Relay_🇺🇸US-🇺🇸US_2036
+      - Pool_🇳🇱NL_893
+      - Pool_🇳🇱NL_913
+      - Relay_🇺🇸US-🇺🇸US_146
+      - Pool_🇳🇱NL_878
+      - US_1561
+      - US_1769
+      - Relay_🇰🇷KR-🇰🇷KR_413
+      - US_1546
+      - FR_248
+      - US_1934
+      - US_1675
+      - US_1736
+      - US_1756
+      - US_1907
+      - US_1530
+      - US_1378
+      - US_1920
+      - Relay_🇺🇸US-🇫🇷FR_127
+      - Pool_🇳🇱NL_912
+      - Relay_🇺🇸US-🏁ZZ_151
+      - Relay_🇺🇸US-🇳🇱NL_139
+      - CA_84
+      - US_1715
+      - US_1455
+      - Relay_🇺🇸US-🇺🇸US_1971
+      - US_1433
+      - US_1503
       - Relay_🇺🇸US-🇺🇸US_1997
-      - Relay_🏁ZZ-🇺🇸US_2328
-      - ZZ_2169
+      - CA_97
+      - US_1517
+      - US_1340
+      - US_1505
+      - US_1387
+      - Relay_🇺🇸US-🇺🇸US_1998
+      - FR_269
+      - github.com/freefq - 广东省移动 12
       - Relay_🏁ZZ-🇺🇸US_2329
+      - Relay_🇺🇸US-🇺🇸US_2028
+      - Relay_🇺🇸US-🇺🇸US_1983
+      - US_1866
+      - CN_135
+      - CN_110
+      - CN_147
+      - CN_136
+      - CN_132
+      - CN_133
+      - CN_138
+      - CN_150
+      - CN_168
+      - CN_114
+      - CN_127
+      - CN_119
+      - CN_166
+      - github.com/freefq - 广东省移动 18
+      - CN_126
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -125,62 +345,194 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇹🇼TW_166
-      - ZZ_2085
-      - ZZ_2113
-      - ZZ_2255
-      - ZZ_2320
-      - github.com/freefq - 北美地区  5
-      - ZZ_2087
-      - ZZ_2180
-      - Relay_🇺🇸US-🇺🇸US_1998
-      - ZZ_2210
-      - github.com/freefq - 广东省移动 12
+      - Relay_🇺🇸US-🇺🇸US_2012
+      - Relay_🇺🇸US-🇯🇵JP_148
+      - Pool_🇳🇱NL_896
+      - Relay_🇺🇸US-🇺🇸US_2036
+      - Pool_🇳🇱NL_893
+      - Pool_🇳🇱NL_913
+      - Relay_🇺🇸US-🇺🇸US_146
+      - Pool_🇳🇱NL_878
+      - US_1561
+      - US_1769
+      - Relay_🇰🇷KR-🇰🇷KR_413
+      - US_1546
+      - FR_248
+      - US_1934
+      - US_1675
+      - US_1736
+      - US_1756
+      - US_1907
+      - US_1530
+      - US_1378
+      - US_1920
+      - Relay_🇺🇸US-🇫🇷FR_127
+      - Pool_🇳🇱NL_912
+      - Relay_🇺🇸US-🏁ZZ_151
+      - Relay_🇺🇸US-🇳🇱NL_139
+      - CA_84
+      - US_1715
+      - US_1455
+      - Relay_🇺🇸US-🇺🇸US_1971
+      - US_1433
+      - US_1503
       - Relay_🇺🇸US-🇺🇸US_1997
-      - Relay_🏁ZZ-🇺🇸US_2328
-      - ZZ_2169
+      - CA_97
+      - US_1517
+      - US_1340
+      - US_1505
+      - US_1387
+      - Relay_🇺🇸US-🇺🇸US_1998
+      - FR_269
+      - github.com/freefq - 广东省移动 12
       - Relay_🏁ZZ-🇺🇸US_2329
+      - Relay_🇺🇸US-🇺🇸US_2028
+      - Relay_🇺🇸US-🇺🇸US_1983
+      - US_1866
+      - CN_135
+      - CN_110
+      - CN_147
+      - CN_136
+      - CN_132
+      - CN_133
+      - CN_138
+      - CN_150
+      - CN_168
+      - CN_114
+      - CN_127
+      - CN_119
+      - CN_166
+      - github.com/freefq - 广东省移动 18
+      - CN_126
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇹🇼TW_166
-      - ZZ_2085
-      - ZZ_2113
-      - ZZ_2255
-      - ZZ_2320
-      - github.com/freefq - 北美地区  5
-      - ZZ_2087
-      - ZZ_2180
-      - Relay_🇺🇸US-🇺🇸US_1998
-      - ZZ_2210
-      - github.com/freefq - 广东省移动 12
+      - Relay_🇺🇸US-🇺🇸US_2012
+      - Relay_🇺🇸US-🇯🇵JP_148
+      - Pool_🇳🇱NL_896
+      - Relay_🇺🇸US-🇺🇸US_2036
+      - Pool_🇳🇱NL_893
+      - Pool_🇳🇱NL_913
+      - Relay_🇺🇸US-🇺🇸US_146
+      - Pool_🇳🇱NL_878
+      - US_1561
+      - US_1769
+      - Relay_🇰🇷KR-🇰🇷KR_413
+      - US_1546
+      - FR_248
+      - US_1934
+      - US_1675
+      - US_1736
+      - US_1756
+      - US_1907
+      - US_1530
+      - US_1378
+      - US_1920
+      - Relay_🇺🇸US-🇫🇷FR_127
+      - Pool_🇳🇱NL_912
+      - Relay_🇺🇸US-🏁ZZ_151
+      - Relay_🇺🇸US-🇳🇱NL_139
+      - CA_84
+      - US_1715
+      - US_1455
+      - Relay_🇺🇸US-🇺🇸US_1971
+      - US_1433
+      - US_1503
       - Relay_🇺🇸US-🇺🇸US_1997
-      - Relay_🏁ZZ-🇺🇸US_2328
-      - ZZ_2169
+      - CA_97
+      - US_1517
+      - US_1340
+      - US_1505
+      - US_1387
+      - Relay_🇺🇸US-🇺🇸US_1998
+      - FR_269
+      - github.com/freefq - 广东省移动 12
       - Relay_🏁ZZ-🇺🇸US_2329
+      - Relay_🇺🇸US-🇺🇸US_2028
+      - Relay_🇺🇸US-🇺🇸US_1983
+      - US_1866
+      - CN_135
+      - CN_110
+      - CN_147
+      - CN_136
+      - CN_132
+      - CN_133
+      - CN_138
+      - CN_150
+      - CN_168
+      - CN_114
+      - CN_127
+      - CN_119
+      - CN_166
+      - github.com/freefq - 广东省移动 18
+      - CN_126
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_166
-      - ZZ_2085
-      - ZZ_2113
-      - ZZ_2255
-      - ZZ_2320
-      - github.com/freefq - 北美地区  5
-      - ZZ_2087
-      - ZZ_2180
-      - Relay_🇺🇸US-🇺🇸US_1998
-      - ZZ_2210
-      - github.com/freefq - 广东省移动 12
+      - Relay_🇺🇸US-🇺🇸US_2012
+      - Relay_🇺🇸US-🇯🇵JP_148
+      - Pool_🇳🇱NL_896
+      - Relay_🇺🇸US-🇺🇸US_2036
+      - Pool_🇳🇱NL_893
+      - Pool_🇳🇱NL_913
+      - Relay_🇺🇸US-🇺🇸US_146
+      - Pool_🇳🇱NL_878
+      - US_1561
+      - US_1769
+      - Relay_🇰🇷KR-🇰🇷KR_413
+      - US_1546
+      - FR_248
+      - US_1934
+      - US_1675
+      - US_1736
+      - US_1756
+      - US_1907
+      - US_1530
+      - US_1378
+      - US_1920
+      - Relay_🇺🇸US-🇫🇷FR_127
+      - Pool_🇳🇱NL_912
+      - Relay_🇺🇸US-🏁ZZ_151
+      - Relay_🇺🇸US-🇳🇱NL_139
+      - CA_84
+      - US_1715
+      - US_1455
+      - Relay_🇺🇸US-🇺🇸US_1971
+      - US_1433
+      - US_1503
       - Relay_🇺🇸US-🇺🇸US_1997
-      - Relay_🏁ZZ-🇺🇸US_2328
-      - ZZ_2169
+      - CA_97
+      - US_1517
+      - US_1340
+      - US_1505
+      - US_1387
+      - Relay_🇺🇸US-🇺🇸US_1998
+      - FR_269
+      - github.com/freefq - 广东省移动 12
       - Relay_🏁ZZ-🇺🇸US_2329
+      - Relay_🇺🇸US-🇺🇸US_2028
+      - Relay_🇺🇸US-🇺🇸US_1983
+      - US_1866
+      - CN_135
+      - CN_110
+      - CN_147
+      - CN_136
+      - CN_132
+      - CN_133
+      - CN_138
+      - CN_150
+      - CN_168
+      - CN_114
+      - CN_127
+      - CN_119
+      - CN_166
+      - github.com/freefq - 广东省移动 18
+      - CN_126
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,21 +548,65 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇹🇼TW_166
-      - ZZ_2085
-      - ZZ_2113
-      - ZZ_2255
-      - ZZ_2320
-      - github.com/freefq - 北美地区  5
-      - ZZ_2087
-      - ZZ_2180
-      - Relay_🇺🇸US-🇺🇸US_1998
-      - ZZ_2210
-      - github.com/freefq - 广东省移动 12
+      - Relay_🇺🇸US-🇺🇸US_2012
+      - Relay_🇺🇸US-🇯🇵JP_148
+      - Pool_🇳🇱NL_896
+      - Relay_🇺🇸US-🇺🇸US_2036
+      - Pool_🇳🇱NL_893
+      - Pool_🇳🇱NL_913
+      - Relay_🇺🇸US-🇺🇸US_146
+      - Pool_🇳🇱NL_878
+      - US_1561
+      - US_1769
+      - Relay_🇰🇷KR-🇰🇷KR_413
+      - US_1546
+      - FR_248
+      - US_1934
+      - US_1675
+      - US_1736
+      - US_1756
+      - US_1907
+      - US_1530
+      - US_1378
+      - US_1920
+      - Relay_🇺🇸US-🇫🇷FR_127
+      - Pool_🇳🇱NL_912
+      - Relay_🇺🇸US-🏁ZZ_151
+      - Relay_🇺🇸US-🇳🇱NL_139
+      - CA_84
+      - US_1715
+      - US_1455
+      - Relay_🇺🇸US-🇺🇸US_1971
+      - US_1433
+      - US_1503
       - Relay_🇺🇸US-🇺🇸US_1997
-      - Relay_🏁ZZ-🇺🇸US_2328
-      - ZZ_2169
+      - CA_97
+      - US_1517
+      - US_1340
+      - US_1505
+      - US_1387
+      - Relay_🇺🇸US-🇺🇸US_1998
+      - FR_269
+      - github.com/freefq - 广东省移动 12
       - Relay_🏁ZZ-🇺🇸US_2329
+      - Relay_🇺🇸US-🇺🇸US_2028
+      - Relay_🇺🇸US-🇺🇸US_1983
+      - US_1866
+      - CN_135
+      - CN_110
+      - CN_147
+      - CN_136
+      - CN_132
+      - CN_133
+      - CN_138
+      - CN_150
+      - CN_168
+      - CN_114
+      - CN_127
+      - CN_119
+      - CN_166
+      - github.com/freefq - 广东省移动 18
+      - CN_126
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
