@@ -5,151 +5,255 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 10, server: 104.16.199.1, port: 443, type: vmess, uuid: 45202b35-eae3-4e34-84af-b42060fb9187, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fqlovws, ws-headers: {Host: ioi.xxioixx.tk}, udp: true}
-  - {name: Relay_🏁ZZ-🇺🇸US_2228, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_88, server: ifffffffuuuuuuus.qiqicdn2.cf, port: 443, type: vmess, uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess, ws-headers: {Host: ifffffffuuuuuuus.qiqicdn2.cf}, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_78, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_87, server: 104.23.102.53, port: 443, type: vmess, uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Telegram@BDovo_qaq, ws-headers: {Host: bissen.114514cn.me}, udp: true}
   - {name: Relay_🏁ZZ-🇺🇸US_2227, server: 188.114.97.110, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1885, server: 104.19.3.12, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1859, server: bwg2.gushidawang.cc, port: 57539, type: vmess, uuid: fcf7202c-bd1a-44e9-a25e-bf152f6e5c11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1870, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: Relay_🇺🇸US-🇸🇬SG_87, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/5206194863/62c7702a0ea8b/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
   - {name: github.com/freefq - 美国CloudFlare公司CDN节点 11, server: 104.19.3.32, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: Pool_🇳🇱NL_753, server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Pool_🇳🇱NL_793, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Pool_🇳🇱NL_699, server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: Pool_🇳🇱NL_755, server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Pool_🇳🇱NL_783, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1790, server: 167.88.61.175, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1455, server: 167.88.61.175, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1730, server: 167.88.61.175, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1207, server: 167.88.61.175, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1514, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1613, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1792, server: 167.88.61.175, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1769, server: 167.88.61.175, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1389, server: 167.88.61.175, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1811, server: 167.88.61.175, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1779, server: 167.88.61.175, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1498, server: 167.88.61.175, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1800, server: 167.88.61.175, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1776, server: 167.88.61.175, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1685, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_1831, server: 167.88.61.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1794, server: 167.88.61.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1785, server: 167.88.61.175, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1671, server: 167.88.61.175, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1400, server: 167.88.61.2, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1469, server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1808, server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1264, server: 167.88.61.2, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1604, server: 167.88.63.79, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1748, server: 167.88.61.175, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1401, server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1384, server: 167.88.63.79, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1442, server: 167.88.63.79, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1140, server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1237, server: 167.88.63.79, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_1816, server: 167.88.61.2, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1471, server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1251, server: 167.88.63.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1720, server: 167.88.63.79, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1425, server: 167.88.63.79, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1415, server: 167.88.63.79, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1578, server: 167.88.63.79, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1624, server: 167.88.63.79, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1148, server: 167.88.63.79, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1500, server: 167.88.63.79, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_1182, server: 167.88.63.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1516, server: 167.88.63.79, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: FR_257, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: CA_108, server: 72.140.224.195, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 加拿大  8, server: 72.140.224.195, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 塞舌尔  5, server: 196.247.59.154, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA_84, server: 196.247.59.154, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1340, server: 92.38.176.81, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: CA_67, server: 196.247.59.154, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA_74, server: 196.247.59.154, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA_93, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA_55, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: CA_72, server: 196.247.59.154, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1730, server: 5.188.0.151, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 2, server: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, sni: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1913, server: azgy001.xiba1.xyz, port: 20712, type: trojan, password: 7497242f-3044-3c77-bf48-14bb26c92a83, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_1254, server: 167.88.63.79, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: DE_153, server: 165.22.73.126, port: 23335, type: ss, cipher: aes-256-cfb, password: 7d99ae502227454ea998d71e4b62a388, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1905, server: node.sin.entrance.cyou, port: 28000, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: node.sin.entrance.cyou, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1914, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_1922, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇳🇱NL-🇳🇱NL_949, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_156, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1900, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
   - {name: TH_1230, server: 119.59.116.248, port: 17159, type: trojan, password: PHnvNV7HGp, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🏁ZZ_155, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_156, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1842, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - Relay_🏁ZZ-🇺🇸US_2228
+      - Relay_🇺🇸US-🇺🇸US_88
+      - Relay_🇺🇸US-🇷🇺RU_78
+      - Relay_🇺🇸US-🇺🇸US_87
       - Relay_🏁ZZ-🇺🇸US_2227
-      - Relay_🇺🇸US-🇺🇸US_1885
-      - Relay_🇺🇸US-🇺🇸US_1859
-      - Relay_🇺🇸US-🇺🇸US_1870
-      - Relay_🇺🇸US-🇸🇬SG_87
       - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Pool_🇳🇱NL_753
-      - Pool_🇳🇱NL_793
-      - Pool_🇳🇱NL_699
-      - Pool_🇳🇱NL_755
-      - Pool_🇳🇱NL_783
-      - FR_257
-      - CA_108
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 塞舌尔  5
-      - CA_84
-      - US_1340
-      - CA_67
-      - CA_74
-      - CA_93
-      - CA_55
-      - CA_72
+      - US_1790
+      - US_1455
       - US_1730
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - Relay_🇺🇸US-🇺🇸US_1913
+      - US_1207
+      - US_1514
+      - US_1613
+      - US_1792
+      - US_1769
+      - US_1389
+      - US_1811
+      - US_1779
+      - US_1498
+      - US_1800
+      - US_1776
+      - US_1685
+      - US_1831
+      - US_1794
+      - US_1785
+      - US_1671
+      - US_1400
+      - US_1469
+      - US_1808
+      - US_1264
+      - US_1604
+      - US_1748
+      - US_1401
+      - US_1384
+      - US_1442
+      - US_1140
+      - US_1237
+      - US_1816
+      - US_1471
+      - US_1251
+      - US_1720
+      - US_1425
+      - US_1415
+      - US_1578
+      - US_1624
+      - US_1148
+      - US_1500
+      - US_1182
+      - US_1516
+      - FR_257
+      - US_1254
+      - DE_153
+      - Relay_🇺🇸US-🇺🇸US_1905
+      - Relay_🇺🇸US-🇺🇸US_1914
       - Relay_🇺🇸US-🇺🇸US_1922
-      - Relay_🇳🇱NL-🇳🇱NL_949
+      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1900
       - TH_1230
       - Relay_🇨🇳CN-🏁ZZ_155
-      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1842
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - Relay_🏁ZZ-🇺🇸US_2228
+      - Relay_🇺🇸US-🇺🇸US_88
+      - Relay_🇺🇸US-🇷🇺RU_78
+      - Relay_🇺🇸US-🇺🇸US_87
       - Relay_🏁ZZ-🇺🇸US_2227
-      - Relay_🇺🇸US-🇺🇸US_1885
-      - Relay_🇺🇸US-🇺🇸US_1859
-      - Relay_🇺🇸US-🇺🇸US_1870
-      - Relay_🇺🇸US-🇸🇬SG_87
       - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Pool_🇳🇱NL_753
-      - Pool_🇳🇱NL_793
-      - Pool_🇳🇱NL_699
-      - Pool_🇳🇱NL_755
-      - Pool_🇳🇱NL_783
-      - FR_257
-      - CA_108
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 塞舌尔  5
-      - CA_84
-      - US_1340
-      - CA_67
-      - CA_74
-      - CA_93
-      - CA_55
-      - CA_72
+      - US_1790
+      - US_1455
       - US_1730
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - Relay_🇺🇸US-🇺🇸US_1913
+      - US_1207
+      - US_1514
+      - US_1613
+      - US_1792
+      - US_1769
+      - US_1389
+      - US_1811
+      - US_1779
+      - US_1498
+      - US_1800
+      - US_1776
+      - US_1685
+      - US_1831
+      - US_1794
+      - US_1785
+      - US_1671
+      - US_1400
+      - US_1469
+      - US_1808
+      - US_1264
+      - US_1604
+      - US_1748
+      - US_1401
+      - US_1384
+      - US_1442
+      - US_1140
+      - US_1237
+      - US_1816
+      - US_1471
+      - US_1251
+      - US_1720
+      - US_1425
+      - US_1415
+      - US_1578
+      - US_1624
+      - US_1148
+      - US_1500
+      - US_1182
+      - US_1516
+      - FR_257
+      - US_1254
+      - DE_153
+      - Relay_🇺🇸US-🇺🇸US_1905
+      - Relay_🇺🇸US-🇺🇸US_1914
       - Relay_🇺🇸US-🇺🇸US_1922
-      - Relay_🇳🇱NL-🇳🇱NL_949
+      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1900
       - TH_1230
       - Relay_🇨🇳CN-🏁ZZ_155
-      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1842
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - Relay_🏁ZZ-🇺🇸US_2228
+      - Relay_🇺🇸US-🇺🇸US_88
+      - Relay_🇺🇸US-🇷🇺RU_78
+      - Relay_🇺🇸US-🇺🇸US_87
       - Relay_🏁ZZ-🇺🇸US_2227
-      - Relay_🇺🇸US-🇺🇸US_1885
-      - Relay_🇺🇸US-🇺🇸US_1859
-      - Relay_🇺🇸US-🇺🇸US_1870
-      - Relay_🇺🇸US-🇸🇬SG_87
       - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Pool_🇳🇱NL_753
-      - Pool_🇳🇱NL_793
-      - Pool_🇳🇱NL_699
-      - Pool_🇳🇱NL_755
-      - Pool_🇳🇱NL_783
-      - FR_257
-      - CA_108
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 塞舌尔  5
-      - CA_84
-      - US_1340
-      - CA_67
-      - CA_74
-      - CA_93
-      - CA_55
-      - CA_72
+      - US_1790
+      - US_1455
       - US_1730
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - Relay_🇺🇸US-🇺🇸US_1913
+      - US_1207
+      - US_1514
+      - US_1613
+      - US_1792
+      - US_1769
+      - US_1389
+      - US_1811
+      - US_1779
+      - US_1498
+      - US_1800
+      - US_1776
+      - US_1685
+      - US_1831
+      - US_1794
+      - US_1785
+      - US_1671
+      - US_1400
+      - US_1469
+      - US_1808
+      - US_1264
+      - US_1604
+      - US_1748
+      - US_1401
+      - US_1384
+      - US_1442
+      - US_1140
+      - US_1237
+      - US_1816
+      - US_1471
+      - US_1251
+      - US_1720
+      - US_1425
+      - US_1415
+      - US_1578
+      - US_1624
+      - US_1148
+      - US_1500
+      - US_1182
+      - US_1516
+      - FR_257
+      - US_1254
+      - DE_153
+      - Relay_🇺🇸US-🇺🇸US_1905
+      - Relay_🇺🇸US-🇺🇸US_1914
       - Relay_🇺🇸US-🇺🇸US_1922
-      - Relay_🇳🇱NL-🇳🇱NL_949
+      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1900
       - TH_1230
       - Relay_🇨🇳CN-🏁ZZ_155
-      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1842
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,38 +272,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - Relay_🏁ZZ-🇺🇸US_2228
+      - Relay_🇺🇸US-🇺🇸US_88
+      - Relay_🇺🇸US-🇷🇺RU_78
+      - Relay_🇺🇸US-🇺🇸US_87
       - Relay_🏁ZZ-🇺🇸US_2227
-      - Relay_🇺🇸US-🇺🇸US_1885
-      - Relay_🇺🇸US-🇺🇸US_1859
-      - Relay_🇺🇸US-🇺🇸US_1870
-      - Relay_🇺🇸US-🇸🇬SG_87
       - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Pool_🇳🇱NL_753
-      - Pool_🇳🇱NL_793
-      - Pool_🇳🇱NL_699
-      - Pool_🇳🇱NL_755
-      - Pool_🇳🇱NL_783
-      - FR_257
-      - CA_108
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 塞舌尔  5
-      - CA_84
-      - US_1340
-      - CA_67
-      - CA_74
-      - CA_93
-      - CA_55
-      - CA_72
+      - US_1790
+      - US_1455
       - US_1730
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - Relay_🇺🇸US-🇺🇸US_1913
+      - US_1207
+      - US_1514
+      - US_1613
+      - US_1792
+      - US_1769
+      - US_1389
+      - US_1811
+      - US_1779
+      - US_1498
+      - US_1800
+      - US_1776
+      - US_1685
+      - US_1831
+      - US_1794
+      - US_1785
+      - US_1671
+      - US_1400
+      - US_1469
+      - US_1808
+      - US_1264
+      - US_1604
+      - US_1748
+      - US_1401
+      - US_1384
+      - US_1442
+      - US_1140
+      - US_1237
+      - US_1816
+      - US_1471
+      - US_1251
+      - US_1720
+      - US_1425
+      - US_1415
+      - US_1578
+      - US_1624
+      - US_1148
+      - US_1500
+      - US_1182
+      - US_1516
+      - FR_257
+      - US_1254
+      - DE_153
+      - Relay_🇺🇸US-🇺🇸US_1905
+      - Relay_🇺🇸US-🇺🇸US_1914
       - Relay_🇺🇸US-🇺🇸US_1922
-      - Relay_🇳🇱NL-🇳🇱NL_949
+      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1900
       - TH_1230
       - Relay_🇨🇳CN-🏁ZZ_155
-      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1842
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -210,113 +340,191 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - Relay_🏁ZZ-🇺🇸US_2228
+      - Relay_🇺🇸US-🇺🇸US_88
+      - Relay_🇺🇸US-🇷🇺RU_78
+      - Relay_🇺🇸US-🇺🇸US_87
       - Relay_🏁ZZ-🇺🇸US_2227
-      - Relay_🇺🇸US-🇺🇸US_1885
-      - Relay_🇺🇸US-🇺🇸US_1859
-      - Relay_🇺🇸US-🇺🇸US_1870
-      - Relay_🇺🇸US-🇸🇬SG_87
       - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Pool_🇳🇱NL_753
-      - Pool_🇳🇱NL_793
-      - Pool_🇳🇱NL_699
-      - Pool_🇳🇱NL_755
-      - Pool_🇳🇱NL_783
-      - FR_257
-      - CA_108
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 塞舌尔  5
-      - CA_84
-      - US_1340
-      - CA_67
-      - CA_74
-      - CA_93
-      - CA_55
-      - CA_72
+      - US_1790
+      - US_1455
       - US_1730
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - Relay_🇺🇸US-🇺🇸US_1913
+      - US_1207
+      - US_1514
+      - US_1613
+      - US_1792
+      - US_1769
+      - US_1389
+      - US_1811
+      - US_1779
+      - US_1498
+      - US_1800
+      - US_1776
+      - US_1685
+      - US_1831
+      - US_1794
+      - US_1785
+      - US_1671
+      - US_1400
+      - US_1469
+      - US_1808
+      - US_1264
+      - US_1604
+      - US_1748
+      - US_1401
+      - US_1384
+      - US_1442
+      - US_1140
+      - US_1237
+      - US_1816
+      - US_1471
+      - US_1251
+      - US_1720
+      - US_1425
+      - US_1415
+      - US_1578
+      - US_1624
+      - US_1148
+      - US_1500
+      - US_1182
+      - US_1516
+      - FR_257
+      - US_1254
+      - DE_153
+      - Relay_🇺🇸US-🇺🇸US_1905
+      - Relay_🇺🇸US-🇺🇸US_1914
       - Relay_🇺🇸US-🇺🇸US_1922
-      - Relay_🇳🇱NL-🇳🇱NL_949
+      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1900
       - TH_1230
       - Relay_🇨🇳CN-🏁ZZ_155
-      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1842
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - Relay_🏁ZZ-🇺🇸US_2228
+      - Relay_🇺🇸US-🇺🇸US_88
+      - Relay_🇺🇸US-🇷🇺RU_78
+      - Relay_🇺🇸US-🇺🇸US_87
       - Relay_🏁ZZ-🇺🇸US_2227
-      - Relay_🇺🇸US-🇺🇸US_1885
-      - Relay_🇺🇸US-🇺🇸US_1859
-      - Relay_🇺🇸US-🇺🇸US_1870
-      - Relay_🇺🇸US-🇸🇬SG_87
       - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Pool_🇳🇱NL_753
-      - Pool_🇳🇱NL_793
-      - Pool_🇳🇱NL_699
-      - Pool_🇳🇱NL_755
-      - Pool_🇳🇱NL_783
-      - FR_257
-      - CA_108
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 塞舌尔  5
-      - CA_84
-      - US_1340
-      - CA_67
-      - CA_74
-      - CA_93
-      - CA_55
-      - CA_72
+      - US_1790
+      - US_1455
       - US_1730
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - Relay_🇺🇸US-🇺🇸US_1913
+      - US_1207
+      - US_1514
+      - US_1613
+      - US_1792
+      - US_1769
+      - US_1389
+      - US_1811
+      - US_1779
+      - US_1498
+      - US_1800
+      - US_1776
+      - US_1685
+      - US_1831
+      - US_1794
+      - US_1785
+      - US_1671
+      - US_1400
+      - US_1469
+      - US_1808
+      - US_1264
+      - US_1604
+      - US_1748
+      - US_1401
+      - US_1384
+      - US_1442
+      - US_1140
+      - US_1237
+      - US_1816
+      - US_1471
+      - US_1251
+      - US_1720
+      - US_1425
+      - US_1415
+      - US_1578
+      - US_1624
+      - US_1148
+      - US_1500
+      - US_1182
+      - US_1516
+      - FR_257
+      - US_1254
+      - DE_153
+      - Relay_🇺🇸US-🇺🇸US_1905
+      - Relay_🇺🇸US-🇺🇸US_1914
       - Relay_🇺🇸US-🇺🇸US_1922
-      - Relay_🇳🇱NL-🇳🇱NL_949
+      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1900
       - TH_1230
       - Relay_🇨🇳CN-🏁ZZ_155
-      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1842
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - Relay_🏁ZZ-🇺🇸US_2228
+      - Relay_🇺🇸US-🇺🇸US_88
+      - Relay_🇺🇸US-🇷🇺RU_78
+      - Relay_🇺🇸US-🇺🇸US_87
       - Relay_🏁ZZ-🇺🇸US_2227
-      - Relay_🇺🇸US-🇺🇸US_1885
-      - Relay_🇺🇸US-🇺🇸US_1859
-      - Relay_🇺🇸US-🇺🇸US_1870
-      - Relay_🇺🇸US-🇸🇬SG_87
       - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Pool_🇳🇱NL_753
-      - Pool_🇳🇱NL_793
-      - Pool_🇳🇱NL_699
-      - Pool_🇳🇱NL_755
-      - Pool_🇳🇱NL_783
-      - FR_257
-      - CA_108
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 塞舌尔  5
-      - CA_84
-      - US_1340
-      - CA_67
-      - CA_74
-      - CA_93
-      - CA_55
-      - CA_72
+      - US_1790
+      - US_1455
       - US_1730
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - Relay_🇺🇸US-🇺🇸US_1913
+      - US_1207
+      - US_1514
+      - US_1613
+      - US_1792
+      - US_1769
+      - US_1389
+      - US_1811
+      - US_1779
+      - US_1498
+      - US_1800
+      - US_1776
+      - US_1685
+      - US_1831
+      - US_1794
+      - US_1785
+      - US_1671
+      - US_1400
+      - US_1469
+      - US_1808
+      - US_1264
+      - US_1604
+      - US_1748
+      - US_1401
+      - US_1384
+      - US_1442
+      - US_1140
+      - US_1237
+      - US_1816
+      - US_1471
+      - US_1251
+      - US_1720
+      - US_1425
+      - US_1415
+      - US_1578
+      - US_1624
+      - US_1148
+      - US_1500
+      - US_1182
+      - US_1516
+      - FR_257
+      - US_1254
+      - DE_153
+      - Relay_🇺🇸US-🇺🇸US_1905
+      - Relay_🇺🇸US-🇺🇸US_1914
       - Relay_🇺🇸US-🇺🇸US_1922
-      - Relay_🇳🇱NL-🇳🇱NL_949
+      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1900
       - TH_1230
       - Relay_🇨🇳CN-🏁ZZ_155
-      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1842
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,38 +540,64 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - Relay_🏁ZZ-🇺🇸US_2228
+      - Relay_🇺🇸US-🇺🇸US_88
+      - Relay_🇺🇸US-🇷🇺RU_78
+      - Relay_🇺🇸US-🇺🇸US_87
       - Relay_🏁ZZ-🇺🇸US_2227
-      - Relay_🇺🇸US-🇺🇸US_1885
-      - Relay_🇺🇸US-🇺🇸US_1859
-      - Relay_🇺🇸US-🇺🇸US_1870
-      - Relay_🇺🇸US-🇸🇬SG_87
       - github.com/freefq - 美国CloudFlare公司CDN节点 11
-      - Pool_🇳🇱NL_753
-      - Pool_🇳🇱NL_793
-      - Pool_🇳🇱NL_699
-      - Pool_🇳🇱NL_755
-      - Pool_🇳🇱NL_783
-      - FR_257
-      - CA_108
-      - github.com/freefq - 加拿大  8
-      - github.com/freefq - 塞舌尔  5
-      - CA_84
-      - US_1340
-      - CA_67
-      - CA_74
-      - CA_93
-      - CA_55
-      - CA_72
+      - US_1790
+      - US_1455
       - US_1730
-      - github.com/freefq - 美国Microsoft数据中心 2
-      - Relay_🇺🇸US-🇺🇸US_1913
+      - US_1207
+      - US_1514
+      - US_1613
+      - US_1792
+      - US_1769
+      - US_1389
+      - US_1811
+      - US_1779
+      - US_1498
+      - US_1800
+      - US_1776
+      - US_1685
+      - US_1831
+      - US_1794
+      - US_1785
+      - US_1671
+      - US_1400
+      - US_1469
+      - US_1808
+      - US_1264
+      - US_1604
+      - US_1748
+      - US_1401
+      - US_1384
+      - US_1442
+      - US_1140
+      - US_1237
+      - US_1816
+      - US_1471
+      - US_1251
+      - US_1720
+      - US_1425
+      - US_1415
+      - US_1578
+      - US_1624
+      - US_1148
+      - US_1500
+      - US_1182
+      - US_1516
+      - FR_257
+      - US_1254
+      - DE_153
+      - Relay_🇺🇸US-🇺🇸US_1905
+      - Relay_🇺🇸US-🇺🇸US_1914
       - Relay_🇺🇸US-🇺🇸US_1922
-      - Relay_🇳🇱NL-🇳🇱NL_949
+      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1900
       - TH_1230
       - Relay_🇨🇳CN-🏁ZZ_155
-      - Relay_🇨🇳CN-🇹🇼TW_156
+      - Relay_🇺🇸US-🇺🇸US_1842
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
