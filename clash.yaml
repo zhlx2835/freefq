@@ -5,143 +5,43 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Pool_🇳🇱 NL_541, server: 85.208.108.94, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: LT_393, server: 213.183.53.198, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: LT_384, server: 213.183.53.198, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: Pool_🇳🇱NL_597, server: 85.208.108.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Pool_🇳🇱 NL_556, server: 85.208.108.94, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Pool_🇳🇱 NL_540, server: 85.208.108.94, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1289, server: 172.99.188.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 48, server: 85.208.108.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_848, server: 172.99.188.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Pool_🇳🇱 NL_532, server: 85.208.108.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Pool_🇳🇱 NL_542, server: 85.208.108.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1134, server: 172.99.188.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_973, server: 172.99.188.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Pool_🇳🇱 NL_559, server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Pool_🇳🇱NL_618, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Pool_🇳🇱 NL_562, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Pool_🇳🇱 NL_543, server: 85.208.108.94, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1294, server: 172.99.188.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: FR_222, server: 195.154.200.150, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1000, server: 172.99.188.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1117, server: 172.99.188.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: IT_335, server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
-  - {name: DE_171, server: 165.22.73.126, port: 23335, type: ss, cipher: aes-256-cfb, password: 7d99ae502227454ea998d71e4b62a388, udp: true}
-  - {name: FR_223, server: 195.154.200.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_899, server: 172.99.188.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1287, server: 172.99.188.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_679, server: 150.230.23.0, port: 44616, type: trojan, password: dbdd4673-06e7-4a53-adb7-aa4232df529e, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_107, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳 CN-🇭🇰HK_105, server: iiiieeepppplll.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: iiiieeepppplll.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1396, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: US_1432, server: 104.156.229.148, port: 36788, type: vmess, uuid: 9fee7249-69fb-490d-e617-cfb54a249932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.156.229.148}, udp: true}
+  - {name: github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11, server: 213.183.59.191, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1439, server: hd-1.ienai.xin, port: 443, type: vmess, uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ienai/ACOT_ddf1dcec-43e8-4e59-ae41-5382e18a7729:878047eae84dfce4b2d895aa7252421f/, ws-headers: {Host: hd-1.ienai.xin}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1440, server: hd-3.ienai.xin, port: 11000, type: vmess, uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省深圳市移动 2, server: i1.go001.buzz, port: 32601, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_🇳🇱 NL_541
-      - LT_393
-      - LT_384
-      - Pool_🇳🇱NL_597
-      - Pool_🇳🇱 NL_556
-      - Pool_🇳🇱 NL_540
-      - US_1289
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 48
-      - US_848
-      - Pool_🇳🇱 NL_532
-      - Pool_🇳🇱 NL_542
-      - US_1134
-      - US_973
-      - Pool_🇳🇱 NL_559
-      - Pool_🇳🇱NL_618
-      - Pool_🇳🇱 NL_562
-      - Pool_🇳🇱 NL_543
-      - US_1294
-      - FR_222
-      - US_1000
-      - US_1117
-      - IT_335
-      - DE_171
-      - FR_223
-      - US_899
-      - US_1287
-      - US_679
-      - Relay_🇨🇳 CN-🇭🇰HK_107
-      - Relay_🇨🇳 CN-🇭🇰HK_105
-      - Relay_🇺🇸US-🇺🇸US_1396
+      - US_1432
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
+      - Relay_🇺🇸US-🇺🇸US_1439
+      - Relay_🇺🇸US-🇺🇸US_1440
+      - github.com/freefq - 广东省深圳市移动 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Pool_🇳🇱 NL_541
-      - LT_393
-      - LT_384
-      - Pool_🇳🇱NL_597
-      - Pool_🇳🇱 NL_556
-      - Pool_🇳🇱 NL_540
-      - US_1289
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 48
-      - US_848
-      - Pool_🇳🇱 NL_532
-      - Pool_🇳🇱 NL_542
-      - US_1134
-      - US_973
-      - Pool_🇳🇱 NL_559
-      - Pool_🇳🇱NL_618
-      - Pool_🇳🇱 NL_562
-      - Pool_🇳🇱 NL_543
-      - US_1294
-      - FR_222
-      - US_1000
-      - US_1117
-      - IT_335
-      - DE_171
-      - FR_223
-      - US_899
-      - US_1287
-      - US_679
-      - Relay_🇨🇳 CN-🇭🇰HK_107
-      - Relay_🇨🇳 CN-🇭🇰HK_105
-      - Relay_🇺🇸US-🇺🇸US_1396
+      - US_1432
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
+      - Relay_🇺🇸US-🇺🇸US_1439
+      - Relay_🇺🇸US-🇺🇸US_1440
+      - github.com/freefq - 广东省深圳市移动 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_🇳🇱 NL_541
-      - LT_393
-      - LT_384
-      - Pool_🇳🇱NL_597
-      - Pool_🇳🇱 NL_556
-      - Pool_🇳🇱 NL_540
-      - US_1289
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 48
-      - US_848
-      - Pool_🇳🇱 NL_532
-      - Pool_🇳🇱 NL_542
-      - US_1134
-      - US_973
-      - Pool_🇳🇱 NL_559
-      - Pool_🇳🇱NL_618
-      - Pool_🇳🇱 NL_562
-      - Pool_🇳🇱 NL_543
-      - US_1294
-      - FR_222
-      - US_1000
-      - US_1117
-      - IT_335
-      - DE_171
-      - FR_223
-      - US_899
-      - US_1287
-      - US_679
-      - Relay_🇨🇳 CN-🇭🇰HK_107
-      - Relay_🇨🇳 CN-🇭🇰HK_105
-      - Relay_🇺🇸US-🇺🇸US_1396
+      - US_1432
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
+      - Relay_🇺🇸US-🇺🇸US_1439
+      - Relay_🇺🇸US-🇺🇸US_1440
+      - github.com/freefq - 广东省深圳市移动 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,36 +60,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool_🇳🇱 NL_541
-      - LT_393
-      - LT_384
-      - Pool_🇳🇱NL_597
-      - Pool_🇳🇱 NL_556
-      - Pool_🇳🇱 NL_540
-      - US_1289
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 48
-      - US_848
-      - Pool_🇳🇱 NL_532
-      - Pool_🇳🇱 NL_542
-      - US_1134
-      - US_973
-      - Pool_🇳🇱 NL_559
-      - Pool_🇳🇱NL_618
-      - Pool_🇳🇱 NL_562
-      - Pool_🇳🇱 NL_543
-      - US_1294
-      - FR_222
-      - US_1000
-      - US_1117
-      - IT_335
-      - DE_171
-      - FR_223
-      - US_899
-      - US_1287
-      - US_679
-      - Relay_🇨🇳 CN-🇭🇰HK_107
-      - Relay_🇨🇳 CN-🇭🇰HK_105
-      - Relay_🇺🇸US-🇺🇸US_1396
+      - US_1432
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
+      - Relay_🇺🇸US-🇺🇸US_1439
+      - Relay_🇺🇸US-🇺🇸US_1440
+      - github.com/freefq - 广东省深圳市移动 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -200,107 +75,32 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Pool_🇳🇱 NL_541
-      - LT_393
-      - LT_384
-      - Pool_🇳🇱NL_597
-      - Pool_🇳🇱 NL_556
-      - Pool_🇳🇱 NL_540
-      - US_1289
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 48
-      - US_848
-      - Pool_🇳🇱 NL_532
-      - Pool_🇳🇱 NL_542
-      - US_1134
-      - US_973
-      - Pool_🇳🇱 NL_559
-      - Pool_🇳🇱NL_618
-      - Pool_🇳🇱 NL_562
-      - Pool_🇳🇱 NL_543
-      - US_1294
-      - FR_222
-      - US_1000
-      - US_1117
-      - IT_335
-      - DE_171
-      - FR_223
-      - US_899
-      - US_1287
-      - US_679
-      - Relay_🇨🇳 CN-🇭🇰HK_107
-      - Relay_🇨🇳 CN-🇭🇰HK_105
-      - Relay_🇺🇸US-🇺🇸US_1396
+      - US_1432
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
+      - Relay_🇺🇸US-🇺🇸US_1439
+      - Relay_🇺🇸US-🇺🇸US_1440
+      - github.com/freefq - 广东省深圳市移动 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Pool_🇳🇱 NL_541
-      - LT_393
-      - LT_384
-      - Pool_🇳🇱NL_597
-      - Pool_🇳🇱 NL_556
-      - Pool_🇳🇱 NL_540
-      - US_1289
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 48
-      - US_848
-      - Pool_🇳🇱 NL_532
-      - Pool_🇳🇱 NL_542
-      - US_1134
-      - US_973
-      - Pool_🇳🇱 NL_559
-      - Pool_🇳🇱NL_618
-      - Pool_🇳🇱 NL_562
-      - Pool_🇳🇱 NL_543
-      - US_1294
-      - FR_222
-      - US_1000
-      - US_1117
-      - IT_335
-      - DE_171
-      - FR_223
-      - US_899
-      - US_1287
-      - US_679
-      - Relay_🇨🇳 CN-🇭🇰HK_107
-      - Relay_🇨🇳 CN-🇭🇰HK_105
-      - Relay_🇺🇸US-🇺🇸US_1396
+      - US_1432
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
+      - Relay_🇺🇸US-🇺🇸US_1439
+      - Relay_🇺🇸US-🇺🇸US_1440
+      - github.com/freefq - 广东省深圳市移动 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_🇳🇱 NL_541
-      - LT_393
-      - LT_384
-      - Pool_🇳🇱NL_597
-      - Pool_🇳🇱 NL_556
-      - Pool_🇳🇱 NL_540
-      - US_1289
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 48
-      - US_848
-      - Pool_🇳🇱 NL_532
-      - Pool_🇳🇱 NL_542
-      - US_1134
-      - US_973
-      - Pool_🇳🇱 NL_559
-      - Pool_🇳🇱NL_618
-      - Pool_🇳🇱 NL_562
-      - Pool_🇳🇱 NL_543
-      - US_1294
-      - FR_222
-      - US_1000
-      - US_1117
-      - IT_335
-      - DE_171
-      - FR_223
-      - US_899
-      - US_1287
-      - US_679
-      - Relay_🇨🇳 CN-🇭🇰HK_107
-      - Relay_🇨🇳 CN-🇭🇰HK_105
-      - Relay_🇺🇸US-🇺🇸US_1396
+      - US_1432
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
+      - Relay_🇺🇸US-🇺🇸US_1439
+      - Relay_🇺🇸US-🇺🇸US_1440
+      - github.com/freefq - 广东省深圳市移动 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -316,36 +116,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool_🇳🇱 NL_541
-      - LT_393
-      - LT_384
-      - Pool_🇳🇱NL_597
-      - Pool_🇳🇱 NL_556
-      - Pool_🇳🇱 NL_540
-      - US_1289
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 48
-      - US_848
-      - Pool_🇳🇱 NL_532
-      - Pool_🇳🇱 NL_542
-      - US_1134
-      - US_973
-      - Pool_🇳🇱 NL_559
-      - Pool_🇳🇱NL_618
-      - Pool_🇳🇱 NL_562
-      - Pool_🇳🇱 NL_543
-      - US_1294
-      - FR_222
-      - US_1000
-      - US_1117
-      - IT_335
-      - DE_171
-      - FR_223
-      - US_899
-      - US_1287
-      - US_679
-      - Relay_🇨🇳 CN-🇭🇰HK_107
-      - Relay_🇨🇳 CN-🇭🇰HK_105
-      - Relay_🇺🇸US-🇺🇸US_1396
+      - US_1432
+      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
+      - Relay_🇺🇸US-🇺🇸US_1439
+      - Relay_🇺🇸US-🇺🇸US_1440
+      - github.com/freefq - 广东省深圳市移动 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
