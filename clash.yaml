@@ -5,43 +5,59 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_1432, server: 104.156.229.148, port: 36788, type: vmess, uuid: 9fee7249-69fb-490d-e617-cfb54a249932, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 104.156.229.148}, udp: true}
-  - {name: github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11, server: 213.183.59.191, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1439, server: hd-1.ienai.xin, port: 443, type: vmess, uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ienai/ACOT_ddf1dcec-43e8-4e59-ae41-5382e18a7729:878047eae84dfce4b2d895aa7252421f/, ws-headers: {Host: hd-1.ienai.xin}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_1440, server: hd-3.ienai.xin, port: 11000, type: vmess, uuid: 03b188df-f7be-4038-8bc3-ffd2edb2b56a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省深圳市移动 2, server: i1.go001.buzz, port: 32601, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_932, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国纽约市DigitalOcean云公司 23, server: 138.197.165.31, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22138.197.165.31%22%7D"}, udp: true}
+  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 16, server: 165.227.231.254, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
+  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 9, server: 165.227.231.254, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
+  - {name: github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47, server: 138.68.90.231, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 138.68.90.231}, udp: true}
+  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 14, server: 165.227.231.254, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
+  - {name: github.com/freefq - 美国纽约市DigitalOcean云公司 6, server: 138.197.165.31, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22138.197.165.31%22%7D"}, udp: true}
+  - {name: github.com/freefq - 德国  41, server: au1.3320.top, port: 443, type: vmess, uuid: c7938aaf-0c69-4bd2-ab22-7a580962c0ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: au1.3320.top}, udp: true}
+  - {name: github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43, server: 139.59.85.231, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 139.59.85.231}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1432
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
-      - Relay_🇺🇸US-🇺🇸US_1439
-      - Relay_🇺🇸US-🇺🇸US_1440
-      - github.com/freefq - 广东省深圳市移动 2
+      - Relay_🇺🇸US-🇺🇸US_932
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
+      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
+      - github.com/freefq - 德国  41
+      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_1432
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
-      - Relay_🇺🇸US-🇺🇸US_1439
-      - Relay_🇺🇸US-🇺🇸US_1440
-      - github.com/freefq - 广东省深圳市移动 2
+      - Relay_🇺🇸US-🇺🇸US_932
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
+      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
+      - github.com/freefq - 德国  41
+      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1432
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
-      - Relay_🇺🇸US-🇺🇸US_1439
-      - Relay_🇺🇸US-🇺🇸US_1440
-      - github.com/freefq - 广东省深圳市移动 2
+      - Relay_🇺🇸US-🇺🇸US_932
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
+      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
+      - github.com/freefq - 德国  41
+      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,11 +76,15 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_1432
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
-      - Relay_🇺🇸US-🇺🇸US_1439
-      - Relay_🇺🇸US-🇺🇸US_1440
-      - github.com/freefq - 广东省深圳市移动 2
+      - Relay_🇺🇸US-🇺🇸US_932
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
+      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
+      - github.com/freefq - 德国  41
+      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,32 +95,44 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_1432
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
-      - Relay_🇺🇸US-🇺🇸US_1439
-      - Relay_🇺🇸US-🇺🇸US_1440
-      - github.com/freefq - 广东省深圳市移动 2
+      - Relay_🇺🇸US-🇺🇸US_932
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
+      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
+      - github.com/freefq - 德国  41
+      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_1432
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
-      - Relay_🇺🇸US-🇺🇸US_1439
-      - Relay_🇺🇸US-🇺🇸US_1440
-      - github.com/freefq - 广东省深圳市移动 2
+      - Relay_🇺🇸US-🇺🇸US_932
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
+      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
+      - github.com/freefq - 德国  41
+      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1432
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
-      - Relay_🇺🇸US-🇺🇸US_1439
-      - Relay_🇺🇸US-🇺🇸US_1440
-      - github.com/freefq - 广东省深圳市移动 2
+      - Relay_🇺🇸US-🇺🇸US_932
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
+      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
+      - github.com/freefq - 德国  41
+      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +148,15 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_1432
-      - github.com/freefq - 荷兰北荷兰省阿姆斯特丹Melbicom数据中心 11
-      - Relay_🇺🇸US-🇺🇸US_1439
-      - Relay_🇺🇸US-🇺🇸US_1440
-      - github.com/freefq - 广东省深圳市移动 2
+      - Relay_🇺🇸US-🇺🇸US_932
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
+      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
+      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
+      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
+      - github.com/freefq - 德国  41
+      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
