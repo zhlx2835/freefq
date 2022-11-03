@@ -5,59 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇺🇸US-🇺🇸US_932, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国纽约市DigitalOcean云公司 23, server: 138.197.165.31, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22138.197.165.31%22%7D"}, udp: true}
-  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 16, server: 165.227.231.254, port: 8080, type: vmess, uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
-  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 9, server: 165.227.231.254, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
-  - {name: github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47, server: 138.68.90.231, port: 8080, type: vmess, uuid: 826b8d0a-e0d3-407a-927d-19953c170779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 138.68.90.231}, udp: true}
-  - {name: github.com/freefq - 英国伦敦DigitalOcean数据中心 14, server: 165.227.231.254, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 165.227.231.254}, udp: true}
-  - {name: github.com/freefq - 美国纽约市DigitalOcean云公司 6, server: 138.197.165.31, port: 8080, type: vmess, uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22138.197.165.31%22%7D"}, udp: true}
-  - {name: github.com/freefq - 德国  41, server: au1.3320.top, port: 443, type: vmess, uuid: c7938aaf-0c69-4bd2-ab22-7a580962c0ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: au1.3320.top}, udp: true}
-  - {name: github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43, server: 139.59.85.231, port: 8080, type: vmess, uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: 139.59.85.231}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 13, server: roewesu.eu.org, port: 443, type: vmess, uuid: 84e46faf-7d89-43af-8bd9-01b41fc1ddce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0cc651aee76c7/, ws-headers: {Host: roewesu.eu.org}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1328, server: jd100.8faka.tk, port: 35100, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd100.8faka.tk, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1244, server: 14.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 14.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1292, server: jd100.zahuopu.top, port: 35100, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd100.zahuopu.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1241, server: 13.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 13.72img.xyz}, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_628, server: jd101.8faka.tk, port: 35101, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd101.8faka.tk, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1243, server: 4.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 4.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1242, server: 39.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 39.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1248, server: 11.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 11.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1270, server: 29.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 29.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇳🇱NL_1239, server: 55.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 55.72img.xyz}, udp: true}
+  - {name: Relay_🏁ZZ-🏁ZZ_1452, server: jd5.zahuopu.top, port: 35115, type: trojan, password: bbab60b8-779f-31e2-916e-571f7d7023c4, sni: jd5.zahuopu.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇩🇪DE_1238, server: 53.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 53.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_1249, server: 30.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 30.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇨🇦CA_1265, server: 43.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 43.72img.xyz}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 12, server: 43.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 43.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇴RO_1254, server: 3.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 3.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇻🇳VN_1252, server: 10.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 10.72img.xyz}, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_1281, server: 172.66.0.105, port: 443, type: vmess, uuid: 3baaad0f-b764-4f4e-d382-cdd104390838, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: www.aoop1994.eu.org}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_932
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
-      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
-      - github.com/freefq - 德国  41
-      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - Relay_🇺🇸US-🇺🇸US_1328
+      - Relay_🇺🇸US-🇺🇸US_1244
+      - Relay_🇺🇸US-🇺🇸US_1292
+      - Relay_🇺🇸US-🇺🇸US_1241
+      - Relay_🇷🇺RU-🇷🇺RU_628
+      - Relay_🇺🇸US-🇺🇸US_1243
+      - Relay_🇺🇸US-🇺🇸US_1242
+      - Relay_🇺🇸US-🇺🇸US_1248
+      - Relay_🇺🇸US-🇺🇸US_1270
+      - Relay_🇺🇸US-🇳🇱NL_1239
+      - Relay_🏁ZZ-🏁ZZ_1452
+      - Relay_🇺🇸US-🇩🇪DE_1238
+      - Relay_🇺🇸US-🇷🇺RU_1249
+      - Relay_🇺🇸US-🇨🇦CA_1265
+      - github.com/freefq - 美国CloudFlare节点 12
+      - Relay_🇺🇸US-🇷🇴RO_1254
+      - Relay_🇺🇸US-🇻🇳VN_1252
+      - Relay_🇺🇸US-🇺🇸US_1281
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇺🇸US-🇺🇸US_932
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
-      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
-      - github.com/freefq - 德国  41
-      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - Relay_🇺🇸US-🇺🇸US_1328
+      - Relay_🇺🇸US-🇺🇸US_1244
+      - Relay_🇺🇸US-🇺🇸US_1292
+      - Relay_🇺🇸US-🇺🇸US_1241
+      - Relay_🇷🇺RU-🇷🇺RU_628
+      - Relay_🇺🇸US-🇺🇸US_1243
+      - Relay_🇺🇸US-🇺🇸US_1242
+      - Relay_🇺🇸US-🇺🇸US_1248
+      - Relay_🇺🇸US-🇺🇸US_1270
+      - Relay_🇺🇸US-🇳🇱NL_1239
+      - Relay_🏁ZZ-🏁ZZ_1452
+      - Relay_🇺🇸US-🇩🇪DE_1238
+      - Relay_🇺🇸US-🇷🇺RU_1249
+      - Relay_🇺🇸US-🇨🇦CA_1265
+      - github.com/freefq - 美国CloudFlare节点 12
+      - Relay_🇺🇸US-🇷🇴RO_1254
+      - Relay_🇺🇸US-🇻🇳VN_1252
+      - Relay_🇺🇸US-🇺🇸US_1281
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_932
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
-      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
-      - github.com/freefq - 德国  41
-      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - Relay_🇺🇸US-🇺🇸US_1328
+      - Relay_🇺🇸US-🇺🇸US_1244
+      - Relay_🇺🇸US-🇺🇸US_1292
+      - Relay_🇺🇸US-🇺🇸US_1241
+      - Relay_🇷🇺RU-🇷🇺RU_628
+      - Relay_🇺🇸US-🇺🇸US_1243
+      - Relay_🇺🇸US-🇺🇸US_1242
+      - Relay_🇺🇸US-🇺🇸US_1248
+      - Relay_🇺🇸US-🇺🇸US_1270
+      - Relay_🇺🇸US-🇳🇱NL_1239
+      - Relay_🏁ZZ-🏁ZZ_1452
+      - Relay_🇺🇸US-🇩🇪DE_1238
+      - Relay_🇺🇸US-🇷🇺RU_1249
+      - Relay_🇺🇸US-🇨🇦CA_1265
+      - github.com/freefq - 美国CloudFlare节点 12
+      - Relay_🇺🇸US-🇷🇴RO_1254
+      - Relay_🇺🇸US-🇻🇳VN_1252
+      - Relay_🇺🇸US-🇺🇸US_1281
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -76,15 +116,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_932
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
-      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
-      - github.com/freefq - 德国  41
-      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - Relay_🇺🇸US-🇺🇸US_1328
+      - Relay_🇺🇸US-🇺🇸US_1244
+      - Relay_🇺🇸US-🇺🇸US_1292
+      - Relay_🇺🇸US-🇺🇸US_1241
+      - Relay_🇷🇺RU-🇷🇺RU_628
+      - Relay_🇺🇸US-🇺🇸US_1243
+      - Relay_🇺🇸US-🇺🇸US_1242
+      - Relay_🇺🇸US-🇺🇸US_1248
+      - Relay_🇺🇸US-🇺🇸US_1270
+      - Relay_🇺🇸US-🇳🇱NL_1239
+      - Relay_🏁ZZ-🏁ZZ_1452
+      - Relay_🇺🇸US-🇩🇪DE_1238
+      - Relay_🇺🇸US-🇷🇺RU_1249
+      - Relay_🇺🇸US-🇨🇦CA_1265
+      - github.com/freefq - 美国CloudFlare节点 12
+      - Relay_🇺🇸US-🇷🇴RO_1254
+      - Relay_🇺🇸US-🇻🇳VN_1252
+      - Relay_🇺🇸US-🇺🇸US_1281
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -95,44 +145,74 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇺🇸US-🇺🇸US_932
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
-      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
-      - github.com/freefq - 德国  41
-      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - Relay_🇺🇸US-🇺🇸US_1328
+      - Relay_🇺🇸US-🇺🇸US_1244
+      - Relay_🇺🇸US-🇺🇸US_1292
+      - Relay_🇺🇸US-🇺🇸US_1241
+      - Relay_🇷🇺RU-🇷🇺RU_628
+      - Relay_🇺🇸US-🇺🇸US_1243
+      - Relay_🇺🇸US-🇺🇸US_1242
+      - Relay_🇺🇸US-🇺🇸US_1248
+      - Relay_🇺🇸US-🇺🇸US_1270
+      - Relay_🇺🇸US-🇳🇱NL_1239
+      - Relay_🏁ZZ-🏁ZZ_1452
+      - Relay_🇺🇸US-🇩🇪DE_1238
+      - Relay_🇺🇸US-🇷🇺RU_1249
+      - Relay_🇺🇸US-🇨🇦CA_1265
+      - github.com/freefq - 美国CloudFlare节点 12
+      - Relay_🇺🇸US-🇷🇴RO_1254
+      - Relay_🇺🇸US-🇻🇳VN_1252
+      - Relay_🇺🇸US-🇺🇸US_1281
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇺🇸US_932
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
-      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
-      - github.com/freefq - 德国  41
-      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - Relay_🇺🇸US-🇺🇸US_1328
+      - Relay_🇺🇸US-🇺🇸US_1244
+      - Relay_🇺🇸US-🇺🇸US_1292
+      - Relay_🇺🇸US-🇺🇸US_1241
+      - Relay_🇷🇺RU-🇷🇺RU_628
+      - Relay_🇺🇸US-🇺🇸US_1243
+      - Relay_🇺🇸US-🇺🇸US_1242
+      - Relay_🇺🇸US-🇺🇸US_1248
+      - Relay_🇺🇸US-🇺🇸US_1270
+      - Relay_🇺🇸US-🇳🇱NL_1239
+      - Relay_🏁ZZ-🏁ZZ_1452
+      - Relay_🇺🇸US-🇩🇪DE_1238
+      - Relay_🇺🇸US-🇷🇺RU_1249
+      - Relay_🇺🇸US-🇨🇦CA_1265
+      - github.com/freefq - 美国CloudFlare节点 12
+      - Relay_🇺🇸US-🇷🇴RO_1254
+      - Relay_🇺🇸US-🇻🇳VN_1252
+      - Relay_🇺🇸US-🇺🇸US_1281
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_932
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
-      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
-      - github.com/freefq - 德国  41
-      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - Relay_🇺🇸US-🇺🇸US_1328
+      - Relay_🇺🇸US-🇺🇸US_1244
+      - Relay_🇺🇸US-🇺🇸US_1292
+      - Relay_🇺🇸US-🇺🇸US_1241
+      - Relay_🇷🇺RU-🇷🇺RU_628
+      - Relay_🇺🇸US-🇺🇸US_1243
+      - Relay_🇺🇸US-🇺🇸US_1242
+      - Relay_🇺🇸US-🇺🇸US_1248
+      - Relay_🇺🇸US-🇺🇸US_1270
+      - Relay_🇺🇸US-🇳🇱NL_1239
+      - Relay_🏁ZZ-🏁ZZ_1452
+      - Relay_🇺🇸US-🇩🇪DE_1238
+      - Relay_🇺🇸US-🇷🇺RU_1249
+      - Relay_🇺🇸US-🇨🇦CA_1265
+      - github.com/freefq - 美国CloudFlare节点 12
+      - Relay_🇺🇸US-🇷🇴RO_1254
+      - Relay_🇺🇸US-🇻🇳VN_1252
+      - Relay_🇺🇸US-🇺🇸US_1281
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -148,15 +228,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇺🇸US_932
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 23
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 16
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 9
-      - github.com/freefq - 德国黑森州法兰克福DigitalOcean数据中心 47
-      - github.com/freefq - 英国伦敦DigitalOcean数据中心 14
-      - github.com/freefq - 美国纽约市DigitalOcean云公司 6
-      - github.com/freefq - 德国  41
-      - github.com/freefq - 印度卡纳塔克邦班加罗尔DigitalOcean数据中心 43
+      - github.com/freefq - 美国CloudFlare公司CDN节点 13
+      - Relay_🇺🇸US-🇺🇸US_1328
+      - Relay_🇺🇸US-🇺🇸US_1244
+      - Relay_🇺🇸US-🇺🇸US_1292
+      - Relay_🇺🇸US-🇺🇸US_1241
+      - Relay_🇷🇺RU-🇷🇺RU_628
+      - Relay_🇺🇸US-🇺🇸US_1243
+      - Relay_🇺🇸US-🇺🇸US_1242
+      - Relay_🇺🇸US-🇺🇸US_1248
+      - Relay_🇺🇸US-🇺🇸US_1270
+      - Relay_🇺🇸US-🇳🇱NL_1239
+      - Relay_🏁ZZ-🏁ZZ_1452
+      - Relay_🇺🇸US-🇩🇪DE_1238
+      - Relay_🇺🇸US-🇷🇺RU_1249
+      - Relay_🇺🇸US-🇨🇦CA_1265
+      - github.com/freefq - 美国CloudFlare节点 12
+      - Relay_🇺🇸US-🇷🇴RO_1254
+      - Relay_🇺🇸US-🇻🇳VN_1252
+      - Relay_🇺🇸US-🇺🇸US_1281
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
